@@ -1,0 +1,14 @@
+﻿  Building Unreal2TPEditor...
+  Using Visual Studio 2017 14.16.27035 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 7 actions with 8 processes...
+    [1/7] Unreal2TP.init.gen.cpp
+    [2/7] Unreal2TPGameMode.cpp
+    [3/7] Unreal2TPCharacter.gen.cpp
+    [4/7] Unreal2TPCharacter.cpp
+    [5/7] UE4Editor-Unreal2TP-0107.lib
+       Creating library D:\Facultad\Unreal 2\Unreal2TP\Intermediate\Build\Win64\UE4Editor\Development\Unreal2TP\UE4Editor-Unreal2TP-0107.lib and object D:\Facultad\Unreal 2\Unreal2TP\Intermediate\Build\Win64\UE4Editor\Development\Unreal2TP\UE4Editor-Unreal2TP-0107.exp
+    [6/7] UE4Editor-Unreal2TP-0107.dll
+       Creating library D:\Facultad\Unreal 2\Unreal2TP\Intermediate\Build\Win64\UE4Editor\Development\Unreal2TP\UE4Editor-Unreal2TP-0107.suppressed.lib and object D:\Facultad\Unreal 2\Unreal2TP\Intermediate\Build\Win64\UE4Editor\Development\Unreal2TP\UE4Editor-Unreal2TP-0107.suppressed.exp
+    [7/7] Unreal2TPEditor.target
+  Total time in Parallel executor: 137.48 seconds
+  Total execution time: 138.11 seconds

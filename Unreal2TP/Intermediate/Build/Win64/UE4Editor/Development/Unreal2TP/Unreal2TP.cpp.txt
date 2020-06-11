@@ -1,0 +1,2 @@
+D:\Facultad\Unreal 2\Unreal2TP\Intermediate\Build\Win64\UE4Editor\Development\Unreal2TP\Definitions.Unreal2TP.h
+d:\facultad\unreal 2\unreal2tp\source\unreal2tp\Unreal2TP.h

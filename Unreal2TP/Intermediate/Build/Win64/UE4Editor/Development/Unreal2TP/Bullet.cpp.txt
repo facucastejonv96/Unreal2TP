@@ -1,0 +1,9 @@
+D:\Facultad\Unreal 2\Unreal2TP\Intermediate\Build\Win64\UE4Editor\Development\Unreal2TP\Definitions.Unreal2TP.h
+d:\facultad\unreal 2\unreal2tp\source\unreal2tp\Bullet.h
+D:\Facultad\Unreal 2\Unreal2TP\Intermediate\Build\Win64\UE4Editor\Inc\Unreal2TP\Bullet.generated.h
+D:\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/ProjectileMovementComponent.h
+D:\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/MovementComponent.h
+D:\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\MovementComponent.generated.h
+D:\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ProjectileMovementComponent.generated.h
+D:\UE_4.24\Engine\Source\Runtime\Engine\Classes\Components/AudioComponent.h
+D:\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AudioComponent.generated.h

@@ -1,0 +1,22 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-Unreal2TP.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Facultad\Unreal 2\Unreal2TP\Intermediate\Build\Win64\Unreal2TPEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"D:\Facultad\Unreal 2\Unreal2TP\Intermediate\Build\Win64\UE4Editor\Development\Unreal2TP\CharacterAnimInstance.cpp.obj"
+"D:\Facultad\Unreal 2\Unreal2TP\Intermediate\Build\Win64\UE4Editor\Development\Unreal2TP\ThirdPersonAnimInstance.cpp.obj"
+"D:\Facultad\Unreal 2\Unreal2TP\Intermediate\Build\Win64\UE4Editor\Development\Unreal2TP\Unreal2TP.cpp.obj"
+"D:\Facultad\Unreal 2\Unreal2TP\Intermediate\Build\Win64\UE4Editor\Development\Unreal2TP\Unreal2TPCharacter.cpp.obj"
+"D:\Facultad\Unreal 2\Unreal2TP\Intermediate\Build\Win64\UE4Editor\Development\Unreal2TP\Unreal2TPGameMode.cpp.obj"
+"D:\Facultad\Unreal 2\Unreal2TP\Intermediate\Build\Win64\UE4Editor\Development\Unreal2TP\CharacterAnimInstance.gen.cpp.obj"
+"D:\Facultad\Unreal 2\Unreal2TP\Intermediate\Build\Win64\UE4Editor\Development\Unreal2TP\ThirdPersonAnimInstance.gen.cpp.obj"
+"D:\Facultad\Unreal 2\Unreal2TP\Intermediate\Build\Win64\UE4Editor\Development\Unreal2TP\Unreal2TP.init.gen.cpp.obj"
+"D:\Facultad\Unreal 2\Unreal2TP\Intermediate\Build\Win64\UE4Editor\Development\Unreal2TP\Unreal2TPCharacter.gen.cpp.obj"
+"D:\Facultad\Unreal 2\Unreal2TP\Intermediate\Build\Win64\UE4Editor\Development\Unreal2TP\Unreal2TPGameMode.gen.cpp.obj"
+"D:\Facultad\Unreal 2\Unreal2TP\Intermediate\Build\Win64\UE4Editor\Development\Unreal2TP\Default.rc2.res"
+/OUT:"D:\Facultad\Unreal 2\Unreal2TP\Intermediate\Build\Win64\UE4Editor\Development\Unreal2TP\UE4Editor-Unreal2TP.lib"
+/INCLUDE:IMPLEMENT_MODULE_Unreal2TP
