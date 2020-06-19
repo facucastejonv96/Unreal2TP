@@ -15,6 +15,12 @@ public:
 	// Sets default values for this actor's properties
 	ABullet();
 
+	UPROPERTY(EditAnywhere, Category = "Shooting")
+	float damage;
+
+	UFUNCTION(NetMulticast, Reliable)
+		void NetMulticast_OnHit();
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;

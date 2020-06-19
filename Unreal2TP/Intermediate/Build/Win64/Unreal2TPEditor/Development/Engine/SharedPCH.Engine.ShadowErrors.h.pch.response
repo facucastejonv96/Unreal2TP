@@ -257,11 +257,11 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"
-/I "D:\Facultad\Unreal 2\Unreal2TP\Intermediate\Build\Win64\Unreal2TPEditor\Development\Engine"
-/Yc"D:\Facultad\Unreal 2\Unreal2TP\Intermediate\Build\Win64\Unreal2TPEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"D:\Facultad\Unreal 2\Unreal2TP\Intermediate\Build\Win64\Unreal2TPEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-"D:\Facultad\Unreal 2\Unreal2TP\Intermediate\Build\Win64\Unreal2TPEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.cpp"
-/Fo"D:\Facultad\Unreal 2\Unreal2TP\Intermediate\Build\Win64\Unreal2TPEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+/I D:\Facultad\Unreal\UNREAL2TP\Unreal2TP\Unreal2TP\Intermediate\Build\Win64\Unreal2TPEditor\Development\Engine
+/Yc"D:\Facultad\Unreal\UNREAL2TP\Unreal2TP\Unreal2TP\Intermediate\Build\Win64\Unreal2TPEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"D:\Facultad\Unreal\UNREAL2TP\Unreal2TP\Unreal2TP\Intermediate\Build\Win64\Unreal2TPEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+"D:\Facultad\Unreal\UNREAL2TP\Unreal2TP\Unreal2TP\Intermediate\Build\Win64\Unreal2TPEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.cpp"
+/Fo"D:\Facultad\Unreal\UNREAL2TP\Unreal2TP\Unreal2TP\Intermediate\Build\Win64\Unreal2TPEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
 /TP
 /GR-
 /W4

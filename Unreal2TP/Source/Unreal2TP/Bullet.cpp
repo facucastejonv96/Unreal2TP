@@ -6,11 +6,12 @@
 #include "Components/AudioComponent.h"
 #include "Components/StaticMeshComponent.h"
 #include "Runtime/Engine/Classes/Engine/World.h"
+#include "Enemy.h"
 
 // Sets default values
 ABullet::ABullet()
 {
-	UE_LOG(LogTemp, Warning, TEXT("Spawneo"));
+	
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 	StaticMesh = CreateDefaultSubobject<UStaticMeshComponent>("StaticMesh");
@@ -22,14 +23,13 @@ ABullet::ABullet()
 	FireSound = CreateDefaultSubobject<UAudioComponent>("Audio");
 	
 	OnActorHit.AddDynamic(this, &ABullet::OnBulletHit);
-	
+	damage = 100;
 }
 
 // Called when the game starts or when spawned
 void ABullet::BeginPlay()
 {
-	Super::BeginPlay();
-	
+	Super::BeginPlay();	
 }
 
 // Called every frame
@@ -39,8 +39,21 @@ void ABullet::Tick(float DeltaTime)
 
 }
 
+void ABullet::NetMulticast_OnHit_Implementation() {
+
+	//Enemy->Destroy();
+	Destroy();
+}
+
 void ABullet::OnBulletHit(AActor * SelfActor, AActor * OtherActor, FVector NormalImpulse, const FHitResult & Hit)
 {
-	UE_LOG(LogTemp, Warning, TEXT("colisiona"));
+	if (!GetNetMode() == ENetMode::NM_DedicatedServer)
+		return;
+
+	if (AEnemy* Enemy = Cast<AEnemy>(OtherActor))
+	{
+		Enemy->RecieveDamage(damage);
+	}
+	NetMulticast_OnHit();
 }
 

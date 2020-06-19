@@ -15,13 +15,51 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 #define Unreal2TP_Source_Unreal2TP_Unreal2TPCharacter_h_11_SPARSE_DATA
 #define Unreal2TP_Source_Unreal2TP_Unreal2TPCharacter_h_11_RPC_WRAPPERS \
+	virtual void Server_Unaim_Implementation(); \
+	virtual void Server_Aim_Implementation(); \
+	virtual void Server_StopShooting_Implementation(); \
+	virtual void Server_StartShooting_Implementation(); \
+	virtual void Server_Z_Implementation(const float newZ); \
 	virtual void Server_Y_Implementation(const float newY); \
  \
-	DECLARE_FUNCTION(execOnRep_Y) \
+	DECLARE_FUNCTION(execServer_Unaim) \
 	{ \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->OnRep_Y(); \
+		P_THIS->Server_Unaim_Implementation(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execServer_Aim) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Server_Aim_Implementation(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execServer_StopShooting) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Server_StopShooting_Implementation(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execServer_StartShooting) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Server_StartShooting_Implementation(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execServer_Z) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_newZ); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Server_Z_Implementation(Z_Param_newZ); \
 		P_NATIVE_END; \
 	} \
  \
@@ -31,26 +69,56 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		P_THIS->Server_Y_Implementation(Z_Param_newY); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execOnYReplicated) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->OnYReplicated(); \
 		P_NATIVE_END; \
 	}
 
 
 #define Unreal2TP_Source_Unreal2TP_Unreal2TPCharacter_h_11_RPC_WRAPPERS_NO_PURE_DECLS \
+	virtual void Server_Unaim_Implementation(); \
+	virtual void Server_Aim_Implementation(); \
+	virtual void Server_StopShooting_Implementation(); \
+	virtual void Server_StartShooting_Implementation(); \
+	virtual void Server_Z_Implementation(const float newZ); \
 	virtual void Server_Y_Implementation(const float newY); \
  \
-	DECLARE_FUNCTION(execOnRep_Y) \
+	DECLARE_FUNCTION(execServer_Unaim) \
 	{ \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->OnRep_Y(); \
+		P_THIS->Server_Unaim_Implementation(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execServer_Aim) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Server_Aim_Implementation(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execServer_StopShooting) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Server_StopShooting_Implementation(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execServer_StartShooting) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Server_StartShooting_Implementation(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execServer_Z) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_newZ); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Server_Z_Implementation(Z_Param_newZ); \
 		P_NATIVE_END; \
 	} \
  \
@@ -60,14 +128,6 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		P_THIS->Server_Y_Implementation(Z_Param_newY); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execOnYReplicated) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->OnYReplicated(); \
 		P_NATIVE_END; \
 	}
 
@@ -76,6 +136,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	struct Unreal2TPCharacter_eventServer_Y_Parms \
 	{ \
 		float newY; \
+	}; \
+	struct Unreal2TPCharacter_eventServer_Z_Parms \
+	{ \
+		float newZ; \
 	};
 
 

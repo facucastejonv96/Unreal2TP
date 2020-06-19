@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Unreal2TP.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{86DDF800-EC4B-4EE5-89F6-2C82AD371059}</UniqueIdentifier>
+      <UniqueIdentifier>{576D52C8-5F49-4B38-B4F0-7B80CD04D1A0}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Unreal2TP.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{1A51205A-94B0-4654-8BD9-ECD0217A4339}</UniqueIdentifier>
+      <UniqueIdentifier>{2B65393A-91D3-438B-9505-3FC3CB14A891}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,8 +30,32 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Unreal2TP">
-      <UniqueIdentifier>{FB75B5F9-31D2-46D7-BCCC-DB2BBE15516B}</UniqueIdentifier>
+      <UniqueIdentifier>{34619D56-E486-44D2-B55F-99617C01FBFF}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\Unreal2TP\Bullet.cpp">
+      <Filter>Source\Unreal2TP</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Unreal2TP\Bullet.h">
+      <Filter>Source\Unreal2TP</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Unreal2TP\CharacterAnimInstance.cpp">
+      <Filter>Source\Unreal2TP</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Unreal2TP\CharacterAnimInstance.h">
+      <Filter>Source\Unreal2TP</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Unreal2TP\Enemy.cpp">
+      <Filter>Source\Unreal2TP</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Unreal2TP\Enemy.h">
+      <Filter>Source\Unreal2TP</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Unreal2TP\ThirdPersonAnimInstance.cpp">
+      <Filter>Source\Unreal2TP</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Unreal2TP\ThirdPersonAnimInstance.h">
+      <Filter>Source\Unreal2TP</Filter>
+    </ClInclude>
     <None Include="..\..\Source\Unreal2TP\Unreal2TP.Build.cs">
       <Filter>Source\Unreal2TP</Filter>
     </None>
@@ -53,27 +77,5 @@
     <ClInclude Include="..\..\Source\Unreal2TP\Unreal2TPGameMode.h">
       <Filter>Source\Unreal2TP</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\Unreal2TP\CharacterAnimInstance.h">
-      <Filter>Source\Unreal2TP</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\Unreal2TP\ThirdPersonAnimInstance.h">
-      <Filter>Source\Unreal2TP</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\Unreal2TP\Bullet.h">
-      <Filter>Source\Unreal2TP</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\Unreal2TP\CharacterAnimInstance.cpp">
-      <Filter>Source\Unreal2TP</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Unreal2TP\ThirdPersonAnimInstance.cpp">
-      <Filter>Source\Unreal2TP</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Unreal2TP\Bullet.cpp">
-      <Filter>Source\Unreal2TP</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>

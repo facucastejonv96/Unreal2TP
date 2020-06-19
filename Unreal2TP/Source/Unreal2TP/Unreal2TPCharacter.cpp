@@ -11,6 +11,7 @@
 #include "Bullet.h"
 #include "Net/UnrealNetwork.h"
 #include "CharacterAnimInstance.h"
+#include "Components//StaticMeshComponent.h"
 //////////////////////////////////////////////////////////////////////////
 // AUnreal2TPCharacter
 
@@ -41,11 +42,11 @@ AUnreal2TPCharacter::AUnreal2TPCharacter()
 	CameraBoom->TargetArmLength = 300.0f; // The camera follows at this distance behind the character	
 	CameraBoom->bUsePawnControlRotation = true; // Rotate the arm based on the controller
 
+	BulletSpawn = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("BulletSpawn"));
 	// Create a follow camera
 	FollowCamera = CreateDefaultSubobject<UCameraComponent>(TEXT("FollowCamera"));
 	FollowCamera->SetupAttachment(CameraBoom, USpringArmComponent::SocketName); // Attach the camera to the end of the boom and let the boom adjust to match the controller orientation
 	FollowCamera->bUsePawnControlRotation = false; // Camera does not rotate relative to arm
-
 	FiringTime = 2;
 	// Note: The skeletal mesh and anim blueprint references on the Mesh component (inherited from Character) 
 	// are set in the derived blueprint asset named MyCharacter (to avoid direct content references in C++)
@@ -63,16 +64,10 @@ void AUnreal2TPCharacter::SetupPlayerInputComponent(class UInputComponent* Playe
 
 	PlayerInputComponent->BindAxis("MoveForward", this, &AUnreal2TPCharacter::MoveForward);
 	PlayerInputComponent->BindAxis("MoveRight", this, &AUnreal2TPCharacter::MoveRight);
-	PlayerInputComponent->BindAxis("MoveForward", this, &AUnreal2TPCharacter::MoveForward);
-	PlayerInputComponent->BindAxis("MoveRight", this, &AUnreal2TPCharacter::MoveRight);
 
-	// We have 2 versions of the rotation bindings to handle different kinds of devices differently
-	// "turn" handles devices that provide an absolute delta, such as a mouse.
-	// "turnrate" is for devices that we choose to treat as a rate of change, such as an analog joystick
-	PlayerInputComponent->BindAxis("Turn", this, &APawn::AddControllerYawInput);
-	PlayerInputComponent->BindAxis("TurnRate", this, &AUnreal2TPCharacter::TurnAtRate);
-	//PlayerInputComponent->BindAxis("LookUp", this, &APawn::AddControllerPitchInput);
-	//PlayerInputComponent->BindAxis("LookUpRate", this, &AUnreal2TPCharacter::LookUpAtRate);
+
+	PlayerInputComponent->BindAxis("Turn", this, &AUnreal2TPCharacter::Turn);
+
 	PlayerInputComponent->BindAction("Aim", IE_Pressed, this, &AUnreal2TPCharacter::Aim);
 	PlayerInputComponent->BindAction("Aim", IE_Released, this, &AUnreal2TPCharacter::Unaim);
 	PlayerInputComponent->BindAction("Fire", IE_Pressed, this, &AUnreal2TPCharacter::StartShooting);
@@ -89,28 +84,43 @@ void AUnreal2TPCharacter::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& 
 	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
 
 	DOREPLIFETIME(AUnreal2TPCharacter, Y);
+	DOREPLIFETIME(AUnreal2TPCharacter, Triggering);
+	DOREPLIFETIME(AUnreal2TPCharacter, Aiming);
+	DOREPLIFETIME(AUnreal2TPCharacter, Shooting);
+	DOREPLIFETIME(AUnreal2TPCharacter, Z);
 }
 
 void AUnreal2TPCharacter::OnResetVR()
 {
 	UHeadMountedDisplayFunctionLibrary::ResetOrientationAndPosition();
 }
+void AUnreal2TPCharacter::Turn(float amount)
+{
+	AddControllerYawInput(amount);
+}
 void AUnreal2TPCharacter::Tick(float DeltaTime) {
 	Super::Tick(DeltaTime);
+	if (Shooting) {
+		Cast<UCharacterAnimInstance>(Mesh->GetAnimInstance())->Shooting = true;
+	}
+	else {
+		Cast<UCharacterAnimInstance>(Mesh->GetAnimInstance())->Shooting = false;
+	}
 	if (Y == 0 && Z == 0) {
 		Cast<UCharacterAnimInstance>(Mesh->GetAnimInstance())->Moving = false;
 	}
 	else {
 		Cast<UCharacterAnimInstance>(Mesh->GetAnimInstance())->Moving = true;
 	}
-		FiringTime += GetWorld()->GetDeltaSeconds();
+	Cast<UCharacterAnimInstance>(Mesh->GetAnimInstance())->Aiming = Aiming;
+	FiringTime += GetWorld()->GetDeltaSeconds();
 
-		if (Triggering && Ready) {
-
-			Shoot();
+	if (Triggering && Ready) {
+			
+		Shoot();
 		}
 		if (FiringTime > FireRate) {
-			Ready = true;
+		Ready = true;
 		}
 }
 void AUnreal2TPCharacter::TouchStarted(ETouchIndex::Type FingerIndex, FVector Location)
@@ -125,7 +135,7 @@ void AUnreal2TPCharacter::TouchStopped(ETouchIndex::Type FingerIndex, FVector Lo
 
 void AUnreal2TPCharacter::Shoot()
 {
-		UE_LOG(LogTemp, Warning, TEXT("Entra"));
+	
 		//Animator->Firing = true;
 		FActorSpawnParameters SpawnParams;
 		SpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
@@ -134,19 +144,40 @@ void AUnreal2TPCharacter::Shoot()
 		SpawnParams.Instigator = this;
 
 		FTransform BulletSpawnTransform;
-		BulletSpawnTransform.SetLocation(GetActorForwardVector() * 500.f + GetActorLocation());
+		BulletSpawnTransform.SetLocation(GetActorForwardVector() * 200.f + GetActorLocation());
 		BulletSpawnTransform.SetRotation(GetActorRotation().Quaternion());
 		BulletSpawnTransform.SetScale3D(FVector(1.f));
-		GetWorld()->SpawnActor<ABullet>(BulletClass, BulletSpawnTransform, SpawnParams);
+		ABullet* b;
+		b = GetWorld()->SpawnActor<ABullet>(BulletClass, BulletSpawnTransform, SpawnParams);
+
 		FiringTime = 0;
 		Ready = false;
 }
 
+void AUnreal2TPCharacter::Server_Y_Implementation(const float newY) {
+	Y = newY;
+}
+
+void AUnreal2TPCharacter::Server_Z_Implementation(const float newZ) {
+	Z = newZ;
+}
+
+void AUnreal2TPCharacter::Server_StartShooting_Implementation() {
+
+		Triggering = true;
+		Shooting = true;
+}
+void AUnreal2TPCharacter::Server_StopShooting_Implementation() {
+
+		Triggering = false;
+		Shooting = false;
+}
+
 void AUnreal2TPCharacter::StartShooting() {
-	Triggering = true;
+	Server_StartShooting();
 }
 void AUnreal2TPCharacter::StopShooting() {
-	Triggering = false;
+	Server_StopShooting();
 }
 
 void AUnreal2TPCharacter::TurnAtRate(float Rate)
@@ -161,25 +192,25 @@ void AUnreal2TPCharacter::LookUpAtRate(float Rate)
 	AddControllerPitchInput(Rate * BaseLookUpRate * GetWorld()->GetDeltaSeconds());
 }
 
+void AUnreal2TPCharacter::Server_Aim_Implementation() {
+
+	Aiming = true;
+}
+
+void AUnreal2TPCharacter::Server_Unaim_Implementation() {
+
+	Aiming = false;
+}
+
 void AUnreal2TPCharacter::Aim()
 {
-	Cast<UCharacterAnimInstance>(Mesh->GetAnimInstance())->Aiming = true;
+	Server_Aim();
 }
 void AUnreal2TPCharacter::Unaim() {
-	Cast<UCharacterAnimInstance>(Mesh->GetAnimInstance())->Aiming = false;
+	Server_Unaim();
 }
 
-void AUnreal2TPCharacter::OnRep_Y() {
-	OnYReplicated();
-}
 
-void AUnreal2TPCharacter::Server_Y_Implementation(const float newY) {
-	Y = newY;
-}
-
-void AUnreal2TPCharacter::OnYReplicated() {
-	Server_Y_Implementation(Y);
-}
 
 void AUnreal2TPCharacter::MoveForward(float Value)
 {
@@ -198,6 +229,7 @@ void AUnreal2TPCharacter::MoveForward(float Value)
 		
 	}
 	Y = Value;
+	Server_Y(Y);
 }
 
 void AUnreal2TPCharacter::MoveRight(float Value)
@@ -216,6 +248,7 @@ void AUnreal2TPCharacter::MoveRight(float Value)
 		
 	}
 	Z = Value;
+	Server_Z(Z);
 }
 
 

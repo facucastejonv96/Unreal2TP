@@ -18,6 +18,7 @@ struct FHitResult;
 
 #define Unreal2TP_Source_Unreal2TP_Bullet_h_12_SPARSE_DATA
 #define Unreal2TP_Source_Unreal2TP_Bullet_h_12_RPC_WRAPPERS \
+	virtual void NetMulticast_OnHit_Implementation(); \
  \
 	DECLARE_FUNCTION(execOnBulletHit) \
 	{ \
@@ -28,11 +29,20 @@ struct FHitResult;
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		P_THIS->OnBulletHit(Z_Param_SelfActor,Z_Param_OtherActor,Z_Param_NormalImpulse,Z_Param_Out_Hit); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execNetMulticast_OnHit) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->NetMulticast_OnHit_Implementation(); \
 		P_NATIVE_END; \
 	}
 
 
 #define Unreal2TP_Source_Unreal2TP_Bullet_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+	virtual void NetMulticast_OnHit_Implementation(); \
  \
 	DECLARE_FUNCTION(execOnBulletHit) \
 	{ \
@@ -44,9 +54,19 @@ struct FHitResult;
 		P_NATIVE_BEGIN; \
 		P_THIS->OnBulletHit(Z_Param_SelfActor,Z_Param_OtherActor,Z_Param_NormalImpulse,Z_Param_Out_Hit); \
 		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execNetMulticast_OnHit) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->NetMulticast_OnHit_Implementation(); \
+		P_NATIVE_END; \
 	}
 
 
+#define Unreal2TP_Source_Unreal2TP_Bullet_h_12_EVENT_PARMS
+#define Unreal2TP_Source_Unreal2TP_Bullet_h_12_CALLBACK_WRAPPERS
 #define Unreal2TP_Source_Unreal2TP_Bullet_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesABullet(); \
@@ -95,13 +115,17 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ABullet); \
 	FORCEINLINE static uint32 __PPO__FireSound() { return STRUCT_OFFSET(ABullet, FireSound); }
 
 
-#define Unreal2TP_Source_Unreal2TP_Bullet_h_9_PROLOG
+#define Unreal2TP_Source_Unreal2TP_Bullet_h_9_PROLOG \
+	Unreal2TP_Source_Unreal2TP_Bullet_h_12_EVENT_PARMS
+
+
 #define Unreal2TP_Source_Unreal2TP_Bullet_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	Unreal2TP_Source_Unreal2TP_Bullet_h_12_PRIVATE_PROPERTY_OFFSET \
 	Unreal2TP_Source_Unreal2TP_Bullet_h_12_SPARSE_DATA \
 	Unreal2TP_Source_Unreal2TP_Bullet_h_12_RPC_WRAPPERS \
+	Unreal2TP_Source_Unreal2TP_Bullet_h_12_CALLBACK_WRAPPERS \
 	Unreal2TP_Source_Unreal2TP_Bullet_h_12_INCLASS \
 	Unreal2TP_Source_Unreal2TP_Bullet_h_12_STANDARD_CONSTRUCTORS \
 public: \
@@ -114,6 +138,7 @@ public: \
 	Unreal2TP_Source_Unreal2TP_Bullet_h_12_PRIVATE_PROPERTY_OFFSET \
 	Unreal2TP_Source_Unreal2TP_Bullet_h_12_SPARSE_DATA \
 	Unreal2TP_Source_Unreal2TP_Bullet_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+	Unreal2TP_Source_Unreal2TP_Bullet_h_12_CALLBACK_WRAPPERS \
 	Unreal2TP_Source_Unreal2TP_Bullet_h_12_INCLASS_NO_PURE_DECLS \
 	Unreal2TP_Source_Unreal2TP_Bullet_h_12_ENHANCED_CONSTRUCTORS \
 private: \

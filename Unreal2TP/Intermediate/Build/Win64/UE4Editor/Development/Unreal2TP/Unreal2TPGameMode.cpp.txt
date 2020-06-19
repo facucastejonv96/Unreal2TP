@@ -1,13 +1,13 @@
-D:\Facultad\Unreal 2\Unreal2TP\Intermediate\Build\Win64\UE4Editor\Development\Unreal2TP\Definitions.Unreal2TP.h
-d:\facultad\unreal 2\unreal2tp\source\unreal2tp\Unreal2TPGameMode.h
+D:\Facultad\Unreal\UNREAL2TP\Unreal2TP\Unreal2TP\Intermediate\Build\Win64\UE4Editor\Development\Unreal2TP\Definitions.Unreal2TP.h
+d:\facultad\unreal\unreal2tp\unreal2tp\unreal2tp\source\unreal2tp\Unreal2TPGameMode.h
 D:\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
 D:\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
 D:\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
 D:\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
-D:\Facultad\Unreal 2\Unreal2TP\Intermediate\Build\Win64\UE4Editor\Inc\Unreal2TP\Unreal2TPGameMode.generated.h
-d:\facultad\unreal 2\unreal2tp\source\unreal2tp\Unreal2TPCharacter.h
+D:\Facultad\Unreal\UNREAL2TP\Unreal2TP\Unreal2TP\Intermediate\Build\Win64\UE4Editor\Inc\Unreal2TP\Unreal2TPGameMode.generated.h
+d:\facultad\unreal\unreal2tp\unreal2tp\unreal2tp\source\unreal2tp\Unreal2TPCharacter.h
 D:\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
 D:\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
 D:\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
 D:\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
-D:\Facultad\Unreal 2\Unreal2TP\Intermediate\Build\Win64\UE4Editor\Inc\Unreal2TP\Unreal2TPCharacter.generated.h
+D:\Facultad\Unreal\UNREAL2TP\Unreal2TP\Unreal2TP\Intermediate\Build\Win64\UE4Editor\Inc\Unreal2TP\Unreal2TPCharacter.generated.h

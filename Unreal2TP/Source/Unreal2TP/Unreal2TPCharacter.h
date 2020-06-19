@@ -20,14 +20,31 @@ class AUnreal2TPCharacter : public ACharacter
 public:
 	AUnreal2TPCharacter();
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
+	class UStaticMeshComponent* BulletSpawn;
+
 	virtual void Tick(float DeltaTime) override;
 	
-	UFUNCTION()
-		void OnYReplicated();
 	
 	UFUNCTION(Server, Reliable)
 		void Server_Y(const float newY);
 
+	UFUNCTION(Server, Reliable)
+		void Server_Z(const float newZ);
+
+	UFUNCTION(Server, Reliable)
+		void Server_StartShooting();
+
+	UFUNCTION(Server, Reliable)
+		void Server_StopShooting();
+
+	UFUNCTION(Server, Reliable)
+		void Server_Aim();
+
+	UFUNCTION(Server, Reliable)
+		void Server_Unaim();
+
+	void Turn(float Amount);
 	UPROPERTY(EditAnywhere, Category = "Shooting")
 		TSubclassOf<class ABullet> BulletClass;
 
@@ -42,22 +59,30 @@ public:
 	UPROPERTY(EditAnywhere, Category = "Components")
 		class UCharacterAnimInstance* Animator;
 
-	UPROPERTY(ReplicatedUsing=OnRep_Y , BlueprintReadOnly)
+	UPROPERTY(Replicated , BlueprintReadOnly)
 		float Y;
-	UPROPERTY()
+
+	UPROPERTY(Replicated, BlueprintReadOnly)
 		float Z;
 
 	float FiringTime;
+
+	UPROPERTY(Replicated,  BlueprintReadOnly)
 	bool Triggering;
+
 	bool Ready;
 
 	UPROPERTY(EditAnywhere, Category = "Firing")
 		float FireRate;
 
+	UPROPERTY(Replicated, BlueprintReadOnly)
+	bool Aiming;
+
+	UPROPERTY(Replicated, BlueprintReadOnly)
+		bool Shooting;
+
 protected:
 
-	UFUNCTION()
-		void OnRep_Y();
 	/** Resets HMD orientation in VR. */
 	void OnResetVR();
 

@@ -19,5 +19,9 @@ public:
 		bool Moving;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Variables")
 		bool Aiming;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Variables")
+		bool Shooting;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Variables")
+		bool Dead;
 	
 };

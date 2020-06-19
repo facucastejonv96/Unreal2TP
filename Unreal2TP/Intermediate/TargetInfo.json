@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "Unreal2TP",
-			"Path": "D:\\Facultad\\Unreal 2\\Unreal2TP\\Source\\Unreal2TP.Target.cs",
+			"Path": "D:\\Facultad\\Unreal\\UNREAL2TP\\Unreal2TP\\Unreal2TP\\Source\\Unreal2TP.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "Unreal2TPEditor",
-			"Path": "D:\\Facultad\\Unreal 2\\Unreal2TP\\Source\\Unreal2TPEditor.Target.cs",
+			"Path": "D:\\Facultad\\Unreal\\UNREAL2TP\\Unreal2TP\\Unreal2TP\\Source\\Unreal2TPEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]

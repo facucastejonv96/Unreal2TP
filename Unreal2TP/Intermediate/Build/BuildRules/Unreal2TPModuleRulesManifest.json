@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"D:\\Facultad\\Unreal 2\\Unreal2TP\\Source\\Unreal2TP\\Unreal2TP.Build.cs",
-		"D:\\Facultad\\Unreal 2\\Unreal2TP\\Source\\Unreal2TP.Target.cs",
-		"D:\\Facultad\\Unreal 2\\Unreal2TP\\Source\\Unreal2TPEditor.Target.cs"
+		"D:\\Facultad\\Unreal\\UNREAL2TP\\Unreal2TP\\Unreal2TP\\Source\\Unreal2TP\\Unreal2TP.Build.cs",
+		"D:\\Facultad\\Unreal\\UNREAL2TP\\Unreal2TP\\Unreal2TP\\Source\\Unreal2TP.Target.cs",
+		"D:\\Facultad\\Unreal\\UNREAL2TP\\Unreal2TP\\Unreal2TP\\Source\\Unreal2TPEditor.Target.cs"
 	],
 	"EngineVersion": "4.24.3"
 }
