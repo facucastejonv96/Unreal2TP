@@ -5,6 +5,7 @@
 #include "Camera/CameraComponent.h"
 #include "Components/CapsuleComponent.h"
 #include "Components/InputComponent.h"
+#include "Components/AudioComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "GameFramework/Controller.h"
 #include "GameFramework/SpringArmComponent.h"
@@ -30,6 +31,11 @@ AUnreal2TPCharacter::AUnreal2TPCharacter()
 	bUseControllerRotationYaw = false;
 	bUseControllerRotationRoll = false;
 
+	FireSound = CreateDefaultSubobject<UAudioComponent>("FireSound");
+
+	DamageSound = CreateDefaultSubobject<UAudioComponent>("Damage");
+
+
 	// Configure character movement
 	GetCharacterMovement()->bOrientRotationToMovement = true; // Character moves in the direction of input...	
 	GetCharacterMovement()->RotationRate = FRotator(0.0f, 540.0f, 0.0f); // ...at this rotation rate
@@ -43,6 +49,7 @@ AUnreal2TPCharacter::AUnreal2TPCharacter()
 	CameraBoom->bUsePawnControlRotation = true; // Rotate the arm based on the controller
 
 	BulletSpawn = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("BulletSpawn"));
+	BulletSpawn->SetupAttachment(Mesh);
 	// Create a follow camera
 	FollowCamera = CreateDefaultSubobject<UCameraComponent>(TEXT("FollowCamera"));
 	FollowCamera->SetupAttachment(CameraBoom, USpringArmComponent::SocketName); // Attach the camera to the end of the boom and let the boom adjust to match the controller orientation
@@ -57,6 +64,7 @@ AUnreal2TPCharacter::AUnreal2TPCharacter()
 
 void AUnreal2TPCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent)
 {
+	Dead = false;
 	// Set up gameplay key bindings
 	check(PlayerInputComponent);
 	//PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
@@ -83,11 +91,12 @@ void AUnreal2TPCharacter::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& 
 {
 	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
 
-	DOREPLIFETIME(AUnreal2TPCharacter, Y);
 	DOREPLIFETIME(AUnreal2TPCharacter, Triggering);
 	DOREPLIFETIME(AUnreal2TPCharacter, Aiming);
 	DOREPLIFETIME(AUnreal2TPCharacter, Shooting);
-	DOREPLIFETIME(AUnreal2TPCharacter, Z);
+	DOREPLIFETIME(AUnreal2TPCharacter, Life);
+	DOREPLIFETIME(AUnreal2TPCharacter, Hitting);
+	DOREPLIFETIME(AUnreal2TPCharacter, Ready);
 }
 
 void AUnreal2TPCharacter::OnResetVR()
@@ -100,28 +109,53 @@ void AUnreal2TPCharacter::Turn(float amount)
 }
 void AUnreal2TPCharacter::Tick(float DeltaTime) {
 	Super::Tick(DeltaTime);
-	if (Shooting) {
-		Cast<UCharacterAnimInstance>(Mesh->GetAnimInstance())->Shooting = true;
-	}
-	else {
-		Cast<UCharacterAnimInstance>(Mesh->GetAnimInstance())->Shooting = false;
-	}
-	if (Y == 0 && Z == 0) {
-		Cast<UCharacterAnimInstance>(Mesh->GetAnimInstance())->Moving = false;
-	}
-	else {
-		Cast<UCharacterAnimInstance>(Mesh->GetAnimInstance())->Moving = true;
-	}
-	Cast<UCharacterAnimInstance>(Mesh->GetAnimInstance())->Aiming = Aiming;
-	FiringTime += GetWorld()->GetDeltaSeconds();
 
-	if (Triggering && Ready) {
-			
-		Shoot();
+	if (Life <= 0) {
+		Cast<UCharacterAnimInstance>(Mesh->GetAnimInstance())->Hit = false;
+		Cast<UCharacterAnimInstance>(Mesh->GetAnimInstance())->Dead = true;
+		Cast<UCharacterAnimInstance>(Mesh->GetAnimInstance())->Shooting = false;
+		Cast<UCharacterAnimInstance>(Mesh->GetAnimInstance())->Aiming = false;
+		Dead = true;
+	}
+	if (!Dead) {
+		if (Shooting) {
+			Cast<UCharacterAnimInstance>(Mesh->GetAnimInstance())->Shooting = true;
+		}
+		else {
+			Cast<UCharacterAnimInstance>(Mesh->GetAnimInstance())->Shooting = false;
+		}
+		if (GetMovementComponent()->Velocity == FVector(0, 0, 0)) {
+			Cast<UCharacterAnimInstance>(Mesh->GetAnimInstance())->Moving = false;
+		}
+		else {
+			Cast<UCharacterAnimInstance>(Mesh->GetAnimInstance())->Moving = true;
+		}
+		Cast<UCharacterAnimInstance>(Mesh->GetAnimInstance())->Aiming = Aiming;
+		FiringTime += GetWorld()->GetDeltaSeconds();
+
+		if (Triggering && Ready) {
+
+			Shoot();
 		}
 		if (FiringTime > FireRate) {
-		Ready = true;
+			Ready = true;
 		}
+
+		if (Hitting)
+		{
+			HittingTime += GetWorld()->GetDeltaSeconds();
+			Cast<UCharacterAnimInstance>(Mesh->GetAnimInstance())->Hit = true;
+			if (HittingTime > 0.8f)
+			{
+				Hitting = false;
+			}
+		}
+		else {
+			Cast<UCharacterAnimInstance>(Mesh->GetAnimInstance())->Hit = false;
+			HittingTime = 0;
+		}
+	}
+
 }
 void AUnreal2TPCharacter::TouchStarted(ETouchIndex::Type FingerIndex, FVector Location)
 {
@@ -135,7 +169,8 @@ void AUnreal2TPCharacter::TouchStopped(ETouchIndex::Type FingerIndex, FVector Lo
 
 void AUnreal2TPCharacter::Shoot()
 {
-	
+	FireSound->Stop();
+		FireSound->Play();
 		//Animator->Firing = true;
 		FActorSpawnParameters SpawnParams;
 		SpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
@@ -144,22 +179,34 @@ void AUnreal2TPCharacter::Shoot()
 		SpawnParams.Instigator = this;
 
 		FTransform BulletSpawnTransform;
-		BulletSpawnTransform.SetLocation(GetActorForwardVector() * 200.f + GetActorLocation());
-		BulletSpawnTransform.SetRotation(GetActorRotation().Quaternion());
+		//BulletSpawnTransform.SetLocation(GetActorForwardVector() * 200.f + GetActorLocation());
+		//BulletSpawnTransform.SetRotation(GetActorRotation().Quaternion());
+		BulletSpawnTransform.SetLocation(BulletSpawn->GetComponentLocation());
+		BulletSpawnTransform.SetRotation(BulletSpawn->GetComponentRotation().Quaternion());
 		BulletSpawnTransform.SetScale3D(FVector(1.f));
 		ABullet* b;
 		b = GetWorld()->SpawnActor<ABullet>(BulletClass, BulletSpawnTransform, SpawnParams);
+		b->MyOwner = this;
 
 		FiringTime = 0;
 		Ready = false;
+		
 }
 
-void AUnreal2TPCharacter::Server_Y_Implementation(const float newY) {
-	Y = newY;
-}
 
-void AUnreal2TPCharacter::Server_Z_Implementation(const float newZ) {
-	Z = newZ;
+void AUnreal2TPCharacter::RecieveDamage(const float damage)
+{
+	if (GetNetMode() == ENetMode::NM_DedicatedServer) {
+		Life -= damage;
+		if (Life > 0) {
+			Hitting = false;
+			Cast<UCharacterAnimInstance>(Mesh->GetAnimInstance())->Hit = false;
+			//DamageSound->Stop();
+			DamageSound->Play();
+			HittingTime = 0;
+			Hitting = true;
+		}
+	}
 }
 
 void AUnreal2TPCharacter::Server_StartShooting_Implementation() {
@@ -172,6 +219,8 @@ void AUnreal2TPCharacter::Server_StopShooting_Implementation() {
 		Triggering = false;
 		Shooting = false;
 }
+
+
 
 void AUnreal2TPCharacter::StartShooting() {
 	Server_StartShooting();
@@ -205,16 +254,18 @@ void AUnreal2TPCharacter::Server_Unaim_Implementation() {
 void AUnreal2TPCharacter::Aim()
 {
 	Server_Aim();
+	CameraBoom->TargetArmLength = -50.f;
 }
 void AUnreal2TPCharacter::Unaim() {
 	Server_Unaim();
+	CameraBoom->TargetArmLength = 300.0f;
 }
 
 
 
 void AUnreal2TPCharacter::MoveForward(float Value)
 {
-	if ((Controller != NULL) && (Value != 0.0f))
+	if ((Controller != NULL) && (Value != 0.0f) && !Dead)
 	{
 
 		// find out which way is forward
@@ -228,13 +279,11 @@ void AUnreal2TPCharacter::MoveForward(float Value)
 		//Move animator
 		
 	}
-	Y = Value;
-	Server_Y(Y);
 }
 
 void AUnreal2TPCharacter::MoveRight(float Value)
 {
-	if ( (Controller != NULL) && (Value != 0.0f) )
+	if ( (Controller != NULL) && (Value != 0.0f) && !Dead)
 	{
 		// find out which way is right
 		const FRotator Rotation = Controller->GetControlRotation();
@@ -247,8 +296,6 @@ void AUnreal2TPCharacter::MoveRight(float Value)
 		//Move animator
 		
 	}
-	Z = Value;
-	Server_Z(Z);
 }
 
 

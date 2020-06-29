@@ -7,6 +7,7 @@
 #include "Components/StaticMeshComponent.h"
 #include "Runtime/Engine/Classes/Engine/World.h"
 #include "Enemy.h"
+#include "Unreal2TPCharacter.h"
 
 // Sets default values
 ABullet::ABullet()
@@ -20,16 +21,17 @@ ABullet::ABullet()
 	BulletMovement->InitialSpeed = 3000.f;
 	BulletMovement->MaxSpeed = 3000.f;
 
-	FireSound = CreateDefaultSubobject<UAudioComponent>("Audio");
+
 	
 	OnActorHit.AddDynamic(this, &ABullet::OnBulletHit);
-	damage = 100;
+	damage = 25;
 }
 
 // Called when the game starts or when spawned
 void ABullet::BeginPlay()
 {
 	Super::BeginPlay();	
+
 }
 
 // Called every frame
@@ -43,6 +45,7 @@ void ABullet::NetMulticast_OnHit_Implementation() {
 
 	//Enemy->Destroy();
 	Destroy();
+
 }
 
 void ABullet::OnBulletHit(AActor * SelfActor, AActor * OtherActor, FVector NormalImpulse, const FHitResult & Hit)
@@ -52,7 +55,13 @@ void ABullet::OnBulletHit(AActor * SelfActor, AActor * OtherActor, FVector Norma
 
 	if (AEnemy* Enemy = Cast<AEnemy>(OtherActor))
 	{
-		Enemy->RecieveDamage(damage);
+		if(AUnreal2TPCharacter* Player = Cast<AUnreal2TPCharacter>(MyOwner))
+			Enemy->RecieveDamage(damage);
+	}
+	if (AUnreal2TPCharacter* Player = Cast<AUnreal2TPCharacter>(OtherActor))
+	{
+		if (AEnemy* Enemy = Cast<AEnemy>(MyOwner))
+			Player->RecieveDamage(damage);
 	}
 	NetMulticast_OnHit();
 }

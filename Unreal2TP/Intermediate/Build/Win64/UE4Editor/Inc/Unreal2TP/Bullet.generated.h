@@ -111,8 +111,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ABullet); \
 
 #define Unreal2TP_Source_Unreal2TP_Bullet_h_12_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__StaticMesh() { return STRUCT_OFFSET(ABullet, StaticMesh); } \
-	FORCEINLINE static uint32 __PPO__BulletMovement() { return STRUCT_OFFSET(ABullet, BulletMovement); } \
-	FORCEINLINE static uint32 __PPO__FireSound() { return STRUCT_OFFSET(ABullet, FireSound); }
+	FORCEINLINE static uint32 __PPO__BulletMovement() { return STRUCT_OFFSET(ABullet, BulletMovement); }
 
 
 #define Unreal2TP_Source_Unreal2TP_Bullet_h_9_PROLOG \

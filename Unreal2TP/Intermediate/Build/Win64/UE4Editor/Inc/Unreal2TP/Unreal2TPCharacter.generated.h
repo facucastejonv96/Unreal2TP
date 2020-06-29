@@ -19,8 +19,6 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	virtual void Server_Aim_Implementation(); \
 	virtual void Server_StopShooting_Implementation(); \
 	virtual void Server_StartShooting_Implementation(); \
-	virtual void Server_Z_Implementation(const float newZ); \
-	virtual void Server_Y_Implementation(const float newY); \
  \
 	DECLARE_FUNCTION(execServer_Unaim) \
 	{ \
@@ -51,24 +49,6 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		P_THIS->Server_StartShooting_Implementation(); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execServer_Z) \
-	{ \
-		P_GET_PROPERTY(UFloatProperty,Z_Param_newZ); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->Server_Z_Implementation(Z_Param_newZ); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execServer_Y) \
-	{ \
-		P_GET_PROPERTY(UFloatProperty,Z_Param_newY); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->Server_Y_Implementation(Z_Param_newY); \
 		P_NATIVE_END; \
 	}
 
@@ -78,8 +58,6 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	virtual void Server_Aim_Implementation(); \
 	virtual void Server_StopShooting_Implementation(); \
 	virtual void Server_StartShooting_Implementation(); \
-	virtual void Server_Z_Implementation(const float newZ); \
-	virtual void Server_Y_Implementation(const float newY); \
  \
 	DECLARE_FUNCTION(execServer_Unaim) \
 	{ \
@@ -111,38 +89,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 		P_NATIVE_BEGIN; \
 		P_THIS->Server_StartShooting_Implementation(); \
 		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execServer_Z) \
-	{ \
-		P_GET_PROPERTY(UFloatProperty,Z_Param_newZ); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->Server_Z_Implementation(Z_Param_newZ); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execServer_Y) \
-	{ \
-		P_GET_PROPERTY(UFloatProperty,Z_Param_newY); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->Server_Y_Implementation(Z_Param_newY); \
-		P_NATIVE_END; \
 	}
 
 
-#define Unreal2TP_Source_Unreal2TP_Unreal2TPCharacter_h_11_EVENT_PARMS \
-	struct Unreal2TPCharacter_eventServer_Y_Parms \
-	{ \
-		float newY; \
-	}; \
-	struct Unreal2TPCharacter_eventServer_Z_Parms \
-	{ \
-		float newZ; \
-	};
-
-
+#define Unreal2TP_Source_Unreal2TP_Unreal2TPCharacter_h_11_EVENT_PARMS
 #define Unreal2TP_Source_Unreal2TP_Unreal2TPCharacter_h_11_CALLBACK_WRAPPERS
 #define Unreal2TP_Source_Unreal2TP_Unreal2TPCharacter_h_11_INCLASS_NO_PURE_DECLS \
 private: \

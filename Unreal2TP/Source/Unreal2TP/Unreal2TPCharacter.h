@@ -20,17 +20,22 @@ class AUnreal2TPCharacter : public ACharacter
 public:
 	AUnreal2TPCharacter();
 
+	void RecieveDamage(const float damage);
+
+	UPROPERTY(Replicated, EditAnywhere)
+		float Life = 500;
+
+	UPROPERTY(EditAnywhere, Category = "Components")
+		class UAudioComponent* FireSound;
+
+	UPROPERTY(EditAnywhere, Category = "Components")
+		class UAudioComponent* DamageSound;
+
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 	class UStaticMeshComponent* BulletSpawn;
 
 	virtual void Tick(float DeltaTime) override;
 	
-	
-	UFUNCTION(Server, Reliable)
-		void Server_Y(const float newY);
-
-	UFUNCTION(Server, Reliable)
-		void Server_Z(const float newZ);
 
 	UFUNCTION(Server, Reliable)
 		void Server_StartShooting();
@@ -59,18 +64,14 @@ public:
 	UPROPERTY(EditAnywhere, Category = "Components")
 		class UCharacterAnimInstance* Animator;
 
-	UPROPERTY(Replicated , BlueprintReadOnly)
-		float Y;
-
-	UPROPERTY(Replicated, BlueprintReadOnly)
-		float Z;
-
 	float FiringTime;
 
 	UPROPERTY(Replicated,  BlueprintReadOnly)
 	bool Triggering;
 
-	bool Ready;
+
+	UPROPERTY(Replicated, BlueprintReadOnly)
+	bool Ready = false;
 
 	UPROPERTY(EditAnywhere, Category = "Firing")
 		float FireRate;
@@ -80,6 +81,13 @@ public:
 
 	UPROPERTY(Replicated, BlueprintReadOnly)
 		bool Shooting;
+
+	UPROPERTY(Replicated, BlueprintReadOnly)
+		bool Hitting;
+
+	float HittingTime;
+
+	bool Dead;
 
 protected:
 

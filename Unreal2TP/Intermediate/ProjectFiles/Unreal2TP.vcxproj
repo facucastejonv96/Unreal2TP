@@ -378,6 +378,10 @@
     <ClInclude Include="..\..\Source\Unreal2TP\CharacterAnimInstance.h"/>
     <ClCompile Include="..\..\Source\Unreal2TP\Enemy.cpp"/>
     <ClInclude Include="..\..\Source\Unreal2TP\Enemy.h"/>
+    <ClCompile Include="..\..\Source\Unreal2TP\EnemyBullet.cpp"/>
+    <ClInclude Include="..\..\Source\Unreal2TP\EnemyBullet.h"/>
+    <ClCompile Include="..\..\Source\Unreal2TP\EnemyController.cpp"/>
+    <ClInclude Include="..\..\Source\Unreal2TP\EnemyController.h"/>
     <ClCompile Include="..\..\Source\Unreal2TP\ThirdPersonAnimInstance.cpp"/>
     <ClInclude Include="..\..\Source\Unreal2TP\ThirdPersonAnimInstance.h"/>
     <None Include="..\..\Source\Unreal2TP\Unreal2TP.Build.cs"/>

@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Unreal2TP.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{576D52C8-5F49-4B38-B4F0-7B80CD04D1A0}</UniqueIdentifier>
+      <UniqueIdentifier>{43312555-69E9-4C79-83C0-3AFE969CD6B3}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Unreal2TP.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{2B65393A-91D3-438B-9505-3FC3CB14A891}</UniqueIdentifier>
+      <UniqueIdentifier>{C544A9D6-3788-401D-99B7-17E147CEF8E6}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Unreal2TP">
-      <UniqueIdentifier>{34619D56-E486-44D2-B55F-99617C01FBFF}</UniqueIdentifier>
+      <UniqueIdentifier>{B8ADC829-7960-4B98-8C28-B9E3E9FCAA90}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Unreal2TP\Bullet.cpp">
       <Filter>Source\Unreal2TP</Filter>
@@ -48,6 +48,18 @@
       <Filter>Source\Unreal2TP</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Unreal2TP\Enemy.h">
+      <Filter>Source\Unreal2TP</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Unreal2TP\EnemyBullet.cpp">
+      <Filter>Source\Unreal2TP</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Unreal2TP\EnemyBullet.h">
+      <Filter>Source\Unreal2TP</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Unreal2TP\EnemyController.cpp">
+      <Filter>Source\Unreal2TP</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Unreal2TP\EnemyController.h">
       <Filter>Source\Unreal2TP</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\Unreal2TP\ThirdPersonAnimInstance.cpp">

@@ -21,6 +21,9 @@ public:
 	UFUNCTION(NetMulticast, Reliable)
 		void NetMulticast_OnHit();
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = AI)
+		class AActor * MyOwner;
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -30,9 +33,6 @@ protected:
 
 	UPROPERTY(EditAnywhere, Category = "Components")
 		class UProjectileMovementComponent* BulletMovement;
-
-	UPROPERTY(EditAnywhere, Category = "Components")
-		class UAudioComponent* FireSound;
 
 	UFUNCTION()
 		void OnBulletHit(AActor* SelfActor, AActor* OtherActor, FVector NormalImpulse, const FHitResult& Hit);

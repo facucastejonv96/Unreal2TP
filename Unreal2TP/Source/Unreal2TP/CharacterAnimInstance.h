@@ -23,5 +23,7 @@ public:
 		bool Shooting;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Variables")
 		bool Dead;
-	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Variables")
+		bool Hit;
+
 };

@@ -33,6 +33,11 @@ void EmptyLinkFunctionForGeneratedCodeCharacterAnimInstance() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Hit_MetaData[];
+#endif
+		static void NewProp_Hit_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_Hit;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Dead_MetaData[];
 #endif
 		static void NewProp_Dead_SetBit(void* Obj);
@@ -68,6 +73,17 @@ void EmptyLinkFunctionForGeneratedCodeCharacterAnimInstance() {}
 		{ "ModuleRelativePath", "CharacterAnimInstance.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCharacterAnimInstance_Statics::NewProp_Hit_MetaData[] = {
+		{ "Category", "Variables" },
+		{ "ModuleRelativePath", "CharacterAnimInstance.h" },
+	};
+#endif
+	void Z_Construct_UClass_UCharacterAnimInstance_Statics::NewProp_Hit_SetBit(void* Obj)
+	{
+		((UCharacterAnimInstance*)Obj)->Hit = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UCharacterAnimInstance_Statics::NewProp_Hit = { "Hit", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(UCharacterAnimInstance), &Z_Construct_UClass_UCharacterAnimInstance_Statics::NewProp_Hit_SetBit, METADATA_PARAMS(Z_Construct_UClass_UCharacterAnimInstance_Statics::NewProp_Hit_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCharacterAnimInstance_Statics::NewProp_Hit_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCharacterAnimInstance_Statics::NewProp_Dead_MetaData[] = {
 		{ "Category", "Variables" },
@@ -113,6 +129,7 @@ void EmptyLinkFunctionForGeneratedCodeCharacterAnimInstance() {}
 	}
 	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UCharacterAnimInstance_Statics::NewProp_Moving = { "Moving", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(UCharacterAnimInstance), &Z_Construct_UClass_UCharacterAnimInstance_Statics::NewProp_Moving_SetBit, METADATA_PARAMS(Z_Construct_UClass_UCharacterAnimInstance_Statics::NewProp_Moving_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCharacterAnimInstance_Statics::NewProp_Moving_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UCharacterAnimInstance_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCharacterAnimInstance_Statics::NewProp_Hit,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCharacterAnimInstance_Statics::NewProp_Dead,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCharacterAnimInstance_Statics::NewProp_Shooting,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCharacterAnimInstance_Statics::NewProp_Aiming,
@@ -145,7 +162,7 @@ void EmptyLinkFunctionForGeneratedCodeCharacterAnimInstance() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UCharacterAnimInstance, 2244269731);
+	IMPLEMENT_CLASS(UCharacterAnimInstance, 3165822656);
 	template<> UNREAL2TP_API UClass* StaticClass<UCharacterAnimInstance>()
 	{
 		return UCharacterAnimInstance::StaticClass();
