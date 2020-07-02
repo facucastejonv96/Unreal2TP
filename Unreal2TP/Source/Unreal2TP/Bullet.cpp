@@ -2,6 +2,7 @@
 
 
 #include "Bullet.h"
+#include "MyPlayerState.h"
 #include "GameFramework/ProjectileMovementComponent.h"
 #include "Components/AudioComponent.h"
 #include "Components/StaticMeshComponent.h"
@@ -55,8 +56,11 @@ void ABullet::OnBulletHit(AActor * SelfActor, AActor * OtherActor, FVector Norma
 
 	if (AEnemy* Enemy = Cast<AEnemy>(OtherActor))
 	{
-		if(AUnreal2TPCharacter* Player = Cast<AUnreal2TPCharacter>(MyOwner))
+		if (AUnreal2TPCharacter* Player = Cast<AUnreal2TPCharacter>(MyOwner)) {
 			Enemy->RecieveDamage(damage);
+			AMyPlayerState * P = Cast<AMyPlayerState>(Player->GetPlayerState());
+			P->Points += 10;
+		}
 	}
 	if (AUnreal2TPCharacter* Player = Cast<AUnreal2TPCharacter>(OtherActor))
 	{

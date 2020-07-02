@@ -1,0 +1,1858 @@
+﻿Log file open, 07/02/20 04:08:06
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: Unreal2TP
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 26 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.056849
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -3:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.24-CL-11590370
+LogInit: Engine Version: 4.24.3-11590370+++UE4+Release-4.24
+LogInit: Compatible Engine Version: 4.24.0-10570792+++UE4+Release-4.24
+LogInit: Net CL: 10570792
+LogInit: OS: Windows 10 (Release 1909) (), CPU: Intel(R) Core(TM) i7-9700KF CPU @ 3.60GHz, GPU: NVIDIA GeForce GTX 1070
+LogInit: Compiled (64-bit): Feb 24 2020 15:39:18
+LogInit: Compiled with Visual C++: 19.16.27032.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.24
+LogInit: Command Line: 
+LogInit: Base Directory: D:/UE_4.24/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 25
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 37
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 36
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 2
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 36
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 8
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 9
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 8
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.07.02-07.08.06:153][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.07.02-07.08.06:153][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.07.02-07.08.06:153][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Engine.ini]
+[2020.07.02-07.08.06:153][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.07.02-07.08.06:153][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Engine.ini]
+[2020.07.02-07.08.06:153][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Engine.ini]
+[2020.07.02-07.08.06:153][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.07.02-07.08.06:153][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.07.02-07.08.06:153][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.07.02-07.08.06:153][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.07.02-07.08.06:153][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.07.02-07.08.06:153][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.07.02-07.08.06:153][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.07.02-07.08.06:153][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.07.02-07.08.06:153][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.07.02-07.08.06:153][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.07.02-07.08.06:153][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.07.02-07.08.06:153][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.07.02-07.08.06:153][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.07.02-07.08.06:153][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.07.02-07.08.06:153][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Engine.ini]
+[2020.07.02-07.08.06:153][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.07.02-07.08.06:153][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.07.02-07.08.06:153][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.07.02-07.08.06:153][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.07.02-07.08.06:153][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.07.02-07.08.06:153][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.07.02-07.08.06:153][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.07.02-07.08.06:153][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.07.02-07.08.06:153][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.07.02-07.08.06:153][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.07.02-07.08.06:153][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.07.02-07.08.06:153][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.07.02-07.08.06:153][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.07.02-07.08.06:153][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Engine.ini]
+[2020.07.02-07.08.06:153][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Engine.ini]
+[2020.07.02-07.08.06:162][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Scalability.ini]
+[2020.07.02-07.08.06:163][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.07.02-07.08.06:163][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.07.02-07.08.06:163][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Scalability.ini]
+[2020.07.02-07.08.06:163][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.07.02-07.08.06:163][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Scalability.ini]
+[2020.07.02-07.08.06:163][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.07.02-07.08.06:163][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.07.02-07.08.06:163][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.07.02-07.08.06:163][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.07.02-07.08.06:163][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.07.02-07.08.06:163][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.07.02-07.08.06:163][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.07.02-07.08.06:163][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.07.02-07.08.06:163][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.07.02-07.08.06:163][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.07.02-07.08.06:163][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.07.02-07.08.06:163][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.07.02-07.08.06:163][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.07.02-07.08.06:163][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.07.02-07.08.06:163][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.07.02-07.08.06:163][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.07.02-07.08.06:163][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.07.02-07.08.06:163][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.07.02-07.08.06:163][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Scalability.ini]
+[2020.07.02-07.08.06:163][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.07.02-07.08.06:163][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.07.02-07.08.06:163][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.07.02-07.08.06:163][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.07.02-07.08.06:163][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.07.02-07.08.06:163][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.07.02-07.08.06:163][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.07.02-07.08.06:163][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.07.02-07.08.06:163][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.07.02-07.08.06:163][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.07.02-07.08.06:163][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.07.02-07.08.06:163][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.07.02-07.08.06:163][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.07.02-07.08.06:163][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.07.02-07.08.06:163][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.07.02-07.08.06:163][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.07.02-07.08.06:163][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.07.02-07.08.06:163][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.07.02-07.08.06:163][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.07.02-07.08.06:163][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.07.02-07.08.06:163][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.07.02-07.08.06:163][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.07.02-07.08.06:163][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.07.02-07.08.06:163][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.07.02-07.08.06:163][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.07.02-07.08.06:163][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.07.02-07.08.06:163][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.07.02-07.08.06:163][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.07.02-07.08.06:163][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.07.02-07.08.06:163][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.07.02-07.08.06:163][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Scalability.ini]
+[2020.07.02-07.08.06:163][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.07.02-07.08.06:163][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.07.02-07.08.06:163][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.07.02-07.08.06:163][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.07.02-07.08.06:163][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.07.02-07.08.06:164][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.07.02-07.08.06:164][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.07.02-07.08.06:164][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.07.02-07.08.06:164][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.07.02-07.08.06:164][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Scalability.ini]
+[2020.07.02-07.08.06:164][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.07.02-07.08.06:164][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.07.02-07.08.06:164][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.07.02-07.08.06:164][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.07.02-07.08.06:164][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.07.02-07.08.06:164][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.07.02-07.08.06:164][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.07.02-07.08.06:164][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.07.02-07.08.06:164][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.07.02-07.08.06:164][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.07.02-07.08.06:164][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.07.02-07.08.06:164][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.07.02-07.08.06:164][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.07.02-07.08.06:164][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.07.02-07.08.06:164][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.07.02-07.08.06:164][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.07.02-07.08.06:164][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.07.02-07.08.06:164][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.07.02-07.08.06:164][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.07.02-07.08.06:164][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.07.02-07.08.06:164][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.07.02-07.08.06:164][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.07.02-07.08.06:164][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.07.02-07.08.06:164][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.07.02-07.08.06:164][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.07.02-07.08.06:164][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.07.02-07.08.06:164][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Scalability.ini]
+[2020.07.02-07.08.06:164][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.07.02-07.08.06:164][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.07.02-07.08.06:164][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Scalability.ini]
+[2020.07.02-07.08.06:164][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.07.02-07.08.06:164][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.07.02-07.08.06:164][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.07.02-07.08.06:164][  0]LogInit: Selected Device Profile: [Windows]
+[2020.07.02-07.08.06:164][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.07.02-07.08.06:166][  0]LogHAL: Display: Platform has ~ 16 GB [17096769536 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.07.02-07.08.06:166][  0]LogInit: Going up to parent DeviceProfile []
+[2020.07.02-07.08.06:166][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Scalability.ini]
+[2020.07.02-07.08.06:166][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.07.02-07.08.06:166][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.07.02-07.08.06:166][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Scalability.ini]
+[2020.07.02-07.08.06:166][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.07.02-07.08.06:166][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Scalability.ini]
+[2020.07.02-07.08.06:166][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.07.02-07.08.06:166][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.07.02-07.08.06:166][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.07.02-07.08.06:166][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.07.02-07.08.06:166][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.07.02-07.08.06:166][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.07.02-07.08.06:166][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.07.02-07.08.06:166][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.07.02-07.08.06:166][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.07.02-07.08.06:166][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.07.02-07.08.06:166][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.07.02-07.08.06:166][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.07.02-07.08.06:166][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.07.02-07.08.06:166][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.07.02-07.08.06:166][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.07.02-07.08.06:166][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.07.02-07.08.06:166][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.07.02-07.08.06:166][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.07.02-07.08.06:166][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Scalability.ini]
+[2020.07.02-07.08.06:166][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.07.02-07.08.06:166][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.07.02-07.08.06:166][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.07.02-07.08.06:166][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.07.02-07.08.06:166][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.07.02-07.08.06:166][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.07.02-07.08.06:166][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.07.02-07.08.06:166][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.07.02-07.08.06:166][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.07.02-07.08.06:166][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.07.02-07.08.06:166][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.07.02-07.08.06:166][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.07.02-07.08.06:166][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.07.02-07.08.06:166][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.07.02-07.08.06:166][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.07.02-07.08.06:166][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.07.02-07.08.06:166][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.07.02-07.08.06:167][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.07.02-07.08.06:167][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.07.02-07.08.06:167][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.07.02-07.08.06:167][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.07.02-07.08.06:167][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.07.02-07.08.06:167][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.07.02-07.08.06:167][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.07.02-07.08.06:167][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.07.02-07.08.06:167][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.07.02-07.08.06:167][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.07.02-07.08.06:167][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.07.02-07.08.06:167][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.07.02-07.08.06:167][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.07.02-07.08.06:167][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Scalability.ini]
+[2020.07.02-07.08.06:167][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.07.02-07.08.06:167][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.07.02-07.08.06:167][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.07.02-07.08.06:167][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.07.02-07.08.06:167][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.07.02-07.08.06:167][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.07.02-07.08.06:167][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.07.02-07.08.06:167][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.07.02-07.08.06:167][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.07.02-07.08.06:167][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Scalability.ini]
+[2020.07.02-07.08.06:167][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.07.02-07.08.06:167][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.07.02-07.08.06:167][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.07.02-07.08.06:167][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.07.02-07.08.06:167][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.07.02-07.08.06:167][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.07.02-07.08.06:167][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.07.02-07.08.06:167][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.07.02-07.08.06:167][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.07.02-07.08.06:167][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.07.02-07.08.06:167][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.07.02-07.08.06:167][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.07.02-07.08.06:167][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.07.02-07.08.06:167][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.07.02-07.08.06:167][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.07.02-07.08.06:167][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.07.02-07.08.06:167][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.07.02-07.08.06:167][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.07.02-07.08.06:167][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.07.02-07.08.06:167][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.07.02-07.08.06:167][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.07.02-07.08.06:167][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.07.02-07.08.06:167][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.07.02-07.08.06:167][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.07.02-07.08.06:167][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.07.02-07.08.06:167][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.07.02-07.08.06:167][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Scalability.ini]
+[2020.07.02-07.08.06:167][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.07.02-07.08.06:167][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.07.02-07.08.06:167][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Scalability.ini]
+[2020.07.02-07.08.06:167][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.07.02-07.08.06:167][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.07.02-07.08.06:167][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.07.02-07.08.06:167][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.07.02-07.08.06:168][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.07.02-07.08.06:168][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.07.02-07.08.06:168][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Engine.ini]
+[2020.07.02-07.08.06:168][  0]LogInit: Computer: DESKTOP-27BOLO1
+[2020.07.02-07.08.06:168][  0]LogInit: User: Facundo
+[2020.07.02-07.08.06:168][  0]LogInit: CPU Page size=4096, Cores=8
+[2020.07.02-07.08.06:168][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.07.02-07.08.06:168][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.07.02-07.08.06:168][  0]LogMemory: Platform Memory Stats for Windows
+[2020.07.02-07.08.06:168][  0]LogMemory: Process Physical Memory: 105.92 MB used, 105.92 MB peak
+[2020.07.02-07.08.06:168][  0]LogMemory: Process Virtual Memory: 100.71 MB used, 100.71 MB peak
+[2020.07.02-07.08.06:168][  0]LogMemory: Physical Memory: 7427.88 MB used,  8876.87 MB free, 16304.75 MB total
+[2020.07.02-07.08.06:168][  0]LogMemory: Virtual Memory: 5107.20 MB used,  134212624.00 MB free, 134217728.00 MB total
+[2020.07.02-07.08.06:171][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.07.02-07.08.06:184][  0]LogInit: Using OS detected language (en-US).
+[2020.07.02-07.08.06:184][  0]LogInit: Using OS detected locale (en-US).
+[2020.07.02-07.08.06:184][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.07.02-07.08.06:306][  0]LogInit: Setting process to per monitor DPI aware
+[2020.07.02-07.08.06:329][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.07.02-07.08.06:329][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.07.02-07.08.06:431][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.07.02-07.08.06:431][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.07.02-07.08.06:431][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.07.02-07.08.06:431][  0]LogD3D11RHI: D3D11 adapters:
+[2020.07.02-07.08.06:475][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2020.07.02-07.08.06:475][  0]LogD3D11RHI:       8088/0/8152 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x10de
+[2020.07.02-07.08.06:477][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.07.02-07.08.06:477][  0]LogD3D11RHI:       0/0/8152 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.07.02-07.08.06:477][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.07.02-07.08.06:482][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.07.02-07.08.06:482][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2020.07.02-07.08.06:482][  0]LogWindows: EnumDisplayDevices:
+[2020.07.02-07.08.06:483][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2020.07.02-07.08.06:483][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2020.07.02-07.08.06:483][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2020.07.02-07.08.06:483][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2020.07.02-07.08.06:483][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.07.02-07.08.06:483][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2020.07.02-07.08.06:483][  0]LogD3D11RHI:   Driver Version: 446.14 (internal:26.21.14.4614, unified:446.14)
+[2020.07.02-07.08.06:483][  0]LogD3D11RHI:      Driver Date: 5-15-2020
+[2020.07.02-07.08.06:483][  0]LogRHI: Texture pool is 5661 MB (70% of 8088 MB)
+[2020.07.02-07.08.06:514][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.07.02-07.08.06:514][  0]LogD3D11RHI: Async texture creation enabled
+[2020.07.02-07.08.06:526][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.07.02-07.08.06:731][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.07.02-07.08.06:752][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.07.02-07.08.06:752][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.07.02-07.08.06:752][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
+[2020.07.02-07.08.06:752][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.07.02-07.08.06:752][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
+[2020.07.02-07.08.06:752][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
+[2020.07.02-07.08.06:752][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.07.02-07.08.06:752][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
+[2020.07.02-07.08.06:752][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.07.02-07.08.06:752][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.07.02-07.08.06:752][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
+[2020.07.02-07.08.06:752][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.07.02-07.08.06:752][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
+[2020.07.02-07.08.06:752][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
+[2020.07.02-07.08.06:752][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.07.02-07.08.06:752][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
+[2020.07.02-07.08.06:752][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.07.02-07.08.06:752][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.07.02-07.08.06:764][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.07.02-07.08.06:764][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.07.02-07.08.06:769][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.07.02-07.08.06:774][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.07.02-07.08.06:778][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.07.02-07.08.06:783][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.07.02-07.08.06:787][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.07.02-07.08.06:792][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.07.02-07.08.06:807][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.07.02-07.08.06:807][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.07.02-07.08.06:816][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.07.02-07.08.06:816][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.07.02-07.08.06:820][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.07.02-07.08.06:826][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.07.02-07.08.06:830][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.07.02-07.08.06:835][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.07.02-07.08.06:835][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.07.02-07.08.06:837][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.07.02-07.08.06:848][  0]LogShaderCompilers: Guid format shader working directory is -10 characters bigger than the processId version (../../../../Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Intermediate/Shaders/WorkingDirectory/15676/).
+[2020.07.02-07.08.06:849][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Facundo/AppData/Local/Temp/UnrealShaderWorkingDir/962B920F495FF6E62A80F9B8744DC0B0/'.
+[2020.07.02-07.08.06:849][  0]LogXGEController: Cleaning working directory: C:/Users/Facundo/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.07.02-07.08.06:849][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.07.02-07.08.06:849][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.07.02-07.08.06:849][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.07.02-07.08.07:370][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.07.02-07.08.07:415][  0]LogDerivedDataCache: Loaded boot cache 0.05s 82MB C:/Users/Facundo/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.07.02-07.08.07:415][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Facundo/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
+[2020.07.02-07.08.07:415][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.07.02-07.08.07:415][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.07.02-07.08.07:415][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.07.02-07.08.07:415][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.07.02-07.08.07:422][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.07.02-07.08.07:422][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.07.02-07.08.07:422][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.07.02-07.08.07:423][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Facundo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.07.02-07.08.07:423][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.07.02-07.08.07:423][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.07.02-07.08.07:442][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.07.02-07.08.07:444][  0]LogSlate: Using FreeType 2.10.0
+[2020.07.02-07.08.07:444][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.07.02-07.08.07:484][  0]LogAssetRegistry: FAssetRegistry took 0.0020 seconds to start up
+[2020.07.02-07.08.07:681][  0]LogInit: Selected Device Profile: [Windows]
+[2020.07.02-07.08.07:790][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.07.02-07.08.07:790][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.07.02-07.08.07:790][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.07.02-07.08.07:790][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.07.02-07.08.07:790][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.07.02-07.08.07:806][  0]LogNetVersion: Unreal2TP 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 317678641)
+[2020.07.02-07.08.08:537][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.021351 seconds
+[2020.07.02-07.08.08:542][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
+[2020.07.02-07.08.08:542][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
+[2020.07.02-07.08.08:542][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.07.02-07.08.08:811][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.07.02-07.08.08:813][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.07.02-07.08.08:964][  0]SourceControl: Source control is disabled
+[2020.07.02-07.08.08:964][  0]SourceControl: Source control is disabled
+[2020.07.02-07.08.08:964][  0]SourceControl: Source control is disabled
+[2020.07.02-07.08.08:965][  0]SourceControl: Source control is disabled
+[2020.07.02-07.08.08:965][  0]SourceControl: Source control is disabled
+[2020.07.02-07.08.09:015][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.07.02-07.08.09:021][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.07.02-07.08.09:021][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.07.02-07.08.09:078][  0]LogOcInput: OculusInput pre-init called
+[2020.07.02-07.08.09:083][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.07.02-07.08.09:083][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.07.02-07.08.09:129][  0]LogEngine: Initializing Engine...
+[2020.07.02-07.08.09:130][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.07.02-07.08.09:131][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.07.02-07.08.09:368][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.07.02-07.08.09:373][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.07.02-07.08.09:386][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.02-07.08.09:386][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.02-07.08.09:386][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.02-07.08.09:386][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.02-07.08.09:386][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.02-07.08.09:386][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.02-07.08.09:386][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.02-07.08.09:386][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.02-07.08.09:387][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.02-07.08.09:387][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.02-07.08.09:427][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.02-07.08.09:427][  0]LogAudioMixer: Display: Name: Altavoces (Realtek(R) Audio)
+[2020.07.02-07.08.09:427][  0]LogAudioMixer: Display: Is Default: Yes
+[2020.07.02-07.08.09:427][  0]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.02-07.08.09:427][  0]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.02-07.08.09:427][  0]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.02-07.08.09:427][  0]LogAudioMixer: Display: Channel Order:
+[2020.07.02-07.08.09:427][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.02-07.08.09:427][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.07.02-07.08.09:454][  0]LogAudioMixer: Display: Using Audio Device Altavoces (Realtek(R) Audio)
+[2020.07.02-07.08.09:458][  0]LogInit: FAudioDevice initialized.
+[2020.07.02-07.08.09:458][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.07.02-07.08.09:535][  0]LogDerivedDataCache: Saved boot cache 0.08s 82MB C:/Users/Facundo/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.07.02-07.08.09:535][  0]LogInit: Texture streaming: Enabled
+[2020.07.02-07.08.09:543][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.07.02-07.08.09:543][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.07.02-07.08.09:545][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.07.02-07.08.09:570][  0]LogInit: Transaction tracking system initialized
+[2020.07.02-07.08.09:575][  0]BlueprintLog: New page: Editor Load
+[2020.07.02-07.08.09:595][  0]LocalizationService: Localization service is disabled
+[2020.07.02-07.08.09:766][  0]LogFileCache: Scanning file cache for directory 'D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Content/' took 0.01s
+[2020.07.02-07.08.09:766][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.07.02-07.08.09:766][  0]LogCook: Display: Mobile HDR setting 1
+[2020.07.02-07.08.10:260][  0]SourceControl: Source control is disabled
+[2020.07.02-07.08.10:260][  0]Cmd: MAP LOAD FILE="../../../../Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.07.02-07.08.10:260][  0]LightingResults: New page: Lighting Build
+[2020.07.02-07.08.10:261][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.07.02-07.08.10:261][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.02-07.08.10:261][  0]MapCheck: New page: Map Check
+[2020.07.02-07.08.10:261][  0]LightingResults: New page: Lighting Build
+[2020.07.02-07.08.10:284][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2020.07.02-07.08.10:379][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.07.02-07.08.10:384][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.07.02-07.08.10:407][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2020.07.02-07.08.10:407][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.07.02-07.08.10:407][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.059ms to complete.
+[2020.07.02-07.08.10:407][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.147
+[2020.07.02-07.08.10:527][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.02-07.08.10:532][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.02-07.08.10:536][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.02-07.08.10:541][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.02-07.08.10:545][  0]LogCollectionManager: Loaded 0 collections in 0.001533 seconds
+[2020.07.02-07.08.10:554][  0]LogFileCache: Scanning file cache for directory 'D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Collections/' took 0.00s
+[2020.07.02-07.08.10:554][  0]LogFileCache: Scanning file cache for directory 'D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Content/Developers/Facundo/Collections/' took 0.00s
+[2020.07.02-07.08.10:554][  0]LogFileCache: Scanning file cache for directory 'D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Content/Collections/' took 0.00s
+[2020.07.02-07.08.10:554][  0]LogContentBrowser: Native class hierarchy populated in 0.0062 seconds. Added 3026 classes and 719 folders.
+[2020.07.02-07.08.10:555][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.07.02-07.08.10:598][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.07.02-07.08.10:602][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 3 folders.
+[2020.07.02-07.08.10:695][  0]LogSlate: Took 0.000356 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.07.02-07.08.10:699][  0]LogSlate: Took 0.000245 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.07.02-07.08.10:706][  0]LogSlate: Took 0.000198 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.07.02-07.08.10:774][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
+[2020.07.02-07.08.10:812][  0]LogSlate: Took 0.000139 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.07.02-07.08.10:853][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.07.02-07.08.10:853][  0]LogLoad: (Engine Initialization) Total time: 5.81 seconds
+[2020.07.02-07.08.10:853][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.07.02-07.08.10:895][  0]LogAssetRegistry: Asset discovery search completed in 3.4110 seconds
+[2020.07.02-07.08.10:897][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000006 seconds (updated 0 objects)
+[2020.07.02-07.08.10:899][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.07.02-07.08.11:604][  9]Candidate modules for hot reload:
+[2020.07.02-07.08.11:604][  9]  Unreal2TP
+[2020.07.02-07.08.11:604][  9]Launching UnrealBuildTool... [D:/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Unreal2TP,2463 Win64 Development -TargetType=Editor -Project="D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Unreal2TP.uproject" "D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Unreal2TP.uproject"  -IgnoreJunk]
+[2020.07.02-07.08.11:610][  9]Warning: Starting HotReload took  0.0s.
+[2020.07.02-07.08.13:421][176]CompilerResultsLog: New page: Compilation - Jul 2, 2020, 1:08:13 AM
+[2020.07.02-07.08.13:421][176]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Facultad\Unreal\UNREAL2TP\Unreal2TP).
+[2020.07.02-07.08.13:421][176]CompilerResultsLog: Building Unreal2TPEditor...
+[2020.07.02-07.08.13:421][176]CompilerResultsLog: Using Visual Studio 2017 14.16.27035 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.07.02-07.08.13:421][176]CompilerResultsLog: Building 3 actions with 8 processes...
+[2020.07.02-07.08.13:421][176]CompilerResultsLog:   [1/3] UE4Editor-Unreal2TP-2463.lib
+[2020.07.02-07.08.13:422][176]CompilerResultsLog:      Creating library D:\Facultad\Unreal\UNREAL2TP\Unreal2TP\Unreal2TP\Intermediate\Build\Win64\UE4Editor\Development\Unreal2TP\UE4Editor-Unreal2TP-2463.lib and object D:\Facultad\Unreal\UNREAL2TP\Unreal2TP\Unreal2TP\Intermediate\Build\Win64\UE4Editor\Development\Unreal2TP\UE4Editor-Unreal2TP-2463.exp
+[2020.07.02-07.08.13:422][176]CompilerResultsLog:   [2/3] UE4Editor-Unreal2TP-2463.dll
+[2020.07.02-07.08.13:422][176]CompilerResultsLog:      Creating library D:\Facultad\Unreal\UNREAL2TP\Unreal2TP\Unreal2TP\Intermediate\Build\Win64\UE4Editor\Development\Unreal2TP\UE4Editor-Unreal2TP-2463.suppressed.lib and object D:\Facultad\Unreal\UNREAL2TP\Unreal2TP\Unreal2TP\Intermediate\Build\Win64\UE4Editor\Development\Unreal2TP\UE4Editor-Unreal2TP-2463.suppressed.exp
+[2020.07.02-07.08.13:422][176]CompilerResultsLog:   [3/3] Unreal2TPEditor.target
+[2020.07.02-07.08.13:422][176]CompilerResultsLog: Total time in Parallel executor: 1.05 seconds
+[2020.07.02-07.08.13:422][176]CompilerResultsLog: Total execution time: 1.75 seconds
+[2020.07.02-07.08.13:422][176]LogMainFrame: MainFrame: Module compiling took 1.820 seconds
+[2020.07.02-07.08.13:442][176]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2020.07.02-07.08.13:478][176]LogContentBrowser: Native class hierarchy updated for 'Unreal2TP' in 0.0004 seconds. Added 11 classes and 2 folders.
+[2020.07.02-07.08.13:482][176]Display: HotReload successful (13 functions remapped  0 scriptstructs remapped)
+[2020.07.02-07.08.13:531][176]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2020.07.02-07.08.13:540][176]LogContentBrowser: Native class hierarchy populated in 0.0059 seconds. Added 3028 classes and 722 folders.
+[2020.07.02-07.08.13:540][176]Display: HotReload took  1.9s.
+[2020.07.02-07.08.15:846][448]LogSlate: Took 0.000140 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.07.02-07.08.17:921][675]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.02-07.08.17:930][675]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.07.02-07.08.17:930][675]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.02-07.08.17:930][675]PIE: New page: PIE session: ThirdPersonExampleMap (Jul 2, 2020, 1:08:17 AM)
+[2020.07.02-07.08.17:931][675]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.07.02-07.08.17:931][675]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.07.02-07.08.17:932][675]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap
+[2020.07.02-07.08.17:943][675]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011275s)
+[2020.07.02-07.08.17:944][675]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.07.02-07.08.17:945][675]LogPlayLevel: PIE: World Init took: (0.001167s)
+[2020.07.02-07.08.17:945][675]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap (0.012690s)
+[2020.07.02-07.08.17:968][675]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2020.07.02-07.08.17:969][675]LogLoad: Game class is 'BP_MyGameMode_C'
+[2020.07.02-07.08.17:971][675]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.07.02-04.08.17
+[2020.07.02-07.08.17:971][675]LogWorld: Bringing up level for play took: 0.001428
+[2020.07.02-07.08.17:972][675]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2020.07.02-07.08.17:972][675]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2020.07.02-07.08.17:974][675]LogInit: WinSock: I am DESKTOP-27BOLO1 (192.168.0.89:0)
+[2020.07.02-07.08.17:974][675]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2020.07.02-07.08.17:974][675]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.07.02-07.08.17:974][675]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 17777
+[2020.07.02-07.08.17:974][675]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap 0.909
+[2020.07.02-07.08.17:975][675]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.02-07.08.17:975][675]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.02-07.08.17:975][675]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.02-07.08.17:975][675]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.02-07.08.17:975][675]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.02-07.08.17:975][675]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.02-07.08.17:975][675]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.02-07.08.17:975][675]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.02-07.08.17:976][675]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.02-07.08.17:976][675]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.02-07.08.18:011][675]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.02-07.08.18:011][675]LogAudioMixer: Display: Name: Altavoces (Realtek(R) Audio)
+[2020.07.02-07.08.18:011][675]LogAudioMixer: Display: Is Default: Yes
+[2020.07.02-07.08.18:011][675]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.02-07.08.18:011][675]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.02-07.08.18:011][675]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.02-07.08.18:011][675]LogAudioMixer: Display: Channel Order:
+[2020.07.02-07.08.18:011][675]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.02-07.08.18:011][675]LogAudioMixer: Display: 1: FrontRight
+[2020.07.02-07.08.18:025][675]LogAudioMixer: Display: Using Audio Device Altavoces (Realtek(R) Audio)
+[2020.07.02-07.08.18:026][675]LogInit: FAudioDevice initialized.
+[2020.07.02-07.08.18:030][675]LogNet: Browse: 127.0.0.1:17777//Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap
+[2020.07.02-07.08.18:031][675]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
+[2020.07.02-07.08.18:031][675]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.07.02-07.08.18:031][675]LogNet: Game client on port 17777, rate 10000
+[2020.07.02-07.08.18:031][675]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap 0.967
+[2020.07.02-07.08.18:032][675]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.07.02-07.08.18:032][675]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:56387
+[2020.07.02-07.08.18:032][675]LogHandshake: SendConnectChallenge. Timestamp: 0.008333, Cookie: 033224116161030179247238124158015206201152056197229088156139
+[2020.07.02-07.08.18:052][675]LogOnline: OSS: Creating online subsystem instance for: :Context_4
+[2020.07.02-07.08.18:053][675]LogHandshake: SendChallengeResponse. Timestamp: 0.008333, Cookie: 033224116161030179247238124158015206201152056197229088156139
+[2020.07.02-07.08.18:081][676]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:56387
+[2020.07.02-07.08.18:081][676]LogHandshake: SendChallengeAck. InCookie: 033224116161030179247238124158015206201152056197229088156139
+[2020.07.02-07.08.18:081][676]LogNet: Server accepting post-challenge connection from: 127.0.0.1:56387
+[2020.07.02-07.08.18:082][676]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.07.02-07.08.18:082][676]LogNet: NotifyAcceptedConnection: Name: ThirdPersonExampleMap, TimeStamp: 07/02/20 04:08:18, [UNetConnection] RemoteAddr: 127.0.0.1:56387, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.07.02-07.08.18:082][676]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:56387, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.07.02-07.08.18:082][676]LogNetVersion: Unreal2TP 1.0.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 1816658782)
+[2020.07.02-07.08.18:082][676]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: PendingNetDriver IpNetDriver_1, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.07.02-07.08.18:090][677]LogNet: NotifyAcceptingChannel Control 0 server World /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap: Accepted
+[2020.07.02-07.08.18:090][677]LogNet: Remote platform little endian=1
+[2020.07.02-07.08.18:090][677]LogNet: This platform little endian=1
+[2020.07.02-07.08.18:090][677]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2020.07.02-07.08.18:098][678]LogNet: Login request: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap?Name=DESKTOP-27BOLO1-2D2DA3644C9CE93317484F838AA44A67 userId: NULL:DESKTOP-27BOLO1-2D2DA3644C9CE93317484F838AA44A67 platform: NULL
+[2020.07.02-07.08.18:098][678]LogNet: Welcomed by server (Level: /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap, Game: /Game/ThirdPersonCPP/Blueprints/BP_MyGameMode.BP_MyGameMode_C)
+[2020.07.02-07.08.18:098][678]LogLoad: LoadMap: 127.0.0.1:17777//Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap?game=/Game/ThirdPersonCPP/Blueprints/BP_MyGameMode.BP_MyGameMode_C
+[2020.07.02-07.08.18:098][678]LogWorld: BeginTearingDown for /Temp/Untitled_1
+[2020.07.02-07.08.18:098][678]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.07.02-07.08.18:099][678]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.02-07.08.18:099][678]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.02-07.08.18:122][678]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2020.07.02-07.08.18:131][678]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.07.02-07.08.18:134][678]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_2_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.07.02-04.08.18
+[2020.07.02-07.08.18:134][678]LogWorld: Bringing up level for play took: 0.001349
+[2020.07.02-07.08.18:134][678]LogLoad: Took 0.035547 seconds to LoadMap(/Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap)
+[2020.07.02-07.08.18:145][679]LogNet: Client netspeed is 10000
+[2020.07.02-07.08.18:146][679]LogNet: Join request: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap?Name=DESKTOP-27BOLO1-2D2DA3644C9CE93317484F838AA44A67?SplitscreenCount=1
+[2020.07.02-07.08.18:146][679]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.07.02-07.08.18:147][679]LogNet: Join succeeded: DESKTOP-27BOLO1-2D2D
+[2020.07.02-07.08.18:450][715]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.07.02-07.08.18:458][716]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.18:466][717]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.18:474][718]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.18:483][719]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.18:491][720]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.18:500][721]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.18:508][722]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.18:516][723]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.18:525][724]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.18:534][725]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.18:563][726]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.18:576][727]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.18:585][728]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.18:593][729]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.18:602][730]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.18:610][731]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.18:618][732]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.18:627][733]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.18:635][734]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.18:643][735]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.18:652][736]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.18:660][737]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.18:669][738]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.18:677][739]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.18:686][740]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.18:694][741]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.18:703][742]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.18:711][743]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.18:719][744]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.18:728][745]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.18:736][746]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.18:744][747]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.18:752][748]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.18:760][749]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.18:768][750]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.18:776][751]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.18:785][752]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.18:793][753]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.18:802][754]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.18:810][755]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.18:818][756]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.18:827][757]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.18:835][758]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.18:843][759]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.18:852][760]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.18:860][761]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.18:868][762]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.18:877][763]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.18:885][764]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.18:893][765]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.18:902][766]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.18:910][767]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.18:918][768]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.18:927][769]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.18:935][770]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.18:944][771]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.18:952][772]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.18:960][773]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.18:969][774]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.18:977][775]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.18:985][776]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.18:994][777]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:002][778]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:010][779]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:019][780]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:027][781]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:035][782]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:044][783]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:052][784]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:060][785]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:069][786]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:077][787]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:086][788]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:094][789]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:102][790]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:110][791]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:118][792]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:126][793]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:135][794]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:143][795]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:152][796]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:160][797]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:168][798]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:177][799]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:185][800]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:193][801]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:202][802]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:210][803]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:218][804]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:227][805]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:235][806]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:243][807]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:252][808]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:260][809]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:268][810]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:277][811]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:285][812]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:293][813]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:302][814]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:310][815]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:318][816]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:327][817]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:335][818]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:343][819]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:351][820]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:360][821]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:368][822]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:376][823]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:385][824]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:393][825]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:402][826]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:410][827]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:418][828]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:426][829]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:435][830]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:443][831]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:451][832]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:460][833]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:468][834]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:477][835]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:485][836]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:493][837]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:502][838]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:510][839]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:519][840]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:527][841]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:535][842]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:543][843]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:552][844]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:560][845]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:568][846]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:577][847]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:585][848]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:593][849]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:601][850]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:610][851]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:618][852]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:627][853]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:635][854]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:644][855]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:652][856]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:660][857]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:668][858]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:677][859]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:685][860]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:693][861]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:702][862]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:710][863]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:719][864]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:727][865]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:735][866]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:744][867]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:752][868]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:760][869]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:769][870]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:777][871]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:785][872]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:794][873]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:802][874]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:811][875]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:819][876]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:826][877]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:834][878]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:843][879]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:852][880]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:860][881]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:868][882]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:876][883]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:885][884]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:893][885]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:902][886]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:910][887]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:918][888]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:927][889]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:935][890]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:943][891]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:952][892]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:960][893]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:968][894]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:977][895]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:985][896]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.19:993][897]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:002][898]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:010][899]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:018][900]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:028][901]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:042][902]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:050][903]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:058][904]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:066][905]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:075][906]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:083][907]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:091][908]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:100][909]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:108][910]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:116][911]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:124][912]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:133][913]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:141][914]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:149][915]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:158][916]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:166][917]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:178][918]LogSlate: Took 0.000139 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.07.02-07.08.20:291][927]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:299][928]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:308][929]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:316][930]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:324][931]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:332][932]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:341][933]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:348][934]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:357][935]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:365][936]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:374][937]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:382][938]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:390][939]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:399][940]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:407][941]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:415][942]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:424][943]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:432][944]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:441][945]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:449][946]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:458][947]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:466][948]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:475][949]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:482][950]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:490][951]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:498][952]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:507][953]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:515][954]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:523][955]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:532][956]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:540][957]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:548][958]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:557][959]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:565][960]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:574][961]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:582][962]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:590][963]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:599][964]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:607][965]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:616][966]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:624][967]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:632][968]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:641][969]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:649][970]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:657][971]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:665][972]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:674][973]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:682][974]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:691][975]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:699][976]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:708][977]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:716][978]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:724][979]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:733][980]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:741][981]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:749][982]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:758][983]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:766][984]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:774][985]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:783][986]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:791][987]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:799][988]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:808][989]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:816][990]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:824][991]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:833][992]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:841][993]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:849][994]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:857][995]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:865][996]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:874][997]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:882][998]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:890][999]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:899][  0]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:907][  1]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:915][  2]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:924][  3]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:932][  4]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:940][  5]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:949][  6]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:957][  7]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:965][  8]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:974][  9]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:982][ 10]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:990][ 11]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.20:999][ 12]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:007][ 13]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:015][ 14]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:024][ 15]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:032][ 16]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:041][ 17]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:049][ 18]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:058][ 19]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:066][ 20]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:074][ 21]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:082][ 22]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:090][ 23]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:098][ 24]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:107][ 25]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:115][ 26]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:124][ 27]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:132][ 28]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:140][ 29]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:149][ 30]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:158][ 31]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:166][ 32]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:174][ 33]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:182][ 34]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:190][ 35]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:199][ 36]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:207][ 37]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:215][ 38]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:224][ 39]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:232][ 40]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:240][ 41]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:249][ 42]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:257][ 43]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:266][ 44]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:274][ 45]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:282][ 46]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:291][ 47]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:299][ 48]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:307][ 49]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:316][ 50]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:324][ 51]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:332][ 52]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:341][ 53]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:350][ 54]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:358][ 55]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:366][ 56]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:375][ 57]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:383][ 58]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:391][ 59]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:399][ 60]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:408][ 61]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:416][ 62]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:424][ 63]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:433][ 64]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:441][ 65]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:449][ 66]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:457][ 67]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:465][ 68]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:474][ 69]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:483][ 70]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:491][ 71]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:499][ 72]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:508][ 73]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:516][ 74]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:524][ 75]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:533][ 76]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:541][ 77]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:549][ 78]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:558][ 79]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:566][ 80]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:574][ 81]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:583][ 82]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:591][ 83]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:599][ 84]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:608][ 85]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:616][ 86]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:624][ 87]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:633][ 88]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:641][ 89]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:650][ 90]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:658][ 91]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:666][ 92]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:675][ 93]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:683][ 94]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:691][ 95]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:699][ 96]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:708][ 97]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:716][ 98]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:724][ 99]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:733][100]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:741][101]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:750][102]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:758][103]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:766][104]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:775][105]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:783][106]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:791][107]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:800][108]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:808][109]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:816][110]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:825][111]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:833][112]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:841][113]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:850][114]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:858][115]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:866][116]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:874][117]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:882][118]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:891][119]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:899][120]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:908][121]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:916][122]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:924][123]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:932][124]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:941][125]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:949][126]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:958][127]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:966][128]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:974][129]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:983][130]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:991][131]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.21:999][132]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:008][133]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:016][134]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:024][135]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:033][136]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:041][137]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:049][138]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:058][139]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:066][140]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:074][141]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:083][142]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:091][143]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:099][144]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:108][145]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:116][146]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:125][147]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:133][148]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:141][149]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:149][150]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:158][151]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:166][152]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:175][153]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:183][154]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:191][155]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:199][156]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:208][157]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:216][158]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:225][159]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:233][160]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:242][161]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:250][162]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:257][163]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:266][164]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:274][165]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:282][166]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:291][167]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:299][168]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:307][169]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:316][170]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:325][171]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:333][172]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:341][173]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:350][174]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:358][175]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:366][176]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:375][177]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:382][178]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:391][179]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:399][180]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:408][181]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:416][182]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:425][183]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:432][184]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:441][185]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:449][186]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:458][187]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:466][188]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:474][189]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:482][190]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:491][191]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:499][192]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:507][193]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:516][194]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:524][195]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:532][196]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:541][197]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:549][198]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:557][199]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:566][200]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:574][201]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:582][202]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:591][203]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:599][204]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:607][205]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:616][206]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:624][207]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:632][208]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:641][209]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:649][210]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:658][211]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:666][212]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:674][213]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:683][214]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:691][215]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:699][216]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:708][217]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:716][218]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:725][219]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:733][220]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:741][221]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:749][222]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:758][223]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:766][224]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:774][225]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:782][226]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:790][227]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:799][228]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:807][229]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:815][230]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:824][231]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:832][232]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:840][233]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:849][234]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:857][235]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:865][236]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:874][237]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:882][238]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:890][239]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:899][240]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:907][241]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:916][242]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:924][243]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:932][244]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:941][245]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:949][246]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:957][247]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:966][248]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:974][249]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:982][250]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:990][251]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.22:999][252]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:007][253]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:015][254]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:024][255]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:032][256]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:040][257]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:049][258]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:057][259]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:065][260]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:074][261]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:082][262]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:091][263]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:099][264]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:107][265]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:116][266]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:124][267]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:132][268]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:141][269]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:149][270]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:157][271]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:166][272]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:174][273]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:182][274]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:191][275]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:200][276]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:208][277]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:216][278]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:224][279]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:233][280]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:241][281]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:250][282]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:258][283]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:266][284]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:274][285]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:283][286]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:291][287]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:300][288]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:308][289]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:316][290]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:325][291]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:332][292]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:341][293]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:349][294]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:357][295]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:366][296]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:374][297]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:382][298]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:391][299]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:399][300]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:407][301]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:416][302]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:424][303]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:432][304]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:440][305]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:449][306]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:457][307]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:465][308]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:474][309]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:482][310]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:491][311]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:499][312]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:507][313]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:516][314]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:524][315]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:532][316]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:541][317]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:549][318]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:557][319]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:566][320]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:574][321]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:582][322]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:591][323]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:599][324]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:599][324]LogTemp: Warning: Funciona
+[2020.07.02-07.08.23:607][325]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:608][325]LogTemp: Warning: Funciona
+[2020.07.02-07.08.23:616][326]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:616][326]LogTemp: Warning: Funciona
+[2020.07.02-07.08.23:624][327]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:624][327]LogTemp: Warning: Funciona
+[2020.07.02-07.08.23:632][328]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:633][328]LogTemp: Warning: Funciona
+[2020.07.02-07.08.23:641][329]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:641][329]LogTemp: Warning: Funciona
+[2020.07.02-07.08.23:649][330]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:649][330]LogTemp: Warning: Funciona
+[2020.07.02-07.08.23:657][331]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:657][331]LogTemp: Warning: Funciona
+[2020.07.02-07.08.23:665][332]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:665][332]LogTemp: Warning: Funciona
+[2020.07.02-07.08.23:674][333]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:674][333]LogTemp: Warning: Funciona
+[2020.07.02-07.08.23:682][334]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:682][334]LogTemp: Warning: Funciona
+[2020.07.02-07.08.23:690][335]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:690][335]LogTemp: Warning: Funciona
+[2020.07.02-07.08.23:699][336]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:699][336]LogTemp: Warning: Funciona
+[2020.07.02-07.08.23:707][337]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:707][337]LogTemp: Warning: Funciona
+[2020.07.02-07.08.23:716][338]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:716][338]LogTemp: Warning: Funciona
+[2020.07.02-07.08.23:724][339]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:724][339]LogTemp: Warning: Funciona
+[2020.07.02-07.08.23:733][340]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:733][340]LogTemp: Warning: Funciona
+[2020.07.02-07.08.23:741][341]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:741][341]LogTemp: Warning: Funciona
+[2020.07.02-07.08.23:749][342]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:749][342]LogTemp: Warning: Funciona
+[2020.07.02-07.08.23:757][343]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:758][343]LogTemp: Warning: Funciona
+[2020.07.02-07.08.23:766][344]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:766][344]LogTemp: Warning: Funciona
+[2020.07.02-07.08.23:774][345]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:774][345]LogTemp: Warning: Funciona
+[2020.07.02-07.08.23:782][346]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:783][346]LogTemp: Warning: Funciona
+[2020.07.02-07.08.23:791][347]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:791][347]LogTemp: Warning: Funciona
+[2020.07.02-07.08.23:799][348]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:799][348]LogTemp: Warning: Funciona
+[2020.07.02-07.08.23:808][349]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:808][349]LogTemp: Warning: Funciona
+[2020.07.02-07.08.23:816][350]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:816][350]LogTemp: Warning: Funciona
+[2020.07.02-07.08.23:824][351]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:824][351]LogTemp: Warning: Funciona
+[2020.07.02-07.08.23:833][352]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:833][352]LogTemp: Warning: Funciona
+[2020.07.02-07.08.23:841][353]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:841][353]LogTemp: Warning: Funciona
+[2020.07.02-07.08.23:849][354]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:849][354]LogTemp: Warning: Funciona
+[2020.07.02-07.08.23:858][355]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:858][355]LogTemp: Warning: Funciona
+[2020.07.02-07.08.23:865][356]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:865][356]LogTemp: Warning: Funciona
+[2020.07.02-07.08.23:874][357]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:874][357]LogTemp: Warning: Funciona
+[2020.07.02-07.08.23:882][358]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:882][358]LogTemp: Warning: Funciona
+[2020.07.02-07.08.23:890][359]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:891][359]LogTemp: Warning: Funciona
+[2020.07.02-07.08.23:899][360]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:899][360]LogTemp: Warning: Funciona
+[2020.07.02-07.08.23:907][361]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:907][361]LogTemp: Warning: Funciona
+[2020.07.02-07.08.23:916][362]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:916][362]LogTemp: Warning: Funciona
+[2020.07.02-07.08.23:924][363]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:924][363]LogTemp: Warning: Funciona
+[2020.07.02-07.08.23:933][364]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:933][364]LogTemp: Warning: Funciona
+[2020.07.02-07.08.23:941][365]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:941][365]LogTemp: Warning: Funciona
+[2020.07.02-07.08.23:949][366]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:949][366]LogTemp: Warning: Funciona
+[2020.07.02-07.08.23:957][367]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:957][367]LogTemp: Warning: Funciona
+[2020.07.02-07.08.23:966][368]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:966][368]LogTemp: Warning: Funciona
+[2020.07.02-07.08.23:974][369]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:974][369]LogTemp: Warning: Funciona
+[2020.07.02-07.08.23:982][370]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:982][370]LogTemp: Warning: Funciona
+[2020.07.02-07.08.23:991][371]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:991][371]LogTemp: Warning: Funciona
+[2020.07.02-07.08.23:999][372]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.23:999][372]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:007][373]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:008][373]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:016][374]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:016][374]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:024][375]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:024][375]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:032][376]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:032][376]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:040][377]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:040][377]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:049][378]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:049][378]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:057][379]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:057][379]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:065][380]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:065][380]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:074][381]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:074][381]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:082][382]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:082][382]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:090][383]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:091][383]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:099][384]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:099][384]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:107][385]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:107][385]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:116][386]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:116][386]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:124][387]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:124][387]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:132][388]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:133][388]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:141][389]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:141][389]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:149][390]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:149][390]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:157][391]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:157][391]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:166][392]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:166][392]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:174][393]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:174][393]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:182][394]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:182][394]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:191][395]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:191][395]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:199][396]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:199][396]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:207][397]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:208][397]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:216][398]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:216][398]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:224][399]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:224][399]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:233][400]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:233][400]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:241][401]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:241][401]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:250][402]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:250][402]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:258][403]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:258][403]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:267][404]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:267][404]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:275][405]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:275][405]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:283][406]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:283][406]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:291][407]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:291][407]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:299][408]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:299][408]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:307][409]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:307][409]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:316][410]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:316][410]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:324][411]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:324][411]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:333][412]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:333][412]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:341][413]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:341][413]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:350][414]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:350][414]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:358][415]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:358][415]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:366][416]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:366][416]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:374][417]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:374][417]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:382][418]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:382][418]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:391][419]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:391][419]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:399][420]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:399][420]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:408][421]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:408][421]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:416][422]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:416][422]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:424][423]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:424][423]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:433][424]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:433][424]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:441][425]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:441][425]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:449][426]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:449][426]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:458][427]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:458][427]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:466][428]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:466][428]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:474][429]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:474][429]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:483][430]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:483][430]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:491][431]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:491][431]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:500][432]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:500][432]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:508][433]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:508][433]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:516][434]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:516][434]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:524][435]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:524][435]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:532][436]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:533][436]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:541][437]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:541][437]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:550][438]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:550][438]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:558][439]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:558][439]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:566][440]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:566][440]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:575][441]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:575][441]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:583][442]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:583][442]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:591][443]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:591][443]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:600][444]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:600][444]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:608][445]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:608][445]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:616][446]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:616][446]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:625][447]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:625][447]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:633][448]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:633][448]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:641][449]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:641][449]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:650][450]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:650][450]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:658][451]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:658][451]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:667][452]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:668][452]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:675][453]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:675][453]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:683][454]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:683][454]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:690][455]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:692][455]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:699][456]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:699][456]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:707][457]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:707][457]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:716][458]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:716][458]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:724][459]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:724][459]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:732][460]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:732][460]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:741][461]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:741][461]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:749][462]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:749][462]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:757][463]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:757][463]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:766][464]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:766][464]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:774][465]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:774][465]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:782][466]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:782][466]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:791][467]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:791][467]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:799][468]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:799][468]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:808][469]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:808][469]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:816][470]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:816][470]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:824][471]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:824][471]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:833][472]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:833][472]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:841][473]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:841][473]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:849][474]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:849][474]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:858][475]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:858][475]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:866][476]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:866][476]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:874][477]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:874][477]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:883][478]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:883][478]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:891][479]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:891][479]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:900][480]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:900][480]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:908][481]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:908][481]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:916][482]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:916][482]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:924][483]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:925][483]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:933][484]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:933][484]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:941][485]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:941][485]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:951][486]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:951][486]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:963][487]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:964][487]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:971][488]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:971][488]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:980][489]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:980][489]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:988][490]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:988][490]LogTemp: Warning: Funciona
+[2020.07.02-07.08.24:996][491]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.24:996][491]LogTemp: Warning: Funciona
+[2020.07.02-07.08.25:005][492]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.25:005][492]LogTemp: Warning: Funciona
+[2020.07.02-07.08.25:014][493]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.25:014][493]LogTemp: Warning: Funciona
+[2020.07.02-07.08.25:022][494]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.25:022][494]LogTemp: Warning: Funciona
+[2020.07.02-07.08.25:030][495]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.25:030][495]LogTemp: Warning: Funciona
+[2020.07.02-07.08.25:038][496]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.25:038][496]LogTemp: Warning: Funciona
+[2020.07.02-07.08.25:047][497]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.25:047][497]LogTemp: Warning: Funciona
+[2020.07.02-07.08.25:055][498]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.25:055][498]LogTemp: Warning: Funciona
+[2020.07.02-07.08.25:064][499]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.25:064][499]LogTemp: Warning: Funciona
+[2020.07.02-07.08.25:072][500]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.25:072][500]LogTemp: Warning: Funciona
+[2020.07.02-07.08.25:080][501]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.25:080][501]LogTemp: Warning: Funciona
+[2020.07.02-07.08.25:088][502]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.25:088][502]LogTemp: Warning: Funciona
+[2020.07.02-07.08.25:097][503]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.25:097][503]LogTemp: Warning: Funciona
+[2020.07.02-07.08.25:106][504]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.25:106][504]LogTemp: Warning: Funciona
+[2020.07.02-07.08.25:113][505]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.25:113][505]LogTemp: Warning: Funciona
+[2020.07.02-07.08.25:122][506]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.25:122][506]LogTemp: Warning: Funciona
+[2020.07.02-07.08.25:130][507]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.25:131][507]LogTemp: Warning: Funciona
+[2020.07.02-07.08.25:138][508]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.25:138][508]LogTemp: Warning: Funciona
+[2020.07.02-07.08.25:147][509]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.25:147][509]LogTemp: Warning: Funciona
+[2020.07.02-07.08.25:155][510]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.25:155][510]LogTemp: Warning: Funciona
+[2020.07.02-07.08.25:163][511]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.25:163][511]LogTemp: Warning: Funciona
+[2020.07.02-07.08.25:171][512]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.25:171][512]LogTemp: Warning: Funciona
+[2020.07.02-07.08.25:180][513]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.25:180][513]LogTemp: Warning: Funciona
+[2020.07.02-07.08.25:188][514]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.25:188][514]LogTemp: Warning: Funciona
+[2020.07.02-07.08.25:197][515]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.25:197][515]LogTemp: Warning: Funciona
+[2020.07.02-07.08.25:205][516]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.25:205][516]LogTemp: Warning: Funciona
+[2020.07.02-07.08.25:213][517]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.25:214][517]LogTemp: Warning: Funciona
+[2020.07.02-07.08.25:222][518]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.25:222][518]LogTemp: Warning: Funciona
+[2020.07.02-07.08.25:230][519]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.25:230][519]LogTemp: Warning: Funciona
+[2020.07.02-07.08.25:239][520]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.25:239][520]LogTemp: Warning: Funciona
+[2020.07.02-07.08.25:247][521]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.25:247][521]LogTemp: Warning: Funciona
+[2020.07.02-07.08.25:255][522]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.25:255][522]LogTemp: Warning: Funciona
+[2020.07.02-07.08.25:263][523]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.25:263][523]LogTemp: Warning: Funciona
+[2020.07.02-07.08.25:271][524]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.25:271][524]LogTemp: Warning: Funciona
+[2020.07.02-07.08.25:279][525]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.25:279][525]LogTemp: Warning: Funciona
+[2020.07.02-07.08.25:288][526]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.25:288][526]LogTemp: Warning: Funciona
+[2020.07.02-07.08.25:296][527]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.25:296][527]LogTemp: Warning: Funciona
+[2020.07.02-07.08.25:409][540]LogTemp: Warning: No Soy Null
+[2020.07.02-07.08.25:409][540]LogTemp: Warning: Funciona
+[2020.07.02-07.08.25:410][540]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.02-07.08.25:410][540]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.07.02-07.08.25:430][540]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.07.02-07.08.25:430][540]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.07.02-07.08.25:431][540]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.02-07.08.25:431][540]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_2_ThirdPersonExampleMap
+[2020.07.02-07.08.25:431][540]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.02-07.08.25:431][540]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.07.02-07.08.25:431][540]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.02-07.08.25:436][540]LogNet: World NetDriver shutdown IpNetDriver_1 [GameNetDriver]
+[2020.07.02-07.08.25:436][540]LogNet: DestroyNamedNetDriver IpNetDriver_1 [GameNetDriver]
+[2020.07.02-07.08.25:436][540]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: MyPlayerController_0, Owner: MyPlayerController_0, UniqueId: NULL:DESKTOP-27BOLO1-2D2DA3644C9CE93317484F838AA44A67, Channels: 10, Time: 2020.07.02-07.08.25
+[2020.07.02-07.08.25:436][540]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: MyPlayerController_0, Owner: MyPlayerController_0, UniqueId: NULL:DESKTOP-27BOLO1-2D2DA3644C9CE93317484F838AA44A67
+[2020.07.02-07.08.25:436][540]LogExit: GameNetDriver IpNetDriver_1 shut down
+[2020.07.02-07.08.25:437][540]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap
+[2020.07.02-07.08.25:437][540]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.02-07.08.25:437][540]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.07.02-07.08.25:437][540]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.02-07.08.25:437][540]LogNet: World NetDriver shutdown IpNetDriver_0 [GameNetDriver]
+[2020.07.02-07.08.25:437][540]LogNet: DestroyNamedNetDriver IpNetDriver_0 [GameNetDriver]
+[2020.07.02-07.08.25:437][540]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 127.0.0.1:56387, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: MyPlayerController_0, Owner: MyPlayerController_0, UniqueId: NULL:DESKTOP-27BOLO1-2D2DA3644C9CE93317484F838AA44A67
+[2020.07.02-07.08.25:437][540]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:56387, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: MyPlayerController_0, Owner: MyPlayerController_0, UniqueId: NULL:DESKTOP-27BOLO1-2D2DA3644C9CE93317484F838AA44A67, Channels: 10, Time: 2020.07.02-07.08.25
+[2020.07.02-07.08.25:437][540]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:56387, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: MyPlayerController_0, Owner: MyPlayerController_0, UniqueId: NULL:DESKTOP-27BOLO1-2D2DA3644C9CE93317484F838AA44A67
+[2020.07.02-07.08.25:438][540]LogExit: GameNetDriver IpNetDriver_0 shut down
+[2020.07.02-07.08.25:438][540]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.02-07.08.25:438][540]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.07.02-07.08.25:440][540]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.02-07.08.25:462][540]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.02-07.08.25:465][540]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.02-07.08.25:468][540]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2020.07.02-07.08.25:515][545]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2020.07.02-07.08.25:516][545]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2020.07.02-07.08.41:063][789]Candidate modules for hot reload:
+[2020.07.02-07.08.41:063][789]  Unreal2TP
+[2020.07.02-07.08.41:063][789]Launching UnrealBuildTool... [D:/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Unreal2TP,1335 Win64 Development -TargetType=Editor -Project="D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Unreal2TP.uproject" "D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Unreal2TP.uproject"  -IgnoreJunk]
+[2020.07.02-07.08.41:069][789]Warning: Starting HotReload took  0.0s.
+[2020.07.02-07.08.43:605][ 47]CompilerResultsLog: New page: Compilation - Jul 2, 2020, 1:08:43 AM
+[2020.07.02-07.08.43:606][ 47]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Facultad\Unreal\UNREAL2TP\Unreal2TP).
+[2020.07.02-07.08.43:606][ 47]CompilerResultsLog: Building Unreal2TPEditor...
+[2020.07.02-07.08.43:606][ 47]CompilerResultsLog: Using Visual Studio 2017 14.16.27035 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.07.02-07.08.43:606][ 47]CompilerResultsLog: Building 4 actions with 8 processes...
+[2020.07.02-07.08.43:606][ 47]CompilerResultsLog:   [1/4] MyPlayerController.cpp
+[2020.07.02-07.08.43:606][ 47]CompilerResultsLog:   [2/4] UE4Editor-Unreal2TP-1335.lib
+[2020.07.02-07.08.43:606][ 47]CompilerResultsLog:      Creating library D:\Facultad\Unreal\UNREAL2TP\Unreal2TP\Unreal2TP\Intermediate\Build\Win64\UE4Editor\Development\Unreal2TP\UE4Editor-Unreal2TP-1335.lib and object D:\Facultad\Unreal\UNREAL2TP\Unreal2TP\Unreal2TP\Intermediate\Build\Win64\UE4Editor\Development\Unreal2TP\UE4Editor-Unreal2TP-1335.exp
+[2020.07.02-07.08.43:606][ 47]CompilerResultsLog:   [3/4] UE4Editor-Unreal2TP-1335.dll
+[2020.07.02-07.08.43:606][ 47]CompilerResultsLog:      Creating library D:\Facultad\Unreal\UNREAL2TP\Unreal2TP\Unreal2TP\Intermediate\Build\Win64\UE4Editor\Development\Unreal2TP\UE4Editor-Unreal2TP-1335.suppressed.lib and object D:\Facultad\Unreal\UNREAL2TP\Unreal2TP\Unreal2TP\Intermediate\Build\Win64\UE4Editor\Development\Unreal2TP\UE4Editor-Unreal2TP-1335.suppressed.exp
+[2020.07.02-07.08.43:606][ 47]CompilerResultsLog:   [4/4] Unreal2TPEditor.target
+[2020.07.02-07.08.43:606][ 47]CompilerResultsLog: Total time in Parallel executor: 1.74 seconds
+[2020.07.02-07.08.43:606][ 47]CompilerResultsLog: Total execution time: 2.47 seconds
+[2020.07.02-07.08.43:606][ 47]LogMainFrame: MainFrame: Module compiling took 2.546 seconds
+[2020.07.02-07.08.43:628][ 47]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2020.07.02-07.08.43:658][ 47]LogHotReload: Re-instancing MyPlayerController after hot-reload.
+[2020.07.02-07.08.43:738][ 47]LogContentBrowser: Native class hierarchy updated for 'Unreal2TP' in 0.0004 seconds. Added 11 classes and 2 folders.
+[2020.07.02-07.08.43:741][ 47]Display: HotReload successful (13 functions remapped  0 scriptstructs remapped)
+[2020.07.02-07.08.43:786][ 47]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2020.07.02-07.08.43:795][ 47]LogContentBrowser: Native class hierarchy populated in 0.0059 seconds. Added 3028 classes and 722 folders.
+[2020.07.02-07.08.43:795][ 47]Display: HotReload took  2.7s.
+[2020.07.02-07.08.44:244][ 99]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.02-07.08.44:252][ 99]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.07.02-07.08.44:252][ 99]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.02-07.08.44:253][ 99]PIE: New page: PIE session: ThirdPersonExampleMap (Jul 2, 2020, 1:08:44 AM)
+[2020.07.02-07.08.44:253][ 99]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap
+[2020.07.02-07.08.44:261][ 99]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008773s)
+[2020.07.02-07.08.44:261][ 99]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.07.02-07.08.44:262][ 99]LogPlayLevel: PIE: World Init took: (0.000949s)
+[2020.07.02-07.08.44:262][ 99]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap (0.009903s)
+[2020.07.02-07.08.44:285][ 99]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2020.07.02-07.08.44:286][ 99]LogLoad: Game class is 'BP_MyGameMode_C'
+[2020.07.02-07.08.44:287][ 99]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.07.02-04.08.44
+[2020.07.02-07.08.44:288][ 99]LogWorld: Bringing up level for play took: 0.001221
+[2020.07.02-07.08.44:288][ 99]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2020.07.02-07.08.44:288][ 99]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2020.07.02-07.08.44:288][ 99]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2020.07.02-07.08.44:288][ 99]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.07.02-07.08.44:288][ 99]LogNet: GameNetDriver IpNetDriver_2 IpNetDriver listening on port 17777
+[2020.07.02-07.08.44:289][ 99]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap -0.776
+[2020.07.02-07.08.44:290][ 99]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.02-07.08.44:290][ 99]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.02-07.08.44:290][ 99]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.02-07.08.44:290][ 99]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.02-07.08.44:290][ 99]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.02-07.08.44:290][ 99]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.02-07.08.44:290][ 99]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.02-07.08.44:290][ 99]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.02-07.08.44:290][ 99]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.02-07.08.44:290][ 99]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.02-07.08.44:325][ 99]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.02-07.08.44:325][ 99]LogAudioMixer: Display: Name: Altavoces (Realtek(R) Audio)
+[2020.07.02-07.08.44:325][ 99]LogAudioMixer: Display: Is Default: Yes
+[2020.07.02-07.08.44:325][ 99]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.02-07.08.44:325][ 99]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.02-07.08.44:325][ 99]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.02-07.08.44:325][ 99]LogAudioMixer: Display: Channel Order:
+[2020.07.02-07.08.44:325][ 99]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.02-07.08.44:325][ 99]LogAudioMixer: Display: 1: FrontRight
+[2020.07.02-07.08.44:340][ 99]LogAudioMixer: Display: Using Audio Device Altavoces (Realtek(R) Audio)
+[2020.07.02-07.08.44:341][ 99]LogInit: FAudioDevice initialized.
+[2020.07.02-07.08.44:345][ 99]LogNet: Browse: 127.0.0.1:17777//Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap
+[2020.07.02-07.08.44:346][ 99]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
+[2020.07.02-07.08.44:346][ 99]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.07.02-07.08.44:346][ 99]LogNet: Game client on port 17777, rate 10000
+[2020.07.02-07.08.44:346][ 99]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap -0.718
+[2020.07.02-07.08.44:347][ 99]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.07.02-07.08.44:347][ 99]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:62405
+[2020.07.02-07.08.44:347][ 99]LogHandshake: SendConnectChallenge. Timestamp: 0.008333, Cookie: 182074190071122036071066069014097114030226003243144088121206
+[2020.07.02-07.08.44:347][ 99]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2020.07.02-07.08.44:348][ 99]LogHandshake: SendChallengeResponse. Timestamp: 0.008333, Cookie: 182074190071122036071066069014097114030226003243144088121206
+[2020.07.02-07.08.44:368][100]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:62405
+[2020.07.02-07.08.44:368][100]LogHandshake: SendChallengeAck. InCookie: 182074190071122036071066069014097114030226003243144088121206
+[2020.07.02-07.08.44:368][100]LogNet: Server accepting post-challenge connection from: 127.0.0.1:62405
+[2020.07.02-07.08.44:368][100]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.07.02-07.08.44:368][100]LogNet: NotifyAcceptedConnection: Name: ThirdPersonExampleMap, TimeStamp: 07/02/20 04:08:44, [UNetConnection] RemoteAddr: 127.0.0.1:62405, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.07.02-07.08.44:368][100]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:62405, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.07.02-07.08.44:369][100]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_2, Driver: PendingNetDriver IpNetDriver_3, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.07.02-07.08.44:376][101]LogNet: NotifyAcceptingChannel Control 0 server World /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap: Accepted
+[2020.07.02-07.08.44:376][101]LogNet: Remote platform little endian=1
+[2020.07.02-07.08.44:376][101]LogNet: This platform little endian=1
+[2020.07.02-07.08.44:377][101]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2020.07.02-07.08.44:384][102]LogNet: Login request: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap?Name=DESKTOP-27BOLO1-054517F848044E0D36DF238A37058047 userId: NULL:DESKTOP-27BOLO1-054517F848044E0D36DF238A37058047 platform: NULL
+[2020.07.02-07.08.44:385][102]LogNet: Welcomed by server (Level: /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap, Game: /Game/ThirdPersonCPP/Blueprints/BP_MyGameMode.BP_MyGameMode_C)
+[2020.07.02-07.08.44:385][102]LogLoad: LoadMap: 127.0.0.1:17777//Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap?game=/Game/ThirdPersonCPP/Blueprints/BP_MyGameMode.BP_MyGameMode_C
+[2020.07.02-07.08.44:385][102]LogWorld: BeginTearingDown for /Temp/Untitled_2
+[2020.07.02-07.08.44:385][102]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.07.02-07.08.44:385][102]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.02-07.08.44:385][102]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.02-07.08.44:408][102]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2020.07.02-07.08.44:418][102]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.07.02-07.08.44:419][102]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_2_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.07.02-04.08.44
+[2020.07.02-07.08.44:420][102]LogWorld: Bringing up level for play took: 0.000972
+[2020.07.02-07.08.44:420][102]LogLoad: Took 0.034656 seconds to LoadMap(/Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap)
+[2020.07.02-07.08.44:428][103]LogNet: Client netspeed is 10000
+[2020.07.02-07.08.44:428][103]LogNet: Join request: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap?Name=DESKTOP-27BOLO1-054517F848044E0D36DF238A37058047?SplitscreenCount=1
+[2020.07.02-07.08.44:429][103]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.07.02-07.08.44:430][103]LogNet: Join succeeded: DESKTOP-27BOLO1-0545
+[2020.07.02-07.08.44:818][149]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)

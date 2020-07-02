@@ -1,0 +1,1220 @@
+﻿Log file open, 07/02/20 02:19:35
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: Unreal2TP
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 26 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.053703
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -3:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.24-CL-11590370
+LogInit: Engine Version: 4.24.3-11590370+++UE4+Release-4.24
+LogInit: Compatible Engine Version: 4.24.0-10570792+++UE4+Release-4.24
+LogInit: Net CL: 10570792
+LogInit: OS: Windows 10 (Release 1909) (), CPU: Intel(R) Core(TM) i7-9700KF CPU @ 3.60GHz, GPU: NVIDIA GeForce GTX 1070
+LogInit: Compiled (64-bit): Feb 24 2020 15:39:18
+LogInit: Compiled with Visual C++: 19.16.27032.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.24
+LogInit: Command Line: 
+LogInit: Base Directory: D:/UE_4.24/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 25
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 37
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 36
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 2
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 36
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 8
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 9
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 8
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.07.02-05.19.36:057][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.07.02-05.19.36:057][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.07.02-05.19.36:057][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Engine.ini]
+[2020.07.02-05.19.36:057][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.07.02-05.19.36:057][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Engine.ini]
+[2020.07.02-05.19.36:057][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Engine.ini]
+[2020.07.02-05.19.36:057][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.07.02-05.19.36:057][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.07.02-05.19.36:057][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.07.02-05.19.36:057][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.07.02-05.19.36:057][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.07.02-05.19.36:057][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.07.02-05.19.36:057][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.07.02-05.19.36:057][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.07.02-05.19.36:057][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.07.02-05.19.36:057][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.07.02-05.19.36:057][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.07.02-05.19.36:057][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.07.02-05.19.36:057][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.07.02-05.19.36:057][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.07.02-05.19.36:057][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Engine.ini]
+[2020.07.02-05.19.36:057][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.07.02-05.19.36:057][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.07.02-05.19.36:057][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.07.02-05.19.36:057][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.07.02-05.19.36:057][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.07.02-05.19.36:057][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.07.02-05.19.36:057][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.07.02-05.19.36:057][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.07.02-05.19.36:057][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.07.02-05.19.36:057][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.07.02-05.19.36:057][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.07.02-05.19.36:057][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.07.02-05.19.36:057][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.07.02-05.19.36:057][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Engine.ini]
+[2020.07.02-05.19.36:057][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Engine.ini]
+[2020.07.02-05.19.36:065][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Scalability.ini]
+[2020.07.02-05.19.36:065][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.07.02-05.19.36:065][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.07.02-05.19.36:065][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Scalability.ini]
+[2020.07.02-05.19.36:065][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.07.02-05.19.36:065][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Scalability.ini]
+[2020.07.02-05.19.36:065][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.07.02-05.19.36:065][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.07.02-05.19.36:065][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.07.02-05.19.36:065][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.07.02-05.19.36:065][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.07.02-05.19.36:065][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.07.02-05.19.36:065][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.07.02-05.19.36:065][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.07.02-05.19.36:065][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.07.02-05.19.36:065][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.07.02-05.19.36:065][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.07.02-05.19.36:066][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.07.02-05.19.36:066][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.07.02-05.19.36:066][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.07.02-05.19.36:066][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.07.02-05.19.36:066][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.07.02-05.19.36:066][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.07.02-05.19.36:066][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.07.02-05.19.36:066][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Scalability.ini]
+[2020.07.02-05.19.36:066][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.07.02-05.19.36:066][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.07.02-05.19.36:066][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.07.02-05.19.36:066][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.07.02-05.19.36:066][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.07.02-05.19.36:066][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.07.02-05.19.36:066][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.07.02-05.19.36:066][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.07.02-05.19.36:066][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.07.02-05.19.36:066][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.07.02-05.19.36:066][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.07.02-05.19.36:066][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.07.02-05.19.36:066][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.07.02-05.19.36:066][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.07.02-05.19.36:066][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.07.02-05.19.36:066][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.07.02-05.19.36:066][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.07.02-05.19.36:066][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.07.02-05.19.36:066][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.07.02-05.19.36:066][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.07.02-05.19.36:066][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.07.02-05.19.36:066][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.07.02-05.19.36:066][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.07.02-05.19.36:066][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.07.02-05.19.36:066][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.07.02-05.19.36:066][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.07.02-05.19.36:066][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.07.02-05.19.36:066][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.07.02-05.19.36:066][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.07.02-05.19.36:066][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.07.02-05.19.36:066][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Scalability.ini]
+[2020.07.02-05.19.36:066][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.07.02-05.19.36:066][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.07.02-05.19.36:066][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.07.02-05.19.36:066][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.07.02-05.19.36:066][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.07.02-05.19.36:066][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.07.02-05.19.36:066][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.07.02-05.19.36:066][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.07.02-05.19.36:066][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.07.02-05.19.36:066][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Scalability.ini]
+[2020.07.02-05.19.36:066][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.07.02-05.19.36:066][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.07.02-05.19.36:066][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.07.02-05.19.36:066][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.07.02-05.19.36:066][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.07.02-05.19.36:066][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.07.02-05.19.36:066][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.07.02-05.19.36:066][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.07.02-05.19.36:066][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.07.02-05.19.36:066][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.07.02-05.19.36:066][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.07.02-05.19.36:066][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.07.02-05.19.36:066][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.07.02-05.19.36:066][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.07.02-05.19.36:066][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.07.02-05.19.36:067][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.07.02-05.19.36:067][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.07.02-05.19.36:067][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.07.02-05.19.36:067][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.07.02-05.19.36:067][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.07.02-05.19.36:067][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.07.02-05.19.36:067][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.07.02-05.19.36:067][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.07.02-05.19.36:067][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.07.02-05.19.36:067][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.07.02-05.19.36:067][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.07.02-05.19.36:067][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Scalability.ini]
+[2020.07.02-05.19.36:067][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.07.02-05.19.36:067][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.07.02-05.19.36:067][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Scalability.ini]
+[2020.07.02-05.19.36:067][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.07.02-05.19.36:067][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.07.02-05.19.36:067][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.07.02-05.19.36:067][  0]LogInit: Selected Device Profile: [Windows]
+[2020.07.02-05.19.36:067][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.07.02-05.19.36:068][  0]LogHAL: Display: Platform has ~ 16 GB [17096769536 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.07.02-05.19.36:068][  0]LogInit: Going up to parent DeviceProfile []
+[2020.07.02-05.19.36:068][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Scalability.ini]
+[2020.07.02-05.19.36:068][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.07.02-05.19.36:069][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.07.02-05.19.36:069][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Scalability.ini]
+[2020.07.02-05.19.36:069][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.07.02-05.19.36:069][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Scalability.ini]
+[2020.07.02-05.19.36:069][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.07.02-05.19.36:069][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.07.02-05.19.36:069][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.07.02-05.19.36:069][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.07.02-05.19.36:069][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.07.02-05.19.36:069][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.07.02-05.19.36:069][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.07.02-05.19.36:069][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.07.02-05.19.36:069][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.07.02-05.19.36:069][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.07.02-05.19.36:069][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.07.02-05.19.36:069][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.07.02-05.19.36:069][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.07.02-05.19.36:069][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.07.02-05.19.36:069][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.07.02-05.19.36:069][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.07.02-05.19.36:069][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.07.02-05.19.36:069][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.07.02-05.19.36:069][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Scalability.ini]
+[2020.07.02-05.19.36:069][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.07.02-05.19.36:069][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.07.02-05.19.36:069][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.07.02-05.19.36:069][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.07.02-05.19.36:069][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.07.02-05.19.36:069][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.07.02-05.19.36:069][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.07.02-05.19.36:069][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.07.02-05.19.36:069][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.07.02-05.19.36:069][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.07.02-05.19.36:069][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.07.02-05.19.36:069][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.07.02-05.19.36:069][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.07.02-05.19.36:069][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.07.02-05.19.36:069][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.07.02-05.19.36:069][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.07.02-05.19.36:069][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.07.02-05.19.36:069][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.07.02-05.19.36:069][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.07.02-05.19.36:069][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.07.02-05.19.36:069][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.07.02-05.19.36:069][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.07.02-05.19.36:069][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.07.02-05.19.36:069][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.07.02-05.19.36:069][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.07.02-05.19.36:069][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.07.02-05.19.36:069][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.07.02-05.19.36:069][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.07.02-05.19.36:069][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.07.02-05.19.36:069][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.07.02-05.19.36:069][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Scalability.ini]
+[2020.07.02-05.19.36:069][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.07.02-05.19.36:069][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.07.02-05.19.36:069][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.07.02-05.19.36:069][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.07.02-05.19.36:069][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.07.02-05.19.36:069][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.07.02-05.19.36:069][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.07.02-05.19.36:069][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.07.02-05.19.36:069][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.07.02-05.19.36:069][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Scalability.ini]
+[2020.07.02-05.19.36:069][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.07.02-05.19.36:069][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.07.02-05.19.36:070][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.07.02-05.19.36:070][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.07.02-05.19.36:070][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.07.02-05.19.36:070][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.07.02-05.19.36:070][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.07.02-05.19.36:070][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.07.02-05.19.36:070][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.07.02-05.19.36:070][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.07.02-05.19.36:070][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.07.02-05.19.36:070][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.07.02-05.19.36:070][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.07.02-05.19.36:070][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.07.02-05.19.36:070][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.07.02-05.19.36:070][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.07.02-05.19.36:070][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.07.02-05.19.36:070][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.07.02-05.19.36:070][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.07.02-05.19.36:070][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.07.02-05.19.36:070][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.07.02-05.19.36:070][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.07.02-05.19.36:070][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.07.02-05.19.36:070][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.07.02-05.19.36:070][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.07.02-05.19.36:070][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.07.02-05.19.36:070][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Scalability.ini]
+[2020.07.02-05.19.36:070][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.07.02-05.19.36:070][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.07.02-05.19.36:070][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Scalability.ini]
+[2020.07.02-05.19.36:070][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.07.02-05.19.36:070][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.07.02-05.19.36:070][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.07.02-05.19.36:070][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.07.02-05.19.36:070][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.07.02-05.19.36:070][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.07.02-05.19.36:070][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Engine.ini]
+[2020.07.02-05.19.36:070][  0]LogInit: Computer: DESKTOP-27BOLO1
+[2020.07.02-05.19.36:070][  0]LogInit: User: Facundo
+[2020.07.02-05.19.36:070][  0]LogInit: CPU Page size=4096, Cores=8
+[2020.07.02-05.19.36:070][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.07.02-05.19.36:070][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.07.02-05.19.36:071][  0]LogMemory: Platform Memory Stats for Windows
+[2020.07.02-05.19.36:071][  0]LogMemory: Process Physical Memory: 105.61 MB used, 105.62 MB peak
+[2020.07.02-05.19.36:071][  0]LogMemory: Process Virtual Memory: 100.59 MB used, 100.60 MB peak
+[2020.07.02-05.19.36:071][  0]LogMemory: Physical Memory: 7011.21 MB used,  9293.54 MB free, 16304.75 MB total
+[2020.07.02-05.19.36:071][  0]LogMemory: Virtual Memory: 5107.20 MB used,  134212624.00 MB free, 134217728.00 MB total
+[2020.07.02-05.19.36:073][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.07.02-05.19.36:085][  0]LogInit: Using OS detected language (en-US).
+[2020.07.02-05.19.36:085][  0]LogInit: Using OS detected locale (en-US).
+[2020.07.02-05.19.36:086][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.07.02-05.19.36:193][  0]LogInit: Setting process to per monitor DPI aware
+[2020.07.02-05.19.36:222][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.07.02-05.19.36:222][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.07.02-05.19.36:325][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.07.02-05.19.36:325][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.07.02-05.19.36:325][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.07.02-05.19.36:325][  0]LogD3D11RHI: D3D11 adapters:
+[2020.07.02-05.19.36:374][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2020.07.02-05.19.36:374][  0]LogD3D11RHI:       8088/0/8152 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x10de
+[2020.07.02-05.19.36:375][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.07.02-05.19.36:376][  0]LogD3D11RHI:       0/0/8152 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.07.02-05.19.36:376][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.07.02-05.19.36:382][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.07.02-05.19.36:382][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2020.07.02-05.19.36:382][  0]LogWindows: EnumDisplayDevices:
+[2020.07.02-05.19.36:382][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2020.07.02-05.19.36:382][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2020.07.02-05.19.36:383][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2020.07.02-05.19.36:383][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2020.07.02-05.19.36:383][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.07.02-05.19.36:383][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2020.07.02-05.19.36:383][  0]LogD3D11RHI:   Driver Version: 446.14 (internal:26.21.14.4614, unified:446.14)
+[2020.07.02-05.19.36:383][  0]LogD3D11RHI:      Driver Date: 5-15-2020
+[2020.07.02-05.19.36:383][  0]LogRHI: Texture pool is 5661 MB (70% of 8088 MB)
+[2020.07.02-05.19.36:414][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.07.02-05.19.36:414][  0]LogD3D11RHI: Async texture creation enabled
+[2020.07.02-05.19.36:428][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.07.02-05.19.36:653][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.07.02-05.19.36:673][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.07.02-05.19.36:673][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.07.02-05.19.36:673][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
+[2020.07.02-05.19.36:673][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.07.02-05.19.36:673][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
+[2020.07.02-05.19.36:673][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
+[2020.07.02-05.19.36:673][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.07.02-05.19.36:673][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
+[2020.07.02-05.19.36:673][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.07.02-05.19.36:673][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.07.02-05.19.36:673][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
+[2020.07.02-05.19.36:673][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.07.02-05.19.36:673][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
+[2020.07.02-05.19.36:673][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
+[2020.07.02-05.19.36:673][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.07.02-05.19.36:673][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
+[2020.07.02-05.19.36:673][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.07.02-05.19.36:673][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.07.02-05.19.36:685][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.07.02-05.19.36:685][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.07.02-05.19.36:690][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.07.02-05.19.36:694][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.07.02-05.19.36:699][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.07.02-05.19.36:704][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.07.02-05.19.36:708][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.07.02-05.19.36:713][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.07.02-05.19.36:728][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.07.02-05.19.36:728][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.07.02-05.19.36:736][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.07.02-05.19.36:736][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.07.02-05.19.36:741][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.07.02-05.19.36:746][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.07.02-05.19.36:751][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.07.02-05.19.36:755][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.07.02-05.19.36:755][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.07.02-05.19.36:757][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.07.02-05.19.36:770][  0]LogShaderCompilers: Guid format shader working directory is -10 characters bigger than the processId version (../../../../Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Intermediate/Shaders/WorkingDirectory/15016/).
+[2020.07.02-05.19.36:770][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Facundo/AppData/Local/Temp/UnrealShaderWorkingDir/6077DE74443C751BE6CC36BD43EB4F35/'.
+[2020.07.02-05.19.36:770][  0]LogXGEController: Cleaning working directory: C:/Users/Facundo/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.07.02-05.19.36:770][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.07.02-05.19.36:770][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.07.02-05.19.36:770][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.07.02-05.19.37:297][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.07.02-05.19.37:342][  0]LogDerivedDataCache: Loaded boot cache 0.04s 82MB C:/Users/Facundo/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.07.02-05.19.37:342][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Facundo/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
+[2020.07.02-05.19.37:342][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.07.02-05.19.37:343][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.07.02-05.19.37:343][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.07.02-05.19.37:343][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.07.02-05.19.37:349][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.07.02-05.19.37:349][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.07.02-05.19.37:349][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.07.02-05.19.37:350][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Facundo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.07.02-05.19.37:350][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.07.02-05.19.37:350][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.07.02-05.19.37:368][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.07.02-05.19.37:370][  0]LogSlate: Using FreeType 2.10.0
+[2020.07.02-05.19.37:370][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.07.02-05.19.37:409][  0]LogAssetRegistry: FAssetRegistry took 0.0019 seconds to start up
+[2020.07.02-05.19.37:601][  0]LogInit: Selected Device Profile: [Windows]
+[2020.07.02-05.19.37:705][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.07.02-05.19.37:705][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.07.02-05.19.37:705][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.07.02-05.19.37:705][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.07.02-05.19.37:705][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.07.02-05.19.37:719][  0]LogNetVersion: Unreal2TP 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 317678641)
+[2020.07.02-05.19.38:458][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.023100 seconds
+[2020.07.02-05.19.38:463][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
+[2020.07.02-05.19.38:463][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
+[2020.07.02-05.19.38:463][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.07.02-05.19.38:720][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.07.02-05.19.38:722][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.07.02-05.19.38:872][  0]SourceControl: Source control is disabled
+[2020.07.02-05.19.38:873][  0]SourceControl: Source control is disabled
+[2020.07.02-05.19.38:873][  0]SourceControl: Source control is disabled
+[2020.07.02-05.19.38:874][  0]SourceControl: Source control is disabled
+[2020.07.02-05.19.38:874][  0]SourceControl: Source control is disabled
+[2020.07.02-05.19.38:923][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.07.02-05.19.38:929][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.07.02-05.19.38:930][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.07.02-05.19.38:988][  0]LogOcInput: OculusInput pre-init called
+[2020.07.02-05.19.38:992][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.07.02-05.19.38:992][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.07.02-05.19.39:039][  0]LogEngine: Initializing Engine...
+[2020.07.02-05.19.39:040][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.07.02-05.19.39:040][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.07.02-05.19.39:283][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.07.02-05.19.39:288][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.07.02-05.19.39:300][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.02-05.19.39:300][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.02-05.19.39:300][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.02-05.19.39:300][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.02-05.19.39:300][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.02-05.19.39:300][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.02-05.19.39:300][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.02-05.19.39:300][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.02-05.19.39:300][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.02-05.19.39:300][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.02-05.19.39:339][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.02-05.19.39:339][  0]LogAudioMixer: Display: Name: Altavoces (Realtek(R) Audio)
+[2020.07.02-05.19.39:339][  0]LogAudioMixer: Display: Is Default: Yes
+[2020.07.02-05.19.39:339][  0]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.02-05.19.39:339][  0]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.02-05.19.39:339][  0]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.02-05.19.39:339][  0]LogAudioMixer: Display: Channel Order:
+[2020.07.02-05.19.39:339][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.02-05.19.39:339][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.07.02-05.19.39:361][  0]LogAudioMixer: Display: Using Audio Device Altavoces (Realtek(R) Audio)
+[2020.07.02-05.19.39:367][  0]LogInit: FAudioDevice initialized.
+[2020.07.02-05.19.39:368][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.07.02-05.19.39:453][  0]LogDerivedDataCache: Saved boot cache 0.09s 82MB C:/Users/Facundo/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.07.02-05.19.39:454][  0]LogInit: Texture streaming: Enabled
+[2020.07.02-05.19.39:469][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.07.02-05.19.39:469][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Debugger, SessionId={4B1F79D6-4FC5-0FAA-F909-148F189946D6}
+[2020.07.02-05.19.39:469][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.07.02-05.19.39:473][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.07.02-05.19.39:500][  0]LogInit: Transaction tracking system initialized
+[2020.07.02-05.19.39:507][  0]BlueprintLog: New page: Editor Load
+[2020.07.02-05.19.39:526][  0]LocalizationService: Localization service is disabled
+[2020.07.02-05.19.39:699][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.07.02-05.19.39:699][  0]LogFileCache: Scanning file cache for directory 'D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Content/' took 0.01s
+[2020.07.02-05.19.39:699][  0]LogCook: Display: Mobile HDR setting 1
+[2020.07.02-05.19.40:206][  0]SourceControl: Source control is disabled
+[2020.07.02-05.19.40:206][  0]Cmd: MAP LOAD FILE="../../../../Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.07.02-05.19.40:206][  0]LightingResults: New page: Lighting Build
+[2020.07.02-05.19.40:206][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.07.02-05.19.40:206][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.02-05.19.40:207][  0]MapCheck: New page: Map Check
+[2020.07.02-05.19.40:207][  0]LightingResults: New page: Lighting Build
+[2020.07.02-05.19.40:230][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2020.07.02-05.19.40:323][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.07.02-05.19.40:327][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.07.02-05.19.40:353][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2020.07.02-05.19.40:353][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.07.02-05.19.40:353][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.083ms to complete.
+[2020.07.02-05.19.40:353][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.147
+[2020.07.02-05.19.40:541][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.02-05.19.40:546][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.02-05.19.40:550][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.02-05.19.40:555][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.02-05.19.40:559][  0]LogCollectionManager: Loaded 0 collections in 0.001544 seconds
+[2020.07.02-05.19.40:568][  0]LogFileCache: Scanning file cache for directory 'D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Collections/' took 0.00s
+[2020.07.02-05.19.40:568][  0]LogFileCache: Scanning file cache for directory 'D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Content/Developers/Facundo/Collections/' took 0.00s
+[2020.07.02-05.19.40:568][  0]LogFileCache: Scanning file cache for directory 'D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Content/Collections/' took 0.00s
+[2020.07.02-05.19.40:568][  0]LogContentBrowser: Native class hierarchy populated in 0.0063 seconds. Added 3026 classes and 719 folders.
+[2020.07.02-05.19.40:569][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.07.02-05.19.40:612][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.07.02-05.19.40:616][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 2 classes and 3 folders.
+[2020.07.02-05.19.40:698][  0]LogSlate: Took 0.000144 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.07.02-05.19.40:699][  0]LogSlate: Took 0.000104 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.07.02-05.19.40:702][  0]LogSlate: Took 0.000097 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.07.02-05.19.40:764][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
+[2020.07.02-05.19.40:804][  0]LogSlate: Took 0.000157 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.07.02-05.19.40:837][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.07.02-05.19.40:838][  0]LogLoad: (Engine Initialization) Total time: 5.88 seconds
+[2020.07.02-05.19.40:838][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.07.02-05.19.40:872][  0]LogAssetRegistry: Asset discovery search completed in 3.4636 seconds
+[2020.07.02-05.19.40:875][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000006 seconds (updated 0 objects)
+[2020.07.02-05.19.40:876][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.07.02-05.19.45:997][588]Candidate modules for hot reload:
+[2020.07.02-05.19.45:997][588]  Unreal2TP
+[2020.07.02-05.19.45:997][588]Launching UnrealBuildTool... [D:/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Unreal2TP,7217 Win64 Development -TargetType=Editor -Project="D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Unreal2TP.uproject" "D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Unreal2TP.uproject"  -IgnoreJunk]
+[2020.07.02-05.19.46:003][588]Warning: Starting HotReload took  0.0s.
+[2020.07.02-05.19.52:115][278]CompilerResultsLog: New page: Compilation - Jul 1, 2020, 11:19:52 PM
+[2020.07.02-05.19.52:115][278]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Facultad\Unreal\UNREAL2TP\Unreal2TP).
+[2020.07.02-05.19.52:115][278]CompilerResultsLog: Parsing headers for Unreal2TPEditor
+[2020.07.02-05.19.52:115][278]CompilerResultsLog:   Running UnrealHeaderTool "D:\Facultad\Unreal\UNREAL2TP\Unreal2TP\Unreal2TP\Unreal2TP.uproject" "D:\Facultad\Unreal\UNREAL2TP\Unreal2TP\Unreal2TP\Intermediate\Build\Win64\Unreal2TPEditor\Development\Unreal2TPEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.07.02-05.19.52:115][278]CompilerResultsLog: Error: D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Source/Unreal2TP/MyPlayerState.h(22)  : Error: Missing '*' in Expected a pointer type
+[2020.07.02-05.19.52:115][278]LogMainFrame: MainFrame: Module compiling took 6.121 seconds
+[2020.07.02-05.19.52:115][278]Warning: HotReload failed, recompile failed
+[2020.07.02-05.20.30:380][973]Candidate modules for hot reload:
+[2020.07.02-05.20.30:380][973]  Unreal2TP
+[2020.07.02-05.20.30:380][973]Launching UnrealBuildTool... [D:/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Unreal2TP,1057 Win64 Development -TargetType=Editor -Project="D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Unreal2TP.uproject" "D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Unreal2TP.uproject"  -IgnoreJunk]
+[2020.07.02-05.20.30:386][973]Warning: Starting HotReload took  0.0s.
+[2020.07.02-05.20.36:548][667]CompilerResultsLog: New page: Compilation - Jul 1, 2020, 11:20:36 PM
+[2020.07.02-05.20.36:548][667]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Facultad\Unreal\UNREAL2TP\Unreal2TP).
+[2020.07.02-05.20.36:548][667]CompilerResultsLog: Parsing headers for Unreal2TPEditor
+[2020.07.02-05.20.36:548][667]CompilerResultsLog:   Running UnrealHeaderTool "D:\Facultad\Unreal\UNREAL2TP\Unreal2TP\Unreal2TP\Unreal2TP.uproject" "D:\Facultad\Unreal\UNREAL2TP\Unreal2TP\Unreal2TP\Intermediate\Build\Win64\Unreal2TPEditor\Development\Unreal2TPEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.07.02-05.20.36:548][667]CompilerResultsLog: Error: D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Source/Unreal2TP/MyPlayerState.h(22)  : Error: Missing '*' in Expected a pointer type
+[2020.07.02-05.20.36:548][667]LogMainFrame: MainFrame: Module compiling took 6.170 seconds
+[2020.07.02-05.20.36:548][667]Warning: HotReload failed, recompile failed
+[2020.07.02-05.20.48:918][274]Candidate modules for hot reload:
+[2020.07.02-05.20.48:918][274]  Unreal2TP
+[2020.07.02-05.20.48:918][274]Launching UnrealBuildTool... [D:/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Unreal2TP,4286 Win64 Development -TargetType=Editor -Project="D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Unreal2TP.uproject" "D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Unreal2TP.uproject"  -IgnoreJunk]
+[2020.07.02-05.20.48:924][274]Warning: Starting HotReload took  0.0s.
+[2020.07.02-05.21.01:092][681]CompilerResultsLog: New page: Compilation - Jul 1, 2020, 11:21:01 PM
+[2020.07.02-05.21.01:092][681]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Facultad\Unreal\UNREAL2TP\Unreal2TP).
+[2020.07.02-05.21.01:092][681]CompilerResultsLog: Parsing headers for Unreal2TPEditor
+[2020.07.02-05.21.01:092][681]CompilerResultsLog:   Running UnrealHeaderTool "D:\Facultad\Unreal\UNREAL2TP\Unreal2TP\Unreal2TP\Unreal2TP.uproject" "D:\Facultad\Unreal\UNREAL2TP\Unreal2TP\Unreal2TP\Intermediate\Build\Win64\Unreal2TPEditor\Development\Unreal2TPEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.07.02-05.21.01:092][681]CompilerResultsLog: Reflection code generated for Unreal2TPEditor in 5.4393953 seconds
+[2020.07.02-05.21.01:092][681]CompilerResultsLog: Building Unreal2TPEditor...
+[2020.07.02-05.21.01:092][681]CompilerResultsLog: Using Visual Studio 2017 14.16.27035 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.07.02-05.21.01:092][681]CompilerResultsLog: Building 8 actions with 8 processes...
+[2020.07.02-05.21.01:092][681]CompilerResultsLog:   [1/8] Unreal2TP.init.gen.cpp
+[2020.07.02-05.21.01:092][681]CompilerResultsLog:   [2/8] MyPlayerState.gen.cpp
+[2020.07.02-05.21.01:092][681]CompilerResultsLog:    D:\Facultad\Unreal\UNREAL2TP\Unreal2TP\Unreal2TP\Intermediate\Build\Win64\UE4Editor\Inc\Unreal2TP\MyPlayerState.gen.cpp(27) : error C4458: declaration of 'Controller' hides class member
+[2020.07.02-05.21.01:092][681]CompilerResultsLog:   D:\Facultad\Unreal\UNREAL2TP\Unreal2TP\Unreal2TP\Source\Unreal2TP/MyPlayerState.h(31): note: see declaration of 'AMyPlayerState::Controller'
+[2020.07.02-05.21.01:092][681]CompilerResultsLog:   [3/8] MyPlayerState.cpp
+[2020.07.02-05.21.01:093][681]CompilerResultsLog:    D:\Facultad\Unreal\UNREAL2TP\Unreal2TP\Unreal2TP\Source\Unreal2TP\MyPlayerState.cpp(32) : error C2511: 'void AMyPlayerState::Server_OnPlayerDead_Implementation(AMyPlayerController)': overloaded member function not found in 'AMyPlayerState'
+[2020.07.02-05.21.01:093][681]CompilerResultsLog:   d:\facultad\unreal\unreal2tp\unreal2tp\unreal2tp\source\unreal2tp\MyPlayerState.h(13): note: see declaration of 'AMyPlayerState'
+[2020.07.02-05.21.01:093][681]CompilerResultsLog:    D:\Facultad\Unreal\UNREAL2TP\Unreal2TP\Unreal2TP\Source\Unreal2TP\MyPlayerState.cpp(31) : error C4458: declaration of 'Controller' hides class member
+[2020.07.02-05.21.01:093][681]CompilerResultsLog:   d:\facultad\unreal\unreal2tp\unreal2tp\unreal2tp\source\unreal2tp\MyPlayerState.h(31): note: see declaration of 'AMyPlayerState::Controller'
+[2020.07.02-05.21.01:093][681]CompilerResultsLog:    D:\Facultad\Unreal\UNREAL2TP\Unreal2TP\Unreal2TP\Source\Unreal2TP\MyPlayerState.cpp(33) : error C2352: 'AActor::GetWorld': illegal call of non-static member function
+[2020.07.02-05.21.01:093][681]CompilerResultsLog:   D:\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/Actor.h(2786): note: see declaration of 'AActor::GetWorld'
+[2020.07.02-05.21.01:093][681]CompilerResultsLog:   [4/8] Bullet.cpp
+[2020.07.02-05.21.01:093][681]CompilerResultsLog:   [5/8] Unreal2TPCharacter.cpp
+[2020.07.02-05.21.01:093][681]LogMainFrame: MainFrame: Module compiling took 12.177 seconds
+[2020.07.02-05.21.01:093][681]Warning: HotReload failed, recompile failed
+[2020.07.02-05.21.26:468][565]Candidate modules for hot reload:
+[2020.07.02-05.21.26:468][565]  Unreal2TP
+[2020.07.02-05.21.26:468][565]Launching UnrealBuildTool... [D:/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Unreal2TP,9904 Win64 Development -TargetType=Editor -Project="D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Unreal2TP.uproject" "D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Unreal2TP.uproject"  -IgnoreJunk]
+[2020.07.02-05.21.26:473][565]Warning: Starting HotReload took  0.0s.
+[2020.07.02-05.21.37:049][781]CompilerResultsLog: New page: Compilation - Jul 1, 2020, 11:21:37 PM
+[2020.07.02-05.21.37:049][781]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Facultad\Unreal\UNREAL2TP\Unreal2TP).
+[2020.07.02-05.21.37:050][781]CompilerResultsLog: Parsing headers for Unreal2TPEditor
+[2020.07.02-05.21.37:050][781]CompilerResultsLog:   Running UnrealHeaderTool "D:\Facultad\Unreal\UNREAL2TP\Unreal2TP\Unreal2TP\Unreal2TP.uproject" "D:\Facultad\Unreal\UNREAL2TP\Unreal2TP\Unreal2TP\Intermediate\Build\Win64\Unreal2TPEditor\Development\Unreal2TPEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.07.02-05.21.37:050][781]CompilerResultsLog: Reflection code generated for Unreal2TPEditor in 5.4240479 seconds
+[2020.07.02-05.21.37:050][781]CompilerResultsLog: Building Unreal2TPEditor...
+[2020.07.02-05.21.37:050][781]CompilerResultsLog: Using Visual Studio 2017 14.16.27035 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.07.02-05.21.37:050][781]CompilerResultsLog: Building 8 actions with 8 processes...
+[2020.07.02-05.21.37:050][781]CompilerResultsLog:   [1/8] Unreal2TP.init.gen.cpp
+[2020.07.02-05.21.37:050][781]CompilerResultsLog:   [2/8] MyPlayerState.gen.cpp
+[2020.07.02-05.21.37:050][781]CompilerResultsLog:   [3/8] MyPlayerState.cpp
+[2020.07.02-05.21.37:050][781]CompilerResultsLog:    D:\Facultad\Unreal\UNREAL2TP\Unreal2TP\Unreal2TP\Source\Unreal2TP\MyPlayerState.cpp(32) : error C2511: 'void AMyPlayerState::Server_OnPlayerDead_Implementation(AMyPlayerController)': overloaded member function not found in 'AMyPlayerState'
+[2020.07.02-05.21.37:050][781]CompilerResultsLog:   d:\facultad\unreal\unreal2tp\unreal2tp\unreal2tp\source\unreal2tp\MyPlayerState.h(13): note: see declaration of 'AMyPlayerState'
+[2020.07.02-05.21.37:050][781]CompilerResultsLog:    D:\Facultad\Unreal\UNREAL2TP\Unreal2TP\Unreal2TP\Source\Unreal2TP\MyPlayerState.cpp(33) : error C2352: 'AActor::GetWorld': illegal call of non-static member function
+[2020.07.02-05.21.37:050][781]CompilerResultsLog:   D:\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/Actor.h(2786): note: see declaration of 'AActor::GetWorld'
+[2020.07.02-05.21.37:050][781]CompilerResultsLog:   [4/8] Bullet.cpp
+[2020.07.02-05.21.37:050][781]CompilerResultsLog:   [5/8] Unreal2TPCharacter.cpp
+[2020.07.02-05.21.37:050][781]LogMainFrame: MainFrame: Module compiling took 10.585 seconds
+[2020.07.02-05.21.37:050][781]Warning: HotReload failed, recompile failed
+[2020.07.02-05.23.44:179][783]Candidate modules for hot reload:
+[2020.07.02-05.23.44:179][783]  Unreal2TP
+[2020.07.02-05.23.44:180][783]Launching UnrealBuildTool... [D:/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Unreal2TP,6405 Win64 Development -TargetType=Editor -Project="D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Unreal2TP.uproject" "D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Unreal2TP.uproject"  -IgnoreJunk]
+[2020.07.02-05.23.44:185][783]Warning: Starting HotReload took  0.0s.
+[2020.07.02-05.23.54:797][  1]CompilerResultsLog: New page: Compilation - Jul 1, 2020, 11:23:54 PM
+[2020.07.02-05.23.54:797][  1]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Facultad\Unreal\UNREAL2TP\Unreal2TP).
+[2020.07.02-05.23.54:797][  1]CompilerResultsLog: Parsing headers for Unreal2TPEditor
+[2020.07.02-05.23.54:797][  1]CompilerResultsLog:   Running UnrealHeaderTool "D:\Facultad\Unreal\UNREAL2TP\Unreal2TP\Unreal2TP\Unreal2TP.uproject" "D:\Facultad\Unreal\UNREAL2TP\Unreal2TP\Unreal2TP\Intermediate\Build\Win64\Unreal2TPEditor\Development\Unreal2TPEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.07.02-05.23.54:797][  1]CompilerResultsLog: Reflection code generated for Unreal2TPEditor in 5.3427825 seconds
+[2020.07.02-05.23.54:797][  1]CompilerResultsLog: Building Unreal2TPEditor...
+[2020.07.02-05.23.54:797][  1]CompilerResultsLog: Using Visual Studio 2017 14.16.27035 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.07.02-05.23.54:798][  1]CompilerResultsLog: Building 8 actions with 8 processes...
+[2020.07.02-05.23.54:798][  1]CompilerResultsLog:   [1/8] Unreal2TP.init.gen.cpp
+[2020.07.02-05.23.54:798][  1]CompilerResultsLog:   [2/8] MyPlayerState.gen.cpp
+[2020.07.02-05.23.54:798][  1]CompilerResultsLog:   [3/8] MyPlayerState.cpp
+[2020.07.02-05.23.54:798][  1]CompilerResultsLog:    D:\Facultad\Unreal\UNREAL2TP\Unreal2TP\Unreal2TP\Source\Unreal2TP\MyPlayerState.cpp(32) : error C2511: 'void AMyPlayerState::Server_OnPlayerDead_Implementation(AController)': overloaded member function not found in 'AMyPlayerState'
+[2020.07.02-05.23.54:798][  1]CompilerResultsLog:   d:\facultad\unreal\unreal2tp\unreal2tp\unreal2tp\source\unreal2tp\MyPlayerState.h(13): note: see declaration of 'AMyPlayerState'
+[2020.07.02-05.23.54:798][  1]CompilerResultsLog:    D:\Facultad\Unreal\UNREAL2TP\Unreal2TP\Unreal2TP\Source\Unreal2TP\MyPlayerState.cpp(33) : error C2352: 'AActor::GetWorld': illegal call of non-static member function
+[2020.07.02-05.23.54:798][  1]CompilerResultsLog:   D:\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/Actor.h(2786): note: see declaration of 'AActor::GetWorld'
+[2020.07.02-05.23.54:798][  1]CompilerResultsLog:   [4/8] Bullet.cpp
+[2020.07.02-05.23.54:798][  1]CompilerResultsLog:   [5/8] Unreal2TPCharacter.cpp
+[2020.07.02-05.23.54:798][  1]LogMainFrame: MainFrame: Module compiling took 10.621 seconds
+[2020.07.02-05.23.54:798][  1]Warning: HotReload failed, recompile failed
+[2020.07.02-05.38.36:767][673]LogSlate: Window 'Message Log' being destroyed
+[2020.07.02-05.38.36:772][673]LogSlate: Window 'Message Log' being destroyed
+[2020.07.02-05.38.37:486][753]Candidate modules for hot reload:
+[2020.07.02-05.38.37:486][753]  Unreal2TP
+[2020.07.02-05.38.37:486][753]Launching UnrealBuildTool... [D:/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Unreal2TP,7576 Win64 Development -TargetType=Editor -Project="D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Unreal2TP.uproject" "D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Unreal2TP.uproject"  -IgnoreJunk]
+[2020.07.02-05.38.37:492][753]Warning: Starting HotReload took  0.0s.
+[2020.07.02-05.38.46:553][ 86]CompilerResultsLog: New page: Compilation - Jul 1, 2020, 11:38:46 PM
+[2020.07.02-05.38.46:553][ 86]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Facultad\Unreal\UNREAL2TP\Unreal2TP).
+[2020.07.02-05.38.46:553][ 86]CompilerResultsLog: Parsing headers for Unreal2TPEditor
+[2020.07.02-05.38.46:553][ 86]CompilerResultsLog:   Running UnrealHeaderTool "D:\Facultad\Unreal\UNREAL2TP\Unreal2TP\Unreal2TP\Unreal2TP.uproject" "D:\Facultad\Unreal\UNREAL2TP\Unreal2TP\Unreal2TP\Intermediate\Build\Win64\Unreal2TPEditor\Development\Unreal2TPEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.07.02-05.38.46:553][ 86]CompilerResultsLog: Reflection code generated for Unreal2TPEditor in 4.9360012 seconds
+[2020.07.02-05.38.46:553][ 86]CompilerResultsLog: Building Unreal2TPEditor...
+[2020.07.02-05.38.46:553][ 86]CompilerResultsLog: Using Visual Studio 2017 14.16.27035 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.07.02-05.38.46:553][ 86]CompilerResultsLog: Building 11 actions with 8 processes...
+[2020.07.02-05.38.46:553][ 86]CompilerResultsLog:   [1/11] Unreal2TP.init.gen.cpp
+[2020.07.02-05.38.46:553][ 86]CompilerResultsLog:   [2/11] MyPlayerState.gen.cpp
+[2020.07.02-05.38.46:553][ 86]CompilerResultsLog:   [3/11] Unreal2TPGameMode.cpp
+[2020.07.02-05.38.46:553][ 86]CompilerResultsLog:   [4/11] Bullet.cpp
+[2020.07.02-05.38.46:553][ 86]CompilerResultsLog:   [5/11] Unreal2TPCharacter.cpp
+[2020.07.02-05.38.46:553][ 86]CompilerResultsLog:   [6/11] MyPlayerController.gen.cpp
+[2020.07.02-05.38.46:553][ 86]CompilerResultsLog:   [7/11] MyPlayerController.cpp
+[2020.07.02-05.38.46:555][ 86]CompilerResultsLog:   [8/11] MyPlayerState.cpp
+[2020.07.02-05.38.46:555][ 86]CompilerResultsLog:   [9/11] UE4Editor-Unreal2TP-7576.lib
+[2020.07.02-05.38.46:555][ 86]CompilerResultsLog:      Creating library D:\Facultad\Unreal\UNREAL2TP\Unreal2TP\Unreal2TP\Intermediate\Build\Win64\UE4Editor\Development\Unreal2TP\UE4Editor-Unreal2TP-7576.lib and object D:\Facultad\Unreal\UNREAL2TP\Unreal2TP\Unreal2TP\Intermediate\Build\Win64\UE4Editor\Development\Unreal2TP\UE4Editor-Unreal2TP-7576.exp
+[2020.07.02-05.38.46:555][ 86]CompilerResultsLog:   [10/11] UE4Editor-Unreal2TP-7576.dll
+[2020.07.02-05.38.46:555][ 86]CompilerResultsLog:      Creating library D:\Facultad\Unreal\UNREAL2TP\Unreal2TP\Unreal2TP\Intermediate\Build\Win64\UE4Editor\Development\Unreal2TP\UE4Editor-Unreal2TP-7576.suppressed.lib and object D:\Facultad\Unreal\UNREAL2TP\Unreal2TP\Unreal2TP\Intermediate\Build\Win64\UE4Editor\Development\Unreal2TP\UE4Editor-Unreal2TP-7576.suppressed.exp
+[2020.07.02-05.38.46:555][ 86]CompilerResultsLog:   [11/11] Unreal2TPEditor.target
+[2020.07.02-05.38.46:555][ 86]CompilerResultsLog: Total time in Parallel executor: 3.32 seconds
+[2020.07.02-05.38.46:555][ 86]CompilerResultsLog: Total execution time: 9.00 seconds
+[2020.07.02-05.38.46:555][ 86]LogMainFrame: MainFrame: Module compiling took 9.070 seconds
+[2020.07.02-05.38.46:572][ 86]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2020.07.02-05.38.46:605][ 86]LogContentBrowser: Native class hierarchy updated for 'Unreal2TP' in 0.0004 seconds. Added 11 classes and 2 folders.
+[2020.07.02-05.38.46:607][ 86]Display: HotReload successful (11 functions remapped  0 scriptstructs remapped)
+[2020.07.02-05.38.46:655][ 86]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2020.07.02-05.38.46:665][ 86]LogContentBrowser: Native class hierarchy populated in 0.0062 seconds. Added 3028 classes and 722 folders.
+[2020.07.02-05.38.46:665][ 86]Display: HotReload took  9.2s.
+[2020.07.02-05.38.49:019][224]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.02-05.38.49:028][224]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.07.02-05.38.49:028][224]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.02-05.38.49:028][224]PIE: New page: PIE session: ThirdPersonExampleMap (Jul 1, 2020, 11:38:49 PM)
+[2020.07.02-05.38.49:029][224]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.07.02-05.38.49:030][224]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.07.02-05.38.49:030][224]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap
+[2020.07.02-05.38.49:043][224]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012772s)
+[2020.07.02-05.38.49:044][224]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.07.02-05.38.49:045][224]LogPlayLevel: PIE: World Init took: (0.001211s)
+[2020.07.02-05.38.49:045][224]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap (0.014217s)
+[2020.07.02-05.38.49:068][224]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2020.07.02-05.38.49:070][224]LogLoad: Game class is 'BP_MyGameMode_C'
+[2020.07.02-05.38.49:072][224]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.07.02-02.38.49
+[2020.07.02-05.38.49:072][224]LogWorld: Bringing up level for play took: 0.001561
+[2020.07.02-05.38.49:073][224]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2020.07.02-05.38.49:073][224]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2020.07.02-05.38.49:073][224]LogInit: WinSock: I am DESKTOP-27BOLO1 (192.168.0.89:0)
+[2020.07.02-05.38.49:073][224]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2020.07.02-05.38.49:073][224]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.07.02-05.38.49:073][224]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 17777
+[2020.07.02-05.38.49:073][224]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap 0.009
+[2020.07.02-05.38.49:075][224]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.02-05.38.49:075][224]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.02-05.38.49:075][224]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.02-05.38.49:075][224]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.02-05.38.49:075][224]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.02-05.38.49:075][224]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.02-05.38.49:075][224]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.02-05.38.49:075][224]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.02-05.38.49:075][224]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.02-05.38.49:075][224]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.02-05.38.49:113][224]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.02-05.38.49:113][224]LogAudioMixer: Display: Name: Altavoces (Realtek(R) Audio)
+[2020.07.02-05.38.49:113][224]LogAudioMixer: Display: Is Default: Yes
+[2020.07.02-05.38.49:113][224]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.02-05.38.49:113][224]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.02-05.38.49:113][224]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.02-05.38.49:113][224]LogAudioMixer: Display: Channel Order:
+[2020.07.02-05.38.49:113][224]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.02-05.38.49:113][224]LogAudioMixer: Display: 1: FrontRight
+[2020.07.02-05.38.49:131][224]LogAudioMixer: Display: Using Audio Device Altavoces (Realtek(R) Audio)
+[2020.07.02-05.38.49:133][224]LogInit: FAudioDevice initialized.
+[2020.07.02-05.38.49:140][224]LogNet: Browse: 127.0.0.1:17777//Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap
+[2020.07.02-05.38.49:141][224]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
+[2020.07.02-05.38.49:141][224]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.07.02-05.38.49:141][224]LogNet: Game client on port 17777, rate 10000
+[2020.07.02-05.38.49:141][224]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap 0.077
+[2020.07.02-05.38.49:199][224]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.02-05.38.49:199][224]LogNet: Browse: 127.0.0.1:17777//Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap
+[2020.07.02-05.38.49:199][224]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
+[2020.07.02-05.38.49:200][224]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.07.02-05.38.49:200][224]LogNet: Game client on port 17777, rate 10000
+[2020.07.02-05.38.49:201][224]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap 0.137
+[2020.07.02-05.38.49:206][224]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.07.02-05.38.49:207][224]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:56310
+[2020.07.02-05.38.49:207][224]LogHandshake: SendConnectChallenge. Timestamp: 0.008334, Cookie: 022007052063012033014116198235063226234129012055055073233095
+[2020.07.02-05.38.49:207][224]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:56311
+[2020.07.02-05.38.49:207][224]LogHandshake: SendConnectChallenge. Timestamp: 0.008334, Cookie: 005005183169011084210134033104215175037239187111138042112191
+[2020.07.02-05.38.49:229][224]LogOnline: OSS: Creating online subsystem instance for: :Context_4
+[2020.07.02-05.38.49:231][224]LogHandshake: SendChallengeResponse. Timestamp: 0.008334, Cookie: 022007052063012033014116198235063226234129012055055073233095
+[2020.07.02-05.38.49:232][224]LogHandshake: SendChallengeResponse. Timestamp: 0.008334, Cookie: 005005183169011084210134033104215175037239187111138042112191
+[2020.07.02-05.38.49:311][225]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:56310
+[2020.07.02-05.38.49:311][225]LogHandshake: SendChallengeAck. InCookie: 022007052063012033014116198235063226234129012055055073233095
+[2020.07.02-05.38.49:311][225]LogNet: Server accepting post-challenge connection from: 127.0.0.1:56310
+[2020.07.02-05.38.49:311][225]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.07.02-05.38.49:311][225]LogNet: NotifyAcceptedConnection: Name: ThirdPersonExampleMap, TimeStamp: 07/02/20 02:38:49, [UNetConnection] RemoteAddr: 127.0.0.1:56310, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.07.02-05.38.49:312][225]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:56310, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.07.02-05.38.49:312][225]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:56311
+[2020.07.02-05.38.49:312][225]LogHandshake: SendChallengeAck. InCookie: 005005183169011084210134033104215175037239187111138042112191
+[2020.07.02-05.38.49:312][225]LogNet: Server accepting post-challenge connection from: 127.0.0.1:56311
+[2020.07.02-05.38.49:312][225]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.07.02-05.38.49:312][225]LogNet: NotifyAcceptedConnection: Name: ThirdPersonExampleMap, TimeStamp: 07/02/20 02:38:49, [UNetConnection] RemoteAddr: 127.0.0.1:56311, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.07.02-05.38.49:312][225]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:56311, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.07.02-05.38.49:313][225]LogNetVersion: Unreal2TP 1.0.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 1816658782)
+[2020.07.02-05.38.49:313][225]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: PendingNetDriver IpNetDriver_1, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.07.02-05.38.49:313][225]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_1, Driver: PendingNetDriver IpNetDriver_2, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.07.02-05.38.49:317][226]LogNet: NotifyAcceptingChannel Control 0 server World /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap: Accepted
+[2020.07.02-05.38.49:317][226]LogNet: Remote platform little endian=1
+[2020.07.02-05.38.49:317][226]LogNet: This platform little endian=1
+[2020.07.02-05.38.49:317][226]LogNet: NotifyAcceptingChannel Control 0 server World /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap: Accepted
+[2020.07.02-05.38.49:317][226]LogNet: Remote platform little endian=1
+[2020.07.02-05.38.49:317][226]LogNet: This platform little endian=1
+[2020.07.02-05.38.49:318][226]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2020.07.02-05.38.49:319][226]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2020.07.02-05.38.49:325][227]LogNet: Login request: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap?Name=DESKTOP-27BOLO1-2950CDF244FD7B578899D38BFEA187A0 userId: NULL:DESKTOP-27BOLO1-2950CDF244FD7B578899D38BFEA187A0 platform: NULL
+[2020.07.02-05.38.49:325][227]LogNet: Login request: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap?Name=DESKTOP-27BOLO1-DFAC7172462EB9A1D7A8689044FA6B32 userId: NULL:DESKTOP-27BOLO1-DFAC7172462EB9A1D7A8689044FA6B32 platform: NULL
+[2020.07.02-05.38.49:326][227]LogNet: Welcomed by server (Level: /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap, Game: /Game/ThirdPersonCPP/Blueprints/BP_MyGameMode.BP_MyGameMode_C)
+[2020.07.02-05.38.49:326][227]LogLoad: LoadMap: 127.0.0.1:17777//Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap?game=/Game/ThirdPersonCPP/Blueprints/BP_MyGameMode.BP_MyGameMode_C
+[2020.07.02-05.38.49:326][227]LogWorld: BeginTearingDown for /Temp/Untitled_1
+[2020.07.02-05.38.49:326][227]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.07.02-05.38.49:326][227]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.02-05.38.49:326][227]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.02-05.38.49:349][227]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2020.07.02-05.38.49:359][227]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.07.02-05.38.49:362][227]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_2_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.07.02-02.38.49
+[2020.07.02-05.38.49:362][227]LogWorld: Bringing up level for play took: 0.001377
+[2020.07.02-05.38.49:362][227]LogLoad: Took 0.036149 seconds to LoadMap(/Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap)
+[2020.07.02-05.38.49:363][227]LogNet: Welcomed by server (Level: /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap, Game: /Game/ThirdPersonCPP/Blueprints/BP_MyGameMode.BP_MyGameMode_C)
+[2020.07.02-05.38.49:363][227]LogLoad: LoadMap: 127.0.0.1:17777//Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap?game=/Game/ThirdPersonCPP/Blueprints/BP_MyGameMode.BP_MyGameMode_C
+[2020.07.02-05.38.49:363][227]LogWorld: BeginTearingDown for /Temp/Untitled_2
+[2020.07.02-05.38.49:363][227]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.07.02-05.38.49:363][227]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.02-05.38.49:363][227]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.02-05.38.49:386][227]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2020.07.02-05.38.49:398][227]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.07.02-05.38.49:399][227]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_3_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.07.02-02.38.49
+[2020.07.02-05.38.49:400][227]LogWorld: Bringing up level for play took: 0.001238
+[2020.07.02-05.38.49:400][227]LogLoad: Took 0.037239 seconds to LoadMap(/Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap)
+[2020.07.02-05.38.49:412][228]LogNet: Client netspeed is 10000
+[2020.07.02-05.38.49:412][228]LogNet: Join request: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap?Name=DESKTOP-27BOLO1-2950CDF244FD7B578899D38BFEA187A0?SplitscreenCount=1
+[2020.07.02-05.38.49:412][228]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.07.02-05.38.49:414][228]LogNet: Join succeeded: DESKTOP-27BOLO1-2950
+[2020.07.02-05.38.49:414][228]LogNet: Client netspeed is 10000
+[2020.07.02-05.38.49:414][228]LogNet: Join request: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap?Name=DESKTOP-27BOLO1-DFAC7172462EB9A1D7A8689044FA6B32?SplitscreenCount=1
+[2020.07.02-05.38.49:414][228]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.07.02-05.38.49:415][228]LogNet: Join succeeded: DESKTOP-27BOLO1-DFAC
+[2020.07.02-05.38.49:423][229]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
+[2020.07.02-05.38.49:704][261]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.07.02-05.38.49:760][268]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.07.02-05.38.49:819][275]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.07.02-05.38.49:869][281]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.07.02-05.39.01:108][628]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.07.02-05.39.01:138][628]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.07.02-05.39.01:148][628]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.07.02-05.39.01:168][628]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.07.02-05.39.01:168][628]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.07.02-05.39.01:169][628]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.02-05.39.01:169][628]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_3_ThirdPersonExampleMap
+[2020.07.02-05.39.01:197][628]LogSlate: Window 'Unreal2TP Game Preview Client 2 (64-bit/PCD3D_SM5)' being destroyed
+[2020.07.02-05.39.01:200][628]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.02-05.39.01:201][628]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.07.02-05.39.01:201][628]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.02-05.39.01:210][628]LogNet: World NetDriver shutdown IpNetDriver_2 [GameNetDriver]
+[2020.07.02-05.39.01:210][628]LogNet: DestroyNamedNetDriver IpNetDriver_2 [GameNetDriver]
+[2020.07.02-05.39.01:210][628]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_2, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-27BOLO1-DFAC7172462EB9A1D7A8689044FA6B32, Channels: 12, Time: 2020.07.02-05.39.01
+[2020.07.02-05.39.01:210][628]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_2, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-27BOLO1-DFAC7172462EB9A1D7A8689044FA6B32
+[2020.07.02-05.39.01:210][628]LogExit: GameNetDriver IpNetDriver_2 shut down
+[2020.07.02-05.39.01:211][628]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_2_ThirdPersonExampleMap
+[2020.07.02-05.39.01:211][628]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.02-05.39.01:211][628]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.02-05.39.01:211][628]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.07.02-05.39.01:211][628]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.02-05.39.01:219][628]LogNet: World NetDriver shutdown IpNetDriver_1 [GameNetDriver]
+[2020.07.02-05.39.01:219][628]LogNet: DestroyNamedNetDriver IpNetDriver_1 [GameNetDriver]
+[2020.07.02-05.39.01:219][628]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-27BOLO1-2950CDF244FD7B578899D38BFEA187A0, Channels: 12, Time: 2020.07.02-05.39.01
+[2020.07.02-05.39.01:219][628]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-27BOLO1-2950CDF244FD7B578899D38BFEA187A0
+[2020.07.02-05.39.01:219][628]LogExit: GameNetDriver IpNetDriver_1 shut down
+[2020.07.02-05.39.01:220][628]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap
+[2020.07.02-05.39.01:220][628]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.02-05.39.01:220][628]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.07.02-05.39.01:221][628]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.02-05.39.01:221][628]LogNet: World NetDriver shutdown IpNetDriver_0 [GameNetDriver]
+[2020.07.02-05.39.01:221][628]LogNet: DestroyNamedNetDriver IpNetDriver_0 [GameNetDriver]
+[2020.07.02-05.39.01:221][628]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 127.0.0.1:56311, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-27BOLO1-DFAC7172462EB9A1D7A8689044FA6B32
+[2020.07.02-05.39.01:221][628]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:56311, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-27BOLO1-DFAC7172462EB9A1D7A8689044FA6B32, Channels: 12, Time: 2020.07.02-05.39.01
+[2020.07.02-05.39.01:221][628]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:56311, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-27BOLO1-DFAC7172462EB9A1D7A8689044FA6B32
+[2020.07.02-05.39.01:221][628]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 127.0.0.1:56310, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_0, Owner: PlayerController_0, UniqueId: NULL:DESKTOP-27BOLO1-2950CDF244FD7B578899D38BFEA187A0
+[2020.07.02-05.39.01:221][628]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:56310, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_0, Owner: PlayerController_0, UniqueId: NULL:DESKTOP-27BOLO1-2950CDF244FD7B578899D38BFEA187A0, Channels: 12, Time: 2020.07.02-05.39.01
+[2020.07.02-05.39.01:221][628]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:56310, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_0, Owner: PlayerController_0, UniqueId: NULL:DESKTOP-27BOLO1-2950CDF244FD7B578899D38BFEA187A0
+[2020.07.02-05.39.01:221][628]LogExit: GameNetDriver IpNetDriver_0 shut down
+[2020.07.02-05.39.01:222][628]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.02-05.39.01:222][628]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.07.02-05.39.01:225][628]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.02-05.39.01:247][628]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.02-05.39.01:250][628]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.02-05.39.01:255][628]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2020.07.02-05.39.01:274][629]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2020.07.02-05.39.01:274][629]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2020.07.02-05.39.01:274][629]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2020.07.02-05.39.08:654][485]LogSlate: Took 0.000144 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.07.02-05.39.11:517][787]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.02-05.39.11:524][787]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.07.02-05.39.11:524][787]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.02-05.39.11:524][787]PIE: New page: PIE session: ThirdPersonExampleMap (Jul 1, 2020, 11:39:11 PM)
+[2020.07.02-05.39.11:525][787]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap
+[2020.07.02-05.39.11:534][787]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009065s)
+[2020.07.02-05.39.11:535][787]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.07.02-05.39.11:535][787]LogPlayLevel: PIE: World Init took: (0.001105s)
+[2020.07.02-05.39.11:535][787]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap (0.010389s)
+[2020.07.02-05.39.11:558][787]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2020.07.02-05.39.11:559][787]LogLoad: Game class is 'BP_MyGameMode_C'
+[2020.07.02-05.39.11:561][787]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.07.02-02.39.11
+[2020.07.02-05.39.11:561][787]LogWorld: Bringing up level for play took: 0.001257
+[2020.07.02-05.39.11:562][787]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2020.07.02-05.39.11:562][787]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2020.07.02-05.39.11:562][787]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2020.07.02-05.39.11:562][787]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.07.02-05.39.11:562][787]LogNet: GameNetDriver IpNetDriver_3 IpNetDriver listening on port 17777
+[2020.07.02-05.39.11:562][787]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap 0.497
+[2020.07.02-05.39.11:563][787]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.02-05.39.11:564][787]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.02-05.39.11:564][787]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.02-05.39.11:564][787]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.02-05.39.11:564][787]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.02-05.39.11:564][787]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.02-05.39.11:564][787]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.02-05.39.11:564][787]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.02-05.39.11:564][787]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.02-05.39.11:564][787]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.02-05.39.11:600][787]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.02-05.39.11:600][787]LogAudioMixer: Display: Name: Altavoces (Realtek(R) Audio)
+[2020.07.02-05.39.11:600][787]LogAudioMixer: Display: Is Default: Yes
+[2020.07.02-05.39.11:600][787]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.02-05.39.11:600][787]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.02-05.39.11:600][787]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.02-05.39.11:600][787]LogAudioMixer: Display: Channel Order:
+[2020.07.02-05.39.11:600][787]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.02-05.39.11:600][787]LogAudioMixer: Display: 1: FrontRight
+[2020.07.02-05.39.11:615][787]LogAudioMixer: Display: Using Audio Device Altavoces (Realtek(R) Audio)
+[2020.07.02-05.39.11:617][787]LogInit: FAudioDevice initialized.
+[2020.07.02-05.39.11:627][787]LogNet: Browse: 127.0.0.1:17777//Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap
+[2020.07.02-05.39.11:627][787]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
+[2020.07.02-05.39.11:627][787]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.07.02-05.39.11:627][787]LogNet: Game client on port 17777, rate 10000
+[2020.07.02-05.39.11:627][787]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap 0.562
+[2020.07.02-05.39.11:682][787]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.02-05.39.11:682][787]LogNet: Browse: 127.0.0.1:17777//Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap
+[2020.07.02-05.39.11:684][787]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
+[2020.07.02-05.39.11:684][787]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.07.02-05.39.11:684][787]LogNet: Game client on port 17777, rate 10000
+[2020.07.02-05.39.11:686][787]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap 0.621
+[2020.07.02-05.39.11:693][787]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.07.02-05.39.11:693][787]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:56321
+[2020.07.02-05.39.11:693][787]LogHandshake: SendConnectChallenge. Timestamp: 0.008334, Cookie: 117222212144039043008183208230222203009198104175208134026030
+[2020.07.02-05.39.11:693][787]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:56322
+[2020.07.02-05.39.11:693][787]LogHandshake: SendConnectChallenge. Timestamp: 0.008334, Cookie: 082152161232244116016158113220008014033215248020100103248157
+[2020.07.02-05.39.11:694][787]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2020.07.02-05.39.11:695][787]LogHandshake: SendChallengeResponse. Timestamp: 0.008334, Cookie: 117222212144039043008183208230222203009198104175208134026030
+[2020.07.02-05.39.11:696][787]LogHandshake: SendChallengeResponse. Timestamp: 0.008334, Cookie: 082152161232244116016158113220008014033215248020100103248157
+[2020.07.02-05.39.11:750][788]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:56321
+[2020.07.02-05.39.11:750][788]LogHandshake: SendChallengeAck. InCookie: 117222212144039043008183208230222203009198104175208134026030
+[2020.07.02-05.39.11:750][788]LogNet: Server accepting post-challenge connection from: 127.0.0.1:56321
+[2020.07.02-05.39.11:750][788]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.07.02-05.39.11:750][788]LogNet: NotifyAcceptedConnection: Name: ThirdPersonExampleMap, TimeStamp: 07/02/20 02:39:11, [UNetConnection] RemoteAddr: 127.0.0.1:56321, Name: IpConnection_6, Driver: GameNetDriver IpNetDriver_3, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.07.02-05.39.11:750][788]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:56321, Name: IpConnection_6, Driver: GameNetDriver IpNetDriver_3, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.07.02-05.39.11:750][788]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:56322
+[2020.07.02-05.39.11:750][788]LogHandshake: SendChallengeAck. InCookie: 082152161232244116016158113220008014033215248020100103248157
+[2020.07.02-05.39.11:750][788]LogNet: Server accepting post-challenge connection from: 127.0.0.1:56322
+[2020.07.02-05.39.11:751][788]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.07.02-05.39.11:751][788]LogNet: NotifyAcceptedConnection: Name: ThirdPersonExampleMap, TimeStamp: 07/02/20 02:39:11, [UNetConnection] RemoteAddr: 127.0.0.1:56322, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_3, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.07.02-05.39.11:751][788]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:56322, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_3, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.07.02-05.39.11:751][788]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_4, Driver: PendingNetDriver IpNetDriver_4, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.07.02-05.39.11:751][788]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_5, Driver: PendingNetDriver IpNetDriver_5, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.07.02-05.39.11:757][789]LogNet: NotifyAcceptingChannel Control 0 server World /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap: Accepted
+[2020.07.02-05.39.11:757][789]LogNet: Remote platform little endian=1
+[2020.07.02-05.39.11:757][789]LogNet: This platform little endian=1
+[2020.07.02-05.39.11:757][789]LogNet: NotifyAcceptingChannel Control 0 server World /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap: Accepted
+[2020.07.02-05.39.11:757][789]LogNet: Remote platform little endian=1
+[2020.07.02-05.39.11:757][789]LogNet: This platform little endian=1
+[2020.07.02-05.39.11:758][789]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2020.07.02-05.39.11:759][789]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2020.07.02-05.39.11:765][790]LogNet: Login request: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap?Name=DESKTOP-27BOLO1-49C98CFE4D88875F2B27EB8286813271 userId: NULL:DESKTOP-27BOLO1-49C98CFE4D88875F2B27EB8286813271 platform: NULL
+[2020.07.02-05.39.11:765][790]LogNet: Login request: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap?Name=DESKTOP-27BOLO1-6229352C40685456ACDDF9A9D88CC677 userId: NULL:DESKTOP-27BOLO1-6229352C40685456ACDDF9A9D88CC677 platform: NULL
+[2020.07.02-05.39.11:766][790]LogNet: Welcomed by server (Level: /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap, Game: /Game/ThirdPersonCPP/Blueprints/BP_MyGameMode.BP_MyGameMode_C)
+[2020.07.02-05.39.11:766][790]LogLoad: LoadMap: 127.0.0.1:17777//Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap?game=/Game/ThirdPersonCPP/Blueprints/BP_MyGameMode.BP_MyGameMode_C
+[2020.07.02-05.39.11:766][790]LogWorld: BeginTearingDown for /Temp/Untitled_3
+[2020.07.02-05.39.11:766][790]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.07.02-05.39.11:766][790]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.02-05.39.11:766][790]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.02-05.39.11:790][790]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2020.07.02-05.39.11:800][790]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.07.02-05.39.11:801][790]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_2_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.07.02-02.39.11
+[2020.07.02-05.39.11:801][790]LogWorld: Bringing up level for play took: 0.000957
+[2020.07.02-05.39.11:802][790]LogLoad: Took 0.035563 seconds to LoadMap(/Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap)
+[2020.07.02-05.39.11:802][790]LogNet: Welcomed by server (Level: /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap, Game: /Game/ThirdPersonCPP/Blueprints/BP_MyGameMode.BP_MyGameMode_C)
+[2020.07.02-05.39.11:802][790]LogLoad: LoadMap: 127.0.0.1:17777//Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap?game=/Game/ThirdPersonCPP/Blueprints/BP_MyGameMode.BP_MyGameMode_C
+[2020.07.02-05.39.11:802][790]LogWorld: BeginTearingDown for /Temp/Untitled_4
+[2020.07.02-05.39.11:802][790]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.07.02-05.39.11:802][790]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.02-05.39.11:802][790]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.02-05.39.11:824][790]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2020.07.02-05.39.11:835][790]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.07.02-05.39.11:837][790]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_3_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.07.02-02.39.11
+[2020.07.02-05.39.11:837][790]LogWorld: Bringing up level for play took: 0.001168
+[2020.07.02-05.39.11:837][790]LogLoad: Took 0.035170 seconds to LoadMap(/Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap)
+[2020.07.02-05.39.11:846][791]LogNet: Client netspeed is 10000
+[2020.07.02-05.39.11:846][791]LogNet: Join request: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap?Name=DESKTOP-27BOLO1-49C98CFE4D88875F2B27EB8286813271?SplitscreenCount=1
+[2020.07.02-05.39.11:846][791]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.07.02-05.39.11:848][791]LogNet: Join succeeded: DESKTOP-27BOLO1-49C9
+[2020.07.02-05.39.11:848][791]LogNet: Client netspeed is 10000
+[2020.07.02-05.39.11:848][791]LogNet: Join request: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap?Name=DESKTOP-27BOLO1-6229352C40685456ACDDF9A9D88CC677?SplitscreenCount=1
+[2020.07.02-05.39.11:848][791]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.07.02-05.39.11:849][791]LogNet: Join succeeded: DESKTOP-27BOLO1-6229
+[2020.07.02-05.39.12:158][827]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.07.02-05.39.12:206][833]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.07.02-05.39.12:307][845]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.07.02-05.39.12:308][845]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.07.02-05.39.22:058][ 14]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.07.02-05.39.22:078][ 14]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.07.02-05.39.22:088][ 14]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.07.02-05.39.22:107][ 14]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.07.02-05.39.22:107][ 14]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.07.02-05.39.22:108][ 14]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.02-05.39.22:108][ 14]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_3_ThirdPersonExampleMap
+[2020.07.02-05.39.22:130][ 14]LogSlate: Window 'Unreal2TP Game Preview Client 2 (64-bit/PCD3D_SM5)' being destroyed
+[2020.07.02-05.39.22:133][ 14]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.02-05.39.22:133][ 14]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.07.02-05.39.22:133][ 14]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.02-05.39.22:142][ 14]LogNet: World NetDriver shutdown IpNetDriver_5 [GameNetDriver]
+[2020.07.02-05.39.22:142][ 14]LogNet: DestroyNamedNetDriver IpNetDriver_5 [GameNetDriver]
+[2020.07.02-05.39.22:142][ 14]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_5, IsServer: NO, PC: MyPlayerController_0, Owner: MyPlayerController_0, UniqueId: NULL:DESKTOP-27BOLO1-6229352C40685456ACDDF9A9D88CC677, Channels: 12, Time: 2020.07.02-05.39.22
+[2020.07.02-05.39.22:142][ 14]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_5, IsServer: NO, PC: MyPlayerController_0, Owner: MyPlayerController_0, UniqueId: NULL:DESKTOP-27BOLO1-6229352C40685456ACDDF9A9D88CC677
+[2020.07.02-05.39.22:143][ 14]LogExit: GameNetDriver IpNetDriver_5 shut down
+[2020.07.02-05.39.22:143][ 14]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_2_ThirdPersonExampleMap
+[2020.07.02-05.39.22:143][ 14]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.02-05.39.22:143][ 14]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.02-05.39.22:143][ 14]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.07.02-05.39.22:144][ 14]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.02-05.39.22:151][ 14]LogNet: World NetDriver shutdown IpNetDriver_4 [GameNetDriver]
+[2020.07.02-05.39.22:151][ 14]LogNet: DestroyNamedNetDriver IpNetDriver_4 [GameNetDriver]
+[2020.07.02-05.39.22:151][ 14]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_4, IsServer: NO, PC: MyPlayerController_0, Owner: MyPlayerController_0, UniqueId: NULL:DESKTOP-27BOLO1-49C98CFE4D88875F2B27EB8286813271, Channels: 12, Time: 2020.07.02-05.39.22
+[2020.07.02-05.39.22:151][ 14]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_4, IsServer: NO, PC: MyPlayerController_0, Owner: MyPlayerController_0, UniqueId: NULL:DESKTOP-27BOLO1-49C98CFE4D88875F2B27EB8286813271
+[2020.07.02-05.39.22:151][ 14]LogExit: GameNetDriver IpNetDriver_4 shut down
+[2020.07.02-05.39.22:152][ 14]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap
+[2020.07.02-05.39.22:152][ 14]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.02-05.39.22:152][ 14]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.07.02-05.39.22:152][ 14]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.02-05.39.22:152][ 14]LogNet: World NetDriver shutdown IpNetDriver_3 [GameNetDriver]
+[2020.07.02-05.39.22:152][ 14]LogNet: DestroyNamedNetDriver IpNetDriver_3 [GameNetDriver]
+[2020.07.02-05.39.22:152][ 14]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 127.0.0.1:56322, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_3, IsServer: YES, PC: MyPlayerController_1, Owner: MyPlayerController_1, UniqueId: NULL:DESKTOP-27BOLO1-6229352C40685456ACDDF9A9D88CC677
+[2020.07.02-05.39.22:152][ 14]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:56322, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_3, IsServer: YES, PC: MyPlayerController_1, Owner: MyPlayerController_1, UniqueId: NULL:DESKTOP-27BOLO1-6229352C40685456ACDDF9A9D88CC677, Channels: 12, Time: 2020.07.02-05.39.22
+[2020.07.02-05.39.22:153][ 14]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:56322, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_3, IsServer: YES, PC: MyPlayerController_1, Owner: MyPlayerController_1, UniqueId: NULL:DESKTOP-27BOLO1-6229352C40685456ACDDF9A9D88CC677
+[2020.07.02-05.39.22:153][ 14]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 127.0.0.1:56321, Name: IpConnection_6, Driver: GameNetDriver IpNetDriver_3, IsServer: YES, PC: MyPlayerController_0, Owner: MyPlayerController_0, UniqueId: NULL:DESKTOP-27BOLO1-49C98CFE4D88875F2B27EB8286813271
+[2020.07.02-05.39.22:153][ 14]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:56321, Name: IpConnection_6, Driver: GameNetDriver IpNetDriver_3, IsServer: YES, PC: MyPlayerController_0, Owner: MyPlayerController_0, UniqueId: NULL:DESKTOP-27BOLO1-49C98CFE4D88875F2B27EB8286813271, Channels: 12, Time: 2020.07.02-05.39.22
+[2020.07.02-05.39.22:153][ 14]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:56321, Name: IpConnection_6, Driver: GameNetDriver IpNetDriver_3, IsServer: YES, PC: MyPlayerController_0, Owner: MyPlayerController_0, UniqueId: NULL:DESKTOP-27BOLO1-49C98CFE4D88875F2B27EB8286813271
+[2020.07.02-05.39.22:153][ 14]LogExit: GameNetDriver IpNetDriver_3 shut down
+[2020.07.02-05.39.22:153][ 14]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.02-05.39.22:153][ 14]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.07.02-05.39.22:156][ 14]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.02-05.39.22:179][ 14]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.02-05.39.22:182][ 14]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.02-05.39.22:185][ 14]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2020.07.02-05.39.22:202][ 15]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2020.07.02-05.39.22:202][ 15]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2020.07.02-05.39.22:202][ 15]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2020.07.02-05.39.48:858][451]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2020.07.02-05.39.48:859][451]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.023
+[2020.07.02-05.39.48:859][451]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonCPP/Blueprints/BP_MyGameMode] ([1] browsable assets)...
+[2020.07.02-05.39.48:859][451]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonCPP/Blueprints/BP_MyGameMode]
+[2020.07.02-05.39.48:865][451]LogSavePackage: Moving '../../../../Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/BP_MyGameMode_Auto1F30AF6C64A6D39034FA5FB8561AF7F14.tmp' to '../../../../Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Autosaves/Game/ThirdPersonCPP/Blueprints/BP_MyGameMode_Auto1.uasset'
+[2020.07.02-05.39.48:865][451]LogFileHelpers: Auto-saving content packages took 0.006
+[2020.07.02-05.40.45:593][705]Candidate modules for hot reload:
+[2020.07.02-05.40.45:593][705]  Unreal2TP
+[2020.07.02-05.40.45:593][705]Launching UnrealBuildTool... [D:/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Unreal2TP,7669 Win64 Development -TargetType=Editor -Project="D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Unreal2TP.uproject" "D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Unreal2TP.uproject"  -IgnoreJunk]
+[2020.07.02-05.40.45:599][705]Warning: Starting HotReload took  0.0s.
+[2020.07.02-05.40.49:104][ 80]CompilerResultsLog: New page: Compilation - Jul 1, 2020, 11:40:49 PM
+[2020.07.02-05.40.49:104][ 80]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Facultad\Unreal\UNREAL2TP\Unreal2TP).
+[2020.07.02-05.40.49:104][ 80]CompilerResultsLog: Building Unreal2TPEditor...
+[2020.07.02-05.40.49:104][ 80]CompilerResultsLog: Using Visual Studio 2017 14.16.27035 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.07.02-05.40.49:104][ 80]CompilerResultsLog: Building 5 actions with 8 processes...
+[2020.07.02-05.40.49:104][ 80]CompilerResultsLog:   [1/5] MyPlayerController.cpp
+[2020.07.02-05.40.49:104][ 80]CompilerResultsLog:   [2/5] Unreal2TPCharacter.cpp
+[2020.07.02-05.40.49:104][ 80]CompilerResultsLog:   [3/5] UE4Editor-Unreal2TP-7669.lib
+[2020.07.02-05.40.49:104][ 80]CompilerResultsLog:      Creating library D:\Facultad\Unreal\UNREAL2TP\Unreal2TP\Unreal2TP\Intermediate\Build\Win64\UE4Editor\Development\Unreal2TP\UE4Editor-Unreal2TP-7669.lib and object D:\Facultad\Unreal\UNREAL2TP\Unreal2TP\Unreal2TP\Intermediate\Build\Win64\UE4Editor\Development\Unreal2TP\UE4Editor-Unreal2TP-7669.exp
+[2020.07.02-05.40.49:104][ 80]CompilerResultsLog:   [4/5] UE4Editor-Unreal2TP-7669.dll
+[2020.07.02-05.40.49:104][ 80]CompilerResultsLog:      Creating library D:\Facultad\Unreal\UNREAL2TP\Unreal2TP\Unreal2TP\Intermediate\Build\Win64\UE4Editor\Development\Unreal2TP\UE4Editor-Unreal2TP-7669.suppressed.lib and object D:\Facultad\Unreal\UNREAL2TP\Unreal2TP\Unreal2TP\Intermediate\Build\Win64\UE4Editor\Development\Unreal2TP\UE4Editor-Unreal2TP-7669.suppressed.exp
+[2020.07.02-05.40.49:104][ 80]CompilerResultsLog:   [5/5] Unreal2TPEditor.target
+[2020.07.02-05.40.49:104][ 80]CompilerResultsLog: Total time in Parallel executor: 2.72 seconds
+[2020.07.02-05.40.49:104][ 80]CompilerResultsLog: Total execution time: 3.45 seconds
+[2020.07.02-05.40.49:104][ 80]LogMainFrame: MainFrame: Module compiling took 3.515 seconds
+[2020.07.02-05.40.49:126][ 80]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2020.07.02-05.40.49:153][ 80]LogHotReload: Re-instancing MyPlayerController after hot-reload.
+[2020.07.02-05.40.49:232][ 80]LogContentBrowser: Native class hierarchy updated for 'Unreal2TP' in 0.0004 seconds. Added 11 classes and 2 folders.
+[2020.07.02-05.40.49:235][ 80]Display: HotReload successful (11 functions remapped  0 scriptstructs remapped)
+[2020.07.02-05.40.49:280][ 80]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2020.07.02-05.40.49:290][ 80]LogContentBrowser: Native class hierarchy populated in 0.0061 seconds. Added 3028 classes and 722 folders.
+[2020.07.02-05.40.49:290][ 80]Display: HotReload took  3.7s.
+[2020.07.02-05.40.50:289][199]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.02-05.40.50:298][199]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.07.02-05.40.50:298][199]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.02-05.40.50:298][199]PIE: New page: PIE session: ThirdPersonExampleMap (Jul 1, 2020, 11:40:50 PM)
+[2020.07.02-05.40.50:298][199]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap
+[2020.07.02-05.40.50:307][199]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009307s)
+[2020.07.02-05.40.50:308][199]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.07.02-05.40.50:308][199]LogPlayLevel: PIE: World Init took: (0.000906s)
+[2020.07.02-05.40.50:308][199]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap (0.010379s)
+[2020.07.02-05.40.50:332][199]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2020.07.02-05.40.50:333][199]LogLoad: Game class is 'BP_MyGameMode_C'
+[2020.07.02-05.40.50:334][199]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.07.02-02.40.50
+[2020.07.02-05.40.50:335][199]LogWorld: Bringing up level for play took: 0.001180
+[2020.07.02-05.40.50:335][199]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2020.07.02-05.40.50:335][199]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2020.07.02-05.40.50:335][199]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2020.07.02-05.40.50:335][199]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.07.02-05.40.50:335][199]LogNet: GameNetDriver IpNetDriver_6 IpNetDriver listening on port 17777
+[2020.07.02-05.40.50:335][199]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap -0.729
+[2020.07.02-05.40.50:337][199]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.02-05.40.50:337][199]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.02-05.40.50:337][199]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.02-05.40.50:337][199]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.02-05.40.50:337][199]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.02-05.40.50:337][199]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.02-05.40.50:337][199]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.02-05.40.50:337][199]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.02-05.40.50:337][199]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.02-05.40.50:337][199]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.02-05.40.50:372][199]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.02-05.40.50:372][199]LogAudioMixer: Display: Name: Altavoces (Realtek(R) Audio)
+[2020.07.02-05.40.50:372][199]LogAudioMixer: Display: Is Default: Yes
+[2020.07.02-05.40.50:372][199]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.02-05.40.50:372][199]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.02-05.40.50:372][199]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.02-05.40.50:372][199]LogAudioMixer: Display: Channel Order:
+[2020.07.02-05.40.50:372][199]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.02-05.40.50:372][199]LogAudioMixer: Display: 1: FrontRight
+[2020.07.02-05.40.50:388][199]LogAudioMixer: Display: Using Audio Device Altavoces (Realtek(R) Audio)
+[2020.07.02-05.40.50:389][199]LogInit: FAudioDevice initialized.
+[2020.07.02-05.40.50:406][199]LogNet: Browse: 127.0.0.1:17777//Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap
+[2020.07.02-05.40.50:408][199]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
+[2020.07.02-05.40.50:409][199]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.07.02-05.40.50:409][199]LogNet: Game client on port 17777, rate 10000
+[2020.07.02-05.40.50:410][199]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap -0.654
+[2020.07.02-05.40.50:482][199]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.02-05.40.50:483][199]LogNet: Browse: 127.0.0.1:17777//Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap
+[2020.07.02-05.40.50:483][199]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
+[2020.07.02-05.40.50:484][199]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.07.02-05.40.50:484][199]LogNet: Game client on port 17777, rate 10000
+[2020.07.02-05.40.50:485][199]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap -0.579
+[2020.07.02-05.40.50:493][199]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.07.02-05.40.50:494][199]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:54197
+[2020.07.02-05.40.50:494][199]LogHandshake: SendConnectChallenge. Timestamp: 0.008334, Cookie: 002055161054037251209117239151254183102103231177099115053009
+[2020.07.02-05.40.50:494][199]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:54198
+[2020.07.02-05.40.50:494][199]LogHandshake: SendConnectChallenge. Timestamp: 0.008334, Cookie: 015012207077154092216140046050220245118225238172075118141016
+[2020.07.02-05.40.50:494][199]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2020.07.02-05.40.50:496][199]LogHandshake: SendChallengeResponse. Timestamp: 0.008334, Cookie: 002055161054037251209117239151254183102103231177099115053009
+[2020.07.02-05.40.50:496][199]LogHandshake: SendChallengeResponse. Timestamp: 0.008334, Cookie: 015012207077154092216140046050220245118225238172075118141016
+[2020.07.02-05.40.50:556][200]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:54197
+[2020.07.02-05.40.50:556][200]LogHandshake: SendChallengeAck. InCookie: 002055161054037251209117239151254183102103231177099115053009
+[2020.07.02-05.40.50:556][200]LogNet: Server accepting post-challenge connection from: 127.0.0.1:54197
+[2020.07.02-05.40.50:556][200]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.07.02-05.40.50:556][200]LogNet: NotifyAcceptedConnection: Name: ThirdPersonExampleMap, TimeStamp: 07/02/20 02:40:50, [UNetConnection] RemoteAddr: 127.0.0.1:54197, Name: IpConnection_10, Driver: GameNetDriver IpNetDriver_6, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.07.02-05.40.50:556][200]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:54197, Name: IpConnection_10, Driver: GameNetDriver IpNetDriver_6, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.07.02-05.40.50:556][200]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:54198
+[2020.07.02-05.40.50:556][200]LogHandshake: SendChallengeAck. InCookie: 015012207077154092216140046050220245118225238172075118141016
+[2020.07.02-05.40.50:556][200]LogNet: Server accepting post-challenge connection from: 127.0.0.1:54198
+[2020.07.02-05.40.50:556][200]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.07.02-05.40.50:556][200]LogNet: NotifyAcceptedConnection: Name: ThirdPersonExampleMap, TimeStamp: 07/02/20 02:40:50, [UNetConnection] RemoteAddr: 127.0.0.1:54198, Name: IpConnection_11, Driver: GameNetDriver IpNetDriver_6, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.07.02-05.40.50:557][200]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:54198, Name: IpConnection_11, Driver: GameNetDriver IpNetDriver_6, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.07.02-05.40.50:557][200]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_8, Driver: PendingNetDriver IpNetDriver_7, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.07.02-05.40.50:557][200]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_9, Driver: PendingNetDriver IpNetDriver_8, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.07.02-05.40.50:562][201]LogNet: NotifyAcceptingChannel Control 0 server World /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap: Accepted
+[2020.07.02-05.40.50:562][201]LogNet: Remote platform little endian=1
+[2020.07.02-05.40.50:562][201]LogNet: This platform little endian=1
+[2020.07.02-05.40.50:562][201]LogNet: NotifyAcceptingChannel Control 0 server World /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap: Accepted
+[2020.07.02-05.40.50:562][201]LogNet: Remote platform little endian=1
+[2020.07.02-05.40.50:562][201]LogNet: This platform little endian=1
+[2020.07.02-05.40.50:563][201]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2020.07.02-05.40.50:564][201]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2020.07.02-05.40.50:571][202]LogNet: Login request: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap?Name=DESKTOP-27BOLO1-DCCFD49D46F6348A949B89B06E795DDE userId: NULL:DESKTOP-27BOLO1-DCCFD49D46F6348A949B89B06E795DDE platform: NULL
+[2020.07.02-05.40.50:571][202]LogNet: Login request: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap?Name=DESKTOP-27BOLO1-65D702204E803551A57A5F95EC615BC8 userId: NULL:DESKTOP-27BOLO1-65D702204E803551A57A5F95EC615BC8 platform: NULL
+[2020.07.02-05.40.50:571][202]LogNet: Welcomed by server (Level: /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap, Game: /Game/ThirdPersonCPP/Blueprints/BP_MyGameMode.BP_MyGameMode_C)
+[2020.07.02-05.40.50:571][202]LogLoad: LoadMap: 127.0.0.1:17777//Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap?game=/Game/ThirdPersonCPP/Blueprints/BP_MyGameMode.BP_MyGameMode_C
+[2020.07.02-05.40.50:571][202]LogWorld: BeginTearingDown for /Temp/Untitled_5
+[2020.07.02-05.40.50:571][202]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.07.02-05.40.50:571][202]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.02-05.40.50:572][202]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.02-05.40.50:594][202]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2020.07.02-05.40.50:605][202]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.07.02-05.40.50:607][202]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_2_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.07.02-02.40.50
+[2020.07.02-05.40.50:607][202]LogWorld: Bringing up level for play took: 0.001293
+[2020.07.02-05.40.50:607][202]LogLoad: Took 0.036193 seconds to LoadMap(/Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap)
+[2020.07.02-05.40.50:608][202]LogNet: Welcomed by server (Level: /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap, Game: /Game/ThirdPersonCPP/Blueprints/BP_MyGameMode.BP_MyGameMode_C)
+[2020.07.02-05.40.50:608][202]LogLoad: LoadMap: 127.0.0.1:17777//Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap?game=/Game/ThirdPersonCPP/Blueprints/BP_MyGameMode.BP_MyGameMode_C
+[2020.07.02-05.40.50:608][202]LogWorld: BeginTearingDown for /Temp/Untitled_6
+[2020.07.02-05.40.50:608][202]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.07.02-05.40.50:608][202]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.02-05.40.50:608][202]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.02-05.40.50:631][202]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2020.07.02-05.40.50:642][202]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.07.02-05.40.50:644][202]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_3_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.07.02-02.40.50
+[2020.07.02-05.40.50:644][202]LogWorld: Bringing up level for play took: 0.001379
+[2020.07.02-05.40.50:644][202]LogLoad: Took 0.037175 seconds to LoadMap(/Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap)
+[2020.07.02-05.40.50:653][203]LogNet: Client netspeed is 10000
+[2020.07.02-05.40.50:653][203]LogNet: Join request: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap?Name=DESKTOP-27BOLO1-DCCFD49D46F6348A949B89B06E795DDE?SplitscreenCount=1
+[2020.07.02-05.40.50:653][203]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.07.02-05.40.50:654][203]LogNet: Join succeeded: DESKTOP-27BOLO1-DCCF
+[2020.07.02-05.40.50:654][203]LogNet: Client netspeed is 10000
+[2020.07.02-05.40.50:654][203]LogNet: Join request: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap?Name=DESKTOP-27BOLO1-65D702204E803551A57A5F95EC615BC8?SplitscreenCount=1
+[2020.07.02-05.40.50:655][203]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.07.02-05.40.50:655][203]LogNet: Join succeeded: DESKTOP-27BOLO1-65D7

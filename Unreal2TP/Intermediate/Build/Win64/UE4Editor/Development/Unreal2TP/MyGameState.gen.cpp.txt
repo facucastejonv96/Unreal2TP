@@ -1,0 +1,11 @@
+D:\Facultad\Unreal\UNREAL2TP\Unreal2TP\Unreal2TP\Intermediate\Build\Win64\UE4Editor\Development\Unreal2TP\Definitions.Unreal2TP.h
+D:\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+D:\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+D:\Facultad\Unreal\UNREAL2TP\Unreal2TP\Unreal2TP\Source\Unreal2TP/MyGameState.h
+D:\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/GameStateBase.h
+D:\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+D:\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+D:\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+D:\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+D:\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameStateBase.generated.h
+d:\facultad\unreal\unreal2tp\unreal2tp\unreal2tp\intermediate\build\win64\ue4editor\inc\unreal2tp\MyGameState.generated.h

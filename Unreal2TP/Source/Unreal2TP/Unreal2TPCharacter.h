@@ -22,7 +22,7 @@ public:
 
 	void RecieveDamage(const float damage);
 
-	UPROPERTY(Replicated, EditAnywhere)
+	UPROPERTY(Replicated, BlueprintReadOnly)
 		float Life = 500;
 
 	UPROPERTY(EditAnywhere, Category = "Components")
@@ -35,7 +35,13 @@ public:
 	class UStaticMeshComponent* BulletSpawn;
 
 	virtual void Tick(float DeltaTime) override;
-	
+
+	UFUNCTION(Server, Reliable)
+		void Server_OnDestroy();
+
+	UFUNCTION(NetMulticast, Reliable)
+		void Multicast_OnDestroy();
+
 
 	UFUNCTION(Server, Reliable)
 		void Server_StartShooting();
@@ -50,7 +56,7 @@ public:
 		void Server_Unaim();
 
 	void Turn(float Amount);
-	UPROPERTY(EditAnywhere, Category = "Shooting")
+	UPROPERTY(EditAnywhere, Category = "Class")
 		TSubclassOf<class ABullet> BulletClass;
 
 	/** Base turn rate, in deg/sec. Other scaling may affect final turn rate. */

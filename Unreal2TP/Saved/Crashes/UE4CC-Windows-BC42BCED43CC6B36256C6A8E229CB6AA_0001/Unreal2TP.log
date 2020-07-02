@@ -1,0 +1,1602 @@
+﻿Log file open, 07/02/20 04:05:07
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: Unreal2TP
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 26 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.053964
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -3:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.24-CL-11590370
+LogInit: Engine Version: 4.24.3-11590370+++UE4+Release-4.24
+LogInit: Compatible Engine Version: 4.24.0-10570792+++UE4+Release-4.24
+LogInit: Net CL: 10570792
+LogInit: OS: Windows 10 (Release 1909) (), CPU: Intel(R) Core(TM) i7-9700KF CPU @ 3.60GHz, GPU: NVIDIA GeForce GTX 1070
+LogInit: Compiled (64-bit): Feb 24 2020 15:39:18
+LogInit: Compiled with Visual C++: 19.16.27032.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.24
+LogInit: Command Line: 
+LogInit: Base Directory: D:/UE_4.24/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 25
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 37
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 36
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 2
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 36
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 8
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 9
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 8
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.07.02-07.05.07:180][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.07.02-07.05.07:180][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.07.02-07.05.07:180][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Engine.ini]
+[2020.07.02-07.05.07:180][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.07.02-07.05.07:180][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Engine.ini]
+[2020.07.02-07.05.07:180][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Engine.ini]
+[2020.07.02-07.05.07:180][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.07.02-07.05.07:180][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.07.02-07.05.07:180][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.07.02-07.05.07:180][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.07.02-07.05.07:180][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.07.02-07.05.07:180][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.07.02-07.05.07:180][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.07.02-07.05.07:180][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.07.02-07.05.07:180][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.07.02-07.05.07:180][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.07.02-07.05.07:180][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.07.02-07.05.07:180][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.07.02-07.05.07:180][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.07.02-07.05.07:180][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.07.02-07.05.07:180][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Engine.ini]
+[2020.07.02-07.05.07:180][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.07.02-07.05.07:180][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.07.02-07.05.07:180][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.07.02-07.05.07:180][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.07.02-07.05.07:180][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.07.02-07.05.07:180][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.07.02-07.05.07:180][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.07.02-07.05.07:180][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.07.02-07.05.07:180][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.07.02-07.05.07:180][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.07.02-07.05.07:180][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.07.02-07.05.07:180][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.07.02-07.05.07:180][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.07.02-07.05.07:180][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Engine.ini]
+[2020.07.02-07.05.07:180][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Engine.ini]
+[2020.07.02-07.05.07:188][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Scalability.ini]
+[2020.07.02-07.05.07:188][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.07.02-07.05.07:188][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.07.02-07.05.07:188][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Scalability.ini]
+[2020.07.02-07.05.07:188][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.07.02-07.05.07:188][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Scalability.ini]
+[2020.07.02-07.05.07:188][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.07.02-07.05.07:188][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.07.02-07.05.07:188][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.07.02-07.05.07:188][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.07.02-07.05.07:188][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.07.02-07.05.07:188][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.07.02-07.05.07:188][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.07.02-07.05.07:188][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.07.02-07.05.07:188][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.07.02-07.05.07:188][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.07.02-07.05.07:188][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.07.02-07.05.07:188][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.07.02-07.05.07:188][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.07.02-07.05.07:188][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.07.02-07.05.07:188][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.07.02-07.05.07:188][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.07.02-07.05.07:188][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.07.02-07.05.07:188][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.07.02-07.05.07:188][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Scalability.ini]
+[2020.07.02-07.05.07:188][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.07.02-07.05.07:188][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.07.02-07.05.07:188][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.07.02-07.05.07:188][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.07.02-07.05.07:188][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.07.02-07.05.07:188][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.07.02-07.05.07:188][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.07.02-07.05.07:188][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.07.02-07.05.07:188][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.07.02-07.05.07:188][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.07.02-07.05.07:188][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.07.02-07.05.07:188][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.07.02-07.05.07:188][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.07.02-07.05.07:188][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.07.02-07.05.07:188][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.07.02-07.05.07:188][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.07.02-07.05.07:188][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.07.02-07.05.07:188][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.07.02-07.05.07:188][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.07.02-07.05.07:188][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.07.02-07.05.07:188][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.07.02-07.05.07:189][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.07.02-07.05.07:189][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.07.02-07.05.07:189][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.07.02-07.05.07:189][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.07.02-07.05.07:189][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.07.02-07.05.07:189][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.07.02-07.05.07:189][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.07.02-07.05.07:189][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.07.02-07.05.07:189][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.07.02-07.05.07:189][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Scalability.ini]
+[2020.07.02-07.05.07:189][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.07.02-07.05.07:189][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.07.02-07.05.07:189][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.07.02-07.05.07:189][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.07.02-07.05.07:189][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.07.02-07.05.07:189][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.07.02-07.05.07:189][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.07.02-07.05.07:189][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.07.02-07.05.07:189][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.07.02-07.05.07:189][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Scalability.ini]
+[2020.07.02-07.05.07:189][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.07.02-07.05.07:189][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.07.02-07.05.07:189][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.07.02-07.05.07:189][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.07.02-07.05.07:189][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.07.02-07.05.07:189][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.07.02-07.05.07:189][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.07.02-07.05.07:189][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.07.02-07.05.07:189][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.07.02-07.05.07:189][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.07.02-07.05.07:189][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.07.02-07.05.07:189][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.07.02-07.05.07:189][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.07.02-07.05.07:189][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.07.02-07.05.07:189][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.07.02-07.05.07:189][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.07.02-07.05.07:189][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.07.02-07.05.07:189][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.07.02-07.05.07:189][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.07.02-07.05.07:189][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.07.02-07.05.07:189][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.07.02-07.05.07:189][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.07.02-07.05.07:189][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.07.02-07.05.07:189][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.07.02-07.05.07:189][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.07.02-07.05.07:189][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.07.02-07.05.07:189][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Scalability.ini]
+[2020.07.02-07.05.07:189][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.07.02-07.05.07:189][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.07.02-07.05.07:189][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Scalability.ini]
+[2020.07.02-07.05.07:189][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.07.02-07.05.07:189][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.07.02-07.05.07:189][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.07.02-07.05.07:189][  0]LogInit: Selected Device Profile: [Windows]
+[2020.07.02-07.05.07:189][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.07.02-07.05.07:191][  0]LogHAL: Display: Platform has ~ 16 GB [17096769536 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.07.02-07.05.07:191][  0]LogInit: Going up to parent DeviceProfile []
+[2020.07.02-07.05.07:191][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Scalability.ini]
+[2020.07.02-07.05.07:191][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.07.02-07.05.07:191][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.07.02-07.05.07:191][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Scalability.ini]
+[2020.07.02-07.05.07:191][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.07.02-07.05.07:191][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Scalability.ini]
+[2020.07.02-07.05.07:191][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.07.02-07.05.07:191][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.07.02-07.05.07:191][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.07.02-07.05.07:191][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.07.02-07.05.07:191][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.07.02-07.05.07:191][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.07.02-07.05.07:191][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.07.02-07.05.07:191][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.07.02-07.05.07:191][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.07.02-07.05.07:191][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.07.02-07.05.07:191][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.07.02-07.05.07:191][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.07.02-07.05.07:191][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.07.02-07.05.07:191][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.07.02-07.05.07:191][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.07.02-07.05.07:191][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.07.02-07.05.07:192][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.07.02-07.05.07:192][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.07.02-07.05.07:192][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Scalability.ini]
+[2020.07.02-07.05.07:192][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.07.02-07.05.07:192][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.07.02-07.05.07:192][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.07.02-07.05.07:192][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.07.02-07.05.07:192][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.07.02-07.05.07:192][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.07.02-07.05.07:192][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.07.02-07.05.07:192][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.07.02-07.05.07:192][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.07.02-07.05.07:192][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.07.02-07.05.07:192][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.07.02-07.05.07:192][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.07.02-07.05.07:192][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.07.02-07.05.07:192][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.07.02-07.05.07:192][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.07.02-07.05.07:192][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.07.02-07.05.07:192][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.07.02-07.05.07:192][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.07.02-07.05.07:192][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.07.02-07.05.07:192][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.07.02-07.05.07:192][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.07.02-07.05.07:192][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.07.02-07.05.07:192][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.07.02-07.05.07:192][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.07.02-07.05.07:192][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.07.02-07.05.07:192][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.07.02-07.05.07:192][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.07.02-07.05.07:192][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.07.02-07.05.07:192][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.07.02-07.05.07:192][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.07.02-07.05.07:192][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Scalability.ini]
+[2020.07.02-07.05.07:192][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.07.02-07.05.07:192][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.07.02-07.05.07:192][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.07.02-07.05.07:192][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.07.02-07.05.07:192][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.07.02-07.05.07:192][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.07.02-07.05.07:192][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.07.02-07.05.07:192][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.07.02-07.05.07:192][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.07.02-07.05.07:192][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Scalability.ini]
+[2020.07.02-07.05.07:192][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.07.02-07.05.07:192][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.07.02-07.05.07:192][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.07.02-07.05.07:192][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.07.02-07.05.07:192][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.07.02-07.05.07:192][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.07.02-07.05.07:192][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.07.02-07.05.07:192][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.07.02-07.05.07:192][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.07.02-07.05.07:192][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.07.02-07.05.07:192][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.07.02-07.05.07:192][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.07.02-07.05.07:192][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.07.02-07.05.07:192][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.07.02-07.05.07:192][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.07.02-07.05.07:192][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.07.02-07.05.07:192][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.07.02-07.05.07:192][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.07.02-07.05.07:192][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.07.02-07.05.07:192][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.07.02-07.05.07:192][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.07.02-07.05.07:192][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.07.02-07.05.07:193][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.07.02-07.05.07:193][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.07.02-07.05.07:193][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.07.02-07.05.07:193][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.07.02-07.05.07:193][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Scalability.ini]
+[2020.07.02-07.05.07:193][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.07.02-07.05.07:193][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.07.02-07.05.07:193][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Scalability.ini]
+[2020.07.02-07.05.07:193][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.07.02-07.05.07:193][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.07.02-07.05.07:193][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.07.02-07.05.07:193][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.07.02-07.05.07:193][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.07.02-07.05.07:193][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.07.02-07.05.07:193][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Engine.ini]
+[2020.07.02-07.05.07:193][  0]LogInit: Computer: DESKTOP-27BOLO1
+[2020.07.02-07.05.07:193][  0]LogInit: User: Facundo
+[2020.07.02-07.05.07:193][  0]LogInit: CPU Page size=4096, Cores=8
+[2020.07.02-07.05.07:193][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.07.02-07.05.07:193][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.07.02-07.05.07:193][  0]LogMemory: Platform Memory Stats for Windows
+[2020.07.02-07.05.07:193][  0]LogMemory: Process Physical Memory: 105.77 MB used, 105.77 MB peak
+[2020.07.02-07.05.07:193][  0]LogMemory: Process Virtual Memory: 100.60 MB used, 100.60 MB peak
+[2020.07.02-07.05.07:193][  0]LogMemory: Physical Memory: 7460.34 MB used,  8844.41 MB free, 16304.75 MB total
+[2020.07.02-07.05.07:193][  0]LogMemory: Virtual Memory: 5107.20 MB used,  134212624.00 MB free, 134217728.00 MB total
+[2020.07.02-07.05.07:195][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.07.02-07.05.07:207][  0]LogInit: Using OS detected language (en-US).
+[2020.07.02-07.05.07:207][  0]LogInit: Using OS detected locale (en-US).
+[2020.07.02-07.05.07:208][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.07.02-07.05.07:311][  0]LogInit: Setting process to per monitor DPI aware
+[2020.07.02-07.05.07:341][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.07.02-07.05.07:341][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.07.02-07.05.07:445][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.07.02-07.05.07:445][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.07.02-07.05.07:445][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.07.02-07.05.07:445][  0]LogD3D11RHI: D3D11 adapters:
+[2020.07.02-07.05.07:487][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2020.07.02-07.05.07:487][  0]LogD3D11RHI:       8088/0/8152 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x10de
+[2020.07.02-07.05.07:489][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.07.02-07.05.07:489][  0]LogD3D11RHI:       0/0/8152 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.07.02-07.05.07:489][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.07.02-07.05.07:496][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.07.02-07.05.07:496][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2020.07.02-07.05.07:496][  0]LogWindows: EnumDisplayDevices:
+[2020.07.02-07.05.07:496][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2020.07.02-07.05.07:496][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2020.07.02-07.05.07:496][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2020.07.02-07.05.07:496][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2020.07.02-07.05.07:497][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.07.02-07.05.07:497][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2020.07.02-07.05.07:497][  0]LogD3D11RHI:   Driver Version: 446.14 (internal:26.21.14.4614, unified:446.14)
+[2020.07.02-07.05.07:497][  0]LogD3D11RHI:      Driver Date: 5-15-2020
+[2020.07.02-07.05.07:497][  0]LogRHI: Texture pool is 5661 MB (70% of 8088 MB)
+[2020.07.02-07.05.07:527][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.07.02-07.05.07:527][  0]LogD3D11RHI: Async texture creation enabled
+[2020.07.02-07.05.07:540][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.07.02-07.05.07:762][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.07.02-07.05.07:784][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.07.02-07.05.07:784][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.07.02-07.05.07:785][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
+[2020.07.02-07.05.07:785][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.07.02-07.05.07:785][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
+[2020.07.02-07.05.07:785][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
+[2020.07.02-07.05.07:785][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.07.02-07.05.07:785][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
+[2020.07.02-07.05.07:785][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.07.02-07.05.07:785][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.07.02-07.05.07:785][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
+[2020.07.02-07.05.07:785][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.07.02-07.05.07:785][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
+[2020.07.02-07.05.07:785][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
+[2020.07.02-07.05.07:785][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.07.02-07.05.07:785][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
+[2020.07.02-07.05.07:785][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.07.02-07.05.07:785][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.07.02-07.05.07:798][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.07.02-07.05.07:798][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.07.02-07.05.07:803][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.07.02-07.05.07:807][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.07.02-07.05.07:812][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.07.02-07.05.07:817][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.07.02-07.05.07:821][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.07.02-07.05.07:826][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.07.02-07.05.07:843][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.07.02-07.05.07:843][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.07.02-07.05.07:852][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.07.02-07.05.07:852][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.07.02-07.05.07:857][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.07.02-07.05.07:862][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.07.02-07.05.07:867][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.07.02-07.05.07:871][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.07.02-07.05.07:871][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.07.02-07.05.07:873][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.07.02-07.05.07:885][  0]LogShaderCompilers: Guid format shader working directory is -9 characters bigger than the processId version (../../../../Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Intermediate/Shaders/WorkingDirectory/7892/).
+[2020.07.02-07.05.07:885][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Facundo/AppData/Local/Temp/UnrealShaderWorkingDir/DAEBFE1F4A563E17D379E294F49B20A2/'.
+[2020.07.02-07.05.07:885][  0]LogXGEController: Cleaning working directory: C:/Users/Facundo/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.07.02-07.05.07:886][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.07.02-07.05.07:886][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.07.02-07.05.07:886][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.07.02-07.05.08:410][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.07.02-07.05.08:453][  0]LogDerivedDataCache: Loaded boot cache 0.04s 82MB C:/Users/Facundo/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.07.02-07.05.08:453][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Facundo/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
+[2020.07.02-07.05.08:453][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.07.02-07.05.08:453][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.07.02-07.05.08:453][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.07.02-07.05.08:453][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.07.02-07.05.08:460][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.07.02-07.05.08:460][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.07.02-07.05.08:460][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.07.02-07.05.08:461][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Facundo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.07.02-07.05.08:461][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.07.02-07.05.08:461][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.07.02-07.05.08:479][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.07.02-07.05.08:481][  0]LogSlate: Using FreeType 2.10.0
+[2020.07.02-07.05.08:481][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.07.02-07.05.08:520][  0]LogAssetRegistry: FAssetRegistry took 0.0020 seconds to start up
+[2020.07.02-07.05.08:714][  0]LogInit: Selected Device Profile: [Windows]
+[2020.07.02-07.05.08:821][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.07.02-07.05.08:821][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.07.02-07.05.08:821][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.07.02-07.05.08:821][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.07.02-07.05.08:821][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.07.02-07.05.08:836][  0]LogNetVersion: Unreal2TP 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 317678641)
+[2020.07.02-07.05.09:570][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.023805 seconds
+[2020.07.02-07.05.09:576][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
+[2020.07.02-07.05.09:576][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
+[2020.07.02-07.05.09:576][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.07.02-07.05.09:831][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.07.02-07.05.09:833][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.07.02-07.05.09:981][  0]SourceControl: Source control is disabled
+[2020.07.02-07.05.09:981][  0]SourceControl: Source control is disabled
+[2020.07.02-07.05.09:982][  0]SourceControl: Source control is disabled
+[2020.07.02-07.05.09:982][  0]SourceControl: Source control is disabled
+[2020.07.02-07.05.09:983][  0]SourceControl: Source control is disabled
+[2020.07.02-07.05.10:031][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.07.02-07.05.10:037][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.07.02-07.05.10:037][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.07.02-07.05.10:094][  0]LogOcInput: OculusInput pre-init called
+[2020.07.02-07.05.10:098][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.07.02-07.05.10:098][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.07.02-07.05.10:144][  0]LogEngine: Initializing Engine...
+[2020.07.02-07.05.10:145][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.07.02-07.05.10:145][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.07.02-07.05.10:383][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.07.02-07.05.10:387][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.07.02-07.05.10:400][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.02-07.05.10:400][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.02-07.05.10:400][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.02-07.05.10:400][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.02-07.05.10:400][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.02-07.05.10:400][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.02-07.05.10:400][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.02-07.05.10:400][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.02-07.05.10:400][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.02-07.05.10:400][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.02-07.05.10:439][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.02-07.05.10:439][  0]LogAudioMixer: Display: Name: Altavoces (Realtek(R) Audio)
+[2020.07.02-07.05.10:439][  0]LogAudioMixer: Display: Is Default: Yes
+[2020.07.02-07.05.10:439][  0]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.02-07.05.10:439][  0]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.02-07.05.10:439][  0]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.02-07.05.10:439][  0]LogAudioMixer: Display: Channel Order:
+[2020.07.02-07.05.10:439][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.02-07.05.10:439][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.07.02-07.05.10:462][  0]LogAudioMixer: Display: Using Audio Device Altavoces (Realtek(R) Audio)
+[2020.07.02-07.05.10:465][  0]LogInit: FAudioDevice initialized.
+[2020.07.02-07.05.10:466][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.07.02-07.05.10:547][  0]LogDerivedDataCache: Saved boot cache 0.08s 82MB C:/Users/Facundo/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.07.02-07.05.10:548][  0]LogInit: Texture streaming: Enabled
+[2020.07.02-07.05.10:557][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.07.02-07.05.10:557][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.07.02-07.05.10:560][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.07.02-07.05.10:584][  0]LogInit: Transaction tracking system initialized
+[2020.07.02-07.05.10:590][  0]BlueprintLog: New page: Editor Load
+[2020.07.02-07.05.10:609][  0]LocalizationService: Localization service is disabled
+[2020.07.02-07.05.10:781][  0]LogFileCache: Scanning file cache for directory 'D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Content/' took 0.00s
+[2020.07.02-07.05.10:781][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.07.02-07.05.10:781][  0]LogCook: Display: Mobile HDR setting 1
+[2020.07.02-07.05.11:267][  0]SourceControl: Source control is disabled
+[2020.07.02-07.05.11:267][  0]Cmd: MAP LOAD FILE="../../../../Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.07.02-07.05.11:267][  0]LightingResults: New page: Lighting Build
+[2020.07.02-07.05.11:268][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.07.02-07.05.11:268][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.02-07.05.11:268][  0]MapCheck: New page: Map Check
+[2020.07.02-07.05.11:268][  0]LightingResults: New page: Lighting Build
+[2020.07.02-07.05.11:292][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2020.07.02-07.05.11:385][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.07.02-07.05.11:389][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.07.02-07.05.11:413][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2020.07.02-07.05.11:413][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.07.02-07.05.11:413][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.06ms to complete.
+[2020.07.02-07.05.11:413][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.146
+[2020.07.02-07.05.11:542][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.02-07.05.11:547][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.02-07.05.11:551][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.02-07.05.11:556][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.02-07.05.11:560][  0]LogCollectionManager: Loaded 0 collections in 0.001490 seconds
+[2020.07.02-07.05.11:569][  0]LogFileCache: Scanning file cache for directory 'D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Collections/' took 0.00s
+[2020.07.02-07.05.11:569][  0]LogFileCache: Scanning file cache for directory 'D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Content/Developers/Facundo/Collections/' took 0.00s
+[2020.07.02-07.05.11:569][  0]LogFileCache: Scanning file cache for directory 'D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Content/Collections/' took 0.00s
+[2020.07.02-07.05.11:569][  0]LogContentBrowser: Native class hierarchy populated in 0.0062 seconds. Added 3026 classes and 719 folders.
+[2020.07.02-07.05.11:571][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.07.02-07.05.11:614][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.07.02-07.05.11:618][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 3 folders.
+[2020.07.02-07.05.11:696][  0]LogSlate: Took 0.000290 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.07.02-07.05.11:699][  0]LogSlate: Took 0.000255 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.07.02-07.05.11:705][  0]LogSlate: Took 0.000175 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.07.02-07.05.11:772][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
+[2020.07.02-07.05.11:810][  0]LogSlate: Took 0.000136 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.07.02-07.05.11:848][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.07.02-07.05.11:848][  0]LogLoad: (Engine Initialization) Total time: 5.76 seconds
+[2020.07.02-07.05.11:848][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.07.02-07.05.11:883][  0]LogAssetRegistry: Asset discovery search completed in 3.3641 seconds
+[2020.07.02-07.05.11:886][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000005 seconds (updated 0 objects)
+[2020.07.02-07.05.11:887][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.07.02-07.05.12:775][ 93]Candidate modules for hot reload:
+[2020.07.02-07.05.12:775][ 93]  Unreal2TP
+[2020.07.02-07.05.12:775][ 93]Launching UnrealBuildTool... [D:/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Unreal2TP,7383 Win64 Development -TargetType=Editor -Project="D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Unreal2TP.uproject" "D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Unreal2TP.uproject"  -IgnoreJunk]
+[2020.07.02-07.05.12:782][ 93]Warning: Starting HotReload took  0.0s.
+[2020.07.02-07.05.14:586][263]CompilerResultsLog: New page: Compilation - Jul 2, 2020, 1:05:14 AM
+[2020.07.02-07.05.14:586][263]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Facultad\Unreal\UNREAL2TP\Unreal2TP).
+[2020.07.02-07.05.14:587][263]CompilerResultsLog: Building Unreal2TPEditor...
+[2020.07.02-07.05.14:587][263]CompilerResultsLog: Using Visual Studio 2017 14.16.27035 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.07.02-07.05.14:587][263]CompilerResultsLog: Building 3 actions with 8 processes...
+[2020.07.02-07.05.14:587][263]CompilerResultsLog:   [1/3] UE4Editor-Unreal2TP-7383.lib
+[2020.07.02-07.05.14:587][263]CompilerResultsLog:      Creating library D:\Facultad\Unreal\UNREAL2TP\Unreal2TP\Unreal2TP\Intermediate\Build\Win64\UE4Editor\Development\Unreal2TP\UE4Editor-Unreal2TP-7383.lib and object D:\Facultad\Unreal\UNREAL2TP\Unreal2TP\Unreal2TP\Intermediate\Build\Win64\UE4Editor\Development\Unreal2TP\UE4Editor-Unreal2TP-7383.exp
+[2020.07.02-07.05.14:587][263]CompilerResultsLog:   [2/3] UE4Editor-Unreal2TP-7383.dll
+[2020.07.02-07.05.14:587][263]CompilerResultsLog:      Creating library D:\Facultad\Unreal\UNREAL2TP\Unreal2TP\Unreal2TP\Intermediate\Build\Win64\UE4Editor\Development\Unreal2TP\UE4Editor-Unreal2TP-7383.suppressed.lib and object D:\Facultad\Unreal\UNREAL2TP\Unreal2TP\Unreal2TP\Intermediate\Build\Win64\UE4Editor\Development\Unreal2TP\UE4Editor-Unreal2TP-7383.suppressed.exp
+[2020.07.02-07.05.14:587][263]CompilerResultsLog:   [3/3] Unreal2TPEditor.target
+[2020.07.02-07.05.14:587][263]CompilerResultsLog: Total time in Parallel executor: 1.03 seconds
+[2020.07.02-07.05.14:587][263]CompilerResultsLog: Total execution time: 1.74 seconds
+[2020.07.02-07.05.14:587][263]LogMainFrame: MainFrame: Module compiling took 1.814 seconds
+[2020.07.02-07.05.14:608][263]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2020.07.02-07.05.14:640][263]LogContentBrowser: Native class hierarchy updated for 'Unreal2TP' in 0.0004 seconds. Added 11 classes and 2 folders.
+[2020.07.02-07.05.14:642][263]Display: HotReload successful (13 functions remapped  0 scriptstructs remapped)
+[2020.07.02-07.05.14:690][263]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2020.07.02-07.05.14:700][263]LogContentBrowser: Native class hierarchy populated in 0.0060 seconds. Added 3028 classes and 722 folders.
+[2020.07.02-07.05.14:700][263]Display: HotReload took  1.9s.
+[2020.07.02-07.05.15:819][394]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.02-07.05.15:828][394]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.07.02-07.05.15:829][394]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.02-07.05.15:829][394]PIE: New page: PIE session: ThirdPersonExampleMap (Jul 2, 2020, 1:05:15 AM)
+[2020.07.02-07.05.15:829][394]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.07.02-07.05.15:830][394]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.07.02-07.05.15:830][394]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap
+[2020.07.02-07.05.15:846][394]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015111s)
+[2020.07.02-07.05.15:847][394]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.07.02-07.05.15:847][394]LogPlayLevel: PIE: World Init took: (0.001205s)
+[2020.07.02-07.05.15:847][394]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap (0.016561s)
+[2020.07.02-07.05.15:869][394]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2020.07.02-07.05.15:871][394]LogLoad: Game class is 'BP_MyGameMode_C'
+[2020.07.02-07.05.15:872][394]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.07.02-04.05.15
+[2020.07.02-07.05.15:873][394]LogWorld: Bringing up level for play took: 0.001393
+[2020.07.02-07.05.15:873][394]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2020.07.02-07.05.15:873][394]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2020.07.02-07.05.15:875][394]LogInit: WinSock: I am DESKTOP-27BOLO1 (192.168.0.89:0)
+[2020.07.02-07.05.15:875][394]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2020.07.02-07.05.15:875][394]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.07.02-07.05.15:875][394]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 17777
+[2020.07.02-07.05.15:875][394]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap 0.81
+[2020.07.02-07.05.15:877][394]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.02-07.05.15:877][394]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.02-07.05.15:877][394]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.02-07.05.15:877][394]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.02-07.05.15:877][394]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.02-07.05.15:877][394]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.02-07.05.15:877][394]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.02-07.05.15:877][394]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.02-07.05.15:877][394]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.02-07.05.15:877][394]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.02-07.05.15:912][394]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.02-07.05.15:912][394]LogAudioMixer: Display: Name: Altavoces (Realtek(R) Audio)
+[2020.07.02-07.05.15:912][394]LogAudioMixer: Display: Is Default: Yes
+[2020.07.02-07.05.15:912][394]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.02-07.05.15:912][394]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.02-07.05.15:912][394]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.02-07.05.15:912][394]LogAudioMixer: Display: Channel Order:
+[2020.07.02-07.05.15:912][394]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.02-07.05.15:912][394]LogAudioMixer: Display: 1: FrontRight
+[2020.07.02-07.05.15:927][394]LogAudioMixer: Display: Using Audio Device Altavoces (Realtek(R) Audio)
+[2020.07.02-07.05.15:928][394]LogInit: FAudioDevice initialized.
+[2020.07.02-07.05.15:938][394]LogNet: Browse: 127.0.0.1:17777//Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap
+[2020.07.02-07.05.15:938][394]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
+[2020.07.02-07.05.15:938][394]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.07.02-07.05.15:938][394]LogNet: Game client on port 17777, rate 10000
+[2020.07.02-07.05.15:938][394]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap 0.874
+[2020.07.02-07.05.15:939][394]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.07.02-07.05.15:939][394]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:56581
+[2020.07.02-07.05.15:939][394]LogHandshake: SendConnectChallenge. Timestamp: 0.008333, Cookie: 044051185025206109119173221158039027038173184024213247192226
+[2020.07.02-07.05.15:959][394]LogOnline: OSS: Creating online subsystem instance for: :Context_4
+[2020.07.02-07.05.15:961][394]LogHandshake: SendChallengeResponse. Timestamp: 0.008333, Cookie: 044051185025206109119173221158039027038173184024213247192226
+[2020.07.02-07.05.15:986][395]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:56581
+[2020.07.02-07.05.15:987][395]LogHandshake: SendChallengeAck. InCookie: 044051185025206109119173221158039027038173184024213247192226
+[2020.07.02-07.05.15:987][395]LogNet: Server accepting post-challenge connection from: 127.0.0.1:56581
+[2020.07.02-07.05.15:987][395]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.07.02-07.05.15:987][395]LogNet: NotifyAcceptedConnection: Name: ThirdPersonExampleMap, TimeStamp: 07/02/20 04:05:15, [UNetConnection] RemoteAddr: 127.0.0.1:56581, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.07.02-07.05.15:987][395]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:56581, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.07.02-07.05.15:988][395]LogNetVersion: Unreal2TP 1.0.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 1816658782)
+[2020.07.02-07.05.15:988][395]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: PendingNetDriver IpNetDriver_1, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.07.02-07.05.15:995][396]LogNet: NotifyAcceptingChannel Control 0 server World /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap: Accepted
+[2020.07.02-07.05.15:995][396]LogNet: Remote platform little endian=1
+[2020.07.02-07.05.15:995][396]LogNet: This platform little endian=1
+[2020.07.02-07.05.15:995][396]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2020.07.02-07.05.16:003][397]LogNet: Login request: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap?Name=DESKTOP-27BOLO1-9431D95745ED5092473E83ADB5C55823 userId: NULL:DESKTOP-27BOLO1-9431D95745ED5092473E83ADB5C55823 platform: NULL
+[2020.07.02-07.05.16:004][397]LogNet: Welcomed by server (Level: /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap, Game: /Game/ThirdPersonCPP/Blueprints/BP_MyGameMode.BP_MyGameMode_C)
+[2020.07.02-07.05.16:004][397]LogLoad: LoadMap: 127.0.0.1:17777//Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap?game=/Game/ThirdPersonCPP/Blueprints/BP_MyGameMode.BP_MyGameMode_C
+[2020.07.02-07.05.16:004][397]LogWorld: BeginTearingDown for /Temp/Untitled_1
+[2020.07.02-07.05.16:004][397]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.07.02-07.05.16:004][397]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.02-07.05.16:004][397]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.02-07.05.16:026][397]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2020.07.02-07.05.16:037][397]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.07.02-07.05.16:039][397]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_2_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.07.02-04.05.16
+[2020.07.02-07.05.16:039][397]LogWorld: Bringing up level for play took: 0.001297
+[2020.07.02-07.05.16:040][397]LogLoad: Took 0.035587 seconds to LoadMap(/Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap)
+[2020.07.02-07.05.16:050][398]LogNet: Client netspeed is 10000
+[2020.07.02-07.05.16:051][398]LogNet: Join request: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap?Name=DESKTOP-27BOLO1-9431D95745ED5092473E83ADB5C55823?SplitscreenCount=1
+[2020.07.02-07.05.16:051][398]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.07.02-07.05.16:053][398]LogNet: Join succeeded: DESKTOP-27BOLO1-9431
+[2020.07.02-07.05.16:345][429]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.07.02-07.05.17:054][513]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.02-07.05.17:067][513]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.07.02-07.05.17:087][513]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.07.02-07.05.17:088][513]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.07.02-07.05.17:088][513]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.02-07.05.17:088][513]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_2_ThirdPersonExampleMap
+[2020.07.02-07.05.17:088][513]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.02-07.05.17:088][513]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.07.02-07.05.17:088][513]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.02-07.05.17:096][513]LogNet: World NetDriver shutdown IpNetDriver_1 [GameNetDriver]
+[2020.07.02-07.05.17:096][513]LogNet: DestroyNamedNetDriver IpNetDriver_1 [GameNetDriver]
+[2020.07.02-07.05.17:096][513]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-27BOLO1-9431D95745ED5092473E83ADB5C55823, Channels: 10, Time: 2020.07.02-07.05.17
+[2020.07.02-07.05.17:096][513]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-27BOLO1-9431D95745ED5092473E83ADB5C55823
+[2020.07.02-07.05.17:096][513]LogExit: GameNetDriver IpNetDriver_1 shut down
+[2020.07.02-07.05.17:097][513]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap
+[2020.07.02-07.05.17:097][513]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.02-07.05.17:097][513]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.07.02-07.05.17:098][513]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.02-07.05.17:098][513]LogNet: World NetDriver shutdown IpNetDriver_0 [GameNetDriver]
+[2020.07.02-07.05.17:098][513]LogNet: DestroyNamedNetDriver IpNetDriver_0 [GameNetDriver]
+[2020.07.02-07.05.17:098][513]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 127.0.0.1:56581, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_0, Owner: PlayerController_0, UniqueId: NULL:DESKTOP-27BOLO1-9431D95745ED5092473E83ADB5C55823
+[2020.07.02-07.05.17:098][513]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:56581, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_0, Owner: PlayerController_0, UniqueId: NULL:DESKTOP-27BOLO1-9431D95745ED5092473E83ADB5C55823, Channels: 10, Time: 2020.07.02-07.05.17
+[2020.07.02-07.05.17:098][513]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:56581, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_0, Owner: PlayerController_0, UniqueId: NULL:DESKTOP-27BOLO1-9431D95745ED5092473E83ADB5C55823
+[2020.07.02-07.05.17:098][513]LogExit: GameNetDriver IpNetDriver_0 shut down
+[2020.07.02-07.05.17:099][513]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.02-07.05.17:099][513]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.07.02-07.05.17:101][513]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.02-07.05.17:124][513]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.02-07.05.17:127][513]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.02-07.05.17:130][513]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2020.07.02-07.05.17:160][516]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2020.07.02-07.05.17:160][516]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2020.07.02-07.05.19:378][769]LogSlate: Took 0.000139 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.07.02-07.05.21:924][ 50]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.02-07.05.21:931][ 50]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.07.02-07.05.21:931][ 50]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.02-07.05.21:931][ 50]PIE: New page: PIE session: ThirdPersonExampleMap (Jul 2, 2020, 1:05:21 AM)
+[2020.07.02-07.05.21:931][ 50]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap
+[2020.07.02-07.05.21:941][ 50]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009778s)
+[2020.07.02-07.05.21:942][ 50]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.07.02-07.05.21:942][ 50]LogPlayLevel: PIE: World Init took: (0.001036s)
+[2020.07.02-07.05.21:943][ 50]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap (0.011077s)
+[2020.07.02-07.05.21:966][ 50]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2020.07.02-07.05.21:966][ 50]LogLoad: Game class is 'BP_MyGameMode_C'
+[2020.07.02-07.05.21:968][ 50]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.07.02-04.05.21
+[2020.07.02-07.05.21:968][ 50]LogWorld: Bringing up level for play took: 0.001386
+[2020.07.02-07.05.21:969][ 50]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2020.07.02-07.05.21:969][ 50]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2020.07.02-07.05.21:969][ 50]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2020.07.02-07.05.21:969][ 50]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.07.02-07.05.21:969][ 50]LogNet: GameNetDriver IpNetDriver_2 IpNetDriver listening on port 17777
+[2020.07.02-07.05.21:969][ 50]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap 0.904
+[2020.07.02-07.05.21:971][ 50]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.02-07.05.21:971][ 50]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.02-07.05.21:971][ 50]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.02-07.05.21:971][ 50]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.02-07.05.21:971][ 50]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.02-07.05.21:971][ 50]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.02-07.05.21:971][ 50]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.02-07.05.21:971][ 50]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.02-07.05.21:971][ 50]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.02-07.05.21:971][ 50]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.02-07.05.22:009][ 50]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.02-07.05.22:009][ 50]LogAudioMixer: Display: Name: Altavoces (Realtek(R) Audio)
+[2020.07.02-07.05.22:009][ 50]LogAudioMixer: Display: Is Default: Yes
+[2020.07.02-07.05.22:009][ 50]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.02-07.05.22:009][ 50]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.02-07.05.22:009][ 50]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.02-07.05.22:009][ 50]LogAudioMixer: Display: Channel Order:
+[2020.07.02-07.05.22:009][ 50]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.02-07.05.22:009][ 50]LogAudioMixer: Display: 1: FrontRight
+[2020.07.02-07.05.22:025][ 50]LogAudioMixer: Display: Using Audio Device Altavoces (Realtek(R) Audio)
+[2020.07.02-07.05.22:026][ 50]LogInit: FAudioDevice initialized.
+[2020.07.02-07.05.22:028][ 50]LogNet: Browse: 127.0.0.1:17777//Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap
+[2020.07.02-07.05.22:029][ 50]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
+[2020.07.02-07.05.22:029][ 50]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.07.02-07.05.22:029][ 50]LogNet: Game client on port 17777, rate 10000
+[2020.07.02-07.05.22:029][ 50]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap 0.965
+[2020.07.02-07.05.22:030][ 50]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.07.02-07.05.22:030][ 50]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:56582
+[2020.07.02-07.05.22:030][ 50]LogHandshake: SendConnectChallenge. Timestamp: 0.008333, Cookie: 018103096167178251150216059108110083018110002134129058207060
+[2020.07.02-07.05.22:030][ 50]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2020.07.02-07.05.22:031][ 50]LogHandshake: SendChallengeResponse. Timestamp: 0.008333, Cookie: 018103096167178251150216059108110083018110002134129058207060
+[2020.07.02-07.05.22:051][ 51]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:56582
+[2020.07.02-07.05.22:051][ 51]LogHandshake: SendChallengeAck. InCookie: 018103096167178251150216059108110083018110002134129058207060
+[2020.07.02-07.05.22:051][ 51]LogNet: Server accepting post-challenge connection from: 127.0.0.1:56582
+[2020.07.02-07.05.22:051][ 51]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.07.02-07.05.22:051][ 51]LogNet: NotifyAcceptedConnection: Name: ThirdPersonExampleMap, TimeStamp: 07/02/20 04:05:22, [UNetConnection] RemoteAddr: 127.0.0.1:56582, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.07.02-07.05.22:051][ 51]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:56582, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.07.02-07.05.22:052][ 51]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_2, Driver: PendingNetDriver IpNetDriver_3, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.07.02-07.05.22:059][ 52]LogNet: NotifyAcceptingChannel Control 0 server World /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap: Accepted
+[2020.07.02-07.05.22:059][ 52]LogNet: Remote platform little endian=1
+[2020.07.02-07.05.22:059][ 52]LogNet: This platform little endian=1
+[2020.07.02-07.05.22:060][ 52]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2020.07.02-07.05.22:068][ 53]LogNet: Login request: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap?Name=DESKTOP-27BOLO1-CCB3B73F43D63330494A7EA11043E32E userId: NULL:DESKTOP-27BOLO1-CCB3B73F43D63330494A7EA11043E32E platform: NULL
+[2020.07.02-07.05.22:068][ 53]LogNet: Welcomed by server (Level: /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap, Game: /Game/ThirdPersonCPP/Blueprints/BP_MyGameMode.BP_MyGameMode_C)
+[2020.07.02-07.05.22:068][ 53]LogLoad: LoadMap: 127.0.0.1:17777//Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap?game=/Game/ThirdPersonCPP/Blueprints/BP_MyGameMode.BP_MyGameMode_C
+[2020.07.02-07.05.22:068][ 53]LogWorld: BeginTearingDown for /Temp/Untitled_2
+[2020.07.02-07.05.22:068][ 53]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.07.02-07.05.22:068][ 53]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.02-07.05.22:069][ 53]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.02-07.05.22:091][ 53]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2020.07.02-07.05.22:103][ 53]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.07.02-07.05.22:105][ 53]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_2_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.07.02-04.05.22
+[2020.07.02-07.05.22:105][ 53]LogWorld: Bringing up level for play took: 0.001359
+[2020.07.02-07.05.22:106][ 53]LogLoad: Took 0.037196 seconds to LoadMap(/Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap)
+[2020.07.02-07.05.22:113][ 54]LogNet: Client netspeed is 10000
+[2020.07.02-07.05.22:113][ 54]LogNet: Join request: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap?Name=DESKTOP-27BOLO1-CCB3B73F43D63330494A7EA11043E32E?SplitscreenCount=1
+[2020.07.02-07.05.22:114][ 54]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.07.02-07.05.22:115][ 54]LogNet: Join succeeded: DESKTOP-27BOLO1-CCB3
+[2020.07.02-07.05.22:533][104]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.07.02-07.05.22:541][105]LogTemp: Warning: BB
+[2020.07.02-07.05.22:549][106]LogTemp: Warning: BB
+[2020.07.02-07.05.22:557][107]LogTemp: Warning: BB
+[2020.07.02-07.05.22:565][108]LogTemp: Warning: BB
+[2020.07.02-07.05.22:573][109]LogTemp: Warning: BB
+[2020.07.02-07.05.22:582][110]LogTemp: Warning: BB
+[2020.07.02-07.05.22:590][111]LogTemp: Warning: BB
+[2020.07.02-07.05.22:599][112]LogTemp: Warning: BB
+[2020.07.02-07.05.22:607][113]LogTemp: Warning: BB
+[2020.07.02-07.05.22:615][114]LogTemp: Warning: BB
+[2020.07.02-07.05.22:624][115]LogTemp: Warning: BB
+[2020.07.02-07.05.22:632][116]LogTemp: Warning: BB
+[2020.07.02-07.05.22:640][117]LogTemp: Warning: BB
+[2020.07.02-07.05.22:649][118]LogTemp: Warning: BB
+[2020.07.02-07.05.22:657][119]LogTemp: Warning: BB
+[2020.07.02-07.05.22:665][120]LogTemp: Warning: BB
+[2020.07.02-07.05.22:674][121]LogTemp: Warning: BB
+[2020.07.02-07.05.22:682][122]LogTemp: Warning: BB
+[2020.07.02-07.05.22:690][123]LogTemp: Warning: BB
+[2020.07.02-07.05.22:699][124]LogTemp: Warning: BB
+[2020.07.02-07.05.22:707][125]LogTemp: Warning: BB
+[2020.07.02-07.05.22:715][126]LogTemp: Warning: BB
+[2020.07.02-07.05.22:724][127]LogTemp: Warning: BB
+[2020.07.02-07.05.22:732][128]LogTemp: Warning: BB
+[2020.07.02-07.05.22:740][129]LogTemp: Warning: BB
+[2020.07.02-07.05.22:749][130]LogTemp: Warning: BB
+[2020.07.02-07.05.22:757][131]LogTemp: Warning: BB
+[2020.07.02-07.05.22:766][132]LogTemp: Warning: BB
+[2020.07.02-07.05.22:775][133]LogTemp: Warning: BB
+[2020.07.02-07.05.22:797][134]LogTemp: Warning: BB
+[2020.07.02-07.05.22:805][135]LogTemp: Warning: BB
+[2020.07.02-07.05.22:813][136]LogTemp: Warning: BB
+[2020.07.02-07.05.22:822][137]LogTemp: Warning: BB
+[2020.07.02-07.05.22:830][138]LogTemp: Warning: BB
+[2020.07.02-07.05.22:839][139]LogTemp: Warning: BB
+[2020.07.02-07.05.22:848][140]LogTemp: Warning: BB
+[2020.07.02-07.05.22:856][141]LogTemp: Warning: BB
+[2020.07.02-07.05.22:864][142]LogTemp: Warning: BB
+[2020.07.02-07.05.22:874][143]LogTemp: Warning: BB
+[2020.07.02-07.05.22:882][144]LogTemp: Warning: BB
+[2020.07.02-07.05.22:890][145]LogTemp: Warning: BB
+[2020.07.02-07.05.22:897][146]LogTemp: Warning: BB
+[2020.07.02-07.05.22:905][147]LogTemp: Warning: BB
+[2020.07.02-07.05.22:914][148]LogTemp: Warning: BB
+[2020.07.02-07.05.22:922][149]LogTemp: Warning: BB
+[2020.07.02-07.05.22:931][150]LogTemp: Warning: BB
+[2020.07.02-07.05.22:939][151]LogTemp: Warning: BB
+[2020.07.02-07.05.22:948][152]LogTemp: Warning: BB
+[2020.07.02-07.05.22:956][153]LogTemp: Warning: BB
+[2020.07.02-07.05.22:965][154]LogTemp: Warning: BB
+[2020.07.02-07.05.22:973][155]LogTemp: Warning: BB
+[2020.07.02-07.05.22:981][156]LogTemp: Warning: BB
+[2020.07.02-07.05.22:989][157]LogTemp: Warning: BB
+[2020.07.02-07.05.22:998][158]LogTemp: Warning: BB
+[2020.07.02-07.05.23:006][159]LogTemp: Warning: BB
+[2020.07.02-07.05.23:014][160]LogTemp: Warning: BB
+[2020.07.02-07.05.23:022][161]LogTemp: Warning: BB
+[2020.07.02-07.05.23:031][162]LogTemp: Warning: BB
+[2020.07.02-07.05.23:039][163]LogTemp: Warning: BB
+[2020.07.02-07.05.23:047][164]LogTemp: Warning: BB
+[2020.07.02-07.05.23:056][165]LogTemp: Warning: BB
+[2020.07.02-07.05.23:064][166]LogTemp: Warning: BB
+[2020.07.02-07.05.23:073][167]LogTemp: Warning: BB
+[2020.07.02-07.05.23:081][168]LogTemp: Warning: BB
+[2020.07.02-07.05.23:089][169]LogTemp: Warning: BB
+[2020.07.02-07.05.23:098][170]LogTemp: Warning: BB
+[2020.07.02-07.05.23:106][171]LogTemp: Warning: BB
+[2020.07.02-07.05.23:114][172]LogTemp: Warning: BB
+[2020.07.02-07.05.23:123][173]LogTemp: Warning: BB
+[2020.07.02-07.05.23:135][174]LogTemp: Warning: BB
+[2020.07.02-07.05.23:141][175]LogTemp: Warning: BB
+[2020.07.02-07.05.23:149][176]LogTemp: Warning: BB
+[2020.07.02-07.05.23:157][177]LogTemp: Warning: BB
+[2020.07.02-07.05.23:166][178]LogTemp: Warning: BB
+[2020.07.02-07.05.23:174][179]LogTemp: Warning: BB
+[2020.07.02-07.05.23:182][180]LogTemp: Warning: BB
+[2020.07.02-07.05.23:191][181]LogTemp: Warning: BB
+[2020.07.02-07.05.23:199][182]LogTemp: Warning: BB
+[2020.07.02-07.05.23:208][183]LogTemp: Warning: BB
+[2020.07.02-07.05.23:216][184]LogTemp: Warning: BB
+[2020.07.02-07.05.23:224][185]LogTemp: Warning: BB
+[2020.07.02-07.05.23:232][186]LogTemp: Warning: BB
+[2020.07.02-07.05.23:241][187]LogTemp: Warning: BB
+[2020.07.02-07.05.23:249][188]LogTemp: Warning: BB
+[2020.07.02-07.05.23:257][189]LogTemp: Warning: BB
+[2020.07.02-07.05.23:266][190]LogTemp: Warning: BB
+[2020.07.02-07.05.23:274][191]LogTemp: Warning: BB
+[2020.07.02-07.05.23:282][192]LogTemp: Warning: BB
+[2020.07.02-07.05.23:291][193]LogTemp: Warning: BB
+[2020.07.02-07.05.23:299][194]LogTemp: Warning: BB
+[2020.07.02-07.05.23:307][195]LogTemp: Warning: BB
+[2020.07.02-07.05.23:315][196]LogTemp: Warning: BB
+[2020.07.02-07.05.23:324][197]LogTemp: Warning: BB
+[2020.07.02-07.05.23:332][198]LogTemp: Warning: BB
+[2020.07.02-07.05.23:340][199]LogTemp: Warning: BB
+[2020.07.02-07.05.23:349][200]LogTemp: Warning: BB
+[2020.07.02-07.05.23:357][201]LogTemp: Warning: BB
+[2020.07.02-07.05.23:365][202]LogTemp: Warning: BB
+[2020.07.02-07.05.23:374][203]LogTemp: Warning: BB
+[2020.07.02-07.05.23:382][204]LogTemp: Warning: BB
+[2020.07.02-07.05.23:390][205]LogTemp: Warning: BB
+[2020.07.02-07.05.23:399][206]LogTemp: Warning: BB
+[2020.07.02-07.05.23:407][207]LogTemp: Warning: BB
+[2020.07.02-07.05.23:415][208]LogTemp: Warning: BB
+[2020.07.02-07.05.23:424][209]LogTemp: Warning: BB
+[2020.07.02-07.05.23:432][210]LogTemp: Warning: BB
+[2020.07.02-07.05.23:440][211]LogTemp: Warning: BB
+[2020.07.02-07.05.23:449][212]LogTemp: Warning: BB
+[2020.07.02-07.05.23:457][213]LogTemp: Warning: BB
+[2020.07.02-07.05.23:466][214]LogTemp: Warning: BB
+[2020.07.02-07.05.23:474][215]LogTemp: Warning: BB
+[2020.07.02-07.05.23:482][216]LogTemp: Warning: BB
+[2020.07.02-07.05.23:491][217]LogTemp: Warning: BB
+[2020.07.02-07.05.23:499][218]LogTemp: Warning: BB
+[2020.07.02-07.05.23:507][219]LogTemp: Warning: BB
+[2020.07.02-07.05.23:516][220]LogTemp: Warning: BB
+[2020.07.02-07.05.23:524][221]LogTemp: Warning: BB
+[2020.07.02-07.05.23:532][222]LogTemp: Warning: BB
+[2020.07.02-07.05.23:541][223]LogTemp: Warning: BB
+[2020.07.02-07.05.23:549][224]LogTemp: Warning: BB
+[2020.07.02-07.05.23:557][225]LogTemp: Warning: BB
+[2020.07.02-07.05.23:566][226]LogTemp: Warning: BB
+[2020.07.02-07.05.23:574][227]LogTemp: Warning: BB
+[2020.07.02-07.05.23:583][228]LogTemp: Warning: BB
+[2020.07.02-07.05.23:591][229]LogTemp: Warning: BB
+[2020.07.02-07.05.23:599][230]LogTemp: Warning: BB
+[2020.07.02-07.05.23:608][231]LogTemp: Warning: BB
+[2020.07.02-07.05.23:615][232]LogTemp: Warning: BB
+[2020.07.02-07.05.23:623][233]LogTemp: Warning: BB
+[2020.07.02-07.05.23:632][234]LogTemp: Warning: BB
+[2020.07.02-07.05.23:640][235]LogTemp: Warning: BB
+[2020.07.02-07.05.23:648][236]LogTemp: Warning: BB
+[2020.07.02-07.05.23:657][237]LogTemp: Warning: BB
+[2020.07.02-07.05.23:665][238]LogTemp: Warning: BB
+[2020.07.02-07.05.23:674][239]LogTemp: Warning: BB
+[2020.07.02-07.05.23:682][240]LogTemp: Warning: BB
+[2020.07.02-07.05.23:690][241]LogTemp: Warning: BB
+[2020.07.02-07.05.23:699][242]LogTemp: Warning: BB
+[2020.07.02-07.05.23:707][243]LogTemp: Warning: BB
+[2020.07.02-07.05.23:716][244]LogTemp: Warning: BB
+[2020.07.02-07.05.23:724][245]LogTemp: Warning: BB
+[2020.07.02-07.05.23:732][246]LogTemp: Warning: BB
+[2020.07.02-07.05.23:740][247]LogTemp: Warning: BB
+[2020.07.02-07.05.23:749][248]LogTemp: Warning: BB
+[2020.07.02-07.05.23:757][249]LogTemp: Warning: BB
+[2020.07.02-07.05.23:766][250]LogTemp: Warning: BB
+[2020.07.02-07.05.23:774][251]LogTemp: Warning: BB
+[2020.07.02-07.05.23:782][252]LogTemp: Warning: BB
+[2020.07.02-07.05.23:791][253]LogTemp: Warning: BB
+[2020.07.02-07.05.23:799][254]LogTemp: Warning: BB
+[2020.07.02-07.05.23:807][255]LogTemp: Warning: BB
+[2020.07.02-07.05.23:816][256]LogTemp: Warning: BB
+[2020.07.02-07.05.23:824][257]LogTemp: Warning: BB
+[2020.07.02-07.05.23:832][258]LogTemp: Warning: BB
+[2020.07.02-07.05.23:840][259]LogTemp: Warning: BB
+[2020.07.02-07.05.23:849][260]LogTemp: Warning: BB
+[2020.07.02-07.05.23:857][261]LogTemp: Warning: BB
+[2020.07.02-07.05.23:865][262]LogTemp: Warning: BB
+[2020.07.02-07.05.23:874][263]LogTemp: Warning: BB
+[2020.07.02-07.05.23:882][264]LogTemp: Warning: BB
+[2020.07.02-07.05.23:890][265]LogTemp: Warning: BB
+[2020.07.02-07.05.23:899][266]LogTemp: Warning: BB
+[2020.07.02-07.05.23:907][267]LogTemp: Warning: BB
+[2020.07.02-07.05.23:915][268]LogTemp: Warning: BB
+[2020.07.02-07.05.23:924][269]LogTemp: Warning: BB
+[2020.07.02-07.05.23:932][270]LogTemp: Warning: BB
+[2020.07.02-07.05.23:941][271]LogTemp: Warning: BB
+[2020.07.02-07.05.23:950][272]LogTemp: Warning: BB
+[2020.07.02-07.05.23:957][273]LogTemp: Warning: BB
+[2020.07.02-07.05.23:965][274]LogTemp: Warning: BB
+[2020.07.02-07.05.23:973][275]LogTemp: Warning: BB
+[2020.07.02-07.05.23:982][276]LogTemp: Warning: BB
+[2020.07.02-07.05.23:990][277]LogTemp: Warning: BB
+[2020.07.02-07.05.23:999][278]LogTemp: Warning: BB
+[2020.07.02-07.05.24:007][279]LogTemp: Warning: BB
+[2020.07.02-07.05.24:015][280]LogTemp: Warning: BB
+[2020.07.02-07.05.24:024][281]LogTemp: Warning: BB
+[2020.07.02-07.05.24:032][282]LogTemp: Warning: BB
+[2020.07.02-07.05.24:040][283]LogTemp: Warning: BB
+[2020.07.02-07.05.24:049][284]LogTemp: Warning: BB
+[2020.07.02-07.05.24:057][285]LogTemp: Warning: BB
+[2020.07.02-07.05.24:066][286]LogTemp: Warning: BB
+[2020.07.02-07.05.24:074][287]LogTemp: Warning: BB
+[2020.07.02-07.05.24:082][288]LogTemp: Warning: BB
+[2020.07.02-07.05.24:090][289]LogTemp: Warning: BB
+[2020.07.02-07.05.24:099][290]LogTemp: Warning: BB
+[2020.07.02-07.05.24:107][291]LogTemp: Warning: BB
+[2020.07.02-07.05.24:115][292]LogTemp: Warning: BB
+[2020.07.02-07.05.24:124][293]LogTemp: Warning: BB
+[2020.07.02-07.05.24:132][294]LogTemp: Warning: BB
+[2020.07.02-07.05.24:140][295]LogTemp: Warning: BB
+[2020.07.02-07.05.24:149][296]LogTemp: Warning: BB
+[2020.07.02-07.05.24:157][297]LogTemp: Warning: BB
+[2020.07.02-07.05.24:166][298]LogTemp: Warning: BB
+[2020.07.02-07.05.24:174][299]LogTemp: Warning: BB
+[2020.07.02-07.05.24:182][300]LogTemp: Warning: BB
+[2020.07.02-07.05.24:191][301]LogTemp: Warning: BB
+[2020.07.02-07.05.24:199][302]LogTemp: Warning: BB
+[2020.07.02-07.05.24:208][303]LogTemp: Warning: BB
+[2020.07.02-07.05.24:215][304]LogTemp: Warning: BB
+[2020.07.02-07.05.24:223][305]LogTemp: Warning: BB
+[2020.07.02-07.05.24:232][306]LogTemp: Warning: BB
+[2020.07.02-07.05.24:242][307]LogTemp: Warning: BB
+[2020.07.02-07.05.24:273][308]LogTemp: Warning: BB
+[2020.07.02-07.05.24:279][309]LogTemp: Warning: BB
+[2020.07.02-07.05.24:287][310]LogTemp: Warning: BB
+[2020.07.02-07.05.24:296][311]LogTemp: Warning: BB
+[2020.07.02-07.05.24:304][312]LogTemp: Warning: BB
+[2020.07.02-07.05.24:313][313]LogTemp: Warning: BB
+[2020.07.02-07.05.24:321][314]LogTemp: Warning: BB
+[2020.07.02-07.05.24:329][315]LogTemp: Warning: BB
+[2020.07.02-07.05.24:338][316]LogTemp: Warning: BB
+[2020.07.02-07.05.24:346][317]LogTemp: Warning: BB
+[2020.07.02-07.05.24:354][318]LogTemp: Warning: BB
+[2020.07.02-07.05.24:362][319]LogTemp: Warning: BB
+[2020.07.02-07.05.24:371][320]LogTemp: Warning: BB
+[2020.07.02-07.05.24:380][321]LogTemp: Warning: BB
+[2020.07.02-07.05.24:388][322]LogTemp: Warning: BB
+[2020.07.02-07.05.24:397][323]LogTemp: Warning: BB
+[2020.07.02-07.05.24:405][324]LogTemp: Warning: BB
+[2020.07.02-07.05.24:413][325]LogTemp: Warning: BB
+[2020.07.02-07.05.24:421][326]LogTemp: Warning: BB
+[2020.07.02-07.05.24:429][327]LogTemp: Warning: BB
+[2020.07.02-07.05.24:438][328]LogTemp: Warning: BB
+[2020.07.02-07.05.24:446][329]LogTemp: Warning: BB
+[2020.07.02-07.05.24:454][330]LogTemp: Warning: BB
+[2020.07.02-07.05.24:463][331]LogTemp: Warning: BB
+[2020.07.02-07.05.24:471][332]LogTemp: Warning: BB
+[2020.07.02-07.05.24:481][333]LogTemp: Warning: BB
+[2020.07.02-07.05.24:497][334]LogTemp: Warning: BB
+[2020.07.02-07.05.24:505][335]LogTemp: Warning: BB
+[2020.07.02-07.05.24:513][336]LogTemp: Warning: BB
+[2020.07.02-07.05.24:522][337]LogTemp: Warning: BB
+[2020.07.02-07.05.24:530][338]LogTemp: Warning: BB
+[2020.07.02-07.05.24:538][339]LogTemp: Warning: BB
+[2020.07.02-07.05.24:547][340]LogTemp: Warning: BB
+[2020.07.02-07.05.24:555][341]LogTemp: Warning: BB
+[2020.07.02-07.05.24:563][342]LogTemp: Warning: BB
+[2020.07.02-07.05.24:571][343]LogTemp: Warning: BB
+[2020.07.02-07.05.24:580][344]LogTemp: Warning: BB
+[2020.07.02-07.05.24:588][345]LogTemp: Warning: BB
+[2020.07.02-07.05.24:597][346]LogTemp: Warning: BB
+[2020.07.02-07.05.24:605][347]LogTemp: Warning: BB
+[2020.07.02-07.05.24:613][348]LogTemp: Warning: BB
+[2020.07.02-07.05.24:621][349]LogTemp: Warning: BB
+[2020.07.02-07.05.24:630][350]LogTemp: Warning: BB
+[2020.07.02-07.05.24:638][351]LogTemp: Warning: BB
+[2020.07.02-07.05.24:647][352]LogTemp: Warning: BB
+[2020.07.02-07.05.24:655][353]LogTemp: Warning: BB
+[2020.07.02-07.05.24:664][354]LogTemp: Warning: BB
+[2020.07.02-07.05.24:672][355]LogTemp: Warning: BB
+[2020.07.02-07.05.24:680][356]LogTemp: Warning: BB
+[2020.07.02-07.05.24:689][357]LogTemp: Warning: BB
+[2020.07.02-07.05.24:697][358]LogTemp: Warning: BB
+[2020.07.02-07.05.24:705][359]LogTemp: Warning: BB
+[2020.07.02-07.05.24:713][360]LogTemp: Warning: BB
+[2020.07.02-07.05.24:725][361]LogSlate: Took 0.000110 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.07.02-07.05.24:846][370]LogTemp: Warning: BB
+[2020.07.02-07.05.24:854][371]LogTemp: Warning: BB
+[2020.07.02-07.05.24:863][372]LogTemp: Warning: BB
+[2020.07.02-07.05.24:871][373]LogTemp: Warning: BB
+[2020.07.02-07.05.24:879][374]LogTemp: Warning: BB
+[2020.07.02-07.05.24:887][375]LogTemp: Warning: BB
+[2020.07.02-07.05.24:895][376]LogTemp: Warning: BB
+[2020.07.02-07.05.24:904][377]LogTemp: Warning: BB
+[2020.07.02-07.05.24:912][378]LogTemp: Warning: BB
+[2020.07.02-07.05.24:920][379]LogTemp: Warning: BB
+[2020.07.02-07.05.24:929][380]LogTemp: Warning: BB
+[2020.07.02-07.05.24:937][381]LogTemp: Warning: BB
+[2020.07.02-07.05.24:946][382]LogTemp: Warning: BB
+[2020.07.02-07.05.24:954][383]LogTemp: Warning: BB
+[2020.07.02-07.05.24:962][384]LogTemp: Warning: BB
+[2020.07.02-07.05.24:971][385]LogTemp: Warning: BB
+[2020.07.02-07.05.24:979][386]LogTemp: Warning: BB
+[2020.07.02-07.05.24:987][387]LogTemp: Warning: BB
+[2020.07.02-07.05.24:996][388]LogTemp: Warning: BB
+[2020.07.02-07.05.25:004][389]LogTemp: Warning: BB
+[2020.07.02-07.05.25:012][390]LogTemp: Warning: BB
+[2020.07.02-07.05.25:021][391]LogTemp: Warning: BB
+[2020.07.02-07.05.25:029][392]LogTemp: Warning: BB
+[2020.07.02-07.05.25:037][393]LogTemp: Warning: BB
+[2020.07.02-07.05.25:045][394]LogTemp: Warning: BB
+[2020.07.02-07.05.25:054][395]LogTemp: Warning: BB
+[2020.07.02-07.05.25:062][396]LogTemp: Warning: BB
+[2020.07.02-07.05.25:071][397]LogTemp: Warning: BB
+[2020.07.02-07.05.25:079][398]LogTemp: Warning: BB
+[2020.07.02-07.05.25:087][399]LogTemp: Warning: BB
+[2020.07.02-07.05.25:096][400]LogTemp: Warning: BB
+[2020.07.02-07.05.25:104][401]LogTemp: Warning: BB
+[2020.07.02-07.05.25:113][402]LogTemp: Warning: BB
+[2020.07.02-07.05.25:121][403]LogTemp: Warning: BB
+[2020.07.02-07.05.25:129][404]LogTemp: Warning: BB
+[2020.07.02-07.05.25:137][405]LogTemp: Warning: BB
+[2020.07.02-07.05.25:146][406]LogTemp: Warning: BB
+[2020.07.02-07.05.25:154][407]LogTemp: Warning: BB
+[2020.07.02-07.05.25:162][408]LogTemp: Warning: BB
+[2020.07.02-07.05.25:171][409]LogTemp: Warning: BB
+[2020.07.02-07.05.25:179][410]LogTemp: Warning: BB
+[2020.07.02-07.05.25:188][411]LogTemp: Warning: BB
+[2020.07.02-07.05.25:196][412]LogTemp: Warning: BB
+[2020.07.02-07.05.25:204][413]LogTemp: Warning: BB
+[2020.07.02-07.05.25:213][414]LogTemp: Warning: BB
+[2020.07.02-07.05.25:221][415]LogTemp: Warning: BB
+[2020.07.02-07.05.25:229][416]LogTemp: Warning: BB
+[2020.07.02-07.05.25:238][417]LogTemp: Warning: BB
+[2020.07.02-07.05.25:246][418]LogTemp: Warning: BB
+[2020.07.02-07.05.25:254][419]LogTemp: Warning: BB
+[2020.07.02-07.05.25:263][420]LogTemp: Warning: BB
+[2020.07.02-07.05.25:272][421]LogTemp: Warning: BB
+[2020.07.02-07.05.25:280][422]LogTemp: Warning: BB
+[2020.07.02-07.05.25:288][423]LogTemp: Warning: BB
+[2020.07.02-07.05.25:296][424]LogTemp: Warning: BB
+[2020.07.02-07.05.25:305][425]LogTemp: Warning: BB
+[2020.07.02-07.05.25:313][426]LogTemp: Warning: BB
+[2020.07.02-07.05.25:322][427]LogTemp: Warning: BB
+[2020.07.02-07.05.25:329][428]LogTemp: Warning: BB
+[2020.07.02-07.05.25:337][429]LogTemp: Warning: BB
+[2020.07.02-07.05.25:346][430]LogTemp: Warning: BB
+[2020.07.02-07.05.25:354][431]LogTemp: Warning: BB
+[2020.07.02-07.05.25:362][432]LogTemp: Warning: BB
+[2020.07.02-07.05.25:371][433]LogTemp: Warning: BB
+[2020.07.02-07.05.25:379][434]LogTemp: Warning: BB
+[2020.07.02-07.05.25:388][435]LogTemp: Warning: BB
+[2020.07.02-07.05.25:396][436]LogTemp: Warning: BB
+[2020.07.02-07.05.25:404][437]LogTemp: Warning: BB
+[2020.07.02-07.05.25:413][438]LogTemp: Warning: BB
+[2020.07.02-07.05.25:421][439]LogTemp: Warning: BB
+[2020.07.02-07.05.25:429][440]LogTemp: Warning: BB
+[2020.07.02-07.05.25:438][441]LogTemp: Warning: BB
+[2020.07.02-07.05.25:446][442]LogTemp: Warning: BB
+[2020.07.02-07.05.25:454][443]LogTemp: Warning: BB
+[2020.07.02-07.05.25:463][444]LogTemp: Warning: BB
+[2020.07.02-07.05.25:472][445]LogTemp: Warning: BB
+[2020.07.02-07.05.25:480][446]LogTemp: Warning: BB
+[2020.07.02-07.05.25:488][447]LogTemp: Warning: BB
+[2020.07.02-07.05.25:496][448]LogTemp: Warning: BB
+[2020.07.02-07.05.25:504][449]LogTemp: Warning: BB
+[2020.07.02-07.05.25:513][450]LogTemp: Warning: BB
+[2020.07.02-07.05.25:521][451]LogTemp: Warning: BB
+[2020.07.02-07.05.25:529][452]LogTemp: Warning: BB
+[2020.07.02-07.05.25:538][453]LogTemp: Warning: BB
+[2020.07.02-07.05.25:546][454]LogTemp: Warning: BB
+[2020.07.02-07.05.25:555][455]LogTemp: Warning: BB
+[2020.07.02-07.05.25:563][456]LogTemp: Warning: BB
+[2020.07.02-07.05.25:571][457]LogTemp: Warning: BB
+[2020.07.02-07.05.25:581][458]LogTemp: Warning: BB
+[2020.07.02-07.05.25:588][459]LogTemp: Warning: BB
+[2020.07.02-07.05.25:596][460]LogTemp: Warning: BB
+[2020.07.02-07.05.25:605][461]LogTemp: Warning: BB
+[2020.07.02-07.05.25:613][462]LogTemp: Warning: BB
+[2020.07.02-07.05.25:621][463]LogTemp: Warning: BB
+[2020.07.02-07.05.25:631][464]LogTemp: Warning: BB
+[2020.07.02-07.05.25:638][465]LogTemp: Warning: BB
+[2020.07.02-07.05.25:647][466]LogTemp: Warning: BB
+[2020.07.02-07.05.25:655][467]LogTemp: Warning: BB
+[2020.07.02-07.05.25:664][468]LogTemp: Warning: BB
+[2020.07.02-07.05.25:672][469]LogTemp: Warning: BB
+[2020.07.02-07.05.25:681][470]LogTemp: Warning: BB
+[2020.07.02-07.05.25:688][471]LogTemp: Warning: BB
+[2020.07.02-07.05.25:697][472]LogTemp: Warning: BB
+[2020.07.02-07.05.25:704][473]LogTemp: Warning: BB
+[2020.07.02-07.05.25:713][474]LogTemp: Warning: BB
+[2020.07.02-07.05.25:721][475]LogTemp: Warning: BB
+[2020.07.02-07.05.25:729][476]LogTemp: Warning: BB
+[2020.07.02-07.05.25:737][477]LogTemp: Warning: BB
+[2020.07.02-07.05.25:746][478]LogTemp: Warning: BB
+[2020.07.02-07.05.25:754][479]LogTemp: Warning: BB
+[2020.07.02-07.05.25:763][480]LogTemp: Warning: BB
+[2020.07.02-07.05.25:771][481]LogTemp: Warning: BB
+[2020.07.02-07.05.25:779][482]LogTemp: Warning: BB
+[2020.07.02-07.05.25:788][483]LogTemp: Warning: BB
+[2020.07.02-07.05.25:796][484]LogTemp: Warning: BB
+[2020.07.02-07.05.25:804][485]LogTemp: Warning: BB
+[2020.07.02-07.05.25:814][486]LogTemp: Warning: BB
+[2020.07.02-07.05.25:837][487]LogTemp: Warning: BB
+[2020.07.02-07.05.25:848][488]LogTemp: Warning: BB
+[2020.07.02-07.05.25:857][489]LogTemp: Warning: BB
+[2020.07.02-07.05.25:864][490]LogTemp: Warning: BB
+[2020.07.02-07.05.25:872][491]LogTemp: Warning: BB
+[2020.07.02-07.05.25:880][492]LogTemp: Warning: BB
+[2020.07.02-07.05.25:889][493]LogTemp: Warning: BB
+[2020.07.02-07.05.25:897][494]LogTemp: Warning: BB
+[2020.07.02-07.05.25:905][495]LogTemp: Warning: BB
+[2020.07.02-07.05.25:914][496]LogTemp: Warning: BB
+[2020.07.02-07.05.25:922][497]LogTemp: Warning: BB
+[2020.07.02-07.05.25:930][498]LogTemp: Warning: BB
+[2020.07.02-07.05.25:939][499]LogTemp: Warning: BB
+[2020.07.02-07.05.25:948][500]LogTemp: Warning: BB
+[2020.07.02-07.05.25:955][501]LogTemp: Warning: BB
+[2020.07.02-07.05.25:963][502]LogTemp: Warning: BB
+[2020.07.02-07.05.25:972][503]LogTemp: Warning: BB
+[2020.07.02-07.05.25:980][504]LogTemp: Warning: BB
+[2020.07.02-07.05.25:988][505]LogTemp: Warning: BB
+[2020.07.02-07.05.25:997][506]LogTemp: Warning: BB
+[2020.07.02-07.05.26:005][507]LogTemp: Warning: BB
+[2020.07.02-07.05.26:013][508]LogTemp: Warning: BB
+[2020.07.02-07.05.26:022][509]LogTemp: Warning: BB
+[2020.07.02-07.05.26:030][510]LogTemp: Warning: BB
+[2020.07.02-07.05.26:038][511]LogTemp: Warning: BB
+[2020.07.02-07.05.26:047][512]LogTemp: Warning: BB
+[2020.07.02-07.05.26:055][513]LogTemp: Warning: BB
+[2020.07.02-07.05.26:064][514]LogTemp: Warning: BB
+[2020.07.02-07.05.26:074][515]LogTemp: Warning: BB
+[2020.07.02-07.05.26:081][516]LogTemp: Warning: BB
+[2020.07.02-07.05.26:089][517]LogTemp: Warning: BB
+[2020.07.02-07.05.26:097][518]LogTemp: Warning: BB
+[2020.07.02-07.05.26:105][519]LogTemp: Warning: BB
+[2020.07.02-07.05.26:114][520]LogTemp: Warning: BB
+[2020.07.02-07.05.26:122][521]LogTemp: Warning: BB
+[2020.07.02-07.05.26:130][522]LogTemp: Warning: BB
+[2020.07.02-07.05.26:139][523]LogTemp: Warning: BB
+[2020.07.02-07.05.26:147][524]LogTemp: Warning: BB
+[2020.07.02-07.05.26:155][525]LogTemp: Warning: BB
+[2020.07.02-07.05.26:164][526]LogTemp: Warning: BB
+[2020.07.02-07.05.26:172][527]LogTemp: Warning: BB
+[2020.07.02-07.05.26:180][528]LogTemp: Warning: BB
+[2020.07.02-07.05.26:188][529]LogTemp: Warning: BB
+[2020.07.02-07.05.26:197][530]LogTemp: Warning: BB
+[2020.07.02-07.05.26:205][531]LogTemp: Warning: BB
+[2020.07.02-07.05.26:213][532]LogTemp: Warning: BB
+[2020.07.02-07.05.26:222][533]LogTemp: Warning: BB
+[2020.07.02-07.05.26:230][534]LogTemp: Warning: BB
+[2020.07.02-07.05.26:239][535]LogTemp: Warning: BB
+[2020.07.02-07.05.26:247][536]LogTemp: Warning: BB
+[2020.07.02-07.05.26:255][537]LogTemp: Warning: BB
+[2020.07.02-07.05.26:264][538]LogTemp: Warning: BB
+[2020.07.02-07.05.26:272][539]LogTemp: Warning: BB
+[2020.07.02-07.05.26:280][540]LogTemp: Warning: BB
+[2020.07.02-07.05.26:289][541]LogTemp: Warning: BB
+[2020.07.02-07.05.26:297][542]LogTemp: Warning: BB
+[2020.07.02-07.05.26:305][543]LogTemp: Warning: BB
+[2020.07.02-07.05.26:314][544]LogTemp: Warning: BB
+[2020.07.02-07.05.26:322][545]LogTemp: Warning: BB
+[2020.07.02-07.05.26:330][546]LogTemp: Warning: BB
+[2020.07.02-07.05.26:339][547]LogTemp: Warning: BB
+[2020.07.02-07.05.26:347][548]LogTemp: Warning: BB
+[2020.07.02-07.05.26:355][549]LogTemp: Warning: BB
+[2020.07.02-07.05.26:363][550]LogTemp: Warning: BB
+[2020.07.02-07.05.26:372][551]LogTemp: Warning: BB
+[2020.07.02-07.05.26:380][552]LogTemp: Warning: BB
+[2020.07.02-07.05.26:388][553]LogTemp: Warning: BB
+[2020.07.02-07.05.26:397][554]LogTemp: Warning: BB
+[2020.07.02-07.05.26:405][555]LogTemp: Warning: BB
+[2020.07.02-07.05.26:413][556]LogTemp: Warning: BB
+[2020.07.02-07.05.26:422][557]LogTemp: Warning: BB
+[2020.07.02-07.05.26:430][558]LogTemp: Warning: BB
+[2020.07.02-07.05.26:438][559]LogTemp: Warning: BB
+[2020.07.02-07.05.26:447][560]LogTemp: Warning: BB
+[2020.07.02-07.05.26:455][561]LogTemp: Warning: BB
+[2020.07.02-07.05.26:464][562]LogTemp: Warning: BB
+[2020.07.02-07.05.26:472][563]LogTemp: Warning: BB
+[2020.07.02-07.05.26:480][564]LogTemp: Warning: BB
+[2020.07.02-07.05.26:489][565]LogTemp: Warning: BB
+[2020.07.02-07.05.26:497][566]LogTemp: Warning: BB
+[2020.07.02-07.05.26:505][567]LogTemp: Warning: BB
+[2020.07.02-07.05.26:514][568]LogTemp: Warning: BB
+[2020.07.02-07.05.26:522][569]LogTemp: Warning: BB
+[2020.07.02-07.05.26:530][570]LogTemp: Warning: BB
+[2020.07.02-07.05.26:539][571]LogTemp: Warning: BB
+[2020.07.02-07.05.26:547][572]LogTemp: Warning: BB
+[2020.07.02-07.05.26:555][573]LogTemp: Warning: BB
+[2020.07.02-07.05.26:564][574]LogTemp: Warning: BB
+[2020.07.02-07.05.26:572][575]LogTemp: Warning: BB
+[2020.07.02-07.05.26:580][576]LogTemp: Warning: BB
+[2020.07.02-07.05.26:589][577]LogTemp: Warning: BB
+[2020.07.02-07.05.26:597][578]LogTemp: Warning: BB
+[2020.07.02-07.05.26:605][579]LogTemp: Warning: BB
+[2020.07.02-07.05.26:614][580]LogTemp: Warning: BB
+[2020.07.02-07.05.26:622][581]LogTemp: Warning: BB
+[2020.07.02-07.05.26:631][582]LogTemp: Warning: BB
+[2020.07.02-07.05.26:639][583]LogTemp: Warning: BB
+[2020.07.02-07.05.26:647][584]LogTemp: Warning: BB
+[2020.07.02-07.05.26:655][585]LogTemp: Warning: BB
+[2020.07.02-07.05.26:664][586]LogTemp: Warning: BB
+[2020.07.02-07.05.26:672][587]LogTemp: Warning: BB
+[2020.07.02-07.05.26:680][588]LogTemp: Warning: BB
+[2020.07.02-07.05.26:689][589]LogTemp: Warning: BB
+[2020.07.02-07.05.26:697][590]LogTemp: Warning: BB
+[2020.07.02-07.05.26:705][591]LogTemp: Warning: BB
+[2020.07.02-07.05.26:714][592]LogTemp: Warning: BB
+[2020.07.02-07.05.26:722][593]LogTemp: Warning: BB
+[2020.07.02-07.05.26:730][594]LogTemp: Warning: BB
+[2020.07.02-07.05.26:739][595]LogTemp: Warning: BB
+[2020.07.02-07.05.26:747][596]LogTemp: Warning: BB
+[2020.07.02-07.05.26:756][597]LogTemp: Warning: BB
+[2020.07.02-07.05.26:764][598]LogTemp: Warning: BB
+[2020.07.02-07.05.26:772][599]LogTemp: Warning: BB
+[2020.07.02-07.05.26:781][600]LogTemp: Warning: BB
+[2020.07.02-07.05.26:789][601]LogTemp: Warning: BB
+[2020.07.02-07.05.26:798][602]LogTemp: Warning: BB
+[2020.07.02-07.05.26:806][603]LogTemp: Warning: BB
+[2020.07.02-07.05.26:814][604]LogTemp: Warning: BB
+[2020.07.02-07.05.26:822][605]LogTemp: Warning: BB
+[2020.07.02-07.05.26:831][606]LogTemp: Warning: BB
+[2020.07.02-07.05.26:839][607]LogTemp: Warning: BB
+[2020.07.02-07.05.26:848][608]LogTemp: Warning: BB
+[2020.07.02-07.05.26:855][609]LogTemp: Warning: BB
+[2020.07.02-07.05.26:863][610]LogTemp: Warning: BB
+[2020.07.02-07.05.26:872][611]LogTemp: Warning: BB
+[2020.07.02-07.05.26:880][612]LogTemp: Warning: BB
+[2020.07.02-07.05.26:888][613]LogTemp: Warning: BB
+[2020.07.02-07.05.26:897][614]LogTemp: Warning: BB
+[2020.07.02-07.05.26:905][615]LogTemp: Warning: BB
+[2020.07.02-07.05.26:914][616]LogTemp: Warning: BB
+[2020.07.02-07.05.26:922][617]LogTemp: Warning: BB
+[2020.07.02-07.05.26:930][618]LogTemp: Warning: BB
+[2020.07.02-07.05.26:938][619]LogTemp: Warning: BB
+[2020.07.02-07.05.26:947][620]LogTemp: Warning: BB
+[2020.07.02-07.05.26:955][621]LogTemp: Warning: BB
+[2020.07.02-07.05.26:964][622]LogTemp: Warning: BB
+[2020.07.02-07.05.26:972][623]LogTemp: Warning: BB
+[2020.07.02-07.05.26:980][624]LogTemp: Warning: BB
+[2020.07.02-07.05.26:989][625]LogTemp: Warning: BB
+[2020.07.02-07.05.26:997][626]LogTemp: Warning: BB
+[2020.07.02-07.05.27:005][627]LogTemp: Warning: BB
+[2020.07.02-07.05.27:014][628]LogTemp: Warning: BB
+[2020.07.02-07.05.27:022][629]LogTemp: Warning: BB
+[2020.07.02-07.05.27:030][630]LogTemp: Warning: BB
+[2020.07.02-07.05.27:039][631]LogTemp: Warning: BB
+[2020.07.02-07.05.27:047][632]LogTemp: Warning: BB
+[2020.07.02-07.05.27:055][633]LogTemp: Warning: BB
+[2020.07.02-07.05.27:064][634]LogTemp: Warning: BB
+[2020.07.02-07.05.27:072][635]LogTemp: Warning: BB
+[2020.07.02-07.05.27:080][636]LogTemp: Warning: BB
+[2020.07.02-07.05.27:089][637]LogTemp: Warning: BB
+[2020.07.02-07.05.27:097][638]LogTemp: Warning: BB
+[2020.07.02-07.05.27:105][639]LogTemp: Warning: BB
+[2020.07.02-07.05.27:114][640]LogTemp: Warning: BB
+[2020.07.02-07.05.27:122][641]LogTemp: Warning: BB
+[2020.07.02-07.05.27:131][642]LogTemp: Warning: BB
+[2020.07.02-07.05.27:139][643]LogTemp: Warning: BB
+[2020.07.02-07.05.27:147][644]LogTemp: Warning: BB
+[2020.07.02-07.05.27:156][645]LogTemp: Warning: BB
+[2020.07.02-07.05.27:164][646]LogTemp: Warning: BB
+[2020.07.02-07.05.27:172][647]LogTemp: Warning: BB
+[2020.07.02-07.05.27:181][648]LogTemp: Warning: BB
+[2020.07.02-07.05.27:189][649]LogTemp: Warning: BB
+[2020.07.02-07.05.27:197][650]LogTemp: Warning: BB
+[2020.07.02-07.05.27:206][651]LogTemp: Warning: BB
+[2020.07.02-07.05.27:214][652]LogTemp: Warning: BB
+[2020.07.02-07.05.27:223][653]LogTemp: Warning: BB
+[2020.07.02-07.05.27:231][654]LogTemp: Warning: BB
+[2020.07.02-07.05.27:238][655]LogTemp: Warning: BB
+[2020.07.02-07.05.27:247][656]LogTemp: Warning: BB
+[2020.07.02-07.05.27:255][657]LogTemp: Warning: BB
+[2020.07.02-07.05.27:263][658]LogTemp: Warning: BB
+[2020.07.02-07.05.27:272][659]LogTemp: Warning: BB
+[2020.07.02-07.05.27:280][660]LogTemp: Warning: BB
+[2020.07.02-07.05.27:288][661]LogTemp: Warning: BB
+[2020.07.02-07.05.27:297][662]LogTemp: Warning: BB
+[2020.07.02-07.05.27:305][663]LogTemp: Warning: BB
+[2020.07.02-07.05.27:314][664]LogTemp: Warning: BB
+[2020.07.02-07.05.27:322][665]LogTemp: Warning: BB
+[2020.07.02-07.05.27:330][666]LogTemp: Warning: BB
+[2020.07.02-07.05.27:338][667]LogTemp: Warning: BB
+[2020.07.02-07.05.27:347][668]LogTemp: Warning: BB
+[2020.07.02-07.05.27:355][669]LogTemp: Warning: BB
+[2020.07.02-07.05.27:364][670]LogTemp: Warning: BB
+[2020.07.02-07.05.27:372][671]LogTemp: Warning: BB
+[2020.07.02-07.05.27:380][672]LogTemp: Warning: BB
+[2020.07.02-07.05.27:389][673]LogTemp: Warning: BB
+[2020.07.02-07.05.27:397][674]LogTemp: Warning: BB
+[2020.07.02-07.05.27:405][675]LogTemp: Warning: BB
+[2020.07.02-07.05.27:414][676]LogTemp: Warning: BB
+[2020.07.02-07.05.27:422][677]LogTemp: Warning: BB
+[2020.07.02-07.05.27:430][678]LogTemp: Warning: BB
+[2020.07.02-07.05.27:439][679]LogTemp: Warning: BB
+[2020.07.02-07.05.27:447][680]LogTemp: Warning: BB
+[2020.07.02-07.05.27:455][681]LogTemp: Warning: BB
+[2020.07.02-07.05.27:464][682]LogTemp: Warning: BB
+[2020.07.02-07.05.27:472][683]LogTemp: Warning: BB
+[2020.07.02-07.05.27:481][684]LogTemp: Warning: BB
+[2020.07.02-07.05.27:489][685]LogTemp: Warning: BB
+[2020.07.02-07.05.27:497][686]LogTemp: Warning: BB
+[2020.07.02-07.05.27:506][687]LogTemp: Warning: BB
+[2020.07.02-07.05.27:514][688]LogTemp: Warning: BB
+[2020.07.02-07.05.27:522][689]LogTemp: Warning: BB
+[2020.07.02-07.05.27:531][690]LogTemp: Warning: BB
+[2020.07.02-07.05.27:539][691]LogTemp: Warning: BB
+[2020.07.02-07.05.27:548][692]LogTemp: Warning: BB
+[2020.07.02-07.05.27:556][693]LogTemp: Warning: BB
+[2020.07.02-07.05.27:564][694]LogTemp: Warning: BB
+[2020.07.02-07.05.27:573][695]LogTemp: Warning: BB
+[2020.07.02-07.05.27:581][696]LogTemp: Warning: BB
+[2020.07.02-07.05.27:589][697]LogTemp: Warning: BB
+[2020.07.02-07.05.27:597][698]LogTemp: Warning: BB
+[2020.07.02-07.05.27:606][699]LogTemp: Warning: BB
+[2020.07.02-07.05.27:613][700]LogTemp: Warning: BB
+[2020.07.02-07.05.27:622][701]LogTemp: Warning: BB
+[2020.07.02-07.05.27:630][702]LogTemp: Warning: BB
+[2020.07.02-07.05.27:638][703]LogTemp: Warning: BB
+[2020.07.02-07.05.27:647][704]LogTemp: Warning: BB
+[2020.07.02-07.05.27:655][705]LogTemp: Warning: BB
+[2020.07.02-07.05.27:663][706]LogTemp: Warning: BB
+[2020.07.02-07.05.27:672][707]LogTemp: Warning: BB
+[2020.07.02-07.05.27:680][708]LogTemp: Warning: BB
+[2020.07.02-07.05.27:688][709]LogTemp: Warning: BB
+[2020.07.02-07.05.27:697][710]LogTemp: Warning: BB
+[2020.07.02-07.05.27:705][711]LogTemp: Warning: BB
+[2020.07.02-07.05.27:714][712]LogTemp: Warning: BB
+[2020.07.02-07.05.27:722][713]LogTemp: Warning: BB
+[2020.07.02-07.05.27:730][714]LogTemp: Warning: BB
+[2020.07.02-07.05.27:739][715]LogTemp: Warning: BB
+[2020.07.02-07.05.27:747][716]LogTemp: Warning: BB
+[2020.07.02-07.05.27:755][717]LogTemp: Warning: BB
+[2020.07.02-07.05.27:764][718]LogTemp: Warning: BB
+[2020.07.02-07.05.27:772][719]LogTemp: Warning: BB
+[2020.07.02-07.05.27:780][720]LogTemp: Warning: BB
+[2020.07.02-07.05.27:789][721]LogTemp: Warning: BB
+[2020.07.02-07.05.27:797][722]LogTemp: Warning: BB
+[2020.07.02-07.05.27:805][723]LogTemp: Warning: BB
+[2020.07.02-07.05.27:814][724]LogTemp: Warning: BB
+[2020.07.02-07.05.27:822][725]LogTemp: Warning: BB
+[2020.07.02-07.05.27:830][726]LogTemp: Warning: BB
+[2020.07.02-07.05.27:839][727]LogTemp: Warning: BB
+[2020.07.02-07.05.27:847][728]LogTemp: Warning: BB
+[2020.07.02-07.05.27:855][729]LogTemp: Warning: BB
+[2020.07.02-07.05.27:864][730]LogTemp: Warning: BB
+[2020.07.02-07.05.27:873][731]LogTemp: Warning: BB
+[2020.07.02-07.05.27:880][732]LogTemp: Warning: BB
+[2020.07.02-07.05.27:888][733]LogTemp: Warning: BB
+[2020.07.02-07.05.27:897][734]LogTemp: Warning: BB
+[2020.07.02-07.05.27:905][735]LogTemp: Warning: BB
+[2020.07.02-07.05.27:913][736]LogTemp: Warning: BB
+[2020.07.02-07.05.27:922][737]LogTemp: Warning: BB
+[2020.07.02-07.05.27:930][738]LogTemp: Warning: BB
+[2020.07.02-07.05.27:938][739]LogTemp: Warning: BB
+[2020.07.02-07.05.27:947][740]LogTemp: Warning: BB
+[2020.07.02-07.05.27:955][741]LogTemp: Warning: BB
+[2020.07.02-07.05.27:963][742]LogTemp: Warning: BB
+[2020.07.02-07.05.27:972][743]LogTemp: Warning: BB
+[2020.07.02-07.05.27:980][744]LogTemp: Warning: BB
+[2020.07.02-07.05.27:989][745]LogTemp: Warning: BB
+[2020.07.02-07.05.27:997][746]LogTemp: Warning: BB
+[2020.07.02-07.05.28:005][747]LogTemp: Warning: BB
+[2020.07.02-07.05.28:014][748]LogTemp: Warning: BB
+[2020.07.02-07.05.28:022][749]LogTemp: Warning: BB
+[2020.07.02-07.05.28:030][750]LogTemp: Warning: BB
+[2020.07.02-07.05.28:039][751]LogTemp: Warning: BB
+[2020.07.02-07.05.28:047][752]LogTemp: Warning: BB
+[2020.07.02-07.05.28:055][753]LogTemp: Warning: BB
+[2020.07.02-07.05.28:064][754]LogTemp: Warning: BB
+[2020.07.02-07.05.28:072][755]LogTemp: Warning: BB
+[2020.07.02-07.05.28:080][756]LogTemp: Warning: BB
+[2020.07.02-07.05.28:198][770]LogTemp: Warning: BB
+[2020.07.02-07.05.28:199][770]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.02-07.05.28:209][770]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.07.02-07.05.28:228][770]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.07.02-07.05.28:228][770]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.07.02-07.05.28:228][770]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.02-07.05.28:229][770]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_2_ThirdPersonExampleMap
+[2020.07.02-07.05.28:229][770]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.02-07.05.28:229][770]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.07.02-07.05.28:230][770]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.02-07.05.28:241][770]LogNet: World NetDriver shutdown IpNetDriver_3 [GameNetDriver]
+[2020.07.02-07.05.28:241][770]LogNet: DestroyNamedNetDriver IpNetDriver_3 [GameNetDriver]
+[2020.07.02-07.05.28:241][770]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: MyPlayerController_0, Owner: MyPlayerController_0, UniqueId: NULL:DESKTOP-27BOLO1-CCB3B73F43D63330494A7EA11043E32E, Channels: 10, Time: 2020.07.02-07.05.28
+[2020.07.02-07.05.28:241][770]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: MyPlayerController_0, Owner: MyPlayerController_0, UniqueId: NULL:DESKTOP-27BOLO1-CCB3B73F43D63330494A7EA11043E32E
+[2020.07.02-07.05.28:242][770]LogExit: GameNetDriver IpNetDriver_3 shut down
+[2020.07.02-07.05.28:244][770]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap
+[2020.07.02-07.05.28:244][770]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.02-07.05.28:245][770]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.07.02-07.05.28:246][770]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.02-07.05.28:246][770]LogNet: World NetDriver shutdown IpNetDriver_2 [GameNetDriver]
+[2020.07.02-07.05.28:246][770]LogNet: DestroyNamedNetDriver IpNetDriver_2 [GameNetDriver]
+[2020.07.02-07.05.28:246][770]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 127.0.0.1:56582, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: MyPlayerController_0, Owner: MyPlayerController_0, UniqueId: NULL:DESKTOP-27BOLO1-CCB3B73F43D63330494A7EA11043E32E
+[2020.07.02-07.05.28:247][770]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:56582, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: MyPlayerController_0, Owner: MyPlayerController_0, UniqueId: NULL:DESKTOP-27BOLO1-CCB3B73F43D63330494A7EA11043E32E, Channels: 10, Time: 2020.07.02-07.05.28
+[2020.07.02-07.05.28:247][770]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:56582, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: MyPlayerController_0, Owner: MyPlayerController_0, UniqueId: NULL:DESKTOP-27BOLO1-CCB3B73F43D63330494A7EA11043E32E
+[2020.07.02-07.05.28:248][770]LogExit: GameNetDriver IpNetDriver_2 shut down
+[2020.07.02-07.05.28:249][770]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.02-07.05.28:250][770]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.07.02-07.05.28:256][770]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.02-07.05.28:278][770]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.02-07.05.28:281][770]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.02-07.05.28:283][770]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2020.07.02-07.05.28:297][771]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2020.07.02-07.05.28:297][771]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2020.07.02-07.05.58:272][ 71]Candidate modules for hot reload:
+[2020.07.02-07.05.58:273][ 71]  Unreal2TP
+[2020.07.02-07.05.58:273][ 71]Launching UnrealBuildTool... [D:/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Unreal2TP,2146 Win64 Development -TargetType=Editor -Project="D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Unreal2TP.uproject" "D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Unreal2TP.uproject"  -IgnoreJunk]
+[2020.07.02-07.05.58:279][ 71]Warning: Starting HotReload took  0.0s.
+[2020.07.02-07.06.00:714][318]CompilerResultsLog: New page: Compilation - Jul 2, 2020, 1:06:00 AM
+[2020.07.02-07.06.00:714][318]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Facultad\Unreal\UNREAL2TP\Unreal2TP).
+[2020.07.02-07.06.00:714][318]CompilerResultsLog: Building Unreal2TPEditor...
+[2020.07.02-07.06.00:714][318]CompilerResultsLog: Using Visual Studio 2017 14.16.27035 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.07.02-07.06.00:714][318]CompilerResultsLog: Building 4 actions with 8 processes...
+[2020.07.02-07.06.00:714][318]CompilerResultsLog:   [1/4] MyPlayerController.cpp
+[2020.07.02-07.06.00:714][318]CompilerResultsLog:   [2/4] UE4Editor-Unreal2TP-2146.lib
+[2020.07.02-07.06.00:714][318]CompilerResultsLog:      Creating library D:\Facultad\Unreal\UNREAL2TP\Unreal2TP\Unreal2TP\Intermediate\Build\Win64\UE4Editor\Development\Unreal2TP\UE4Editor-Unreal2TP-2146.lib and object D:\Facultad\Unreal\UNREAL2TP\Unreal2TP\Unreal2TP\Intermediate\Build\Win64\UE4Editor\Development\Unreal2TP\UE4Editor-Unreal2TP-2146.exp
+[2020.07.02-07.06.00:714][318]CompilerResultsLog:   [3/4] UE4Editor-Unreal2TP-2146.dll
+[2020.07.02-07.06.00:714][318]CompilerResultsLog:      Creating library D:\Facultad\Unreal\UNREAL2TP\Unreal2TP\Unreal2TP\Intermediate\Build\Win64\UE4Editor\Development\Unreal2TP\UE4Editor-Unreal2TP-2146.suppressed.lib and object D:\Facultad\Unreal\UNREAL2TP\Unreal2TP\Unreal2TP\Intermediate\Build\Win64\UE4Editor\Development\Unreal2TP\UE4Editor-Unreal2TP-2146.suppressed.exp
+[2020.07.02-07.06.00:714][318]CompilerResultsLog:   [4/4] Unreal2TPEditor.target
+[2020.07.02-07.06.00:714][318]CompilerResultsLog: Total time in Parallel executor: 1.66 seconds
+[2020.07.02-07.06.00:714][318]CompilerResultsLog: Total execution time: 2.38 seconds
+[2020.07.02-07.06.00:714][318]LogMainFrame: MainFrame: Module compiling took 2.444 seconds
+[2020.07.02-07.06.00:736][318]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2020.07.02-07.06.00:762][318]LogHotReload: Re-instancing MyPlayerController after hot-reload.
+[2020.07.02-07.06.00:843][318]LogContentBrowser: Native class hierarchy updated for 'Unreal2TP' in 0.0004 seconds. Added 11 classes and 2 folders.
+[2020.07.02-07.06.00:845][318]Display: HotReload successful (13 functions remapped  0 scriptstructs remapped)
+[2020.07.02-07.06.00:890][318]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2020.07.02-07.06.00:900][318]LogContentBrowser: Native class hierarchy populated in 0.0061 seconds. Added 3028 classes and 722 folders.
+[2020.07.02-07.06.00:900][318]Display: HotReload took  2.6s.
+[2020.07.02-07.06.01:510][389]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.02-07.06.01:519][389]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.07.02-07.06.01:519][389]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.02-07.06.01:519][389]PIE: New page: PIE session: ThirdPersonExampleMap (Jul 2, 2020, 1:06:01 AM)
+[2020.07.02-07.06.01:519][389]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap
+[2020.07.02-07.06.01:528][389]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008644s)
+[2020.07.02-07.06.01:529][389]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.07.02-07.06.01:529][389]LogPlayLevel: PIE: World Init took: (0.001002s)
+[2020.07.02-07.06.01:529][389]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap (0.009792s)
+[2020.07.02-07.06.01:552][389]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2020.07.02-07.06.01:553][389]LogLoad: Game class is 'BP_MyGameMode_C'
+[2020.07.02-07.06.01:554][389]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.07.02-04.06.01
+[2020.07.02-07.06.01:554][389]LogWorld: Bringing up level for play took: 0.001170
+[2020.07.02-07.06.01:555][389]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2020.07.02-07.06.01:555][389]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2020.07.02-07.06.01:555][389]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2020.07.02-07.06.01:555][389]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.07.02-07.06.01:555][389]LogNet: GameNetDriver IpNetDriver_4 IpNetDriver listening on port 17777
+[2020.07.02-07.06.01:555][389]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap 0.49
+[2020.07.02-07.06.01:556][389]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.02-07.06.01:556][389]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.02-07.06.01:556][389]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.02-07.06.01:556][389]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.02-07.06.01:556][389]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.02-07.06.01:556][389]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.02-07.06.01:556][389]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.02-07.06.01:556][389]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.02-07.06.01:557][389]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.02-07.06.01:557][389]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.02-07.06.01:592][389]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.02-07.06.01:592][389]LogAudioMixer: Display: Name: Altavoces (Realtek(R) Audio)
+[2020.07.02-07.06.01:592][389]LogAudioMixer: Display: Is Default: Yes
+[2020.07.02-07.06.01:592][389]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.02-07.06.01:592][389]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.02-07.06.01:592][389]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.02-07.06.01:592][389]LogAudioMixer: Display: Channel Order:
+[2020.07.02-07.06.01:592][389]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.02-07.06.01:592][389]LogAudioMixer: Display: 1: FrontRight
+[2020.07.02-07.06.01:607][389]LogAudioMixer: Display: Using Audio Device Altavoces (Realtek(R) Audio)
+[2020.07.02-07.06.01:608][389]LogInit: FAudioDevice initialized.
+[2020.07.02-07.06.01:620][389]LogNet: Browse: 127.0.0.1:17777//Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap
+[2020.07.02-07.06.01:621][389]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
+[2020.07.02-07.06.01:621][389]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.07.02-07.06.01:621][389]LogNet: Game client on port 17777, rate 10000
+[2020.07.02-07.06.01:622][389]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap 0.558
+[2020.07.02-07.06.01:623][389]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.07.02-07.06.01:623][389]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:57573
+[2020.07.02-07.06.01:623][389]LogHandshake: SendConnectChallenge. Timestamp: 0.008333, Cookie: 012100231206239122111183155094057222118027115028041146127201
+[2020.07.02-07.06.01:624][389]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2020.07.02-07.06.01:625][389]LogHandshake: SendChallengeResponse. Timestamp: 0.008333, Cookie: 012100231206239122111183155094057222118027115028041146127201
+[2020.07.02-07.06.01:654][390]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:57573
+[2020.07.02-07.06.01:654][390]LogHandshake: SendChallengeAck. InCookie: 012100231206239122111183155094057222118027115028041146127201
+[2020.07.02-07.06.01:654][390]LogNet: Server accepting post-challenge connection from: 127.0.0.1:57573
+[2020.07.02-07.06.01:654][390]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.07.02-07.06.01:654][390]LogNet: NotifyAcceptedConnection: Name: ThirdPersonExampleMap, TimeStamp: 07/02/20 04:06:01, [UNetConnection] RemoteAddr: 127.0.0.1:57573, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.07.02-07.06.01:654][390]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:57573, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.07.02-07.06.01:655][390]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_4, Driver: PendingNetDriver IpNetDriver_5, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.07.02-07.06.01:662][391]LogNet: NotifyAcceptingChannel Control 0 server World /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap: Accepted
+[2020.07.02-07.06.01:662][391]LogNet: Remote platform little endian=1
+[2020.07.02-07.06.01:662][391]LogNet: This platform little endian=1
+[2020.07.02-07.06.01:663][391]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2020.07.02-07.06.01:671][392]LogNet: Login request: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap?Name=DESKTOP-27BOLO1-737842EE44CC696AEBBB0F92B594768C userId: NULL:DESKTOP-27BOLO1-737842EE44CC696AEBBB0F92B594768C platform: NULL
+[2020.07.02-07.06.01:671][392]LogNet: Welcomed by server (Level: /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap, Game: /Game/ThirdPersonCPP/Blueprints/BP_MyGameMode.BP_MyGameMode_C)
+[2020.07.02-07.06.01:671][392]LogLoad: LoadMap: 127.0.0.1:17777//Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap?game=/Game/ThirdPersonCPP/Blueprints/BP_MyGameMode.BP_MyGameMode_C
+[2020.07.02-07.06.01:671][392]LogWorld: BeginTearingDown for /Temp/Untitled_3
+[2020.07.02-07.06.01:671][392]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.07.02-07.06.01:671][392]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.02-07.06.01:671][392]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.02-07.06.01:694][392]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2020.07.02-07.06.01:704][392]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.07.02-07.06.01:705][392]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_2_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.07.02-04.06.01
+[2020.07.02-07.06.01:705][392]LogWorld: Bringing up level for play took: 0.001109
+[2020.07.02-07.06.01:706][392]LogLoad: Took 0.034402 seconds to LoadMap(/Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap)
+[2020.07.02-07.06.01:715][393]LogNet: Client netspeed is 10000
+[2020.07.02-07.06.01:715][393]LogNet: Join request: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap?Name=DESKTOP-27BOLO1-737842EE44CC696AEBBB0F92B594768C?SplitscreenCount=1
+[2020.07.02-07.06.01:716][393]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.07.02-07.06.01:717][393]LogNet: Join succeeded: DESKTOP-27BOLO1-7378

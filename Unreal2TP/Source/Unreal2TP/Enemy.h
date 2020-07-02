@@ -32,8 +32,10 @@ public:
 	UPROPERTY(EditAnywhere, Category = "Shooting")
 		TSubclassOf<class ABullet> BulletClass;
 
-	UPROPERTY(Replicated, BlueprintReadOnly)
+	UPROPERTY(Replicated, VisibleAnywhere)
 	float Life;
+
+	int SpawnsLeft;
 
 	UPROPERTY(Replicated, BlueprintReadOnly)
 		bool Hitting;

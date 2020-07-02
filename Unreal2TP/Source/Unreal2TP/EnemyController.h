@@ -24,6 +24,7 @@ public:
 
 		virtual void OnPossess(APawn * InPawn) override;
 
+
 		virtual FRotator GetControlRotation() const override;
 
 		UFUNCTION()
@@ -46,7 +47,5 @@ public:
 
 		UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = AI)
 			bool bIsPlayerDetected = false;
-
-
 
 };

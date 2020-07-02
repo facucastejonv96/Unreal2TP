@@ -17,7 +17,9 @@ void EmptyLinkFunctionForGeneratedCodeUnreal2TPCharacter() {}
 	UNREAL2TP_API UClass* Z_Construct_UClass_AUnreal2TPCharacter();
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	UPackage* Z_Construct_UPackage__Script_Unreal2TP();
+	UNREAL2TP_API UFunction* Z_Construct_UFunction_AUnreal2TPCharacter_Multicast_OnDestroy();
 	UNREAL2TP_API UFunction* Z_Construct_UFunction_AUnreal2TPCharacter_Server_Aim();
+	UNREAL2TP_API UFunction* Z_Construct_UFunction_AUnreal2TPCharacter_Server_OnDestroy();
 	UNREAL2TP_API UFunction* Z_Construct_UFunction_AUnreal2TPCharacter_Server_StartShooting();
 	UNREAL2TP_API UFunction* Z_Construct_UFunction_AUnreal2TPCharacter_Server_StopShooting();
 	UNREAL2TP_API UFunction* Z_Construct_UFunction_AUnreal2TPCharacter_Server_Unaim();
@@ -29,10 +31,20 @@ void EmptyLinkFunctionForGeneratedCodeUnreal2TPCharacter() {}
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
 // End Cross Module References
+	static FName NAME_AUnreal2TPCharacter_Multicast_OnDestroy = FName(TEXT("Multicast_OnDestroy"));
+	void AUnreal2TPCharacter::Multicast_OnDestroy()
+	{
+		ProcessEvent(FindFunctionChecked(NAME_AUnreal2TPCharacter_Multicast_OnDestroy),NULL);
+	}
 	static FName NAME_AUnreal2TPCharacter_Server_Aim = FName(TEXT("Server_Aim"));
 	void AUnreal2TPCharacter::Server_Aim()
 	{
 		ProcessEvent(FindFunctionChecked(NAME_AUnreal2TPCharacter_Server_Aim),NULL);
+	}
+	static FName NAME_AUnreal2TPCharacter_Server_OnDestroy = FName(TEXT("Server_OnDestroy"));
+	void AUnreal2TPCharacter::Server_OnDestroy()
+	{
+		ProcessEvent(FindFunctionChecked(NAME_AUnreal2TPCharacter_Server_OnDestroy),NULL);
 	}
 	static FName NAME_AUnreal2TPCharacter_Server_StartShooting = FName(TEXT("Server_StartShooting"));
 	void AUnreal2TPCharacter::Server_StartShooting()
@@ -53,12 +65,36 @@ void EmptyLinkFunctionForGeneratedCodeUnreal2TPCharacter() {}
 	{
 		UClass* Class = AUnreal2TPCharacter::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
+			{ "Multicast_OnDestroy", &AUnreal2TPCharacter::execMulticast_OnDestroy },
 			{ "Server_Aim", &AUnreal2TPCharacter::execServer_Aim },
+			{ "Server_OnDestroy", &AUnreal2TPCharacter::execServer_OnDestroy },
 			{ "Server_StartShooting", &AUnreal2TPCharacter::execServer_StartShooting },
 			{ "Server_StopShooting", &AUnreal2TPCharacter::execServer_StopShooting },
 			{ "Server_Unaim", &AUnreal2TPCharacter::execServer_Unaim },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_AUnreal2TPCharacter_Multicast_OnDestroy_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AUnreal2TPCharacter_Multicast_OnDestroy_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Unreal2TPCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AUnreal2TPCharacter_Multicast_OnDestroy_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AUnreal2TPCharacter, nullptr, "Multicast_OnDestroy", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00024CC0, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AUnreal2TPCharacter_Multicast_OnDestroy_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AUnreal2TPCharacter_Multicast_OnDestroy_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AUnreal2TPCharacter_Multicast_OnDestroy()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AUnreal2TPCharacter_Multicast_OnDestroy_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	struct Z_Construct_UFunction_AUnreal2TPCharacter_Server_Aim_Statics
 	{
@@ -79,6 +115,28 @@ void EmptyLinkFunctionForGeneratedCodeUnreal2TPCharacter() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AUnreal2TPCharacter_Server_Aim_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AUnreal2TPCharacter_Server_OnDestroy_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AUnreal2TPCharacter_Server_OnDestroy_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Unreal2TPCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AUnreal2TPCharacter_Server_OnDestroy_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AUnreal2TPCharacter, nullptr, "Server_OnDestroy", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00220CC0, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AUnreal2TPCharacter_Server_OnDestroy_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AUnreal2TPCharacter_Server_OnDestroy_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AUnreal2TPCharacter_Server_OnDestroy()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AUnreal2TPCharacter_Server_OnDestroy_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -237,7 +295,9 @@ void EmptyLinkFunctionForGeneratedCodeUnreal2TPCharacter() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_Unreal2TP,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AUnreal2TPCharacter_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_AUnreal2TPCharacter_Multicast_OnDestroy, "Multicast_OnDestroy" }, // 3743825118
 		{ &Z_Construct_UFunction_AUnreal2TPCharacter_Server_Aim, "Server_Aim" }, // 3465534586
+		{ &Z_Construct_UFunction_AUnreal2TPCharacter_Server_OnDestroy, "Server_OnDestroy" }, // 1359903562
 		{ &Z_Construct_UFunction_AUnreal2TPCharacter_Server_StartShooting, "Server_StartShooting" }, // 1862345203
 		{ &Z_Construct_UFunction_AUnreal2TPCharacter_Server_StopShooting, "Server_StopShooting" }, // 335795255
 		{ &Z_Construct_UFunction_AUnreal2TPCharacter_Server_Unaim, "Server_Unaim" }, // 1543056617
@@ -338,7 +398,7 @@ void EmptyLinkFunctionForGeneratedCodeUnreal2TPCharacter() {}
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AUnreal2TPCharacter_Statics::NewProp_BaseTurnRate = { "BaseTurnRate", nullptr, (EPropertyFlags)0x0010000000020015, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AUnreal2TPCharacter, BaseTurnRate), METADATA_PARAMS(Z_Construct_UClass_AUnreal2TPCharacter_Statics::NewProp_BaseTurnRate_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AUnreal2TPCharacter_Statics::NewProp_BaseTurnRate_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AUnreal2TPCharacter_Statics::NewProp_BulletClass_MetaData[] = {
-		{ "Category", "Shooting" },
+		{ "Category", "Class" },
 		{ "ModuleRelativePath", "Unreal2TPCharacter.h" },
 	};
 #endif
@@ -374,7 +434,7 @@ void EmptyLinkFunctionForGeneratedCodeUnreal2TPCharacter() {}
 		{ "ModuleRelativePath", "Unreal2TPCharacter.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AUnreal2TPCharacter_Statics::NewProp_Life = { "Life", nullptr, (EPropertyFlags)0x0010000000000021, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AUnreal2TPCharacter, Life), METADATA_PARAMS(Z_Construct_UClass_AUnreal2TPCharacter_Statics::NewProp_Life_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AUnreal2TPCharacter_Statics::NewProp_Life_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AUnreal2TPCharacter_Statics::NewProp_Life = { "Life", nullptr, (EPropertyFlags)0x0010000000000034, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AUnreal2TPCharacter, Life), METADATA_PARAMS(Z_Construct_UClass_AUnreal2TPCharacter_Statics::NewProp_Life_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AUnreal2TPCharacter_Statics::NewProp_Life_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AUnreal2TPCharacter_Statics::NewProp_FollowCamera_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
@@ -442,7 +502,7 @@ void EmptyLinkFunctionForGeneratedCodeUnreal2TPCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AUnreal2TPCharacter, 1059016426);
+	IMPLEMENT_CLASS(AUnreal2TPCharacter, 659060888);
 	template<> UNREAL2TP_API UClass* StaticClass<AUnreal2TPCharacter>()
 	{
 		return AUnreal2TPCharacter::StaticClass();

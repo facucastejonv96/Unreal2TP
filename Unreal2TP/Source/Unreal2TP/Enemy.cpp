@@ -4,6 +4,7 @@
 #include "Enemy.h"
 #include "Bullet.h"
 #include "CharacterAnimInstance.h"
+#include "MyGameState.h"
 #include "Net/UnrealNetwork.h"
 #include "Components/AudioComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
@@ -49,12 +50,14 @@ void AEnemy::BeginPlay()
 void AEnemy::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-	if (Life <= 0) {
-		Dead = true;
+	if (Life <= 0 && !Dead) {
 		Cast<UCharacterAnimInstance>(Mesh->GetAnimInstance())->Dead = true;
 		Cast<UCharacterAnimInstance>(Mesh->GetAnimInstance())->Shooting = false;
 		Cast<UCharacterAnimInstance>(Mesh->GetAnimInstance())->Hit = false;
 		Cast<UCharacterAnimInstance>(Mesh->GetAnimInstance())->Aiming = false;
+		if (GetNetMode() == ENetMode::NM_DedicatedServer)
+			Cast<AMyGameState>(GetWorld()->GetGameState())->OnEnemyDead();
+		Dead = true;
 	}
 	if (!Dead) {
 		if (Shooting) {
@@ -129,11 +132,12 @@ void AEnemy::RecieveDamage(const float damage)
 			UE_LOG(LogTemp, Warning, TEXT("Hitea"));
 			Hitting = false;
 			DamageSound->Stop();
-				DamageSound->Play();
+			DamageSound->Play();
 			Cast<UCharacterAnimInstance>(Mesh->GetAnimInstance())->Hit = false;
 			HittingTime = 0;
 			Hitting = true;
 		}
+
 	}		
 }
 

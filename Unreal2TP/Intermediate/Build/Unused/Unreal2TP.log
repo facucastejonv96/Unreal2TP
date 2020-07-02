@@ -1,11 +1,7 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\Facultad\Unreal\UNREAL2TP\Unreal2TP).
   Building Unreal2TPEditor...
   Using Visual Studio 2017 14.16.27035 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 3 actions with 8 processes...
-    [1/3] UE4Editor-Unreal2TP-0046.lib
-       Creating library D:\Facultad\Unreal\UNREAL2TP\Unreal2TP\Unreal2TP\Intermediate\Build\Win64\UE4Editor\Development\Unreal2TP\UE4Editor-Unreal2TP-0046.lib and object D:\Facultad\Unreal\UNREAL2TP\Unreal2TP\Unreal2TP\Intermediate\Build\Win64\UE4Editor\Development\Unreal2TP\UE4Editor-Unreal2TP-0046.exp
-    [2/3] UE4Editor-Unreal2TP-0046.dll
-       Creating library D:\Facultad\Unreal\UNREAL2TP\Unreal2TP\Unreal2TP\Intermediate\Build\Win64\UE4Editor\Development\Unreal2TP\UE4Editor-Unreal2TP-0046.suppressed.lib and object D:\Facultad\Unreal\UNREAL2TP\Unreal2TP\Unreal2TP\Intermediate\Build\Win64\UE4Editor\Development\Unreal2TP\UE4Editor-Unreal2TP-0046.suppressed.exp
-    [3/3] Unreal2TPEditor.target
-  Total time in Parallel executor: 0.98 seconds
-  Total execution time: 1.48 seconds
+  Building 1 action with 8 processes...
+    [1/1] Unreal2TPEditor.target
+  Total time in Parallel executor: 0.12 seconds
+  Total execution time: 0.57 seconds

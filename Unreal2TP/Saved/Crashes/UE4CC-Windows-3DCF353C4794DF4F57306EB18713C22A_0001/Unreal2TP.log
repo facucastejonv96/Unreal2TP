@@ -1,0 +1,1727 @@
+﻿Log file open, 07/02/20 00:39:02
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: Unreal2TP
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 26 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.054242
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -3:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.24-CL-11590370
+LogInit: Engine Version: 4.24.3-11590370+++UE4+Release-4.24
+LogInit: Compatible Engine Version: 4.24.0-10570792+++UE4+Release-4.24
+LogInit: Net CL: 10570792
+LogInit: OS: Windows 10 (Release 1909) (), CPU: Intel(R) Core(TM) i7-9700KF CPU @ 3.60GHz, GPU: NVIDIA GeForce GTX 1070
+LogInit: Compiled (64-bit): Feb 24 2020 15:39:18
+LogInit: Compiled with Visual C++: 19.16.27032.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.24
+LogInit: Command Line: 
+LogInit: Base Directory: D:/UE_4.24/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 25
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 37
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 36
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 2
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 36
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 8
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 9
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 8
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.07.02-03.39.02:403][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.07.02-03.39.02:403][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.07.02-03.39.02:403][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Engine.ini]
+[2020.07.02-03.39.02:403][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.07.02-03.39.02:403][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Engine.ini]
+[2020.07.02-03.39.02:403][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Engine.ini]
+[2020.07.02-03.39.02:403][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.07.02-03.39.02:403][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.07.02-03.39.02:403][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.07.02-03.39.02:403][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.07.02-03.39.02:403][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.07.02-03.39.02:403][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.07.02-03.39.02:403][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.07.02-03.39.02:403][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.07.02-03.39.02:403][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.07.02-03.39.02:403][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.07.02-03.39.02:403][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.07.02-03.39.02:403][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.07.02-03.39.02:403][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.07.02-03.39.02:403][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.07.02-03.39.02:403][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Engine.ini]
+[2020.07.02-03.39.02:403][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.07.02-03.39.02:403][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.07.02-03.39.02:403][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.07.02-03.39.02:403][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.07.02-03.39.02:403][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.07.02-03.39.02:403][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.07.02-03.39.02:403][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.07.02-03.39.02:403][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.07.02-03.39.02:403][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.07.02-03.39.02:403][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.07.02-03.39.02:403][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.07.02-03.39.02:403][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.07.02-03.39.02:403][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.07.02-03.39.02:403][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Engine.ini]
+[2020.07.02-03.39.02:403][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Engine.ini]
+[2020.07.02-03.39.02:411][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Scalability.ini]
+[2020.07.02-03.39.02:411][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.07.02-03.39.02:411][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.07.02-03.39.02:411][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Scalability.ini]
+[2020.07.02-03.39.02:411][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.07.02-03.39.02:411][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Scalability.ini]
+[2020.07.02-03.39.02:411][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.07.02-03.39.02:411][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.07.02-03.39.02:411][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.07.02-03.39.02:411][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.07.02-03.39.02:411][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.07.02-03.39.02:411][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.07.02-03.39.02:411][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.07.02-03.39.02:411][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.07.02-03.39.02:411][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.07.02-03.39.02:411][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.07.02-03.39.02:411][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.07.02-03.39.02:411][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.07.02-03.39.02:411][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.07.02-03.39.02:411][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.07.02-03.39.02:411][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.07.02-03.39.02:411][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.07.02-03.39.02:411][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.07.02-03.39.02:411][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.07.02-03.39.02:411][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Scalability.ini]
+[2020.07.02-03.39.02:411][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.07.02-03.39.02:411][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.07.02-03.39.02:411][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.07.02-03.39.02:411][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.07.02-03.39.02:411][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.07.02-03.39.02:412][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.07.02-03.39.02:412][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.07.02-03.39.02:412][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.07.02-03.39.02:412][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.07.02-03.39.02:412][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.07.02-03.39.02:412][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.07.02-03.39.02:412][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.07.02-03.39.02:412][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.07.02-03.39.02:412][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.07.02-03.39.02:412][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.07.02-03.39.02:412][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.07.02-03.39.02:412][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.07.02-03.39.02:412][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.07.02-03.39.02:412][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.07.02-03.39.02:412][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.07.02-03.39.02:412][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.07.02-03.39.02:412][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.07.02-03.39.02:412][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.07.02-03.39.02:412][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.07.02-03.39.02:412][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.07.02-03.39.02:412][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.07.02-03.39.02:412][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.07.02-03.39.02:412][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.07.02-03.39.02:412][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.07.02-03.39.02:412][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.07.02-03.39.02:412][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Scalability.ini]
+[2020.07.02-03.39.02:412][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.07.02-03.39.02:412][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.07.02-03.39.02:412][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.07.02-03.39.02:412][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.07.02-03.39.02:412][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.07.02-03.39.02:412][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.07.02-03.39.02:412][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.07.02-03.39.02:412][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.07.02-03.39.02:412][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.07.02-03.39.02:412][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Scalability.ini]
+[2020.07.02-03.39.02:412][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.07.02-03.39.02:412][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.07.02-03.39.02:412][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.07.02-03.39.02:412][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.07.02-03.39.02:412][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.07.02-03.39.02:412][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.07.02-03.39.02:412][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.07.02-03.39.02:412][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.07.02-03.39.02:412][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.07.02-03.39.02:412][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.07.02-03.39.02:412][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.07.02-03.39.02:412][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.07.02-03.39.02:412][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.07.02-03.39.02:412][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.07.02-03.39.02:412][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.07.02-03.39.02:412][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.07.02-03.39.02:412][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.07.02-03.39.02:412][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.07.02-03.39.02:412][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.07.02-03.39.02:412][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.07.02-03.39.02:412][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.07.02-03.39.02:412][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.07.02-03.39.02:412][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.07.02-03.39.02:412][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.07.02-03.39.02:412][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.07.02-03.39.02:412][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.07.02-03.39.02:412][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Scalability.ini]
+[2020.07.02-03.39.02:412][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.07.02-03.39.02:412][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.07.02-03.39.02:413][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Scalability.ini]
+[2020.07.02-03.39.02:413][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.07.02-03.39.02:413][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.07.02-03.39.02:413][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.07.02-03.39.02:413][  0]LogInit: Selected Device Profile: [Windows]
+[2020.07.02-03.39.02:413][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.07.02-03.39.02:414][  0]LogHAL: Display: Platform has ~ 16 GB [17096769536 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.07.02-03.39.02:414][  0]LogInit: Going up to parent DeviceProfile []
+[2020.07.02-03.39.02:414][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Scalability.ini]
+[2020.07.02-03.39.02:414][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.07.02-03.39.02:414][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.07.02-03.39.02:414][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Scalability.ini]
+[2020.07.02-03.39.02:414][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.07.02-03.39.02:414][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Scalability.ini]
+[2020.07.02-03.39.02:414][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.07.02-03.39.02:414][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.07.02-03.39.02:414][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.07.02-03.39.02:414][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.07.02-03.39.02:414][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.07.02-03.39.02:414][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.07.02-03.39.02:415][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.07.02-03.39.02:415][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.07.02-03.39.02:415][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.07.02-03.39.02:415][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.07.02-03.39.02:415][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.07.02-03.39.02:415][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.07.02-03.39.02:415][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.07.02-03.39.02:415][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.07.02-03.39.02:415][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.07.02-03.39.02:415][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.07.02-03.39.02:415][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.07.02-03.39.02:415][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.07.02-03.39.02:415][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Scalability.ini]
+[2020.07.02-03.39.02:415][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.07.02-03.39.02:415][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.07.02-03.39.02:415][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.07.02-03.39.02:415][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.07.02-03.39.02:415][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.07.02-03.39.02:415][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.07.02-03.39.02:415][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.07.02-03.39.02:415][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.07.02-03.39.02:415][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.07.02-03.39.02:415][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.07.02-03.39.02:415][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.07.02-03.39.02:415][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.07.02-03.39.02:415][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.07.02-03.39.02:415][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.07.02-03.39.02:415][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.07.02-03.39.02:415][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.07.02-03.39.02:415][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.07.02-03.39.02:415][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.07.02-03.39.02:415][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.07.02-03.39.02:415][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.07.02-03.39.02:415][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.07.02-03.39.02:415][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.07.02-03.39.02:415][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.07.02-03.39.02:415][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.07.02-03.39.02:415][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.07.02-03.39.02:415][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.07.02-03.39.02:415][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.07.02-03.39.02:415][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.07.02-03.39.02:415][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.07.02-03.39.02:415][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.07.02-03.39.02:415][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Scalability.ini]
+[2020.07.02-03.39.02:415][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.07.02-03.39.02:415][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.07.02-03.39.02:415][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.07.02-03.39.02:415][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.07.02-03.39.02:415][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.07.02-03.39.02:415][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.07.02-03.39.02:415][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.07.02-03.39.02:415][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.07.02-03.39.02:415][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.07.02-03.39.02:415][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Scalability.ini]
+[2020.07.02-03.39.02:415][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.07.02-03.39.02:415][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.07.02-03.39.02:415][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.07.02-03.39.02:415][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.07.02-03.39.02:415][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.07.02-03.39.02:415][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.07.02-03.39.02:415][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.07.02-03.39.02:415][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.07.02-03.39.02:415][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.07.02-03.39.02:415][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.07.02-03.39.02:415][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.07.02-03.39.02:415][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.07.02-03.39.02:416][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.07.02-03.39.02:416][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.07.02-03.39.02:416][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.07.02-03.39.02:416][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.07.02-03.39.02:416][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.07.02-03.39.02:416][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.07.02-03.39.02:416][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.07.02-03.39.02:416][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.07.02-03.39.02:416][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.07.02-03.39.02:416][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.07.02-03.39.02:416][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.07.02-03.39.02:416][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.07.02-03.39.02:416][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.07.02-03.39.02:416][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.07.02-03.39.02:416][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Scalability.ini]
+[2020.07.02-03.39.02:416][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.07.02-03.39.02:416][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.07.02-03.39.02:416][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Scalability.ini]
+[2020.07.02-03.39.02:416][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.07.02-03.39.02:416][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.07.02-03.39.02:416][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.07.02-03.39.02:416][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.07.02-03.39.02:416][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.07.02-03.39.02:416][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.07.02-03.39.02:416][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Config/Windows/Engine.ini]
+[2020.07.02-03.39.02:416][  0]LogInit: Computer: DESKTOP-27BOLO1
+[2020.07.02-03.39.02:416][  0]LogInit: User: Facundo
+[2020.07.02-03.39.02:416][  0]LogInit: CPU Page size=4096, Cores=8
+[2020.07.02-03.39.02:416][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.07.02-03.39.02:416][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.07.02-03.39.02:416][  0]LogMemory: Platform Memory Stats for Windows
+[2020.07.02-03.39.02:416][  0]LogMemory: Process Physical Memory: 105.65 MB used, 105.66 MB peak
+[2020.07.02-03.39.02:416][  0]LogMemory: Process Virtual Memory: 100.82 MB used, 100.82 MB peak
+[2020.07.02-03.39.02:416][  0]LogMemory: Physical Memory: 7115.60 MB used,  9189.15 MB free, 16304.75 MB total
+[2020.07.02-03.39.02:416][  0]LogMemory: Virtual Memory: 5107.20 MB used,  134212624.00 MB free, 134217728.00 MB total
+[2020.07.02-03.39.02:418][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.07.02-03.39.02:430][  0]LogInit: Using OS detected language (en-US).
+[2020.07.02-03.39.02:430][  0]LogInit: Using OS detected locale (en-US).
+[2020.07.02-03.39.02:430][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.07.02-03.39.02:531][  0]LogInit: Setting process to per monitor DPI aware
+[2020.07.02-03.39.02:757][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.07.02-03.39.02:757][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.07.02-03.39.02:857][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.07.02-03.39.02:857][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.07.02-03.39.02:857][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.07.02-03.39.02:857][  0]LogD3D11RHI: D3D11 adapters:
+[2020.07.02-03.39.02:903][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2020.07.02-03.39.02:904][  0]LogD3D11RHI:       8088/0/8152 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x10de
+[2020.07.02-03.39.02:905][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.07.02-03.39.02:905][  0]LogD3D11RHI:       0/0/8152 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.07.02-03.39.02:905][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.07.02-03.39.02:911][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.07.02-03.39.02:911][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2020.07.02-03.39.02:911][  0]LogWindows: EnumDisplayDevices:
+[2020.07.02-03.39.02:911][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2020.07.02-03.39.02:911][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2020.07.02-03.39.02:911][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2020.07.02-03.39.02:912][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2020.07.02-03.39.02:912][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.07.02-03.39.02:912][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2020.07.02-03.39.02:912][  0]LogD3D11RHI:   Driver Version: 446.14 (internal:26.21.14.4614, unified:446.14)
+[2020.07.02-03.39.02:912][  0]LogD3D11RHI:      Driver Date: 5-15-2020
+[2020.07.02-03.39.02:912][  0]LogRHI: Texture pool is 5661 MB (70% of 8088 MB)
+[2020.07.02-03.39.02:942][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.07.02-03.39.02:942][  0]LogD3D11RHI: Async texture creation enabled
+[2020.07.02-03.39.02:956][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.07.02-03.39.03:179][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.07.02-03.39.03:200][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.07.02-03.39.03:200][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.07.02-03.39.03:200][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
+[2020.07.02-03.39.03:201][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.07.02-03.39.03:201][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
+[2020.07.02-03.39.03:201][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
+[2020.07.02-03.39.03:201][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.07.02-03.39.03:201][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
+[2020.07.02-03.39.03:201][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.07.02-03.39.03:201][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.07.02-03.39.03:201][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
+[2020.07.02-03.39.03:201][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.07.02-03.39.03:201][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
+[2020.07.02-03.39.03:201][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
+[2020.07.02-03.39.03:201][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.07.02-03.39.03:201][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
+[2020.07.02-03.39.03:201][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.07.02-03.39.03:201][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.07.02-03.39.03:213][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.07.02-03.39.03:213][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.07.02-03.39.03:218][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.07.02-03.39.03:222][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.07.02-03.39.03:227][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.07.02-03.39.03:231][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.07.02-03.39.03:236][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.07.02-03.39.03:240][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.07.02-03.39.03:255][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.07.02-03.39.03:255][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.07.02-03.39.03:264][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.07.02-03.39.03:264][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.07.02-03.39.03:269][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.07.02-03.39.03:274][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.07.02-03.39.03:278][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.07.02-03.39.03:283][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.07.02-03.39.03:283][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.07.02-03.39.03:284][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.07.02-03.39.03:296][  0]LogShaderCompilers: Guid format shader working directory is -10 characters bigger than the processId version (../../../../Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Intermediate/Shaders/WorkingDirectory/20168/).
+[2020.07.02-03.39.03:297][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Facundo/AppData/Local/Temp/UnrealShaderWorkingDir/DFBF796846EC83BC0381C5865726D2AC/'.
+[2020.07.02-03.39.03:297][  0]LogXGEController: Cleaning working directory: C:/Users/Facundo/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.07.02-03.39.03:297][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.07.02-03.39.03:297][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.07.02-03.39.03:297][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.07.02-03.39.03:821][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.07.02-03.39.03:868][  0]LogDerivedDataCache: Loaded boot cache 0.05s 82MB C:/Users/Facundo/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.07.02-03.39.03:868][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Facundo/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
+[2020.07.02-03.39.03:868][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.07.02-03.39.03:868][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.07.02-03.39.03:868][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.07.02-03.39.03:868][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.07.02-03.39.03:875][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.07.02-03.39.03:875][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.07.02-03.39.03:875][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.07.02-03.39.03:876][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Facundo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.07.02-03.39.03:877][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.07.02-03.39.03:877][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.07.02-03.39.03:895][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.07.02-03.39.03:897][  0]LogSlate: Using FreeType 2.10.0
+[2020.07.02-03.39.03:898][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.07.02-03.39.03:936][  0]LogAssetRegistry: FAssetRegistry took 0.0017 seconds to start up
+[2020.07.02-03.39.04:132][  0]LogInit: Selected Device Profile: [Windows]
+[2020.07.02-03.39.04:240][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.07.02-03.39.04:240][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.07.02-03.39.04:240][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.07.02-03.39.04:240][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.07.02-03.39.04:240][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.07.02-03.39.04:255][  0]LogNetVersion: Unreal2TP 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 317678641)
+[2020.07.02-03.39.04:991][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.026909 seconds
+[2020.07.02-03.39.04:997][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
+[2020.07.02-03.39.04:997][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
+[2020.07.02-03.39.04:998][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.07.02-03.39.05:270][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.07.02-03.39.05:272][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.07.02-03.39.05:420][  0]SourceControl: Source control is disabled
+[2020.07.02-03.39.05:420][  0]SourceControl: Source control is disabled
+[2020.07.02-03.39.05:421][  0]SourceControl: Source control is disabled
+[2020.07.02-03.39.05:421][  0]SourceControl: Source control is disabled
+[2020.07.02-03.39.05:422][  0]SourceControl: Source control is disabled
+[2020.07.02-03.39.05:472][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.07.02-03.39.05:479][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.07.02-03.39.05:479][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.07.02-03.39.05:536][  0]LogOcInput: OculusInput pre-init called
+[2020.07.02-03.39.05:541][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.07.02-03.39.05:541][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.07.02-03.39.05:587][  0]LogEngine: Initializing Engine...
+[2020.07.02-03.39.05:588][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.07.02-03.39.05:589][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.07.02-03.39.05:825][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.07.02-03.39.05:830][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.07.02-03.39.05:843][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.02-03.39.05:843][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.02-03.39.05:843][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.02-03.39.05:843][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.02-03.39.05:843][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.02-03.39.05:843][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.02-03.39.05:844][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.02-03.39.05:844][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.02-03.39.05:844][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.02-03.39.05:844][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.02-03.39.05:883][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.02-03.39.05:883][  0]LogAudioMixer: Display: Name: Altavoces (Realtek(R) Audio)
+[2020.07.02-03.39.05:883][  0]LogAudioMixer: Display: Is Default: Yes
+[2020.07.02-03.39.05:883][  0]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.02-03.39.05:883][  0]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.02-03.39.05:883][  0]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.02-03.39.05:883][  0]LogAudioMixer: Display: Channel Order:
+[2020.07.02-03.39.05:883][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.02-03.39.05:883][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.07.02-03.39.05:908][  0]LogAudioMixer: Display: Using Audio Device Altavoces (Realtek(R) Audio)
+[2020.07.02-03.39.05:912][  0]LogInit: FAudioDevice initialized.
+[2020.07.02-03.39.05:912][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.07.02-03.39.05:993][  0]LogDerivedDataCache: Saved boot cache 0.08s 82MB C:/Users/Facundo/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.07.02-03.39.05:994][  0]LogInit: Texture streaming: Enabled
+[2020.07.02-03.39.06:008][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.07.02-03.39.06:008][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Debugger, SessionId={E1BD109D-4855-97D7-AA74-F7A8CBA23C35}
+[2020.07.02-03.39.06:008][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Debugger, SessionId={8CB7C244-4EFE-8E2B-E32B-A7BF9D0B868B}
+[2020.07.02-03.39.06:008][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Debugger, SessionId={FF84FA89-40A8-2242-0458-099301AA130C}
+[2020.07.02-03.39.06:008][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.07.02-03.39.06:012][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.07.02-03.39.06:039][  0]LogInit: Transaction tracking system initialized
+[2020.07.02-03.39.06:045][  0]BlueprintLog: New page: Editor Load
+[2020.07.02-03.39.06:063][  0]LocalizationService: Localization service is disabled
+[2020.07.02-03.39.06:235][  0]LogFileCache: Scanning file cache for directory 'D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Content/' took 0.01s
+[2020.07.02-03.39.06:235][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.07.02-03.39.06:235][  0]LogCook: Display: Mobile HDR setting 1
+[2020.07.02-03.39.06:726][  0]SourceControl: Source control is disabled
+[2020.07.02-03.39.06:726][  0]Cmd: MAP LOAD FILE="../../../../Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.07.02-03.39.06:727][  0]LightingResults: New page: Lighting Build
+[2020.07.02-03.39.06:727][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.07.02-03.39.06:727][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.02-03.39.06:727][  0]MapCheck: New page: Map Check
+[2020.07.02-03.39.06:727][  0]LightingResults: New page: Lighting Build
+[2020.07.02-03.39.06:751][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2020.07.02-03.39.06:845][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.07.02-03.39.06:850][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.07.02-03.39.06:873][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2020.07.02-03.39.06:873][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.07.02-03.39.06:873][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.069ms to complete.
+[2020.07.02-03.39.06:873][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.147
+[2020.07.02-03.39.07:015][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.02-03.39.07:019][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.02-03.39.07:024][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.02-03.39.07:029][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.02-03.39.07:033][  0]LogCollectionManager: Loaded 0 collections in 0.001484 seconds
+[2020.07.02-03.39.07:042][  0]LogFileCache: Scanning file cache for directory 'D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Saved/Collections/' took 0.00s
+[2020.07.02-03.39.07:042][  0]LogFileCache: Scanning file cache for directory 'D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Content/Developers/Facundo/Collections/' took 0.00s
+[2020.07.02-03.39.07:042][  0]LogFileCache: Scanning file cache for directory 'D:/Facultad/Unreal/UNREAL2TP/Unreal2TP/Unreal2TP/Content/Collections/' took 0.00s
+[2020.07.02-03.39.07:042][  0]LogContentBrowser: Native class hierarchy populated in 0.0062 seconds. Added 3026 classes and 719 folders.
+[2020.07.02-03.39.07:043][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.07.02-03.39.07:087][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.07.02-03.39.07:091][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 3 folders.
+[2020.07.02-03.39.07:185][  0]LogSlate: Took 0.000186 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.07.02-03.39.07:186][  0]LogSlate: Took 0.000089 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.07.02-03.39.07:189][  0]LogSlate: Took 0.000087 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.07.02-03.39.07:254][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
+[2020.07.02-03.39.07:295][  0]LogSlate: Took 0.000134 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.07.02-03.39.07:330][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.07.02-03.39.07:330][  0]LogLoad: (Engine Initialization) Total time: 6.12 seconds
+[2020.07.02-03.39.07:330][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.07.02-03.39.07:369][  0]LogAssetRegistry: Asset discovery search completed in 3.4329 seconds
+[2020.07.02-03.39.07:371][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000005 seconds (updated 0 objects)
+[2020.07.02-03.39.07:373][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.07.02-03.39.14:230][673]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.02-03.39.14:236][673]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.07.02-03.39.14:236][673]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.02-03.39.14:237][673]PIE: New page: PIE session: ThirdPersonExampleMap (Jul 1, 2020, 9:39:14 PM)
+[2020.07.02-03.39.14:237][673]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.07.02-03.39.14:238][673]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.07.02-03.39.14:238][673]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap
+[2020.07.02-03.39.14:250][673]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012191s)
+[2020.07.02-03.39.14:251][673]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.07.02-03.39.14:252][673]LogPlayLevel: PIE: World Init took: (0.001086s)
+[2020.07.02-03.39.14:252][673]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap (0.013518s)
+[2020.07.02-03.39.14:275][673]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2020.07.02-03.39.14:277][673]LogLoad: Game class is 'BP_MyGameMode_C'
+[2020.07.02-03.39.14:279][673]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.07.02-00.39.14
+[2020.07.02-03.39.14:279][673]LogWorld: Bringing up level for play took: 0.001486
+[2020.07.02-03.39.14:280][673]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2020.07.02-03.39.14:280][673]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2020.07.02-03.39.14:282][673]LogInit: WinSock: I am DESKTOP-27BOLO1 (192.168.0.89:0)
+[2020.07.02-03.39.14:282][673]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2020.07.02-03.39.14:282][673]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.07.02-03.39.14:282][673]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 17777
+[2020.07.02-03.39.14:282][673]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap -0.782
+[2020.07.02-03.39.14:284][673]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.02-03.39.14:284][673]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.02-03.39.14:284][673]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.02-03.39.14:284][673]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.02-03.39.14:284][673]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.02-03.39.14:284][673]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.02-03.39.14:284][673]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.02-03.39.14:284][673]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.02-03.39.14:284][673]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.02-03.39.14:284][673]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.02-03.39.14:321][673]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.02-03.39.14:321][673]LogAudioMixer: Display: Name: Altavoces (Realtek(R) Audio)
+[2020.07.02-03.39.14:321][673]LogAudioMixer: Display: Is Default: Yes
+[2020.07.02-03.39.14:321][673]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.02-03.39.14:321][673]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.02-03.39.14:321][673]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.02-03.39.14:321][673]LogAudioMixer: Display: Channel Order:
+[2020.07.02-03.39.14:321][673]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.02-03.39.14:321][673]LogAudioMixer: Display: 1: FrontRight
+[2020.07.02-03.39.14:337][673]LogAudioMixer: Display: Using Audio Device Altavoces (Realtek(R) Audio)
+[2020.07.02-03.39.14:339][673]LogInit: FAudioDevice initialized.
+[2020.07.02-03.39.14:342][673]LogNet: Browse: 127.0.0.1:17777//Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap
+[2020.07.02-03.39.14:343][673]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
+[2020.07.02-03.39.14:343][673]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.07.02-03.39.14:343][673]LogNet: Game client on port 17777, rate 10000
+[2020.07.02-03.39.14:343][673]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap -0.721
+[2020.07.02-03.39.14:396][673]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.02-03.39.14:396][673]LogNet: Browse: 127.0.0.1:17777//Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap
+[2020.07.02-03.39.14:396][673]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
+[2020.07.02-03.39.14:397][673]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.07.02-03.39.14:397][673]LogNet: Game client on port 17777, rate 10000
+[2020.07.02-03.39.14:398][673]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap -0.667
+[2020.07.02-03.39.14:402][673]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.07.02-03.39.14:402][673]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:58387
+[2020.07.02-03.39.14:402][673]LogHandshake: SendConnectChallenge. Timestamp: 0.008334, Cookie: 087008029018181031156109090146169250243153140032197254213187
+[2020.07.02-03.39.14:402][673]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:58388
+[2020.07.02-03.39.14:402][673]LogHandshake: SendConnectChallenge. Timestamp: 0.008334, Cookie: 205001232179006164126091220244124101003228176111031200199214
+[2020.07.02-03.39.14:402][673]LogTemp: Warning: Boca
+[2020.07.02-03.39.14:403][673]LogOnline: OSS: Creating online subsystem instance for: :Context_4
+[2020.07.02-03.39.14:405][673]LogHandshake: SendChallengeResponse. Timestamp: 0.008334, Cookie: 087008029018181031156109090146169250243153140032197254213187
+[2020.07.02-03.39.14:405][673]LogHandshake: SendChallengeResponse. Timestamp: 0.008334, Cookie: 205001232179006164126091220244124101003228176111031200199214
+[2020.07.02-03.39.14:473][674]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:58387
+[2020.07.02-03.39.14:473][674]LogHandshake: SendChallengeAck. InCookie: 087008029018181031156109090146169250243153140032197254213187
+[2020.07.02-03.39.14:473][674]LogNet: Server accepting post-challenge connection from: 127.0.0.1:58387
+[2020.07.02-03.39.14:474][674]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.07.02-03.39.14:474][674]LogNet: NotifyAcceptedConnection: Name: ThirdPersonExampleMap, TimeStamp: 07/02/20 00:39:14, [UNetConnection] RemoteAddr: 127.0.0.1:58387, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.07.02-03.39.14:474][674]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:58387, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.07.02-03.39.14:474][674]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:58388
+[2020.07.02-03.39.14:474][674]LogHandshake: SendChallengeAck. InCookie: 205001232179006164126091220244124101003228176111031200199214
+[2020.07.02-03.39.14:474][674]LogNet: Server accepting post-challenge connection from: 127.0.0.1:58388
+[2020.07.02-03.39.14:475][674]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.07.02-03.39.14:475][674]LogNet: NotifyAcceptedConnection: Name: ThirdPersonExampleMap, TimeStamp: 07/02/20 00:39:14, [UNetConnection] RemoteAddr: 127.0.0.1:58388, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.07.02-03.39.14:475][674]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:58388, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.07.02-03.39.14:475][674]LogTemp: Warning: Boca
+[2020.07.02-03.39.14:476][674]LogNetVersion: Unreal2TP 1.0.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 1816658782)
+[2020.07.02-03.39.14:476][674]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: PendingNetDriver IpNetDriver_1, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.07.02-03.39.14:476][674]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_1, Driver: PendingNetDriver IpNetDriver_2, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.07.02-03.39.14:482][675]LogNet: NotifyAcceptingChannel Control 0 server World /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap: Accepted
+[2020.07.02-03.39.14:482][675]LogNet: Remote platform little endian=1
+[2020.07.02-03.39.14:482][675]LogNet: This platform little endian=1
+[2020.07.02-03.39.14:482][675]LogNet: NotifyAcceptingChannel Control 0 server World /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap: Accepted
+[2020.07.02-03.39.14:482][675]LogNet: Remote platform little endian=1
+[2020.07.02-03.39.14:482][675]LogNet: This platform little endian=1
+[2020.07.02-03.39.14:482][675]LogTemp: Warning: Boca
+[2020.07.02-03.39.14:482][675]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2020.07.02-03.39.14:483][675]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2020.07.02-03.39.14:490][676]LogNet: Login request: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap?Name=DESKTOP-27BOLO1-26DF2F494368FC9F14F627AB918264A2 userId: NULL:DESKTOP-27BOLO1-26DF2F494368FC9F14F627AB918264A2 platform: NULL
+[2020.07.02-03.39.14:490][676]LogNet: Login request: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap?Name=DESKTOP-27BOLO1-629AC37144CFCC8AEA30C0973D8480D4 userId: NULL:DESKTOP-27BOLO1-629AC37144CFCC8AEA30C0973D8480D4 platform: NULL
+[2020.07.02-03.39.14:490][676]LogTemp: Warning: Boca
+[2020.07.02-03.39.14:491][676]LogNet: Welcomed by server (Level: /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap, Game: /Game/ThirdPersonCPP/Blueprints/BP_MyGameMode.BP_MyGameMode_C)
+[2020.07.02-03.39.14:491][676]LogLoad: LoadMap: 127.0.0.1:17777//Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap?game=/Game/ThirdPersonCPP/Blueprints/BP_MyGameMode.BP_MyGameMode_C
+[2020.07.02-03.39.14:491][676]LogWorld: BeginTearingDown for /Temp/Untitled_1
+[2020.07.02-03.39.14:491][676]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.07.02-03.39.14:491][676]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.02-03.39.14:491][676]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.02-03.39.14:513][676]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2020.07.02-03.39.14:524][676]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.07.02-03.39.14:527][676]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_2_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.07.02-00.39.14
+[2020.07.02-03.39.14:527][676]LogWorld: Bringing up level for play took: 0.002230
+[2020.07.02-03.39.14:527][676]LogLoad: Took 0.037110 seconds to LoadMap(/Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap)
+[2020.07.02-03.39.14:527][676]LogNet: Welcomed by server (Level: /Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap, Game: /Game/ThirdPersonCPP/Blueprints/BP_MyGameMode.BP_MyGameMode_C)
+[2020.07.02-03.39.14:528][676]LogLoad: LoadMap: 127.0.0.1:17777//Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap?game=/Game/ThirdPersonCPP/Blueprints/BP_MyGameMode.BP_MyGameMode_C
+[2020.07.02-03.39.14:528][676]LogWorld: BeginTearingDown for /Temp/Untitled_2
+[2020.07.02-03.39.14:528][676]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.07.02-03.39.14:528][676]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.02-03.39.14:528][676]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.02-03.39.14:551][676]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2020.07.02-03.39.14:561][676]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.07.02-03.39.14:563][676]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_3_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.07.02-00.39.14
+[2020.07.02-03.39.14:563][676]LogWorld: Bringing up level for play took: 0.001168
+[2020.07.02-03.39.14:564][676]LogLoad: Took 0.036138 seconds to LoadMap(/Game/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap)
+[2020.07.02-03.39.14:576][677]LogNet: Client netspeed is 10000
+[2020.07.02-03.39.14:576][677]LogNet: Join request: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap?Name=DESKTOP-27BOLO1-26DF2F494368FC9F14F627AB918264A2?SplitscreenCount=1
+[2020.07.02-03.39.14:576][677]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.07.02-03.39.14:578][677]LogNet: Join succeeded: DESKTOP-27BOLO1-26DF
+[2020.07.02-03.39.14:578][677]LogNet: Client netspeed is 10000
+[2020.07.02-03.39.14:578][677]LogNet: Join request: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap?Name=DESKTOP-27BOLO1-629AC37144CFCC8AEA30C0973D8480D4?SplitscreenCount=1
+[2020.07.02-03.39.14:578][677]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.07.02-03.39.14:579][677]LogNet: Join succeeded: DESKTOP-27BOLO1-629A
+[2020.07.02-03.39.14:579][677]LogTemp: Warning: Boca
+[2020.07.02-03.39.14:586][678]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
+[2020.07.02-03.39.14:600][678]LogTemp: Warning: Boca
+[2020.07.02-03.39.14:608][679]LogTemp: Warning: Boca
+[2020.07.02-03.39.14:616][680]LogTemp: Warning: Boca
+[2020.07.02-03.39.14:624][681]LogTemp: Warning: Boca
+[2020.07.02-03.39.14:633][682]LogTemp: Warning: Boca
+[2020.07.02-03.39.14:641][683]LogTemp: Warning: Boca
+[2020.07.02-03.39.14:650][684]LogTemp: Warning: Boca
+[2020.07.02-03.39.14:658][685]LogTemp: Warning: Boca
+[2020.07.02-03.39.14:666][686]LogTemp: Warning: Boca
+[2020.07.02-03.39.14:675][687]LogTemp: Warning: Boca
+[2020.07.02-03.39.14:683][688]LogTemp: Warning: Boca
+[2020.07.02-03.39.14:691][689]LogTemp: Warning: Boca
+[2020.07.02-03.39.14:700][690]LogTemp: Warning: Boca
+[2020.07.02-03.39.14:708][691]LogTemp: Warning: Boca
+[2020.07.02-03.39.14:716][692]LogTemp: Warning: Boca
+[2020.07.02-03.39.14:725][693]LogTemp: Warning: Boca
+[2020.07.02-03.39.14:733][694]LogTemp: Warning: Boca
+[2020.07.02-03.39.14:741][695]LogTemp: Warning: Boca
+[2020.07.02-03.39.14:750][696]LogTemp: Warning: Boca
+[2020.07.02-03.39.14:759][697]LogTemp: Warning: Boca
+[2020.07.02-03.39.14:768][698]LogTemp: Warning: Boca
+[2020.07.02-03.39.14:779][699]LogTemp: Warning: Boca
+[2020.07.02-03.39.14:787][700]LogTemp: Warning: Boca
+[2020.07.02-03.39.14:795][701]LogTemp: Warning: Boca
+[2020.07.02-03.39.14:803][702]LogTemp: Warning: Boca
+[2020.07.02-03.39.14:811][703]LogTemp: Warning: Boca
+[2020.07.02-03.39.14:820][704]LogTemp: Warning: Boca
+[2020.07.02-03.39.14:828][705]LogTemp: Warning: Boca
+[2020.07.02-03.39.14:837][706]LogTemp: Warning: Boca
+[2020.07.02-03.39.14:844][707]LogTemp: Warning: Boca
+[2020.07.02-03.39.14:853][708]LogTemp: Warning: Boca
+[2020.07.02-03.39.14:862][709]LogTemp: Warning: Boca
+[2020.07.02-03.39.14:864][709]LogTemp: Warning: Boca
+[2020.07.02-03.39.14:865][709]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.07.02-03.39.14:872][710]LogTemp: Warning: Boca
+[2020.07.02-03.39.14:873][710]LogTemp: Warning: Boca
+[2020.07.02-03.39.14:881][711]LogTemp: Warning: Boca
+[2020.07.02-03.39.14:881][711]LogTemp: Warning: Boca
+[2020.07.02-03.39.14:890][712]LogTemp: Warning: Boca
+[2020.07.02-03.39.14:890][712]LogTemp: Warning: Boca
+[2020.07.02-03.39.14:897][713]LogTemp: Warning: Boca
+[2020.07.02-03.39.14:898][713]LogTemp: Warning: Boca
+[2020.07.02-03.39.14:905][714]LogTemp: Warning: Boca
+[2020.07.02-03.39.14:906][714]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.07.02-03.39.14:906][714]LogTemp: Warning: Boca
+[2020.07.02-03.39.14:913][715]LogTemp: Warning: Boca
+[2020.07.02-03.39.14:914][715]LogTemp: Warning: Boca
+[2020.07.02-03.39.14:922][716]LogTemp: Warning: Boca
+[2020.07.02-03.39.14:923][716]LogTemp: Warning: Boca
+[2020.07.02-03.39.14:930][717]LogTemp: Warning: Boca
+[2020.07.02-03.39.14:931][717]LogTemp: Warning: Boca
+[2020.07.02-03.39.14:938][718]LogTemp: Warning: Boca
+[2020.07.02-03.39.14:939][718]LogTemp: Warning: Boca
+[2020.07.02-03.39.14:939][718]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.07.02-03.39.14:947][719]LogTemp: Warning: Boca
+[2020.07.02-03.39.14:947][719]LogTemp: Warning: Boca
+[2020.07.02-03.39.14:955][720]LogTemp: Warning: Boca
+[2020.07.02-03.39.14:955][720]LogTemp: Warning: Boca
+[2020.07.02-03.39.14:963][721]LogTemp: Warning: Boca
+[2020.07.02-03.39.14:964][721]LogTemp: Warning: Boca
+[2020.07.02-03.39.14:972][722]LogTemp: Warning: Boca
+[2020.07.02-03.39.14:973][722]LogTemp: Warning: Boca
+[2020.07.02-03.39.14:980][723]LogTemp: Warning: Boca
+[2020.07.02-03.39.14:981][723]LogTemp: Warning: Boca
+[2020.07.02-03.39.14:989][724]LogTemp: Warning: Boca
+[2020.07.02-03.39.14:989][724]LogTemp: Warning: Boca
+[2020.07.02-03.39.14:997][725]LogTemp: Warning: Boca
+[2020.07.02-03.39.14:998][725]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:005][726]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:006][726]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:007][726]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:014][727]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:015][727]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:016][727]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:023][728]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:024][728]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:024][728]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:030][729]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:031][729]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:031][729]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:038][730]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:039][730]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.07.02-03.39.15:039][730]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:040][730]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:047][731]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:047][731]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:048][731]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:055][732]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:055][732]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:056][732]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:063][733]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:064][733]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:065][733]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:072][734]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:072][734]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:073][734]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:080][735]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:081][735]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:081][735]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:089][736]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:089][736]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:090][736]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:097][737]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:097][737]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:097][737]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:105][738]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:106][738]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:106][738]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:113][739]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:114][739]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:114][739]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:122][740]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:122][740]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:123][740]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:130][741]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:131][741]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:131][741]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:138][742]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:139][742]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:139][742]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:147][743]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:147][743]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:148][743]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:155][744]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:156][744]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:156][744]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:164][745]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:164][745]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:164][745]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:172][746]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:172][746]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:173][746]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:180][747]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:181][747]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:181][747]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:188][748]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:189][748]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:189][748]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:197][749]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:197][749]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:198][749]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:205][750]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:205][750]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:206][750]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:213][751]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:214][751]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:214][751]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:222][752]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:223][752]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:223][752]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:230][753]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:231][753]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:231][753]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:238][754]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:239][754]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:239][754]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:247][755]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:248][755]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:249][755]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:256][756]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:257][756]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:257][756]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:264][757]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:264][757]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:265][757]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:272][758]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:273][758]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:273][758]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:281][759]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:281][759]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:282][759]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:289][760]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:290][760]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:290][760]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:297][761]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:298][761]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:298][761]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:306][762]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:306][762]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:306][762]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:314][763]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:314][763]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:314][763]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:322][764]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:322][764]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:323][764]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:330][765]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:331][765]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:331][765]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:338][766]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:339][766]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:339][766]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:347][767]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:347][767]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:348][767]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:355][768]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:356][768]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:356][768]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:363][769]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:364][769]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:364][769]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:372][770]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:372][770]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:373][770]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:380][771]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:380][771]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:381][771]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:388][772]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:389][772]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:390][772]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:397][773]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:397][773]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:398][773]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:405][774]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:406][774]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:406][774]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:413][775]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:414][775]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:414][775]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:422][776]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:423][776]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:423][776]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:430][777]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:431][777]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:431][777]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:438][778]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:439][778]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:439][778]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:447][779]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:448][779]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:449][779]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:456][780]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:456][780]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:457][780]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:464][781]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:465][781]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:465][781]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:472][782]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:473][782]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:473][782]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:482][783]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:482][783]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:483][783]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:489][784]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:490][784]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:491][784]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:497][785]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:498][785]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:498][785]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:506][786]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:506][786]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:507][786]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:514][787]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:514][787]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:515][787]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:521][788]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:522][788]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:523][788]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:530][789]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:530][789]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:531][789]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:538][790]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:539][790]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:539][790]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:547][791]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:547][791]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:548][791]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:555][792]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:556][792]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:556][792]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:563][793]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:564][793]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:564][793]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:572][794]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:572][794]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:573][794]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:580][795]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:581][795]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:581][795]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:589][796]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:589][796]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:590][796]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:597][797]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:597][797]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:598][797]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:605][798]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:606][798]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:606][798]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:615][799]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:616][799]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:616][799]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:622][800]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:623][800]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:623][800]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:631][801]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:631][801]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:632][801]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:639][802]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:640][802]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:640][802]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:647][803]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:648][803]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:649][803]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:655][804]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:656][804]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:657][804]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:664][805]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:665][805]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:665][805]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:672][806]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:673][806]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:673][806]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:681][807]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:681][807]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:682][807]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:689][808]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:690][808]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:690][808]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:699][809]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:700][809]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:701][809]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:706][810]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:707][810]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:707][810]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:715][811]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:715][811]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:716][811]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:723][812]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:724][812]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:724][812]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:732][813]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:732][813]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:733][813]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:740][814]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:741][814]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:741][814]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:748][815]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:748][815]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:750][815]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:756][816]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:756][816]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:757][816]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:764][817]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:765][817]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:765][817]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:773][818]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:774][818]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:774][818]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:781][819]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:782][819]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:782][819]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:790][820]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:790][820]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:791][820]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:798][821]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:799][821]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:799][821]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:806][822]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:807][822]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:807][822]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:815][823]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:815][823]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:816][823]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:823][824]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:824][824]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:824][824]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:832][825]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:832][825]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:832][825]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:840][826]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:840][826]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:841][826]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:848][827]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:849][827]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:849][827]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:857][828]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:857][828]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:857][828]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:865][829]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:866][829]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:866][829]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:873][830]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:874][830]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:874][830]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:882][831]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:882][831]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:883][831]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:890][832]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:891][832]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:891][832]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:899][833]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:899][833]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:900][833]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:907][834]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:907][834]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:908][834]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:915][835]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:916][835]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:916][835]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:924][836]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:924][836]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:925][836]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:931][837]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:931][837]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:932][837]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:939][838]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:940][838]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:940][838]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:948][839]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:949][839]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:949][839]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:956][840]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:957][840]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:957][840]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:965][841]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:965][841]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:966][841]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:973][842]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:974][842]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:974][842]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:981][843]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:982][843]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:982][843]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:990][844]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:991][844]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:991][844]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:998][845]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:999][845]LogTemp: Warning: Boca
+[2020.07.02-03.39.15:999][845]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:006][846]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:007][846]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:008][846]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:015][847]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:015][847]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:015][847]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:023][848]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:023][848]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:024][848]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:031][849]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:032][849]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:032][849]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:039][850]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:040][850]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:040][850]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:048][851]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:048][851]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:049][851]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:056][852]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:057][852]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:057][852]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:064][853]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:065][853]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:066][853]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:073][854]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:073][854]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:074][854]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:081][855]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:081][855]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:082][855]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:089][856]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:090][856]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:090][856]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:098][857]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:098][857]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:099][857]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:106][858]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:106][858]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:107][858]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:114][859]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:115][859]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:115][859]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:122][860]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:123][860]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:123][860]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:131][861]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:131][861]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:132][861]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:139][862]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:140][862]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:140][862]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:148][863]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:148][863]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:148][863]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:156][864]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:157][864]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:157][864]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:164][865]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:165][865]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:166][865]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:173][866]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:173][866]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:174][866]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:181][867]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:181][867]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:182][867]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:189][868]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:190][868]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:190][868]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:198][869]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:198][869]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:199][869]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:206][870]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:207][870]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:207][870]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:214][871]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:215][871]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:215][871]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:223][872]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:223][872]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:224][872]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:231][873]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:232][873]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:232][873]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:239][874]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:240][874]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:240][874]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:248][875]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:248][875]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:249][875]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:256][876]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:257][876]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:257][876]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:264][877]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:264][877]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:265][877]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:272][878]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:273][878]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:273][878]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:281][879]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:281][879]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:282][879]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:289][880]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:290][880]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:290][880]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:297][881]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:298][881]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:298][881]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:306][882]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:306][882]LogTemp: Warning: Hitea
+[2020.07.02-03.39.16:307][882]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:307][882]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:315][883]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:315][883]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:316][883]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:323][884]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:324][884]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:324][884]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:331][885]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:331][885]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:332][885]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:339][886]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:339][886]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:340][886]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:347][887]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:348][887]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:348][887]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:356][888]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:356][888]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:357][888]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:364][889]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:365][889]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:365][889]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:373][890]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:374][890]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:374][890]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:381][891]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:381][891]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:382][891]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:389][892]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:390][892]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:390][892]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:397][893]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:398][893]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:398][893]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:406][894]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:406][894]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:407][894]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:414][895]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:415][895]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:415][895]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:422][896]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:423][896]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:424][896]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:431][897]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:431][897]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:432][897]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:439][898]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:440][898]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:440][898]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:448][899]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:448][899]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:448][899]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:456][900]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:456][900]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:457][900]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:464][901]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:464][901]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:466][901]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:473][902]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:474][902]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:474][902]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:481][903]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:481][903]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:481][903]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:489][904]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:490][904]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:490][904]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:497][905]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:498][905]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:498][905]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:506][906]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:506][906]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:507][906]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:514][907]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:515][907]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:515][907]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:522][908]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:523][908]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:523][908]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:531][909]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:531][909]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:532][909]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:539][910]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:539][910]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:540][910]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:547][911]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:548][911]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:548][911]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:556][912]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:556][912]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:557][912]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:565][913]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:565][913]LogTemp: Warning: Hitea
+[2020.07.02-03.39.16:565][913]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:566][913]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:572][914]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:573][914]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:573][914]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:581][915]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:581][915]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:582][915]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:589][916]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:590][916]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:590][916]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:597][917]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:598][917]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:598][917]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:606][918]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:606][918]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:607][918]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:614][919]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:614][919]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:616][919]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:622][920]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:623][920]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:623][920]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:631][921]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:631][921]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:632][921]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:639][922]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:640][922]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:640][922]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:647][923]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:648][923]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:649][923]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:656][924]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:656][924]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:657][924]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:665][925]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:665][925]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:666][925]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:673][926]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:674][926]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:674][926]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:682][927]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:683][927]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:683][927]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:690][928]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:690][928]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:691][928]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:698][929]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:699][929]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:699][929]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:706][930]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:707][930]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:707][930]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:715][931]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:715][931]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:716][931]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:723][932]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:724][932]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:724][932]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:730][933]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:731][933]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:731][933]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:739][934]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:739][934]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:740][934]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:748][935]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:748][935]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:749][935]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:756][936]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:756][936]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:757][936]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:764][937]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:765][937]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:765][937]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:773][938]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:773][938]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:774][938]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:781][939]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:781][939]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:782][939]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:789][940]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:790][940]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:790][940]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:797][941]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:798][941]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:799][941]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:806][942]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:806][942]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:807][942]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:814][943]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:815][943]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:815][943]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:822][944]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:822][944]LogTemp: Warning: Hitea
+[2020.07.02-03.39.16:823][944]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:824][944]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:831][945]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:831][945]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:832][945]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:839][946]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:840][946]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:840][946]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:848][947]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:848][947]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:848][947]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:856][948]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:856][948]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:857][948]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:864][949]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:865][949]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:865][949]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:872][950]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:873][950]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:873][950]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:881][951]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:881][951]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:882][951]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:889][952]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:890][952]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:890][952]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:898][953]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:898][953]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:898][953]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:906][954]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:906][954]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:907][954]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:914][955]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:914][955]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:916][955]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:923][956]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:924][956]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:924][956]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:931][957]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:932][957]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:932][957]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:939][958]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:939][958]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:940][958]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:947][959]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:948][959]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:948][959]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:956][960]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:956][960]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:956][960]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:964][961]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:965][961]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:965][961]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:972][962]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:973][962]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:973][962]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:981][963]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:981][963]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:981][963]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:989][964]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:989][964]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:990][964]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:997][965]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:998][965]LogTemp: Warning: Boca
+[2020.07.02-03.39.16:998][965]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:006][966]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:006][966]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:006][966]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:014][967]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:015][967]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:015][967]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:022][968]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:023][968]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:023][968]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:031][969]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:031][969]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:032][969]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:039][970]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:040][970]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:040][970]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:047][971]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:048][971]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:048][971]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:056][972]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:056][972]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:057][972]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:064][973]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:064][973]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:066][973]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:073][974]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:074][974]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:074][974]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:081][975]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:082][975]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:082][975]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:089][976]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:089][976]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:090][976]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:097][977]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:098][977]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:098][977]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:105][978]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:106][978]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:106][978]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:114][979]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:115][979]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:115][979]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:122][980]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:123][980]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:123][980]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:131][981]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:131][981]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:132][981]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:139][982]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:139][982]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:140][982]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:147][983]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:148][983]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:148][983]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:156][984]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:156][984]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:157][984]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:164][985]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:165][985]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:165][985]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:172][986]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:173][986]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:173][986]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:181][987]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:181][987]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:182][987]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:189][988]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:190][988]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:190][988]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:197][989]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:198][989]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:198][989]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:206][990]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:206][990]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:207][990]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:214][991]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:215][991]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:215][991]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:223][992]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:223][992]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:224][992]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:231][993]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:232][993]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:232][993]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:239][994]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:240][994]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:240][994]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:248][995]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:248][995]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:249][995]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:256][996]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:257][996]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:257][996]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:264][997]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:265][997]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:265][997]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:273][998]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:273][998]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:274][998]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:281][999]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:282][999]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:282][999]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:289][  0]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:290][  0]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:290][  0]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:298][  1]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:298][  1]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:299][  1]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:306][  2]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:307][  2]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:307][  2]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:314][  3]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:315][  3]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:315][  3]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:323][  4]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:323][  4]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:324][  4]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:331][  5]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:332][  5]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:332][  5]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:340][  6]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:340][  6]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:340][  6]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:348][  7]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:348][  7]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:349][  7]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:356][  8]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:357][  8]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:357][  8]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:365][  9]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:365][  9]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:366][  9]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:373][ 10]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:373][ 10]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:374][ 10]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:381][ 11]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:382][ 11]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:382][ 11]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:390][ 12]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:390][ 12]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:391][ 12]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:398][ 13]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:398][ 13]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:399][ 13]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:406][ 14]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:407][ 14]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:407][ 14]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:415][ 15]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:416][ 15]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:416][ 15]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:423][ 16]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:424][ 16]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:424][ 16]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:430][ 17]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:432][ 17]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:432][ 17]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:440][ 18]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:440][ 18]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:441][ 18]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:448][ 19]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:449][ 19]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:449][ 19]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:456][ 20]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:457][ 20]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:457][ 20]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:465][ 21]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:465][ 21]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:466][ 21]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:473][ 22]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:474][ 22]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:474][ 22]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:481][ 23]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:482][ 23]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:482][ 23]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:489][ 24]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:489][ 24]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:490][ 24]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:497][ 25]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:498][ 25]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:498][ 25]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:505][ 26]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:506][ 26]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:506][ 26]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:514][ 27]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:515][ 27]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:515][ 27]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:522][ 28]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:523][ 28]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:523][ 28]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:531][ 29]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:532][ 29]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:532][ 29]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:539][ 30]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:540][ 30]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:540][ 30]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:548][ 31]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:548][ 31]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:548][ 31]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:556][ 32]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:557][ 32]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:557][ 32]LogTemp: Warning: Boca
+[2020.07.02-03.39.17:564][ 33]LogTemp: Warning: Boca

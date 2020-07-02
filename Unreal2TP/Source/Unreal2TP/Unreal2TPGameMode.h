@@ -9,10 +9,22 @@
 UCLASS(minimalapi)
 class AUnreal2TPGameMode : public AGameModeBase
 {
+	
 	GENERATED_BODY()
 
 public:
 	AUnreal2TPGameMode();
+
+
+	UPROPERTY(EditAnywhere, Category = "Classes")
+		TSubclassOf<class AEnemy> EnemyClass;
+
+	UPROPERTY(EditAnywhere, Category = "Enemy")
+		int EnemyAmount;
+
+	void SpawnEnemy();
+	void RespawnPlayer();
+	
 };
 
 

@@ -5,7 +5,6 @@
 #include "Unreal2TPCharacter.h"
 #include "Perception/AIPerceptionComponent.h"
 #include "Perception/AISenseConfig_Sight.h"
-#include "Runtime/Engine/Classes/Kismet/GameplayStatics.h"
 #include "Enemy.h"
 
 AEnemyController::AEnemyController() {
@@ -53,7 +52,6 @@ void AEnemyController::Tick(float DeltaSeconds)
 	}
 
 	int x = Myself->TargetList.Num();
-	UE_LOG(LogTemp, Warning, TEXT("%d"), x);
 
 }
 
@@ -92,3 +90,4 @@ void AEnemyController::OnPawnDetected(const TArray<AActor*> &DetectedPawns)
 		}
 	}
 }
+

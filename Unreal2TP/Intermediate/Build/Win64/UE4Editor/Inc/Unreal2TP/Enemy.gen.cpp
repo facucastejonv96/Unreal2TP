@@ -299,7 +299,7 @@ void EmptyLinkFunctionForGeneratedCodeEnemy() {}
 		{ "ModuleRelativePath", "Enemy.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AEnemy_Statics::NewProp_Life = { "Life", nullptr, (EPropertyFlags)0x0010000000000034, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AEnemy, Life), METADATA_PARAMS(Z_Construct_UClass_AEnemy_Statics::NewProp_Life_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AEnemy_Statics::NewProp_Life_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AEnemy_Statics::NewProp_Life = { "Life", nullptr, (EPropertyFlags)0x0010000000020021, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AEnemy, Life), METADATA_PARAMS(Z_Construct_UClass_AEnemy_Statics::NewProp_Life_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AEnemy_Statics::NewProp_Life_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AEnemy_Statics::NewProp_BulletClass_MetaData[] = {
 		{ "Category", "Shooting" },
@@ -381,7 +381,7 @@ void EmptyLinkFunctionForGeneratedCodeEnemy() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AEnemy, 1455909194);
+	IMPLEMENT_CLASS(AEnemy, 61527534);
 	template<> UNREAL2TP_API UClass* StaticClass<AEnemy>()
 	{
 		return AEnemy::StaticClass();

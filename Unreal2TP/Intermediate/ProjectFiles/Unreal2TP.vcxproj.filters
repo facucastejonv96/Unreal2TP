@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Unreal2TP.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{43312555-69E9-4C79-83C0-3AFE969CD6B3}</UniqueIdentifier>
+      <UniqueIdentifier>{9B24E55E-2BF5-4134-8428-E6149B51ED5F}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Unreal2TP.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{C544A9D6-3788-401D-99B7-17E147CEF8E6}</UniqueIdentifier>
+      <UniqueIdentifier>{83A736B3-2364-4F56-9CB5-1F6405E31350}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Unreal2TP">
-      <UniqueIdentifier>{B8ADC829-7960-4B98-8C28-B9E3E9FCAA90}</UniqueIdentifier>
+      <UniqueIdentifier>{55776E4B-F4BD-41ED-B4AC-B03FA801C563}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Unreal2TP\Bullet.cpp">
       <Filter>Source\Unreal2TP</Filter>
@@ -89,5 +89,27 @@
     <ClInclude Include="..\..\Source\Unreal2TP\Unreal2TPGameMode.h">
       <Filter>Source\Unreal2TP</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\Unreal2TP\MyGameState.h">
+      <Filter>Source\Unreal2TP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Unreal2TP\MyPlayerState.h">
+      <Filter>Source\Unreal2TP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Unreal2TP\MyPlayerController.h">
+      <Filter>Source\Unreal2TP</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\Unreal2TP\MyGameState.cpp">
+      <Filter>Source\Unreal2TP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Unreal2TP\MyPlayerState.cpp">
+      <Filter>Source\Unreal2TP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Unreal2TP\MyPlayerController.cpp">
+      <Filter>Source\Unreal2TP</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -17,6 +17,8 @@ void EmptyLinkFunctionForGeneratedCodeUnreal2TPGameMode() {}
 	UNREAL2TP_API UClass* Z_Construct_UClass_AUnreal2TPGameMode();
 	ENGINE_API UClass* Z_Construct_UClass_AGameModeBase();
 	UPackage* Z_Construct_UPackage__Script_Unreal2TP();
+	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
+	UNREAL2TP_API UClass* Z_Construct_UClass_AEnemy_NoRegister();
 // End Cross Module References
 	void AUnreal2TPGameMode::StaticRegisterNativesAUnreal2TPGameMode()
 	{
@@ -31,6 +33,15 @@ void EmptyLinkFunctionForGeneratedCodeUnreal2TPGameMode() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_EnemyAmount_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_EnemyAmount;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_EnemyClass_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_EnemyClass;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -46,6 +57,24 @@ void EmptyLinkFunctionForGeneratedCodeUnreal2TPGameMode() {}
 		{ "ShowCategories", "Input|MouseInput Input|TouchInput" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AUnreal2TPGameMode_Statics::NewProp_EnemyAmount_MetaData[] = {
+		{ "Category", "Enemy" },
+		{ "ModuleRelativePath", "Unreal2TPGameMode.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AUnreal2TPGameMode_Statics::NewProp_EnemyAmount = { "EnemyAmount", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AUnreal2TPGameMode, EnemyAmount), METADATA_PARAMS(Z_Construct_UClass_AUnreal2TPGameMode_Statics::NewProp_EnemyAmount_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AUnreal2TPGameMode_Statics::NewProp_EnemyAmount_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AUnreal2TPGameMode_Statics::NewProp_EnemyClass_MetaData[] = {
+		{ "Category", "Classes" },
+		{ "ModuleRelativePath", "Unreal2TPGameMode.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_AUnreal2TPGameMode_Statics::NewProp_EnemyClass = { "EnemyClass", nullptr, (EPropertyFlags)0x0014000000000001, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AUnreal2TPGameMode, EnemyClass), Z_Construct_UClass_AEnemy_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AUnreal2TPGameMode_Statics::NewProp_EnemyClass_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AUnreal2TPGameMode_Statics::NewProp_EnemyClass_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AUnreal2TPGameMode_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AUnreal2TPGameMode_Statics::NewProp_EnemyAmount,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AUnreal2TPGameMode_Statics::NewProp_EnemyClass,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AUnreal2TPGameMode_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AUnreal2TPGameMode>::IsAbstract,
 	};
@@ -55,11 +84,11 @@ void EmptyLinkFunctionForGeneratedCodeUnreal2TPGameMode() {}
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		nullptr,
-		nullptr,
+		Z_Construct_UClass_AUnreal2TPGameMode_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
 		0,
-		0,
+		UE_ARRAY_COUNT(Z_Construct_UClass_AUnreal2TPGameMode_Statics::PropPointers),
 		0,
 		0x008802ACu,
 		METADATA_PARAMS(Z_Construct_UClass_AUnreal2TPGameMode_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_AUnreal2TPGameMode_Statics::Class_MetaDataParams))
@@ -73,7 +102,7 @@ void EmptyLinkFunctionForGeneratedCodeUnreal2TPGameMode() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AUnreal2TPGameMode, 265016920);
+	IMPLEMENT_CLASS(AUnreal2TPGameMode, 1694896906);
 	template<> UNREAL2TP_API UClass* StaticClass<AUnreal2TPGameMode>()
 	{
 		return AUnreal2TPGameMode::StaticClass();

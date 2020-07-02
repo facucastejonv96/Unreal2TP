@@ -19,6 +19,8 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	virtual void Server_Aim_Implementation(); \
 	virtual void Server_StopShooting_Implementation(); \
 	virtual void Server_StartShooting_Implementation(); \
+	virtual void Multicast_OnDestroy_Implementation(); \
+	virtual void Server_OnDestroy_Implementation(); \
  \
 	DECLARE_FUNCTION(execServer_Unaim) \
 	{ \
@@ -49,6 +51,22 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		P_THIS->Server_StartShooting_Implementation(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execMulticast_OnDestroy) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Multicast_OnDestroy_Implementation(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execServer_OnDestroy) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Server_OnDestroy_Implementation(); \
 		P_NATIVE_END; \
 	}
 
@@ -58,6 +76,8 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	virtual void Server_Aim_Implementation(); \
 	virtual void Server_StopShooting_Implementation(); \
 	virtual void Server_StartShooting_Implementation(); \
+	virtual void Multicast_OnDestroy_Implementation(); \
+	virtual void Server_OnDestroy_Implementation(); \
  \
 	DECLARE_FUNCTION(execServer_Unaim) \
 	{ \
@@ -88,6 +108,22 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		P_THIS->Server_StartShooting_Implementation(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execMulticast_OnDestroy) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Multicast_OnDestroy_Implementation(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execServer_OnDestroy) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Server_OnDestroy_Implementation(); \
 		P_NATIVE_END; \
 	}
 

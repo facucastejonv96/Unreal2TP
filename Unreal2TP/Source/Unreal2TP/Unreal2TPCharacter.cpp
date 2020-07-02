@@ -1,6 +1,8 @@
 // Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
 
 #include "Unreal2TPCharacter.h"
+#include "MyPlayerController.h"
+#include "MyPlayerState.h"
 #include "HeadMountedDisplayFunctionLibrary.h"
 #include "Camera/CameraComponent.h"
 #include "Components/CapsuleComponent.h"
@@ -18,6 +20,7 @@
 
 AUnreal2TPCharacter::AUnreal2TPCharacter()
 {
+
 	SetReplicates(true);
 	// Set size for collision capsule
 	GetCapsuleComponent()->InitCapsuleSize(42.f, 96.0f);
@@ -115,7 +118,6 @@ void AUnreal2TPCharacter::Tick(float DeltaTime) {
 		Cast<UCharacterAnimInstance>(Mesh->GetAnimInstance())->Dead = true;
 		Cast<UCharacterAnimInstance>(Mesh->GetAnimInstance())->Shooting = false;
 		Cast<UCharacterAnimInstance>(Mesh->GetAnimInstance())->Aiming = false;
-		Dead = true;
 	}
 	if (!Dead) {
 		if (Shooting) {
@@ -156,6 +158,15 @@ void AUnreal2TPCharacter::Tick(float DeltaTime) {
 		}
 	}
 
+}
+void AUnreal2TPCharacter::Server_OnDestroy_Implementation()
+{
+	Multicast_OnDestroy();
+	//Destroy();
+}
+void AUnreal2TPCharacter::Multicast_OnDestroy_Implementation()
+{
+	Destroy();
 }
 void AUnreal2TPCharacter::TouchStarted(ETouchIndex::Type FingerIndex, FVector Location)
 {
@@ -206,6 +217,10 @@ void AUnreal2TPCharacter::RecieveDamage(const float damage)
 			HittingTime = 0;
 			Hitting = true;
 		}
+		else {
+			Cast<AMyPlayerState>(GetPlayerState())->Dead = true;
+		}
+
 	}
 }
 
