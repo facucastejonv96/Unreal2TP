@@ -114,10 +114,12 @@ void AUnreal2TPCharacter::Tick(float DeltaTime) {
 	Super::Tick(DeltaTime);
 
 	if (Life <= 0) {
+		
 		Cast<UCharacterAnimInstance>(Mesh->GetAnimInstance())->Hit = false;
 		Cast<UCharacterAnimInstance>(Mesh->GetAnimInstance())->Dead = true;
 		Cast<UCharacterAnimInstance>(Mesh->GetAnimInstance())->Shooting = false;
 		Cast<UCharacterAnimInstance>(Mesh->GetAnimInstance())->Aiming = false;
+		Dead = true;
 	}
 	if (!Dead) {
 		if (Shooting) {
@@ -218,6 +220,7 @@ void AUnreal2TPCharacter::RecieveDamage(const float damage)
 			Hitting = true;
 		}
 		else {
+			Dead = true;
 			Cast<AMyPlayerState>(GetPlayerState())->Dead = true;
 		}
 

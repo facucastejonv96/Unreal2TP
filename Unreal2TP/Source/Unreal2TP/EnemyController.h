@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "AIController.h"
+#include "Unreal2TPCharacter.h"
 #include "EnemyController.generated.h"
 
 /**
@@ -48,4 +49,11 @@ public:
 		UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = AI)
 			bool bIsPlayerDetected = false;
 
+		
+		TArray<AUnreal2TPCharacter*> TargetList;
+
+		UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
+			class AUnreal2TPCharacter* Target;
+
+		void AssingNewTarget();
 };

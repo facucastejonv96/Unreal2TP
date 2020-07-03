@@ -17,6 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeMyGameState() {}
 	UNREAL2TP_API UClass* Z_Construct_UClass_AMyGameState();
 	ENGINE_API UClass* Z_Construct_UClass_AGameStateBase();
 	UPackage* Z_Construct_UPackage__Script_Unreal2TP();
+	UNREAL2TP_API UClass* Z_Construct_UClass_ASpawnPoint_NoRegister();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	UNREAL2TP_API UClass* Z_Construct_UClass_AEnemy_NoRegister();
 // End Cross Module References
@@ -33,6 +34,11 @@ void EmptyLinkFunctionForGeneratedCodeMyGameState() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_SpawnPointList_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_SpawnPointList;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_SpawnPointList_Inner;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Enemy_MetaData[];
 #endif
@@ -63,6 +69,14 @@ void EmptyLinkFunctionForGeneratedCodeMyGameState() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyGameState_Statics::NewProp_SpawnPointList_MetaData[] = {
+		{ "Category", "Spawn" },
+		{ "ModuleRelativePath", "MyGameState.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AMyGameState_Statics::NewProp_SpawnPointList = { "SpawnPointList", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyGameState, SpawnPointList), METADATA_PARAMS(Z_Construct_UClass_AMyGameState_Statics::NewProp_SpawnPointList_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyGameState_Statics::NewProp_SpawnPointList_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMyGameState_Statics::NewProp_SpawnPointList_Inner = { "SpawnPointList", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UClass_ASpawnPoint_NoRegister, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyGameState_Statics::NewProp_Enemy_MetaData[] = {
 		{ "Category", "Enemy" },
 		{ "ModuleRelativePath", "MyGameState.h" },
@@ -84,6 +98,8 @@ void EmptyLinkFunctionForGeneratedCodeMyGameState() {}
 #endif
 	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AMyGameState_Statics::NewProp_EnemiesLeft = { "EnemiesLeft", nullptr, (EPropertyFlags)0x0010000000000024, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyGameState, EnemiesLeft), METADATA_PARAMS(Z_Construct_UClass_AMyGameState_Statics::NewProp_EnemiesLeft_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyGameState_Statics::NewProp_EnemiesLeft_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AMyGameState_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyGameState_Statics::NewProp_SpawnPointList,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyGameState_Statics::NewProp_SpawnPointList_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyGameState_Statics::NewProp_Enemy,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyGameState_Statics::NewProp_Time,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyGameState_Statics::NewProp_EnemiesLeft,
@@ -115,7 +131,7 @@ void EmptyLinkFunctionForGeneratedCodeMyGameState() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMyGameState, 4023649542);
+	IMPLEMENT_CLASS(AMyGameState, 1957563806);
 	template<> UNREAL2TP_API UClass* StaticClass<AMyGameState>()
 	{
 		return AMyGameState::StaticClass();

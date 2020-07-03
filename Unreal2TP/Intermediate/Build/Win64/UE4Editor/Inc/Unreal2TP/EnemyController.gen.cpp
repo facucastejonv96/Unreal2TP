@@ -19,6 +19,7 @@ void EmptyLinkFunctionForGeneratedCodeEnemyController() {}
 	UPackage* Z_Construct_UPackage__Script_Unreal2TP();
 	UNREAL2TP_API UFunction* Z_Construct_UFunction_AEnemyController_OnPawnDetected();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
+	UNREAL2TP_API UClass* Z_Construct_UClass_AUnreal2TPCharacter_NoRegister();
 	AIMODULE_API UClass* Z_Construct_UClass_UAISenseConfig_Sight_NoRegister();
 // End Cross Module References
 	void AEnemyController::StaticRegisterNativesAEnemyController()
@@ -84,6 +85,10 @@ void EmptyLinkFunctionForGeneratedCodeEnemyController() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Target_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Target;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bIsPlayerDetected_MetaData[];
 #endif
 		static void NewProp_bIsPlayerDetected_SetBit(void* Obj);
@@ -127,6 +132,14 @@ void EmptyLinkFunctionForGeneratedCodeEnemyController() {}
 		{ "ModuleRelativePath", "EnemyController.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AEnemyController_Statics::NewProp_Target_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "Camera" },
+		{ "ModuleRelativePath", "EnemyController.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AEnemyController_Statics::NewProp_Target = { "Target", nullptr, (EPropertyFlags)0x0010000000020015, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AEnemyController, Target), Z_Construct_UClass_AUnreal2TPCharacter_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AEnemyController_Statics::NewProp_Target_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AEnemyController_Statics::NewProp_Target_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AEnemyController_Statics::NewProp_bIsPlayerDetected_MetaData[] = {
 		{ "Category", "AI" },
@@ -174,6 +187,7 @@ void EmptyLinkFunctionForGeneratedCodeEnemyController() {}
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AEnemyController_Statics::NewProp_AISightRadius = { "AISightRadius", nullptr, (EPropertyFlags)0x0010000000020005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AEnemyController, AISightRadius), METADATA_PARAMS(Z_Construct_UClass_AEnemyController_Statics::NewProp_AISightRadius_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AEnemyController_Statics::NewProp_AISightRadius_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AEnemyController_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemyController_Statics::NewProp_Target,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemyController_Statics::NewProp_bIsPlayerDetected,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemyController_Statics::NewProp_SightConfig,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemyController_Statics::NewProp_AISightAngle,
@@ -208,7 +222,7 @@ void EmptyLinkFunctionForGeneratedCodeEnemyController() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AEnemyController, 94365373);
+	IMPLEMENT_CLASS(AEnemyController, 338987353);
 	template<> UNREAL2TP_API UClass* StaticClass<AEnemyController>()
 	{
 		return AEnemyController::StaticClass();

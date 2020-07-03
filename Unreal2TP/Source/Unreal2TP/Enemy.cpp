@@ -43,7 +43,6 @@ void AEnemy::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimePr
 void AEnemy::BeginPlay()
 {
 	Super::BeginPlay();
-	
 }
 
 // Called every frame
@@ -55,8 +54,10 @@ void AEnemy::Tick(float DeltaTime)
 		Cast<UCharacterAnimInstance>(Mesh->GetAnimInstance())->Shooting = false;
 		Cast<UCharacterAnimInstance>(Mesh->GetAnimInstance())->Hit = false;
 		Cast<UCharacterAnimInstance>(Mesh->GetAnimInstance())->Aiming = false;
-		if (GetNetMode() == ENetMode::NM_DedicatedServer)
-			Cast<AMyGameState>(GetWorld()->GetGameState())->OnEnemyDead();
+		if (GetNetMode() == ENetMode::NM_DedicatedServer) {
+			bool CanRespawn = (SpawnsLeft > 0);
+			Cast<AMyGameState>(GetWorld()->GetGameState())->OnEnemyDead(CanRespawn);
+		}
 		Dead = true;
 	}
 	if (!Dead) {
@@ -111,8 +112,6 @@ void AEnemy::Shoot()
 	SpawnParams.Instigator = this;
 
 	FTransform BulletSpawnTransform;
-	//BulletSpawnTransform.SetLocation(GetActorForwardVector() * 200.f + GetActorLocation());
-	//BulletSpawnTransform.SetRotation(GetActorRotation().Quaternion());
 	BulletSpawnTransform.SetLocation(BulletSpawn->GetComponentLocation());
 	BulletSpawnTransform.SetRotation(BulletSpawn->GetComponentRotation().Quaternion());
 	BulletSpawnTransform.SetScale3D(FVector(1.f));
@@ -177,14 +176,6 @@ void AEnemy::Unaim() {
 	Server_Unaim();
 }
 
-void AEnemy::AssingNewTarget()
-{
-	for (size_t i = 0; i < TargetList.Num(); i++)
-	{
-		if (!TargetList[i]->Dead)
-			Target = TargetList[i];
-	}
-}
 // Called to bind functionality to input
 void AEnemy::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {

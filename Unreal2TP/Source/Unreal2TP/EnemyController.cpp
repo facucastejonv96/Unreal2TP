@@ -38,21 +38,25 @@ void AEnemyController::Tick(float DeltaSeconds)
 {
 	Super::Tick(DeltaSeconds);
 	AEnemy * Myself = Cast<AEnemy>(GetPawn());
-	if(Myself->Target != nullptr)
+	if(Target != nullptr)
 	{
-		MoveToActor(Myself->Target, 500.0f);
-		Myself->StartShooting();
-		if (Myself->Target->Dead) {
-			Myself->Target = nullptr;
+		if (!Myself->Dead) {
+			MoveToActor(Target, 500.0f);
+			Myself->StartShooting();
+			if (Target->Dead) {
+				Myself->StopShooting();
+				Target = nullptr;
+			}
 		}
 	}
-	else {
-		Myself->StopShooting();
-		Myself->AssingNewTarget();
+	else
+	{
+		AssingNewTarget();
 	}
 
-	int x = Myself->TargetList.Num();
 
+	int x = TargetList.Num();
+	UE_LOG(LogTemp, Warning, TEXT("%d"), x);
 }
 
 void AEnemyController::OnPossess(APawn * InPawn)
@@ -72,6 +76,15 @@ FRotator AEnemyController::GetControlRotation() const
 	return FRotator();
 }
 
+void AEnemyController::AssingNewTarget()
+{
+	for (size_t i = 0; i < TargetList.Num(); i++)
+	{
+		if (!TargetList[i]->Dead)
+			Target = TargetList[i];
+	}
+}
+
 void AEnemyController::OnPawnDetected(const TArray<AActor*> &DetectedPawns)
 {
 	if (DetectedPawns.Num() > 0)
@@ -83,8 +96,7 @@ void AEnemyController::OnPawnDetected(const TArray<AActor*> &DetectedPawns)
 			{
 				if (!MyCharacter->Dead) 
 				{
-					AEnemy * Myself = Cast<AEnemy>(GetPawn());
-					Myself->TargetList.AddUnique(MyCharacter);
+					TargetList.AddUnique(Cast<AUnreal2TPCharacter>(DetectedPawns[i]));
 				}				
 			}
 		}

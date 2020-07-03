@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/GameStateBase.h"
+#include "SpawnPoint.h"
 #include "MyGameState.generated.h"
 
 /**
@@ -20,16 +21,19 @@ public:
 	class AUnreal2TPGameMode* GameMode;
 
 	UPROPERTY(Replicated, BlueprintReadWrite)
-		int EnemiesLeft = 1;
+		int EnemiesLeft = 6;
 
 	UPROPERTY(BlueprintReadWrite)
 		float Time = 0;
 
 	virtual void Tick(float DeltaTime) override;
 
-	void OnEnemyDead();
+	void OnEnemyDead(bool CanRespawn);
 	void SpawnEnemy();
 
 	UPROPERTY(EditAnywhere, Category = "Enemy")
 		TSubclassOf<class AEnemy> Enemy;
+
+	UPROPERTY(EditAnywhere, Category = "Spawn")
+	TArray<ASpawnPoint*> SpawnPointList;
 };

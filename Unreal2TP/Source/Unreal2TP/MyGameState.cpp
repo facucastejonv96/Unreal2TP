@@ -10,7 +10,7 @@
 AMyGameState::AMyGameState() {
 	PrimaryActorTick.bCanEverTick = true;
 	Time = 0;
-	EnemiesLeft = 10;
+	EnemiesLeft = 6;
 	if(GetNetMode() == ENetMode::NM_DedicatedServer)
 		GameMode = Cast<AUnreal2TPGameMode>(GetWorld()->GetAuthGameMode());
 }
@@ -25,24 +25,32 @@ void AMyGameState::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLife
 void AMyGameState::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-	Time += GetServerWorldTimeSeconds();	
+	Time += GetWorld()->GetDeltaSeconds();
+	int n = SpawnPointList.Num();
+	UE_LOG(LogTemp, Warning, TEXT("%d"), n);
 
 }
 
-void AMyGameState::OnEnemyDead()
+void AMyGameState::OnEnemyDead(bool CanRespawn)
 {
 	if (GetNetMode() == ENetMode::NM_DedicatedServer){
-		EnemiesLeft--;
+		if(CanRespawn)
+			SpawnEnemy();
+		else
+			EnemiesLeft--;
 		//GameMode->SpawnEnemy(); ----> No puedo usar esta funcion, porque por algun motivo en el GameMode el TSubClassOf del enemigo devuelve nulo. 
-		SpawnEnemy();//-----> Por eso vuelvo a usar la funcion aca
 	}
 		
 }
 
 void AMyGameState::SpawnEnemy()
 {
-	FTransform BulletSpawnTransform;
-	BulletSpawnTransform.SetLocation(FVector(0, -1020, 220));
-	BulletSpawnTransform.SetScale3D(FVector(1.f));
-	GetWorld()->SpawnActor<AEnemy>(Enemy, BulletSpawnTransform);
+
+		FTransform SpawnTransform;
+		SpawnTransform.SetLocation(SpawnPointList[rand() % 3]->GetActorLocation());
+		SpawnTransform.SetRotation(SpawnPointList[rand() % 3]->GetActorRotation().Quaternion());
+		SpawnTransform.SetScale3D(FVector(1.f));
+		AEnemy* E;
+		E = GetWorld()->SpawnActor<AEnemy>(Enemy, SpawnTransform);
+		E->SpawnsLeft--;
 }

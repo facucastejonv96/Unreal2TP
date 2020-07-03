@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Unreal2TP.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{9B24E55E-2BF5-4134-8428-E6149B51ED5F}</UniqueIdentifier>
+      <UniqueIdentifier>{764C9D0B-8309-4972-A854-637E86BF085C}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Unreal2TP.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{83A736B3-2364-4F56-9CB5-1F6405E31350}</UniqueIdentifier>
+      <UniqueIdentifier>{FE2A77F6-F2C4-434C-9F40-CC0D06D95AF6}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Unreal2TP">
-      <UniqueIdentifier>{55776E4B-F4BD-41ED-B4AC-B03FA801C563}</UniqueIdentifier>
+      <UniqueIdentifier>{A37A4732-044C-4C5D-9265-97CE86EE0035}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Unreal2TP\Bullet.cpp">
       <Filter>Source\Unreal2TP</Filter>
@@ -62,6 +62,24 @@
     <ClInclude Include="..\..\Source\Unreal2TP\EnemyController.h">
       <Filter>Source\Unreal2TP</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\Unreal2TP\MyGameState.cpp">
+      <Filter>Source\Unreal2TP</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Unreal2TP\MyGameState.h">
+      <Filter>Source\Unreal2TP</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Unreal2TP\MyPlayerController.cpp">
+      <Filter>Source\Unreal2TP</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Unreal2TP\MyPlayerController.h">
+      <Filter>Source\Unreal2TP</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Unreal2TP\MyPlayerState.cpp">
+      <Filter>Source\Unreal2TP</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Unreal2TP\MyPlayerState.h">
+      <Filter>Source\Unreal2TP</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\Unreal2TP\ThirdPersonAnimInstance.cpp">
       <Filter>Source\Unreal2TP</Filter>
     </ClCompile>
@@ -91,24 +109,12 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\Source\Unreal2TP\MyGameState.h">
-      <Filter>Source\Unreal2TP</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\Unreal2TP\MyPlayerState.h">
-      <Filter>Source\Unreal2TP</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\Unreal2TP\MyPlayerController.h">
+    <ClInclude Include="..\..\Source\Unreal2TP\SpawnPoint.h">
       <Filter>Source\Unreal2TP</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\Source\Unreal2TP\MyGameState.cpp">
-      <Filter>Source\Unreal2TP</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Unreal2TP\MyPlayerState.cpp">
-      <Filter>Source\Unreal2TP</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Unreal2TP\MyPlayerController.cpp">
+    <ClCompile Include="..\..\Source\Unreal2TP\SpawnPoint.cpp">
       <Filter>Source\Unreal2TP</Filter>
     </ClCompile>
   </ItemGroup>

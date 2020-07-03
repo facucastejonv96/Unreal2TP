@@ -8,4 +8,6 @@ D:\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
 D:\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
 D:\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
 D:\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameStateBase.generated.h
+d:\facultad\unreal\unreal2tp\unreal2tp\unreal2tp\source\unreal2tp\SpawnPoint.h
+d:\facultad\unreal\unreal2tp\unreal2tp\unreal2tp\intermediate\build\win64\ue4editor\inc\unreal2tp\SpawnPoint.generated.h
 d:\facultad\unreal\unreal2tp\unreal2tp\unreal2tp\intermediate\build\win64\ue4editor\inc\unreal2tp\MyGameState.generated.h

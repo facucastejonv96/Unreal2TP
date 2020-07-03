@@ -20,8 +20,6 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 		class UStaticMeshComponent* BulletSpawn;
 
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
-		class AUnreal2TPCharacter* Target;
 
 	UPROPERTY(EditAnywhere, Category = "Components")
 		class UAudioComponent* FireSound;
@@ -35,7 +33,7 @@ public:
 	UPROPERTY(Replicated, VisibleAnywhere)
 	float Life;
 
-	int SpawnsLeft;
+	int SpawnsLeft = 1;
 
 	UPROPERTY(Replicated, BlueprintReadOnly)
 		bool Hitting;
@@ -71,10 +69,6 @@ public:
 	UPROPERTY(Replicated, BlueprintReadOnly)
 	bool Ready;
 
-
-	TArray<AUnreal2TPCharacter*> TargetList;
-
-	void AssingNewTarget();
 
 	UPROPERTY(EditAnywhere, Category = "Firing")
 		float FireRate;

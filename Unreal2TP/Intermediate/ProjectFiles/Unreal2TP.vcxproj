@@ -383,12 +383,14 @@
     <ClCompile Include="..\..\Source\Unreal2TP\EnemyController.cpp" />
     <ClInclude Include="..\..\Source\Unreal2TP\EnemyController.h" />
     <ClCompile Include="..\..\Source\Unreal2TP\MyGameState.cpp" />
-    <ClCompile Include="..\..\Source\Unreal2TP\MyPlayerController.cpp" />
-    <ClCompile Include="..\..\Source\Unreal2TP\MyPlayerState.cpp" />
-    <ClCompile Include="..\..\Source\Unreal2TP\ThirdPersonAnimInstance.cpp" />
     <ClInclude Include="..\..\Source\Unreal2TP\MyGameState.h" />
+    <ClCompile Include="..\..\Source\Unreal2TP\MyPlayerController.cpp" />
     <ClInclude Include="..\..\Source\Unreal2TP\MyPlayerController.h" />
+    <ClCompile Include="..\..\Source\Unreal2TP\MyPlayerState.cpp" />
     <ClInclude Include="..\..\Source\Unreal2TP\MyPlayerState.h" />
+    <ClCompile Include="..\..\Source\Unreal2TP\SpawnPoint.cpp" />
+    <ClCompile Include="..\..\Source\Unreal2TP\ThirdPersonAnimInstance.cpp" />
+    <ClInclude Include="..\..\Source\Unreal2TP\SpawnPoint.h" />
     <ClInclude Include="..\..\Source\Unreal2TP\ThirdPersonAnimInstance.h" />
     <None Include="..\..\Source\Unreal2TP\Unreal2TP.Build.cs" />
     <ClCompile Include="..\..\Source\Unreal2TP\Unreal2TP.cpp" />

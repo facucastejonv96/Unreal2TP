@@ -41,4 +41,10 @@ D:\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\GenericTeamAge
 D:\UE_4.24\Engine\Source\Runtime\Engine\Public\VisualLogger/VisualLoggerDebugSnapshotInterface.h
 D:\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\VisualLoggerDebugSnapshotInterface.generated.h
 D:\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\AIController.generated.h
+d:\facultad\unreal\unreal2tp\unreal2tp\unreal2tp\source\unreal2tp\Unreal2TPCharacter.h
+D:\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+D:\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+D:\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+D:\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+d:\facultad\unreal\unreal2tp\unreal2tp\unreal2tp\intermediate\build\win64\ue4editor\inc\unreal2tp\Unreal2TPCharacter.generated.h
 d:\facultad\unreal\unreal2tp\unreal2tp\unreal2tp\intermediate\build\win64\ue4editor\inc\unreal2tp\EnemyController.generated.h

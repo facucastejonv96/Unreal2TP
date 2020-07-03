@@ -40,6 +40,10 @@ void EmptyLinkFunctionForGeneratedCodeMyPlayerState() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Points_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_Points;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_SpawnsLeft_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_SpawnsLeft;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -75,9 +79,17 @@ void EmptyLinkFunctionForGeneratedCodeMyPlayerState() {}
 	};
 #endif
 	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AMyPlayerState_Statics::NewProp_Points = { "Points", nullptr, (EPropertyFlags)0x0010000000020015, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyPlayerState, Points), METADATA_PARAMS(Z_Construct_UClass_AMyPlayerState_Statics::NewProp_Points_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyPlayerState_Statics::NewProp_Points_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyPlayerState_Statics::NewProp_SpawnsLeft_MetaData[] = {
+		{ "Category", "MyPlayerState" },
+		{ "ModuleRelativePath", "MyPlayerState.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AMyPlayerState_Statics::NewProp_SpawnsLeft = { "SpawnsLeft", nullptr, (EPropertyFlags)0x0010000000020035, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyPlayerState, SpawnsLeft), METADATA_PARAMS(Z_Construct_UClass_AMyPlayerState_Statics::NewProp_SpawnsLeft_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyPlayerState_Statics::NewProp_SpawnsLeft_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AMyPlayerState_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyPlayerState_Statics::NewProp_Dead,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyPlayerState_Statics::NewProp_Points,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyPlayerState_Statics::NewProp_SpawnsLeft,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AMyPlayerState_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AMyPlayerState>::IsAbstract,
@@ -106,7 +118,7 @@ void EmptyLinkFunctionForGeneratedCodeMyPlayerState() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMyPlayerState, 2617064263);
+	IMPLEMENT_CLASS(AMyPlayerState, 1351859073);
 	template<> UNREAL2TP_API UClass* StaticClass<AMyPlayerState>()
 	{
 		return AMyPlayerState::StaticClass();

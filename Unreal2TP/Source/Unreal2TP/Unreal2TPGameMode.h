@@ -23,8 +23,7 @@ public:
 		int EnemyAmount;
 
 	void SpawnEnemy();
-	void RespawnPlayer();
-	
+
 };
 
 

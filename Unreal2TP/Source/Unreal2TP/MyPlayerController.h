@@ -24,8 +24,15 @@ public:
 
 		class AUnreal2TPCharacter* MyCharacter;
 
+		UPROPERTY(Replicated, EditAnywhere, BlueprintReadOnly)
+		bool IsRespawning = false;
+		UPROPERTY(Replicated, EditAnywhere, BlueprintReadOnly)
+			bool Lost = false;
+		UPROPERTY(Replicated, EditAnywhere, BlueprintReadOnly)
+		float TimeToRespawn = 5;
+
 		void RespawnCharacter();
 
-		UPROPERTY(EditAnywhere, Category = "Shooting")
+		UPROPERTY(EditAnywhere, Category = "Character")
 			TSubclassOf<class AUnreal2TPCharacter> CharacterClass;
 };

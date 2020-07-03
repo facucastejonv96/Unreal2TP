@@ -16,6 +16,8 @@ class UNREAL2TP_API AMyPlayerState : public APlayerState
 
 public:
 	AMyPlayerState();
+
+	UPROPERTY(Replicated, VisibleAnywhere, BlueprintReadOnly)
 	int SpawnsLeft = 3;
 
 

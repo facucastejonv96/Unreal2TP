@@ -57,9 +57,11 @@ void ABullet::OnBulletHit(AActor * SelfActor, AActor * OtherActor, FVector Norma
 	if (AEnemy* Enemy = Cast<AEnemy>(OtherActor))
 	{
 		if (AUnreal2TPCharacter* Player = Cast<AUnreal2TPCharacter>(MyOwner)) {
-			Enemy->RecieveDamage(damage);
-			AMyPlayerState * P = Cast<AMyPlayerState>(Player->GetPlayerState());
-			P->Points += 10;
+			if (!Enemy->Dead) {
+				Enemy->RecieveDamage(damage);
+				AMyPlayerState * P = Cast<AMyPlayerState>(Player->GetPlayerState());
+				P->Points += 10;
+			}
 		}
 	}
 	if (AUnreal2TPCharacter* Player = Cast<AUnreal2TPCharacter>(OtherActor))

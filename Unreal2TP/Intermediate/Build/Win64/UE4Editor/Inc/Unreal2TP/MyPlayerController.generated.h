@@ -22,7 +22,8 @@ private: \
 	friend struct Z_Construct_UClass_AMyPlayerController_Statics; \
 public: \
 	DECLARE_CLASS(AMyPlayerController, APlayerController, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/Unreal2TP"), NO_API) \
-	DECLARE_SERIALIZER(AMyPlayerController)
+	DECLARE_SERIALIZER(AMyPlayerController) \
+	void GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const override;
 
 
 #define Unreal2TP_Source_Unreal2TP_MyPlayerController_h_15_INCLASS \
@@ -31,7 +32,8 @@ private: \
 	friend struct Z_Construct_UClass_AMyPlayerController_Statics; \
 public: \
 	DECLARE_CLASS(AMyPlayerController, APlayerController, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/Unreal2TP"), NO_API) \
-	DECLARE_SERIALIZER(AMyPlayerController)
+	DECLARE_SERIALIZER(AMyPlayerController) \
+	void GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const override;
 
 
 #define Unreal2TP_Source_Unreal2TP_MyPlayerController_h_15_STANDARD_CONSTRUCTORS \

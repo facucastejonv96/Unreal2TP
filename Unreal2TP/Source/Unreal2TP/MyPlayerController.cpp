@@ -7,11 +7,24 @@
 #include "Unreal2TPCharacter.h"
 #include "Net/UnrealNetwork.h"
 #include "Engine/World.h"
+
 AMyPlayerController::AMyPlayerController()
 {
 	PrimaryActorTick.bCanEverTick = true;
 
 }
+
+
+void AMyPlayerController::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const
+{
+	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
+
+	DOREPLIFETIME(AMyPlayerController, IsRespawning);
+	DOREPLIFETIME(AMyPlayerController, TimeToRespawn);
+	DOREPLIFETIME(AMyPlayerController, Lost);
+}
+
+
 void AMyPlayerController::Tick(float DeltaTime)
 {
 	if (GetNetMode() == ENetMode::NM_DedicatedServer) {
@@ -20,9 +33,28 @@ void AMyPlayerController::Tick(float DeltaTime)
 
 		if (PS != nullptr) {
 			if (PS->Dead) {
-				RespawnCharacter();
-				PS->Dead = false;
+				if (PS->SpawnsLeft > 0) {
+					IsRespawning = true;
+				}
+				else {
+					MyCharacter = Cast<AUnreal2TPCharacter>(GetPawn());
+					if (MyCharacter != nullptr) {
+						MyCharacter->Multicast_OnDestroy();
+						Lost = true;
+					}
+				}			
 			}
+		}
+		
+		if (IsRespawning) {
+			TimeToRespawn -= GetWorld()->GetDeltaSeconds();
+			if (TimeToRespawn <= 0) {
+				PS->SpawnsLeft--;
+				RespawnCharacter();
+				TimeToRespawn = 5;
+				IsRespawning = false;
+			}
+				
 		}
 	}
 }

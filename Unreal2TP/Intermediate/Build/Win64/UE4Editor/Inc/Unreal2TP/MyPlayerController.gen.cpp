@@ -37,6 +37,20 @@ void EmptyLinkFunctionForGeneratedCodeMyPlayerController() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CharacterClass_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FClassPropertyParams NewProp_CharacterClass;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TimeToRespawn_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_TimeToRespawn;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Lost_MetaData[];
+#endif
+		static void NewProp_Lost_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_Lost;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_IsRespawning_MetaData[];
+#endif
+		static void NewProp_IsRespawning_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_IsRespawning;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -55,13 +69,45 @@ void EmptyLinkFunctionForGeneratedCodeMyPlayerController() {}
 #endif
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyPlayerController_Statics::NewProp_CharacterClass_MetaData[] = {
-		{ "Category", "Shooting" },
+		{ "Category", "Character" },
 		{ "ModuleRelativePath", "MyPlayerController.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_AMyPlayerController_Statics::NewProp_CharacterClass = { "CharacterClass", nullptr, (EPropertyFlags)0x0014000000000001, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyPlayerController, CharacterClass), Z_Construct_UClass_AUnreal2TPCharacter_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AMyPlayerController_Statics::NewProp_CharacterClass_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyPlayerController_Statics::NewProp_CharacterClass_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyPlayerController_Statics::NewProp_TimeToRespawn_MetaData[] = {
+		{ "Category", "MyPlayerController" },
+		{ "ModuleRelativePath", "MyPlayerController.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AMyPlayerController_Statics::NewProp_TimeToRespawn = { "TimeToRespawn", nullptr, (EPropertyFlags)0x0010000000000035, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyPlayerController, TimeToRespawn), METADATA_PARAMS(Z_Construct_UClass_AMyPlayerController_Statics::NewProp_TimeToRespawn_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyPlayerController_Statics::NewProp_TimeToRespawn_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyPlayerController_Statics::NewProp_Lost_MetaData[] = {
+		{ "Category", "MyPlayerController" },
+		{ "ModuleRelativePath", "MyPlayerController.h" },
+	};
+#endif
+	void Z_Construct_UClass_AMyPlayerController_Statics::NewProp_Lost_SetBit(void* Obj)
+	{
+		((AMyPlayerController*)Obj)->Lost = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AMyPlayerController_Statics::NewProp_Lost = { "Lost", nullptr, (EPropertyFlags)0x0010000000000035, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AMyPlayerController), &Z_Construct_UClass_AMyPlayerController_Statics::NewProp_Lost_SetBit, METADATA_PARAMS(Z_Construct_UClass_AMyPlayerController_Statics::NewProp_Lost_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyPlayerController_Statics::NewProp_Lost_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyPlayerController_Statics::NewProp_IsRespawning_MetaData[] = {
+		{ "Category", "MyPlayerController" },
+		{ "ModuleRelativePath", "MyPlayerController.h" },
+	};
+#endif
+	void Z_Construct_UClass_AMyPlayerController_Statics::NewProp_IsRespawning_SetBit(void* Obj)
+	{
+		((AMyPlayerController*)Obj)->IsRespawning = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AMyPlayerController_Statics::NewProp_IsRespawning = { "IsRespawning", nullptr, (EPropertyFlags)0x0010000000000035, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AMyPlayerController), &Z_Construct_UClass_AMyPlayerController_Statics::NewProp_IsRespawning_SetBit, METADATA_PARAMS(Z_Construct_UClass_AMyPlayerController_Statics::NewProp_IsRespawning_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyPlayerController_Statics::NewProp_IsRespawning_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AMyPlayerController_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyPlayerController_Statics::NewProp_CharacterClass,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyPlayerController_Statics::NewProp_TimeToRespawn,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyPlayerController_Statics::NewProp_Lost,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyPlayerController_Statics::NewProp_IsRespawning,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AMyPlayerController_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AMyPlayerController>::IsAbstract,
@@ -90,7 +136,7 @@ void EmptyLinkFunctionForGeneratedCodeMyPlayerController() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMyPlayerController, 1420146321);
+	IMPLEMENT_CLASS(AMyPlayerController, 1158280025);
 	template<> UNREAL2TP_API UClass* StaticClass<AMyPlayerController>()
 	{
 		return AMyPlayerController::StaticClass();
